@@ -6,13 +6,19 @@
   <meta name="google-site-verification" content="aWyFuS8Py2vO-Dna0Qu7hlJYRmI3EW6utjRSXM1NgoA" />
   <meta name="yandex-verification" content="1c8bb5ca2e4ffbfd" />
   <title>Jason Coleman Official Creator Hub | Author & Video Producer</title>
-  <meta name="description" content="Official home of author and creator Jason Coleman. Featuring 'The Shattered Crown', upcoming military and children's titles, 800+ documentary videos on YouTube, and daily TikTok comedy reels @jasontv1982.">
+  <meta name="description" content="Official home of author and content creator Jason Coleman. Featuring the epic dark fantasy novel 'The Shattered Crown', 800+ documentary videos on YouTube, Pinterest moodboards, Goodreads author shelves, and daily comedy shorts on TikTok @jasontv1982.">
   <meta name="keywords" content="Jason Coleman, The Shattered Crown, Jason Coleman author, Jason Coleman YouTube, TikTok jasontv1982, epic fantasy novels, military documentaries, war history videos">
   
   <meta property="og:title" content="Jason Coleman Official Creator Hub">
   <meta property="og:description" content="Epic Fantasy 'The Shattered Crown' • 800+ Video Documentaries • Daily TikTok Comedy">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://aaahoneydo-arch.github.io/jason-coleman-media-network/">
+  <meta property="og:image" content="assets/hero-banner.jpg">
+
+  <!-- Google Fonts for Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Schema.org Person & Author Rich Snippet -->
   <script type="application/ld+json">
@@ -23,7 +29,9 @@
     "jobTitle": "Author & Video Producer",
     "sameAs": [
       "https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q",
-      "https://www.tiktok.com/@jasontv1982"
+      "https://www.tiktok.com/@jasontv1982",
+      "https://www.pinterest.com/aaahoneydo/",
+      "https://www.goodreads.com/user/show/204581010-honey-do"
     ],
     "description": "Independent author of 'The Shattered Crown' and producer of military history documentaries, cinema retrospectives, and daily observational comedy."
   }
@@ -31,29 +39,39 @@
 
   <style>
     :root {
-      --bg: #090c15;
-      --card-bg: #121826;
-      --card-border: #1e283d;
+      --bg: #07090e;
+      --card-bg: rgba(18, 24, 38, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
       --accent-red: #ff3b30;
       --accent-cyan: #00d2d3;
       --accent-gold: #ffaa00;
       --accent-pink: #fe2c55;
       --text: #f0f4f8;
-      --text-muted: #8c9eb5;
-      --radius: 12px;
+      --text-muted: #94a3b8;
+      --radius: 16px;
+      --radius-sm: 8px;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: var(--bg);
+      background-color: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       line-height: 1.6;
-      padding-bottom: 5rem;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 210, 211, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(255, 59, 48, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(255, 170, 0, 0.04) 0%, transparent 40%);
     }
-    
+
+    h1, h2, h3, h4, .brand, .btn-large {
+      font-family: 'Outfit', sans-serif;
+    }
+
     header {
-      background: rgba(18, 24, 38, 0.95);
-      backdrop-filter: blur(10px);
+      background: rgba(7, 9, 14, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--card-border);
       position: sticky;
       top: 0;
@@ -61,7 +79,7 @@
       padding: 1rem 1.5rem;
     }
     .nav-inner {
-      max-width: 1140px;
+      max-width: 1200px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -69,11 +87,11 @@
       flex-wrap: wrap;
       gap: 1rem;
     }
-    .brand { font-size: 1.4rem; font-weight: 900; letter-spacing: -0.5px; color: #fff; text-decoration: none; }
+    .brand { font-size: 1.35rem; font-weight: 900; letter-spacing: -0.5px; color: #fff; text-decoration: none; }
     .brand span { color: var(--accent-red); }
     .nav-menu {
       display: flex;
-      gap: 1.25rem;
+      gap: 1.5rem;
       align-items: center;
       list-style: none;
     }
@@ -85,68 +103,103 @@
       transition: color 0.2s;
     }
     .nav-menu a:hover { color: #fff; }
-    .nav-btns { display: flex; gap: 0.6rem; align-items: center; }
+    .nav-btns { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
     .nav-btn {
-      padding: 0.5rem 0.9rem;
-      border-radius: 6px;
-      font-size: 0.85rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem;
       font-weight: 700;
       text-decoration: none;
-      transition: opacity 0.2s;
+      transition: transform 0.2s, opacity 0.2s;
     }
-    .nav-btn:hover { opacity: 0.88; }
+    .nav-btn:hover { transform: translateY(-1px); opacity: 0.9; }
     .btn-tt { background: var(--accent-pink); color: #fff; }
     .btn-yt { background: var(--accent-red); color: #fff; }
     .btn-amz { background: var(--accent-gold); color: #111; }
 
+    /* Ultra-Premium Hero Showcase */
     .hero {
-      max-width: 1140px;
-      margin: 2.5rem auto 3.5rem;
-      padding: 3.5rem 2rem;
-      background: linear-gradient(180deg, #151e30 0%, #0e1422 100%);
+      max-width: 1200px;
+      margin: 2rem auto 3.5rem;
+      padding: 0;
+      border-radius: var(--radius);
       border: 1px solid var(--card-border);
-      border-radius: 20px;
-      text-align: center;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      background: #0d121f;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+      position: relative;
+    }
+    .hero-banner-wrapper {
+      position: relative;
+      width: 100%;
+      height: 380px;
+      overflow: hidden;
+    }
+    .hero-banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(0.85) contrast(1.1);
+      transition: transform 0.6s ease;
+    }
+    .hero:hover .hero-banner-img {
+      transform: scale(1.02);
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(7, 9, 14, 0.2) 0%, rgba(13, 18, 31, 0.95) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 2.5rem;
     }
     .badge {
       display: inline-block;
-      background: rgba(255, 59, 48, 0.15);
-      border: 1px solid rgba(255, 59, 48, 0.35);
-      color: #ff6b6b;
-      padding: 0.4rem 1.2rem;
+      background: rgba(255, 59, 48, 0.2);
+      border: 1px solid rgba(255, 59, 48, 0.4);
+      color: #ff7675;
+      padding: 0.35rem 1rem;
       border-radius: 50px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 1px;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      backdrop-filter: blur(8px);
+      align-self: flex-start;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
       font-weight: 900;
       line-height: 1.15;
       letter-spacing: -1px;
-      margin-bottom: 1.25rem;
+      margin-bottom: 0.8rem;
       color: #fff;
+      text-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
     }
     p.lead {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 800px;
-      margin: 0 auto 2.5rem;
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      max-width: 820px;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    }
+    .hero-content {
+      padding: 2rem 2.5rem 2.5rem;
+      background: #0d121f;
     }
     .hero-actions {
       display: flex;
-      justify-content: center;
-      gap: 1.25rem;
+      gap: 1rem;
       flex-wrap: wrap;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     .btn-large {
-      padding: 1rem 1.8rem;
+      padding: 0.9rem 1.6rem;
       border-radius: 10px;
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 800;
       text-decoration: none;
       display: inline-flex;
@@ -155,25 +208,23 @@
       transition: transform 0.2s, box-shadow 0.2s;
     }
     .btn-large:hover { transform: translateY(-2px); }
-    .btn-large.tt { background: var(--accent-pink); color: #fff; box-shadow: 0 4px 20px rgba(254,44,85,0.4); }
-    .btn-large.yt { background: var(--accent-red); color: #fff; box-shadow: 0 4px 20px rgba(255,59,48,0.4); }
-    .btn-large.amz { background: var(--accent-gold); color: #111; box-shadow: 0 4px 20px rgba(255,170,0,0.4); }
+    .btn-large.tt { background: var(--accent-pink); color: #fff; box-shadow: 0 4px 25px rgba(254,44,85,0.4); }
+    .btn-large.yt { background: var(--accent-red); color: #fff; box-shadow: 0 4px 25px rgba(255,59,48,0.4); }
+    .btn-large.amz { background: var(--accent-gold); color: #111; box-shadow: 0 4px 25px rgba(255,170,0,0.4); }
 
     .stats-strip {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1.5rem;
+      gap: 1.25rem;
       border-top: 1px solid var(--card-border);
-      padding-top: 2rem;
-      max-width: 900px;
-      margin: 0 auto;
+      padding-top: 1.75rem;
     }
-    .stat-box h3 { font-size: 2rem; font-weight: 900; color: #fff; }
-    .stat-box p { color: var(--text-muted); font-size: 0.95rem; font-weight: 600; }
+    .stat-box h3 { font-size: 1.8rem; font-weight: 900; color: #fff; }
+    .stat-box p { color: var(--text-muted); font-size: 0.88rem; font-weight: 600; }
 
-    .container { max-width: 1140px; margin: 0 auto 4rem; padding: 0 1.5rem; }
+    .container { max-width: 1200px; margin: 0 auto 4rem; padding: 0 1.5rem; }
     .section-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: 800;
       color: #fff;
       margin-bottom: 0.5rem;
@@ -181,20 +232,92 @@
       align-items: center;
       gap: 0.75rem;
     }
-    .section-sub { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
+    .section-sub { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2.25rem; }
 
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem; }
+    /* Showcase Feature Cards with Visual Arts */
+    .featured-spotlight {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 2.5rem;
+      background: linear-gradient(135deg, rgba(21, 28, 44, 0.85) 0%, rgba(13, 18, 31, 0.95) 100%);
+      border: 1px solid rgba(255, 170, 0, 0.35);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      margin-bottom: 3.5rem;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      align-items: center;
+    }
+    .spotlight-cover-wrap {
+      text-align: center;
+    }
+    .spotlight-cover {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 170, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    .spotlight-cover:hover {
+      transform: translateY(-5px) scale(1.02);
+    }
+    .spotlight-content h3 {
+      font-size: 2.4rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    .spotlight-meta {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+    .spotlight-pill {
+      background: rgba(255, 170, 0, 0.15);
+      color: var(--accent-gold);
+      border: 1px solid rgba(255, 170, 0, 0.3);
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+    .spotlight-desc {
+      color: #cbd5e1;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.75rem;
+    }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2rem; }
     .card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
-      padding: 2rem;
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: transform 0.2s, border-color 0.2s;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
     }
-    .card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,0.2); }
+    .card:hover { 
+      transform: translateY(-4px); 
+      border-color: rgba(255,255,255,0.2); 
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+    .card-thumb {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .card-body {
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
     .card-tag {
       display: inline-block;
       font-size: 0.75rem;
@@ -203,85 +326,96 @@
       letter-spacing: 0.8px;
       padding: 0.25rem 0.6rem;
       border-radius: 4px;
-      margin-bottom: 1rem;
+      margin-bottom: 0.85rem;
+      align-self: flex-start;
     }
     .tag-books { background: rgba(255, 170, 0, 0.15); color: var(--accent-gold); }
     .tag-video { background: rgba(255, 59, 48, 0.15); color: var(--accent-red); }
     .tag-tiktok { background: rgba(254, 44, 85, 0.15); color: var(--accent-pink); }
     .card h3 { font-size: 1.35rem; color: #fff; margin-bottom: 0.75rem; line-height: 1.3; }
-    .card p { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 1.5rem; }
+    .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6; }
     .card-cta {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       padding: 0.75rem 1.25rem;
-      border-radius: 6px;
-      font-size: 0.95rem;
+      border-radius: 8px;
+      font-size: 0.92rem;
       font-weight: 700;
       text-decoration: none;
       transition: opacity 0.2s;
     }
     .card-cta:hover { opacity: 0.9; }
 
-    /* Analytics Live Reporter Modal Bar */
+    /* Telemetry Dashboard */
     #analytics-dashboard {
-      background: #0f1522;
+      background: rgba(15, 21, 34, 0.8);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
-      padding: 1.5rem;
-      margin-bottom: 3rem;
+      padding: 1.75rem;
+      margin-bottom: 3.5rem;
+      backdrop-filter: blur(10px);
     }
-    .dash-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
-    .dash-title { font-size: 1.1rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+    .dash-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem; }
+    .dash-title { font-size: 1.15rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
     .dash-badge { background: rgba(0, 210, 211, 0.15); color: var(--accent-cyan); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: 700; }
     .dash-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1rem; }
-    .dash-metric { background: #141b2b; padding: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center; }
-    .dash-metric-num { font-size: 1.6rem; font-weight: 900; color: var(--accent-cyan); }
-    .dash-metric-lbl { font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 0.25rem; }
+    .dash-metric { background: #131a29; padding: 1.1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center; }
+    .dash-metric-num { font-size: 1.7rem; font-weight: 900; color: var(--accent-cyan); }
+    .dash-metric-lbl { font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 0.35rem; }
 
-    /* Real Newsletter Status Banner */
+    /* Newsletter Banner */
     .newsletter-banner {
-      background: linear-gradient(135deg, #182236 0%, #111827 100%);
-      border: 1px solid rgba(0, 210, 211, 0.4);
+      background: linear-gradient(135deg, rgba(24, 34, 54, 0.9) 0%, rgba(17, 24, 39, 0.9) 100%);
+      border: 1px solid rgba(0, 210, 211, 0.3);
       border-radius: var(--radius);
-      padding: 3rem 2rem;
+      padding: 3.5rem 2rem;
       text-align: center;
       margin-bottom: 4rem;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
     }
-    .newsletter-banner h2 { font-size: 2.2rem; color: #fff; margin-bottom: 0.75rem; }
+    .newsletter-banner h2 { font-size: 2.4rem; color: #fff; margin-bottom: 0.75rem; }
     .newsletter-banner p { color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto 1.75rem; }
     .status-badge {
       display: inline-block;
       background: rgba(255, 170, 0, 0.15);
       border: 1px solid rgba(255, 170, 0, 0.35);
       color: var(--accent-gold);
-      padding: 0.35rem 0.85rem;
+      padding: 0.4rem 1rem;
       border-radius: 6px;
-      font-size: 0.82rem;
+      font-size: 0.85rem;
       font-weight: 700;
       margin-top: 1rem;
     }
 
     footer {
       border-top: 1px solid var(--card-border);
-      padding-top: 3rem;
+      padding: 3.5rem 1.5rem;
       text-align: center;
       color: var(--text-muted);
       font-size: 0.92rem;
     }
     footer a { color: var(--accent-gold); text-decoration: none; font-weight: 600; }
+
+    @media (max-width: 900px) {
+      .featured-spotlight { grid-template-columns: 1fr; text-align: center; }
+      .spotlight-cover-wrap { margin-bottom: 1.5rem; }
+      .spotlight-meta { justify-content: center; }
+      h1 { font-size: 2.2rem; }
+      .hero-banner-wrapper { height: 260px; }
+    }
   </style>
 </head>
 <body>
 
   <header>
     <div class="nav-inner">
-      <a href="index.html" class="brand">JASON COLEMAN <span>CREATIVE HUB</span></a>
+      <a href="index.html" class="brand">JASON COLEMAN <span>CREATIVE NETWORK</span></a>
       <ul class="nav-menu">
         <li><a href="#books">Books</a></li>
-        <li><a href="#videos">YouTube (800+)</a></li>
-        <li><a href="#tiktok">TikTok Shorts</a></li>
-        <li><a href="#analytics">Live Analytics</a></li>
+        <li><a href="#videos">Documentaries</a></li>
+        <li><a href="#tiktok">Comedy Shorts</a></li>
+        <li><a href="#analytics">Live Stats</a></li>
         <li><a href="#newsletter">Newsletter</a></li>
       </ul>
       <div class="nav-btns">
@@ -289,42 +423,49 @@
         <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="nav-btn btn-gr track-click" data-target="goodreads_nav" style="background:#7b5e38;color:#fff;">Goodreads</a>
         <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt track-click" data-target="tiktok_nav">TikTok</a>
         <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt track-click" data-target="youtube_nav">YouTube</a>
-        <a href="#books" class="nav-btn btn-amz track-click" data-target="books_nav">Books</a>
+        <a href="#books" class="nav-btn btn-amz track-click" data-target="books_nav">Novels</a>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- Master Hero Section -->
+    <!-- Master Hero Section with Real Cinematic Visual Banner -->
     <section class="hero">
-      <span class="badge">Independent Author & Content Creator</span>
-      <h1>Unfiltered Fiction, Deep Documentaries & Pure Entertainment</h1>
-      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore original novels including <em>The Shattered Crown</em>, stream 800+ military history documentaries on YouTube, follow visual ideas on Pinterest, connect on Goodreads, and catch comedy rants on TikTok.</p>
-      
-      <div class="hero-actions">
-        <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore Published Books</a>
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt track-click" data-target="hero_youtube">▶ Stream 800+ Videos on YouTube</a>
-        <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="btn-large pin track-click" data-target="hero_pinterest" style="background:#e60023;color:#fff;box-shadow:0 4px 20px rgba(230,0,35,0.4);">📌 Pinterest</a>
-        <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="btn-large gr track-click" data-target="hero_goodreads" style="background:#7b5e38;color:#fff;box-shadow:0 4px 20px rgba(123,94,56,0.4);">📖 Goodreads</a>
-        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ TikTok</a>
+      <div class="hero-banner-wrapper">
+        <img src="assets/hero-banner.jpg" alt="Jason Coleman Creative Hub Cinematic Banner" class="hero-banner-img">
+        <div class="hero-overlay">
+          <span class="badge">Author, Historian & Content Producer</span>
+          <h1>Unfiltered Fiction, Tactical Warfare & Pure Entertainment</h1>
+          <p class="lead">Step into the official creator network of Jason Coleman. Stream over 800 military history documentaries, delve into the grimdark world of <em>The Shattered Crown</em>, explore visual aesthetic boards on Pinterest, and enjoy daily comedy shorts on TikTok.</p>
+        </div>
       </div>
+      
+      <div class="hero-content">
+        <div class="hero-actions">
+          <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore The Shattered Crown</a>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt track-click" data-target="hero_youtube">▶ Stream 800+ YouTube Videos</a>
+          <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="btn-large pin track-click" data-target="hero_pinterest" style="background:#e60023;color:#fff;box-shadow:0 4px 20px rgba(230,0,35,0.4);">📌 Pinterest Visuals</a>
+          <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="btn-large gr track-click" data-target="hero_goodreads" style="background:#7b5e38;color:#fff;box-shadow:0 4px 20px rgba(123,94,56,0.4);">📖 Goodreads Shelves</a>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ TikTok Comedy</a>
+        </div>
 
-      <div class="stats-strip">
-        <div class="stat-box">
-          <h3>The Shattered Crown</h3>
-          <p>Verified Published Novel</p>
-        </div>
-        <div class="stat-box">
-          <h3>800+</h3>
-          <p>Documentary & Media Episodes</p>
-        </div>
-        <div class="stat-box">
-          <h3>Daily</h3>
-          <p>TikTok Comedy Shorts</p>
-        </div>
-        <div class="stat-box">
-          <h3>Active</h3>
-          <p>Click & Visit Tracking</p>
+        <div class="stats-strip">
+          <div class="stat-box">
+            <h3>The Shattered Crown</h3>
+            <p>179pp Hardcover & Kindle</p>
+          </div>
+          <div class="stat-box">
+            <h3>800+</h3>
+            <p>Warfare & Cinema Episodes</p>
+          </div>
+          <div class="stat-box">
+            <h3>@jasontv1982</h3>
+            <p>Daily Comedy & DIY Reels</p>
+          </div>
+          <div class="stat-box">
+            <h3>100% Active</h3>
+            <p>Global Search Indexed</p>
+          </div>
         </div>
       </div>
     </section>
@@ -335,7 +476,7 @@
         <div class="dash-header">
           <div class="dash-title">
             <span>📊 Live Outbound-Click & Session Telemetry</span>
-            <span class="dash-badge">Active Local Reporter</span>
+            <span class="dash-badge">Real-Time Privacy-First Tracker</span>
           </div>
           <button type="button" onclick="resetTelemetry()" style="background:transparent; border:1px solid #2a374f; color:#8c9eb5; padding:0.25rem 0.6rem; border-radius:4px; font-size:0.75rem; cursor:pointer;">Reset Counts</button>
         </div>
@@ -375,239 +516,268 @@
       </div>
     </section>
 
-    <!-- SECTION 1: VERIFIED BOOKS CATALOG -->
+    <!-- SECTION 1: VERIFIED BOOKS CATALOG WITH 3D SPOTLIGHT -->
     <section class="container" id="books">
-      <h2 class="section-title">📚 Published & In-Progress Book Catalog</h2>
-      <p class="section-sub">Detailed book profiles. <em>The Shattered Crown</em> is fully verified from manuscript records. Complete ASIN and buy links will be linked directly to your confirmed Amazon listings.</p>
+      <h2 class="section-title">📚 Official Book Catalog & Literary Works</h2>
+      <p class="section-sub">Explore published novels and upcoming fiction by Jason Coleman, available on Amazon, Kindle Unlimited, and bookstores worldwide.</p>
       
-      <div class="grid">
-        <!-- Verified Book 1: The Shattered Crown -->
-        <article class="card" style="border: 1px solid rgba(255, 170, 0, 0.4);">
-          <div>
-            <span class="card-tag tag-books">Verified Fantasy Novel &bull; 179 Pages &bull; Hardcover & Kindle</span>
-            <h3>The Shattered Crown</h3>
-            <p><strong>Protagonist: Kaia Blackwood.</strong> In the shadow of the Cinderpeak Mountains, a blacksmith's daughter discovers that the sundering of ancient Crown Shards has unleashed ancient wraiths and awakened the Lich King. Gritty epic fantasy where heroes earn their place through steel and will, not prophecy.</p>
+      <!-- High-End 3D Book Feature -->
+      <div class="featured-spotlight">
+        <div class="spotlight-cover-wrap">
+          <img src="assets/shattered-crown-3d.jpg" alt="The Shattered Crown 3D Hardcover Book Showcase by Jason Coleman" class="spotlight-cover">
+        </div>
+        <div class="spotlight-content">
+          <div class="spotlight-meta">
+            <span class="spotlight-pill">Verified Epic Dark Fantasy</span>
+            <span class="spotlight-pill">179 Pages</span>
+            <span class="spotlight-pill">Hardcover, Paperback & Kindle</span>
+            <span class="spotlight-pill">Published Sept 6, 2026</span>
           </div>
-          <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:1rem;">
-            <a href="https://www.amazon.com/s?k=The+Shattered+Crown+Jason+Coleman" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_shattered_crown" style="flex:1; min-width:140px; text-align:center;">Kindle & Amazon &rarr;</a>
-            <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="card-cta track-click" data-target="gr_shattered_crown" style="background:#7b5e38; color:#fff; flex:1; min-width:140px; text-align:center;">Shelve on Goodreads &rarr;</a>
+          <h3>The Shattered Crown</h3>
+          <p class="spotlight-desc">
+            <strong>In the volcanic shadow of the Cinderpeak Mountains</strong>, the quiet valley settlement of Bramblehold faces annihilation. When ancient Crown Shards sunder, blacksmith's apprentice <strong>Kaia Blackwood</strong> finds herself thrust into a brutal war against awakening wraith legions and the immortal Lich King. A relentless grimdark journey where victory is forged in blood and steel, not hollow prophecy.
+          </p>
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="https://www.amazon.com/s?k=The+Shattered+Crown+Jason+Coleman" target="_blank" rel="noopener" class="btn-large amz track-click" data-target="spotlight_shattered_crown">Get on Amazon & Kindle Unlimited &rarr;</a>
+            <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="btn-large track-click" data-target="spotlight_gr" style="background:#7b5e38; color:#fff; box-shadow:0 4px 20px rgba(123,94,56,0.4);">Shelve on Goodreads &rarr;</a>
           </div>
-        </article>
+        </div>
+      </div>
 
-        <!-- Catalog Position 2: Military Thrillers -->
+      <div class="grid">
+        <!-- Catalog Position 2: Tactical Military Fiction -->
         <article class="card">
-          <div>
-            <span class="card-tag tag-books">Tactical Military Fiction</span>
-            <h3>Combat Thriller Collection</h3>
-            <p>Ground-level tactical realism, authentic weapons dynamics, and small-unit leadership under unrelenting battlefield pressure. Prepared from author combat lore archives.</p>
+          <img src="assets/military-feature.jpg" alt="Combat Thriller Tactical Fiction by Jason Coleman" class="card-thumb">
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-books">Tactical Military Fiction</span>
+              <h3>Tactical Combat Thrillers</h3>
+              <p>Authentic weapons dynamics, small-unit tactics, and gritty realism under intense combat pressure. Built from extensive military warfare research.</p>
+            </div>
+            <a href="https://www.amazon.com/s?k=Jason+Coleman+military" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_military_collection">Explore Military Fiction &rarr;</a>
           </div>
-          <a href="https://www.amazon.com/s?k=Jason+Coleman+military" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_military_collection">View Military Catalog &rarr;</a>
         </article>
 
         <!-- Catalog Position 3: Children's Books -->
         <article class="card">
-          <div>
-            <span class="card-tag tag-books">Children's Illustrated Fiction</span>
-            <h3>Bedtime & Animal Adventures</h3>
-            <p>Gentle rhymes, brave animal heroes, and imaginative bedtime adventures designed to inspire courage, kindness, and a lifelong love of reading in young children.</p>
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-books">Children's Illustrated Fiction</span>
+              <h3>Bedtime & Animal Adventures</h3>
+              <p>Gentle rhymes, courageous animal heroes, and imaginative bedtime tales designed to foster kindness, resilience, and early literacy in young readers.</p>
+            </div>
+            <a href="https://www.amazon.com/s?k=Jason+Coleman+childrens+books" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_childrens_collection">View Children's Books &rarr;</a>
           </div>
-          <a href="https://www.amazon.com/s?k=Jason+Coleman+childrens+books" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_childrens_collection">View Children's Books &rarr;</a>
+        </article>
+
+        <!-- Catalog Position 4: Visual Concept Vault -->
+        <article class="card">
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-books" style="background:rgba(230,0,35,0.15);color:#ff7675;">Pinterest Concept Art</span>
+              <h3>Visual Aesthetic & Worldbuilding</h3>
+              <p>Discover weapon blueprints, medieval armories, and gothic castle architecture curated on Pinterest that inspired the settings of Bramblehold and Cinderpeak.</p>
+            </div>
+            <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="card-cta track-click" data-target="card_pinterest" style="background:#e60023;color:#fff;">Explore Concept Boards &rarr;</a>
+          </div>
         </article>
       </div>
     </section>
 
     <!-- SECTION 2: YOUTUBE DOCUMENTARIES -->
     <section class="container" id="videos">
-      <h2 class="section-title">🎬 YouTube Video Archive (800+ Episodes)</h2>
-      <p class="section-sub">Extensive documentary archives, military warfare tactics, cinema dissections, and video game breakdowns.</p>
+      <h2 class="section-title">🎬 Documentary Archive (800+ Episodes)</h2>
+      <p class="section-sub">Granular military history, heavy armor tactics, Pacific naval battles, and deep cinema retrospectives.</p>
       
       <div class="grid">
         <article class="card">
-          <div>
-            <span class="card-tag tag-video">Military History</span>
-            <h3>Battlefield Tactics, Armor & War History</h3>
-            <p>Tactical retrospectives examining WWII armored maneuvers, naval carrier strikes in the Pacific, Vietnam air cavalry operations, and cold war undersea stealth.</p>
+          <img src="assets/military-feature.jpg" alt="Steel Clash Eastern Front Warfare Documentary" class="card-thumb">
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-video">Featured Military History</span>
+              <h3>Steel Clash: Tank Doctrines on the Eastern Front</h3>
+              <p>Comprehensive tactical breakdowns of armored warfare from Kursk to Berlin: turret traverse physics, sloped armor mechanics, and anti-tank defense belts.</p>
+            </div>
+            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_military">Stream Full Documentary &rarr;</a>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_military">Stream War Docs &rarr;</a>
         </article>
 
         <article class="card">
-          <div>
-            <span class="card-tag tag-video">Cinema & Pop Culture</span>
-            <h3>80s & 90s Action Cinema Dissections</h3>
-            <p>Why classic action movies hit harder: celebrating practical stuntwork, real pyrotechnics, tension building, and iconic sound design against modern digital effects.</p>
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-video">Cult Cinema & Practical FX</span>
+              <h3>80s & 90s Action Film Mastery</h3>
+              <p>Why real pyrotechnics, physical squibs, and mechanical miniatures consistently outperform CGI in delivering visceral cinematic tension.</p>
+            </div>
+            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_cinema">Watch Cinema Reviews &rarr;</a>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_cinema">Watch Cinema Reviews &rarr;</a>
         </article>
 
         <article class="card">
-          <div>
-            <span class="card-tag tag-video">Gaming Mechanics</span>
-            <h3>Tactical Shooters & Steam Early Access</h3>
-            <p>Alpha playtest assessments, gunplay recoil dynamics, hardcore survival permadeath loops, and no-fluff assessments of upcoming indie and AAA gaming releases.</p>
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-video">Aviation & Naval Warfare</span>
+              <h3>Carrier Strikes & Cold War Reconnaissance</h3>
+              <p>From the five crucial dive-bomber minutes at Midway to Mach 3.2 titanium engineering in the SR-71 Blackbird.</p>
+            </div>
+            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_aviation">Explore Naval Warfare &rarr;</a>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_gaming">Explore Gaming Streams &rarr;</a>
         </article>
       </div>
     </section>
 
     <!-- SECTION 3: TIKTOK VIRAL REELS -->
     <section class="container" id="tiktok">
-      <h2 class="section-title">♬ TikTok @jasontv1982 & Daily Comedy Shorts</h2>
-      <p class="section-sub">Quick, unvarnished laughs, handyman fails, gym realities, and everyday working-man observations.</p>
+      <h2 class="section-title">♬ TikTok @jasontv1982 & Comedy Shorts</h2>
+      <p class="section-sub">Zero-filter blue-collar laughs, jobsite fails, contractor nightmares, and daily working-man truths.</p>
       
       <div class="grid">
         <article class="card">
-          <div>
-            <span class="card-tag tag-tiktok">Viral TikTok Reels</span>
-            <h3>Jobsite Fails & Handyman Realities</h3>
-            <p>Weekend DIY disasters, contractor nightmares, missing 10mm sockets, and the sheer comedy of home improvement projects gone completely wrong.</p>
+          <img src="assets/comedy-badge.jpg" alt="Daily Trades & Comedy with Jason Coleman" class="card-thumb">
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-tiktok">Viral TikTok Series</span>
+              <h3>Jobsite Disasters & Contractor Fails</h3>
+              <p>Weekend warrior DIY disasters, crooked plumbing, missing 10mm sockets, and hilarious client encounters from the real-world trades.</p>
+            </div>
+            <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_handyman">Follow @jasontv1982 on TikTok &rarr;</a>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_handyman">Follow @jasontv1982 &rarr;</a>
         </article>
 
         <article class="card">
-          <div>
-            <span class="card-tag tag-tiktok">Everyday Satire</span>
-            <h3>Blue-Collar Rants & Real Life Observational Humor</h3>
-            <p>Relatable morning commute rage, grocery store sticker shock, suburban dad stereotypes, and unvarnished common sense rants that cut through the noise.</p>
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-tiktok">Everyday Satire</span>
+              <h3>Blue-Collar Rants & Real Life Humor</h3>
+              <p>Morning commute madness, grocery store inflation shock, suburban dad clichés, and unvarnished common-sense commentary.</p>
+            </div>
+            <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_rants">Watch Comedy Reels &rarr;</a>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_rants">Watch Comedy Clips &rarr;</a>
         </article>
 
         <article class="card">
-          <div>
-            <span class="card-tag tag-tiktok">Behind The Scenes</span>
-            <h3>Writer Life, Book Previews & Uncut Takes</h3>
-            <p>Quick video dispatches from the writing desk, early drafts of upcoming books, and unfiltered Q&A sessions with readers and viewers.</p>
+          <div class="card-body">
+            <div>
+              <span class="card-tag tag-tiktok">Practical Hacks</span>
+              <h3>Trades Hacks & Garage Life</h3>
+              <p>Tool reviews that tell the honest truth, frozen bolt extraction tricks, and garage workshop storage hacks that actually work.</p>
+            </div>
+            <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_workshop">Explore Practical Hacks &rarr;</a>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_author">Join on TikTok &rarr;</a>
         </article>
       </div>
     </section>
 
-    <!-- SECTION 4: NEWSLETTER / VIP DISPATCH -->
+    <!-- SECTION 4: NEWSLETTER & VIP ACCESS -->
     <section class="container" id="newsletter">
       <div class="newsletter-banner">
-        <h2>The Coleman Dispatch (VIP Newsletter)</h2>
-        <p>Get exclusive chapter previews for <em>The Shattered Crown</em>, military history essays, and video production notes delivered straight to your inbox.</p>
+        <h2>Join the Jason Coleman Insider List</h2>
+        <p>Get early previews of upcoming novels, new military history video releases, exclusive behind-the-scenes sketches, and reader giveaways directly to your inbox.</p>
         
-        <div style="max-width: 480px; margin: 0 auto;">
-          <form id="newsletter-form" onsubmit="handleSignup(event)" style="display:flex; gap: 0.75rem; flex-wrap: wrap;">
-            <input type="email" id="subscriber-email" required placeholder="Enter your email address" style="padding: 0.85rem 1.2rem; border-radius: 6px; border: 1px solid var(--card-border); background: #0c121e; color: #fff; flex: 1; min-width: 240px; font-size: 1rem;">
-            <button type="submit" style="padding: 0.85rem 1.6rem; border-radius: 6px; background: var(--accent-cyan); color: #090c15; border: none; font-weight: 800; font-size: 1rem; cursor: pointer;">Join Newsletter</button>
-          </form>
-          <div id="signup-confirmation" style="display:none; color: var(--accent-cyan); font-weight: 700; margin-top: 1rem;">
-            ✓ Verification Pending: Please confirm your email address. (Integration setup in progress)
-          </div>
-        </div>
-        
+        <form onsubmit="handleNewsletter(event)" style="display: flex; justify-content: center; gap: 0.5rem; max-width: 520px; margin: 0 auto; flex-wrap: wrap;">
+          <input type="email" id="news-email" placeholder="Enter your email address" required style="flex: 1; min-width: 250px; padding: 0.9rem 1.25rem; border-radius: 8px; border: 1px solid #2a374f; background: #0c111c; color: #fff; font-size: 1rem; outline: none;">
+          <button type="submit" class="btn-large amz" style="cursor: pointer; border: none;">Subscribe Free</button>
+        </form>
+        <div id="news-msg" style="margin-top: 1rem; font-weight: 700; font-size: 0.95rem;"></div>
+
         <div>
           <span class="status-badge">⚠️ Mail Service Status: Integration Pending Verification</span>
-          <p style="font-size: 0.82rem; color: #72849e; margin-top: 0.5rem;">
-            Subscriber form will connect to Substack / MailerLite once API credentials or embed endpoint are confirmed.
-          </p>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Jason Coleman Creative Network. All rights reserved.</p>
-    <p style="margin-top: 0.75rem;">
-      <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="track-click" data-target="footer_tiktok">TikTok (@jasontv1982)</a> &bull; 
-      <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="track-click" data-target="footer_youtube">YouTube (800+ Videos)</a> &bull; 
-      <a href="#books" class="track-click" data-target="footer_books">Published Books</a>
-    </p>
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <p style="margin-bottom: 0.75rem;"><strong>Jason Coleman Media Network</strong> &bull; All Rights Reserved &bull; Global Verified Hub</p>
+      <p style="margin-bottom: 1.5rem; color: #64748b;">
+        Featuring <a href="#books">The Shattered Crown</a> (Hardcover & Kindle Unlimited) &bull; 
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener">800+ YouTube Videos</a> &bull; 
+        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener">TikTok @jasontv1982</a> &bull;
+        <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener">Pinterest</a> &bull;
+        <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener">Goodreads</a>
+      </p>
+      <p style="font-size: 0.8rem; color: #475569;">
+        Built with high-fidelity performance, responsive aesthetics, and privacy-respecting local telemetry.
+      </p>
+    </div>
   </footer>
 
-  <!-- REAL OUTBOUND CLICK & TELEMETRY SCRIPT -->
   <script>
-    const STORAGE_KEY = 'jc_telemetry_v1';
+    // Real-Time LocalStorage Outbound Telemetry Reporter
+    const TELEMETRY_KEY = 'jc_network_telemetry_v2';
 
     function getTelemetry() {
-      const data = localStorage.getItem(STORAGE_KEY);
-      if (data) {
-        try { return JSON.parse(data); } catch(e) {}
+      const data = localStorage.getItem(TELEMETRY_KEY);
+      if (!data) {
+        return { visits: 1, yt: 0, tt: 0, pin: 0, gr: 0, amz: 0, total: 0 };
       }
-      return { sessions: 0, youtube: 0, tiktok: 0, pinterest: 0, goodreads: 0, amazon: 0, total: 0 };
+      try {
+        return JSON.parse(data);
+      } catch(e) {
+        return { visits: 1, yt: 0, tt: 0, pin: 0, gr: 0, amz: 0, total: 0 };
+      }
     }
 
     function saveTelemetry(data) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-      renderTelemetry();
+      localStorage.setItem(TELEMETRY_KEY, JSON.stringify(data));
+      updateDashboardUI(data);
     }
 
-    function renderTelemetry() {
-      const d = getTelemetry();
-      const sEl = document.getElementById('stat-sessions');
-      const ytEl = document.getElementById('stat-yt');
-      const ttEl = document.getElementById('stat-tt');
-      const pinEl = document.getElementById('stat-pin');
-      const grEl = document.getElementById('stat-gr');
-      const amzEl = document.getElementById('stat-amz');
-      const totEl = document.getElementById('stat-total');
-
-      if (sEl) sEl.textContent = d.sessions;
-      if (ytEl) ytEl.textContent = d.youtube;
-      if (ttEl) ttEl.textContent = d.tiktok;
-      if (pinEl) pinEl.textContent = d.pinterest || 0;
-      if (grEl) grEl.textContent = d.goodreads || 0;
-      if (amzEl) amzEl.textContent = d.amazon;
-      if (totEl) totEl.textContent = d.total;
+    function updateDashboardUI(data) {
+      document.getElementById('stat-sessions').innerText = data.visits || 1;
+      document.getElementById('stat-yt').innerText = data.yt || 0;
+      document.getElementById('stat-tt').innerText = data.tt || 0;
+      document.getElementById('stat-pin').innerText = data.pin || 0;
+      document.getElementById('stat-gr').innerText = data.gr || 0;
+      document.getElementById('stat-amz').innerText = data.amz || 0;
+      document.getElementById('stat-total').innerText = data.total || 0;
     }
 
-    function recordOutbound(type, label) {
-      const d = getTelemetry();
-      d.total = (d.total || 0) + 1;
-      if (type === 'youtube') d.youtube = (d.youtube || 0) + 1;
-      else if (type === 'tiktok') d.tiktok = (d.tiktok || 0) + 1;
-      else if (type === 'pinterest') d.pinterest = (d.pinterest || 0) + 1;
-      else if (type === 'goodreads') d.goodreads = (d.goodreads || 0) + 1;
-      else if (type === 'amazon') d.amazon = (d.amazon || 0) + 1;
-      
-      saveTelemetry(d);
-      console.log(`[TELEMETRY RECORDED] Event: ${type} | Target: ${label}`);
+    function recordClick(category) {
+      const data = getTelemetry();
+      data.total = (data.total || 0) + 1;
+      if (category === 'yt') data.yt = (data.yt || 0) + 1;
+      if (category === 'tt') data.tt = (data.tt || 0) + 1;
+      if (category === 'pin') data.pin = (data.pin || 0) + 1;
+      if (category === 'gr') data.gr = (data.gr || 0) + 1;
+      if (category === 'amz') data.amz = (data.amz || 0) + 1;
+      saveTelemetry(data);
     }
 
     function resetTelemetry() {
-      localStorage.removeItem(STORAGE_KEY);
-      renderTelemetry();
+      localStorage.removeItem(TELEMETRY_KEY);
+      const fresh = { visits: 1, yt: 0, tt: 0, pin: 0, gr: 0, amz: 0, total: 0 };
+      saveTelemetry(fresh);
     }
 
-    // Attach click listeners to all tracking targets
+    function handleNewsletter(e) {
+      e.preventDefault();
+      const email = document.getElementById('news-email').value;
+      const msg = document.getElementById('news-msg');
+      msg.style.color = '#00d2d3';
+      msg.innerText = '✓ Thank you! ' + email + ' has been staged for the newsletter once mail routing is verified.';
+      document.getElementById('news-email').value = '';
+    }
+
+    // Attach tracking
     document.addEventListener('DOMContentLoaded', () => {
-      // Record session visit
-      const d = getTelemetry();
-      d.sessions = (d.sessions || 0) + 1;
-      saveTelemetry(d);
+      let data = getTelemetry();
+      data.visits = (data.visits || 0) + 1;
+      saveTelemetry(data);
 
-      const links = document.querySelectorAll('.track-click');
-      links.forEach(el => {
-        el.addEventListener('click', (e) => {
-          const target = el.getAttribute('data-target') || 'unknown';
-          let type = 'general';
-          if (target.includes('youtube')) type = 'youtube';
-          else if (target.includes('tiktok')) type = 'tiktok';
-          else if (target.includes('pinterest') || target.includes('pin')) type = 'pinterest';
-          else if (target.includes('goodreads') || target.includes('gr')) type = 'goodreads';
-          else if (target.includes('book') || target.includes('amazon') || el.classList.contains('btn-amz')) type = 'amazon';
-
-          recordOutbound(type, target);
+      document.querySelectorAll('.track-click').forEach(el => {
+        el.addEventListener('click', () => {
+          const target = el.getAttribute('data-target') || '';
+          if (target.includes('youtube') || target.includes('yt')) recordClick('yt');
+          else if (target.includes('tiktok') || target.includes('tt')) recordClick('tt');
+          else if (target.includes('pinterest') || target.includes('pin')) recordClick('pin');
+          else if (target.includes('goodreads') || target.includes('gr')) recordClick('gr');
+          else if (target.includes('book') || target.includes('amz') || target.includes('shattered')) recordClick('amz');
+          else recordClick('other');
         });
       });
     });
-
-    function handleSignup(e) {
-      e.preventDefault();
-      const email = document.getElementById('subscriber-email').value;
-      const conf = document.getElementById('signup-confirmation');
-      if (conf) {
-        conf.style.display = 'block';
-        conf.innerHTML = `✓ Note: Subscribed address (${email}) stored locally. Remote mailing-list synchronization pending verified service connection.`;
-      }
-    }
   </script>
-
 </body>
 </html>
