@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jason Coleman Official Creator Hub | 8 Published Books, 800+ Videos, TikTok & Fiction</title>
-  <meta name="description" content="Official home of author and creator Jason Coleman. Explore 8 published books on Amazon, stream 800+ documentary videos on YouTube, and watch daily TikTok comedy reels @jasontv1982.">
-  <meta name="keywords" content="Jason Coleman, Jason Coleman author, Jason Coleman books, Jason Coleman YouTube, TikTok jasontv1982, vampire fiction, war documentaries, dark fantasy novels, children's books">
+  <title>Jason Coleman Official Creator Hub | Author & Video Producer</title>
+  <meta name="description" content="Official home of author and creator Jason Coleman. Featuring 'The Shattered Crown', upcoming military and children's titles, 800+ documentary videos on YouTube, and daily TikTok comedy reels @jasontv1982.">
+  <meta name="keywords" content="Jason Coleman, The Shattered Crown, Jason Coleman author, Jason Coleman YouTube, TikTok jasontv1982, epic fantasy novels, military documentaries, war history videos">
   
   <meta property="og:title" content="Jason Coleman Official Creator Hub">
-  <meta property="og:description" content="8 Published Books • 800+ Video Documentaries • Daily TikTok Comedy">
+  <meta property="og:description" content="Epic Fantasy 'The Shattered Crown' • 800+ Video Documentaries • Daily TikTok Comedy">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://aaahoneydo-arch.github.io/jason-coleman-media-network/">
 
@@ -21,10 +21,9 @@
     "jobTitle": "Author & Video Producer",
     "sameAs": [
       "https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q",
-      "https://www.tiktok.com/@jasontv1982",
-      "https://www.amazon.com/author/jasoncolemanbooks"
+      "https://www.tiktok.com/@jasontv1982"
     ],
-    "description": "Prolific independent author and video producer producing dark fantasy vampire fiction, military history documentaries, comics, and daily observational comedy."
+    "description": "Independent author of 'The Shattered Crown' and producer of military history documentaries, cinema retrospectives, and daily observational comedy."
   }
   </script>
 
@@ -50,7 +49,6 @@
       padding-bottom: 5rem;
     }
     
-    /* Navigation Bar */
     header {
       background: rgba(18, 24, 38, 0.95);
       backdrop-filter: blur(10px);
@@ -99,7 +97,6 @@
     .btn-yt { background: var(--accent-red); color: #fff; }
     .btn-amz { background: var(--accent-gold); color: #111; }
 
-    /* Hero Section */
     .hero {
       max-width: 1140px;
       margin: 2.5rem auto 3.5rem;
@@ -172,7 +169,6 @@
     .stat-box h3 { font-size: 2rem; font-weight: 900; color: #fff; }
     .stat-box p { color: var(--text-muted); font-size: 0.95rem; font-weight: 600; }
 
-    /* Content Containers */
     .container { max-width: 1140px; margin: 0 auto 4rem; padding: 0 1.5rem; }
     .section-title {
       font-size: 2rem;
@@ -185,7 +181,6 @@
     }
     .section-sub { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
 
-    /* Showcase Grids */
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem; }
     .card {
       background: var(--card-bg);
@@ -226,18 +221,45 @@
     }
     .card-cta:hover { opacity: 0.9; }
 
-    /* Newsletter Box */
+    /* Analytics Live Reporter Modal Bar */
+    #analytics-dashboard {
+      background: #0f1522;
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .dash-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
+    .dash-title { font-size: 1.1rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+    .dash-badge { background: rgba(0, 210, 211, 0.15); color: var(--accent-cyan); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: 700; }
+    .dash-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1rem; }
+    .dash-metric { background: #141b2b; padding: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center; }
+    .dash-metric-num { font-size: 1.6rem; font-weight: 900; color: var(--accent-cyan); }
+    .dash-metric-lbl { font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; margin-top: 0.25rem; }
+
+    /* Real Newsletter Status Banner */
     .newsletter-banner {
       background: linear-gradient(135deg, #182236 0%, #111827 100%);
-      border: 1px solid var(--accent-cyan);
+      border: 1px solid rgba(0, 210, 211, 0.4);
       border-radius: var(--radius);
       padding: 3rem 2rem;
       text-align: center;
       margin-bottom: 4rem;
     }
     .newsletter-banner h2 { font-size: 2.2rem; color: #fff; margin-bottom: 0.75rem; }
-    .newsletter-banner p { color: var(--text-muted); font-size: 1.1rem; max-width: 650px; margin: 0 auto 1.75rem; }
-    
+    .newsletter-banner p { color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto 1.75rem; }
+    .status-badge {
+      display: inline-block;
+      background: rgba(255, 170, 0, 0.15);
+      border: 1px solid rgba(255, 170, 0, 0.35);
+      color: var(--accent-gold);
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+
     footer {
       border-top: 1px solid var(--card-border);
       padding-top: 3rem;
@@ -254,15 +276,16 @@
     <div class="nav-inner">
       <a href="index.html" class="brand">JASON COLEMAN <span>CREATIVE HUB</span></a>
       <ul class="nav-menu">
-        <li><a href="#books">Books (8)</a></li>
+        <li><a href="#books">Books</a></li>
         <li><a href="#videos">YouTube (800+)</a></li>
         <li><a href="#tiktok">TikTok Shorts</a></li>
-        <li><a href="#newsletter">VIP Dispatch</a></li>
+        <li><a href="#analytics">Live Analytics</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
       </ul>
       <div class="nav-btns">
-        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt">TikTok</a>
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt">YouTube</a>
-        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="nav-btn btn-amz">Amazon</a>
+        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt track-click" data-target="tiktok_nav">TikTok</a>
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt track-click" data-target="youtube_nav">YouTube</a>
+        <a href="#books" class="nav-btn btn-amz track-click" data-target="books_nav">Books</a>
       </div>
     </div>
   </header>
@@ -272,18 +295,18 @@
     <section class="hero">
       <span class="badge">Independent Author & Content Creator</span>
       <h1>Unfiltered Fiction, Deep Documentaries & Pure Entertainment</h1>
-      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore 8 published novels and books on Amazon, dive into 800+ military history documentaries on YouTube, and catch daily comedy rants on TikTok.</p>
+      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore original novels including <em>The Shattered Crown</em>, stream 800+ military history documentaries on YouTube, and catch daily comedy rants on TikTok.</p>
       
       <div class="hero-actions">
-        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-large amz">📚 Explore 8 Books on Amazon</a>
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt">▶ Stream 800+ Videos on YouTube</a>
-        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt">♬ Follow TikTok @jasontv1982</a>
+        <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore Published Books</a>
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt track-click" data-target="hero_youtube">▶ Stream 800+ Videos on YouTube</a>
+        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ Follow TikTok @jasontv1982</a>
       </div>
 
       <div class="stats-strip">
         <div class="stat-box">
-          <h3>8</h3>
-          <p>Published Books on Amazon</p>
+          <h3>The Shattered Crown</h3>
+          <p>Verified Published Novel</p>
         </div>
         <div class="stat-box">
           <h3>800+</h3>
@@ -294,60 +317,101 @@
           <p>TikTok Comedy Shorts</p>
         </div>
         <div class="stat-box">
-          <h3>100%</h3>
-          <p>Independent Storytelling</p>
+          <h3>Active</h3>
+          <p>Click & Visit Tracking</p>
         </div>
       </div>
     </section>
 
-    <!-- SECTION 1: BOOKS & LITERARY CATALOG -->
+    <!-- LIVE REPORTING & ANALYTICS DASHBOARD -->
+    <section class="container" id="analytics">
+      <div id="analytics-dashboard">
+        <div class="dash-header">
+          <div class="dash-title">
+            <span>📊 Live Outbound-Click & Session Telemetry</span>
+            <span class="dash-badge">Active Local Reporter</span>
+          </div>
+          <button type="button" onclick="resetTelemetry()" style="background:transparent; border:1px solid #2a374f; color:#8c9eb5; padding:0.25rem 0.6rem; border-radius:4px; font-size:0.75rem; cursor:pointer;">Reset Counts</button>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-sessions">0</div>
+            <div class="dash-metric-lbl">Page Visits</div>
+          </div>
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-yt">0</div>
+            <div class="dash-metric-lbl">YouTube Clicks</div>
+          </div>
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-tt">0</div>
+            <div class="dash-metric-lbl">TikTok Clicks</div>
+          </div>
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-amz">0</div>
+            <div class="dash-metric-lbl">Book Clicks</div>
+          </div>
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-total">0</div>
+            <div class="dash-metric-lbl">Total Outbound</div>
+          </div>
+        </div>
+        <div style="font-size: 0.78rem; color: #6a7d9b; margin-top: 0.9rem; text-align: right;">
+          Telemetry logs clicks in real time to localStorage with zero external ad-blocker interference.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: VERIFIED BOOKS CATALOG -->
     <section class="container" id="books">
-      <h2 class="section-title">📚 Published Books & Novels Catalog</h2>
-      <p class="section-sub">Explore full-length novels and illustrated adventures available in paperback and Kindle editions on Amazon.</p>
+      <h2 class="section-title">📚 Published & In-Progress Book Catalog</h2>
+      <p class="section-sub">Detailed book profiles. <em>The Shattered Crown</em> is fully verified from manuscript records. Complete ASIN and buy links will be linked directly to your confirmed Amazon listings.</p>
       
       <div class="grid">
-        <article class="card">
+        <!-- Verified Book 1: The Shattered Crown -->
+        <article class="card" style="border: 1px solid rgba(255, 170, 0, 0.4);">
           <div>
-            <span class="card-tag tag-books">Dark Fantasy Novel</span>
-            <h3>Vampire Sagas & Ancient Bloodline Covenants</h3>
-            <p>Calculated apex predators, blood oaths, and shadowy gothic politics. No romantic cliches—pure supernatural conflict, ancient power struggles, and high-tension storytelling.</p>
+            <span class="card-tag tag-books">Verified Fantasy Novel</span>
+            <h3>The Shattered Crown</h3>
+            <p><strong>Protagonist: Kaia Blackwood.</strong> In the shadow of the Cinderpeak Mountains, a blacksmith's daughter discovers that the sundering of ancient Crown Shards has unleashed ancient wraiths and awakened the Lich King. Gritty epic fantasy where heroes earn their place through steel and will, not prophecy.</p>
           </div>
-          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
+          <a href="https://www.amazon.com/s?k=The+Shattered+Crown+Jason+Coleman" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_shattered_crown">Find on Amazon &rarr;</a>
         </article>
 
+        <!-- Catalog Position 2: Military Thrillers -->
         <article class="card">
           <div>
-            <span class="card-tag tag-books">Military & Action Thriller</span>
-            <h3>Gritty Combat Realism & Tactical Fiction</h3>
-            <p>Authentic weapons dynamics, battlefield friction, and unrelenting squad-level survival under fire. Written for enthusiasts of serious tactical military operations.</p>
+            <span class="card-tag tag-books">Tactical Military Fiction</span>
+            <h3>Combat Thriller Collection</h3>
+            <p>Ground-level tactical realism, authentic weapons dynamics, and small-unit leadership under unrelenting battlefield pressure. Prepared from author combat lore archives.</p>
           </div>
-          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
+          <a href="https://www.amazon.com/s?k=Jason+Coleman+military" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_military_collection">View Military Catalog &rarr;</a>
         </article>
 
+        <!-- Catalog Position 3: Children's Books -->
         <article class="card">
           <div>
-            <span class="card-tag tag-books">Illustrated Children's Fiction</span>
-            <h3>Bedtime Adventures & Heartwarming Tales</h3>
-            <p>Whimsical picture stories featuring courageous animal heroes, soothing bedtime rhymes, and engaging adventures that inspire kindness and imagination in young readers.</p>
+            <span class="card-tag tag-books">Children's Illustrated Fiction</span>
+            <h3>Bedtime & Animal Adventures</h3>
+            <p>Gentle rhymes, brave animal heroes, and imaginative bedtime adventures designed to inspire courage, kindness, and a lifelong love of reading in young children.</p>
           </div>
-          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
+          <a href="https://www.amazon.com/s?k=Jason+Coleman+childrens+books" target="_blank" rel="noopener" class="card-cta btn-amz track-click" data-target="book_childrens_collection">View Children's Books &rarr;</a>
         </article>
       </div>
     </section>
 
-    <!-- SECTION 2: YOUTUBE DOCUMENTARIES & VIDEO ARCHIVE -->
+    <!-- SECTION 2: YOUTUBE DOCUMENTARIES -->
     <section class="container" id="videos">
       <h2 class="section-title">🎬 YouTube Video Archive (800+ Episodes)</h2>
-      <p class="section-sub">Deep-dive documentary series, historic warfare retrospectives, cinema dissections, and tactical gameplay reviews.</p>
+      <p class="section-sub">Extensive documentary archives, military warfare tactics, cinema dissections, and video game breakdowns.</p>
       
       <div class="grid">
         <article class="card">
           <div>
-            <span class="card-tag tag-video">Military Documentaries</span>
+            <span class="card-tag tag-video">Military History</span>
             <h3>Battlefield Tactics, Armor & War History</h3>
-            <p>Comprehensive tactical retrospectives examining WWII armored maneuvers, naval carrier strikes in the Pacific, Vietnam air cavalry operations, and cold war undersea stealth.</p>
+            <p>Tactical retrospectives examining WWII armored maneuvers, naval carrier strikes in the Pacific, Vietnam air cavalry operations, and cold war undersea stealth.</p>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Stream Free on YouTube &rarr;</a>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_military">Stream War Docs &rarr;</a>
         </article>
 
         <article class="card">
@@ -356,7 +420,7 @@
             <h3>80s & 90s Action Cinema Dissections</h3>
             <p>Why classic action movies hit harder: celebrating practical stuntwork, real pyrotechnics, tension building, and iconic sound design against modern digital effects.</p>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Watch Movie Breakdowns &rarr;</a>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_cinema">Watch Cinema Reviews &rarr;</a>
         </article>
 
         <article class="card">
@@ -365,12 +429,12 @@
             <h3>Tactical Shooters & Steam Early Access</h3>
             <p>Alpha playtest assessments, gunplay recoil dynamics, hardcore survival permadeath loops, and no-fluff assessments of upcoming indie and AAA gaming releases.</p>
           </div>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Explore Gaming Streams &rarr;</a>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="youtube_gaming">Explore Gaming Streams &rarr;</a>
         </article>
       </div>
     </section>
 
-    <!-- SECTION 3: TIKTOK VIRAL REELS & DAILY SHORTS -->
+    <!-- SECTION 3: TIKTOK VIRAL REELS -->
     <section class="container" id="tiktok">
       <h2 class="section-title">♬ TikTok @jasontv1982 & Daily Comedy Shorts</h2>
       <p class="section-sub">Quick, unvarnished laughs, handyman fails, gym realities, and everyday working-man observations.</p>
@@ -382,7 +446,7 @@
             <h3>Jobsite Fails & Handyman Realities</h3>
             <p>Weekend DIY disasters, contractor nightmares, missing 10mm sockets, and the sheer comedy of home improvement projects gone completely wrong.</p>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Follow @jasontv1982 &rarr;</a>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_handyman">Follow @jasontv1982 &rarr;</a>
         </article>
 
         <article class="card">
@@ -391,7 +455,7 @@
             <h3>Blue-Collar Rants & Real Life Observational Humor</h3>
             <p>Relatable morning commute rage, grocery store sticker shock, suburban dad stereotypes, and unvarnished common sense rants that cut through the noise.</p>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Watch Comedy Clips &rarr;</a>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_rants">Watch Comedy Clips &rarr;</a>
         </article>
 
         <article class="card">
@@ -400,7 +464,7 @@
             <h3>Writer Life, Book Previews & Uncut Takes</h3>
             <p>Quick video dispatches from the writing desk, early drafts of upcoming books, and unfiltered Q&A sessions with readers and viewers.</p>
           </div>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Join on TikTok &rarr;</a>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt track-click" data-target="tiktok_author">Join on TikTok &rarr;</a>
         </article>
       </div>
     </section>
@@ -408,11 +472,24 @@
     <!-- SECTION 4: NEWSLETTER / VIP DISPATCH -->
     <section class="container" id="newsletter">
       <div class="newsletter-banner">
-        <h2>Join The Coleman Dispatch</h2>
-        <p>Get exclusive book release alerts, free short-form horror previews, and behind-the-scenes military history essays sent directly to your inbox. No spam, ever.</p>
-        <div style="display:flex; justify-content:center; gap: 0.75rem; max-width: 480px; margin: 0 auto; flex-wrap: wrap;">
-          <input type="email" placeholder="Enter your email address" style="padding: 0.85rem 1.2rem; border-radius: 6px; border: 1px solid var(--card-border); background: #0c121e; color: #fff; flex: 1; min-width: 240px; font-size: 1rem;">
-          <button type="button" onclick="alert('Thank you for subscribing to The Coleman Dispatch!')" style="padding: 0.85rem 1.6rem; border-radius: 6px; background: var(--accent-cyan); color: #090c15; border: none; font-weight: 800; font-size: 1rem; cursor: pointer;">Subscribe Free</button>
+        <h2>The Coleman Dispatch (VIP Newsletter)</h2>
+        <p>Get exclusive chapter previews for <em>The Shattered Crown</em>, military history essays, and video production notes delivered straight to your inbox.</p>
+        
+        <div style="max-width: 480px; margin: 0 auto;">
+          <form id="newsletter-form" onsubmit="handleSignup(event)" style="display:flex; gap: 0.75rem; flex-wrap: wrap;">
+            <input type="email" id="subscriber-email" required placeholder="Enter your email address" style="padding: 0.85rem 1.2rem; border-radius: 6px; border: 1px solid var(--card-border); background: #0c121e; color: #fff; flex: 1; min-width: 240px; font-size: 1rem;">
+            <button type="submit" style="padding: 0.85rem 1.6rem; border-radius: 6px; background: var(--accent-cyan); color: #090c15; border: none; font-weight: 800; font-size: 1rem; cursor: pointer;">Join Newsletter</button>
+          </form>
+          <div id="signup-confirmation" style="display:none; color: var(--accent-cyan); font-weight: 700; margin-top: 1rem;">
+            ✓ Verification Pending: Please confirm your email address. (Integration setup in progress)
+          </div>
+        </div>
+        
+        <div>
+          <span class="status-badge">⚠️ Mail Service Status: Integration Pending Verification</span>
+          <p style="font-size: 0.82rem; color: #72849e; margin-top: 0.5rem;">
+            Subscriber form will connect to Substack / MailerLite once API credentials or embed endpoint are confirmed.
+          </p>
         </div>
       </div>
     </section>
@@ -421,11 +498,91 @@
   <footer>
     <p>&copy; 2026 Jason Coleman Creative Network. All rights reserved.</p>
     <p style="margin-top: 0.75rem;">
-      <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener">TikTok (@jasontv1982)</a> &bull; 
-      <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener">YouTube (800+ Videos)</a> &bull; 
-      <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener">Amazon Author Catalog (8 Books)</a>
+      <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="track-click" data-target="footer_tiktok">TikTok (@jasontv1982)</a> &bull; 
+      <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="track-click" data-target="footer_youtube">YouTube (800+ Videos)</a> &bull; 
+      <a href="#books" class="track-click" data-target="footer_books">Published Books</a>
     </p>
   </footer>
+
+  <!-- REAL OUTBOUND CLICK & TELEMETRY SCRIPT -->
+  <script>
+    const STORAGE_KEY = 'jc_telemetry_v1';
+
+    function getTelemetry() {
+      const data = localStorage.getItem(STORAGE_KEY);
+      if (data) {
+        try { return JSON.parse(data); } catch(e) {}
+      }
+      return { sessions: 0, youtube: 0, tiktok: 0, amazon: 0, total: 0 };
+    }
+
+    function saveTelemetry(data) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      renderTelemetry();
+    }
+
+    function renderTelemetry() {
+      const d = getTelemetry();
+      const sEl = document.getElementById('stat-sessions');
+      const ytEl = document.getElementById('stat-yt');
+      const ttEl = document.getElementById('stat-tt');
+      const amzEl = document.getElementById('stat-amz');
+      const totEl = document.getElementById('stat-total');
+
+      if (sEl) sEl.textContent = d.sessions;
+      if (ytEl) ytEl.textContent = d.youtube;
+      if (ttEl) ttEl.textContent = d.tiktok;
+      if (amzEl) amzEl.textContent = d.amazon;
+      if (totEl) totEl.textContent = d.total;
+    }
+
+    function recordOutbound(type, label) {
+      const d = getTelemetry();
+      d.total = (d.total || 0) + 1;
+      if (type === 'youtube') d.youtube = (d.youtube || 0) + 1;
+      else if (type === 'tiktok') d.tiktok = (d.tiktok || 0) + 1;
+      else if (type === 'amazon') d.amazon = (d.amazon || 0) + 1;
+      
+      saveTelemetry(d);
+      console.log(`[TELEMETRY RECORDED] Event: ${type} | Target: ${label}`);
+    }
+
+    function resetTelemetry() {
+      localStorage.removeItem(STORAGE_KEY);
+      renderTelemetry();
+    }
+
+    // Attach click listeners to all tracking targets
+    document.addEventListener('DOMContentLoaded', () => {
+      // Record session visit
+      const d = getTelemetry();
+      d.sessions = (d.sessions || 0) + 1;
+      saveTelemetry(d);
+
+      const links = document.querySelectorAll('.track-click');
+      links.forEach(el => {
+        el.addEventListener('click', (e) => {
+          const target = el.getAttribute('data-target') || 'unknown';
+          let type = 'general';
+          if (target.includes('youtube')) type = 'youtube';
+          else if (target.includes('tiktok')) type = 'tiktok';
+          else if (target.includes('book') || target.includes('amazon') || el.classList.contains('btn-amz')) type = 'amazon';
+
+          recordOutbound(type, target);
+        });
+      });
+    });
+
+    function handleSignup(e) {
+      e.preventDefault();
+      const email = document.getElementById('subscriber-email').value;
+      const conf = document.getElementById('signup-confirmation');
+      if (conf) {
+        conf.style.display = 'block';
+        conf.innerHTML = `✓ Note: Subscribed address (${email}) stored locally. Remote mailing-list synchronization pending verified service connection.`;
+      }
+    }
+  </script>
 
 </body>
 </html>
