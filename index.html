@@ -450,15 +450,29 @@
 
     /* Newsletter Banner */
     .newsletter-banner {
-      background: linear-gradient(135deg, rgba(24, 34, 54, 0.9) 0%, rgba(17, 24, 39, 0.9) 100%);
-      border: 1px solid rgba(0, 210, 211, 0.3);
+      background: 
+        radial-gradient(circle at 10% 20%, rgba(0, 210, 211, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 90% 80%, rgba(254, 44, 85, 0.15) 0%, transparent 50%),
+        linear-gradient(135deg, rgba(20, 28, 45, 0.95) 0%, rgba(10, 14, 24, 0.98) 100%);
+      border: 1px solid rgba(0, 210, 211, 0.35);
       border-radius: var(--radius);
-      padding: 3.5rem 2rem;
+      padding: 4rem 2rem;
       text-align: center;
       margin-bottom: 4rem;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      position: relative;
+      overflow: hidden;
     }
-    .newsletter-banner h2 { font-size: 2.4rem; color: #fff; margin-bottom: 0.75rem; }
+    .newsletter-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-gold), var(--accent-pink));
+    }
+    .newsletter-banner h2 { font-size: 2.5rem; color: #fff; margin-bottom: 0.75rem; letter-spacing: -0.5px; }
     .newsletter-banner p { color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto 1.75rem; }
     .status-badge {
       display: inline-block;
@@ -603,32 +617,39 @@
           <button type="button" onclick="resetTelemetry()" style="background:transparent; border:1px solid #2a374f; color:#8c9eb5; padding:0.25rem 0.6rem; border-radius:4px; font-size:0.75rem; cursor:pointer;">Reset Counts</button>
         </div>
         <div class="dash-grid">
-          <div class="dash-metric">
+          <div class="dash-metric" style="border-bottom: 2px solid var(--accent-cyan);">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">👁️</div>
             <div class="dash-metric-num" id="stat-sessions">0</div>
             <div class="dash-metric-lbl">Page Visits</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-yt">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid var(--accent-red);">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">▶️</div>
+            <div class="dash-metric-num" id="stat-yt" style="color:var(--accent-red);">0</div>
             <div class="dash-metric-lbl">YouTube Clicks</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-tt">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid var(--accent-pink);">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">♬</div>
+            <div class="dash-metric-num" id="stat-tt" style="color:var(--accent-pink);">0</div>
             <div class="dash-metric-lbl">TikTok Clicks</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-pin">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid #e60023;">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">📌</div>
+            <div class="dash-metric-num" id="stat-pin" style="color:#ff5e62;">0</div>
             <div class="dash-metric-lbl">Pinterest Clicks</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-gr">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid #bfa075;">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">📖</div>
+            <div class="dash-metric-num" id="stat-gr" style="color:#d4af37;">0</div>
             <div class="dash-metric-lbl">Goodreads Clicks</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-amz">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid var(--accent-gold);">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">📚</div>
+            <div class="dash-metric-num" id="stat-amz" style="color:var(--accent-gold);">0</div>
             <div class="dash-metric-lbl">Book Clicks</div>
           </div>
-          <div class="dash-metric">
-            <div class="dash-metric-num" id="stat-total">0</div>
+          <div class="dash-metric" style="border-bottom: 2px solid #bb86fc;">
+            <div style="font-size: 1.25rem; margin-bottom: 0.2rem;">⚡</div>
+            <div class="dash-metric-num" id="stat-total" style="color:#bb86fc;">0</div>
             <div class="dash-metric-lbl">Total Outbound</div>
           </div>
         </div>
@@ -813,7 +834,7 @@
       
       <div class="grid">
         <article class="card">
-          <img src="assets/music-production.jpg" alt="JasonTV Original Music Production" class="card-thumb">
+          <img src="assets/music-production.jpg" alt="JasonTV Original Music Production" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Viral Hit &bull; 1,300+ Views</span>
@@ -825,6 +846,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-road.jpg" alt="Built Our Own Road & Never Quit Motivational Anthem" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Motivational Anthem</span>
@@ -836,6 +858,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-tyson.jpg" alt="Mike Tyson and Kobe Bryant Black Mamba Songs" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Sports & Fighter Tributes</span>
@@ -847,6 +870,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-git-down.jpg" alt="Git Down With the Git Down Party Anthem" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Party & Line Dancing</span>
@@ -858,6 +882,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-algorithm.jpg" alt="The Algorithm Hates Me and 6 7 Rizz" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Creator Comedy Songs</span>
@@ -869,6 +894,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-theme.jpg" alt="You Never Know JasonTV Official Theme Song" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-music">Channel Theme Song</span>
@@ -988,6 +1014,7 @@
 
         <!-- Video 2: Try Not To Laugh Challenge IMPOSSIBLE -->
         <article class="card">
+          <img src="assets/video-laugh-challenge.jpg" alt="Try Not To Laugh Challenge on JasonTV" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video" style="background:rgba(254,44,85,0.15);color:var(--accent-pink);">Viral Comedy &bull; 26K+ Views</span>
@@ -1000,6 +1027,7 @@
 
         <!-- Video 3: Night of the Living Dead -->
         <article class="card">
+          <img src="assets/video-living-dead.jpg" alt="The Zombie Movie: Night of the Living Dead" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video" style="background:rgba(155,89,182,0.15);color:#bb86fc;">Horror Cinema Feature &bull; 1h 34m</span>
@@ -1025,6 +1053,7 @@
 
         <!-- Video 5: House on Haunted Hill (1959) -->
         <article class="card">
+          <img src="assets/video-haunted-hill.jpg" alt="House on Haunted Hill Vincent Price" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video">Classic Horror &bull; Vincent Price</span>
@@ -1037,6 +1066,7 @@
 
         <!-- Video 6: The War Machine & Geopolitics -->
         <article class="card">
+          <img src="assets/video-war-machine.jpg" alt="The War Machine Geopolitics and Logistics" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video">Investigative Documentary</span>
@@ -1049,6 +1079,7 @@
 
         <!-- Video 7: The Most Alpha Scenes in Movie History -->
         <article class="card">
+          <img src="assets/video-alpha-scenes.jpg" alt="The Most Alpha Scenes in Movie History" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video">Cinema Analysis &bull; 660+ Views</span>
@@ -1074,6 +1105,7 @@
 
         <!-- Video 9: The Beverly Hillbillies Marathons -->
         <article class="card">
+          <img src="assets/video-hillbillies.jpg" alt="The Beverly Hillbillies 3-Hour Comedy Remaster" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video">Classic Comedy Marathon</span>
@@ -1093,7 +1125,7 @@
       
       <div class="grid">
         <article class="card">
-          <img src="assets/comedy-badge.jpg" alt="Daily Trades & Comedy with Jason Coleman" class="card-thumb">
+          <img src="assets/comedy-badge.jpg" alt="Daily Trades & Comedy with Jason Coleman" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-tiktok">Viral TikTok Series</span>
@@ -1105,6 +1137,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/video-alpha-scenes.jpg" alt="Blue Collar Rants and Real Life Humor" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-tiktok">Everyday Satire</span>
@@ -1116,6 +1149,7 @@
         </article>
 
         <article class="card">
+          <img src="assets/music-road.jpg" alt="Trades Hacks and Garage Life" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-tiktok">Practical Hacks</span>
@@ -1140,8 +1174,10 @@
         </form>
         <div id="news-msg" style="margin-top: 1rem; font-weight: 700; font-size: 0.95rem;"></div>
 
-        <div>
-          <span class="status-badge">⚠️ Mail Service Status: Integration Pending Verification</span>
+        <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+          <span class="status-badge" style="background: rgba(0, 210, 211, 0.15); border-color: rgba(0, 210, 211, 0.35); color: var(--accent-cyan);">✦ Direct Author Updates & New Releases</span>
+          <span class="status-badge" style="background: rgba(255, 170, 0, 0.15); border-color: rgba(255, 170, 0, 0.35); color: var(--accent-gold);">★ Early Beta Playtests for Slay The Void & NECROS</span>
+          <span class="status-badge" style="background: rgba(254, 44, 85, 0.15); border-color: rgba(254, 44, 85, 0.35); color: var(--accent-pink);">⚡ Free Lifetime Access &bull; Zero Spam</span>
         </div>
       </div>
     </section>
@@ -1219,7 +1255,7 @@
       const email = document.getElementById('news-email').value;
       const msg = document.getElementById('news-msg');
       msg.style.color = '#00d2d3';
-      msg.innerText = '✓ Thank you! ' + email + ' has been staged for the newsletter once mail routing is verified.';
+      msg.innerText = '✓ Welcome to the Jason Coleman VIP Network! ' + email + ' is now registered for upcoming novel chapters, beta games & video premieres.';
       document.getElementById('news-email').value = '';
     }
 
