@@ -3,182 +3,427 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jason Coleman Media & Literary Network | Dark Fantasy, War Docs, Comics & Fiction</title>
-  <meta name="description" content="Explore original dark fantasy vampire sagas, gritty war documentaries, independent comics, kids stories, political analysis, and comedy by author & creator Jason Coleman.">
-  <meta name="keywords" content="Jason Coleman author, Jason Coleman books, dark fantasy vampire novels, military documentaries, war history videos, independent graphic novels, funny shorts, men's entertainment">
+  <title>Jason Coleman Official Creator Hub | 8 Published Books, 800+ Videos, TikTok & Fiction</title>
+  <meta name="description" content="Official home of author and creator Jason Coleman. Explore 8 published books on Amazon, stream 800+ documentary videos on YouTube, and watch daily TikTok comedy reels @jasontv1982.">
+  <meta name="keywords" content="Jason Coleman, Jason Coleman author, Jason Coleman books, Jason Coleman YouTube, TikTok jasontv1982, vampire fiction, war documentaries, dark fantasy novels, children's books">
   
-  <!-- OpenGraph -->
-  <meta property="og:title" content="Jason Coleman Media & Literary Hub">
-  <meta property="og:description" content="Over 800 videos, multi-genre novels, graphic series, and deep documentaries.">
+  <meta property="og:title" content="Jason Coleman Official Creator Hub">
+  <meta property="og:description" content="8 Published Books • 800+ Video Documentaries • Daily TikTok Comedy">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aaahoneydo-arch.github.io/jason-coleman-media-network/">
 
-  <!-- Schema.org Rich Snippet for Author & CreativeWork -->
+  <!-- Schema.org Person & Author Rich Snippet -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Jason Coleman",
-    "jobTitle": "Author & Video Creator",
+    "jobTitle": "Author & Video Producer",
     "sameAs": [
       "https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q",
+      "https://www.tiktok.com/@jasontv1982",
       "https://www.amazon.com/author/jasoncolemanbooks"
     ],
-    "description": "Prolific independent author and video producer producing dark fantasy vampire fiction, military history documentaries, comics, and political commentary."
+    "description": "Prolific independent author and video producer producing dark fantasy vampire fiction, military history documentaries, comics, and daily observational comedy."
   }
   </script>
 
-  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --bg: #090c15;
+      --card-bg: #121826;
+      --card-border: #1e283d;
+      --accent-red: #ff3b30;
+      --accent-cyan: #00d2d3;
+      --accent-gold: #ffaa00;
+      --accent-pink: #fe2c55;
+      --text: #f0f4f8;
+      --text-muted: #8c9eb5;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding-bottom: 5rem;
+    }
+    
+    /* Navigation Bar */
+    header {
+      background: rgba(18, 24, 38, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1rem 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand { font-size: 1.4rem; font-weight: 900; letter-spacing: -0.5px; color: #fff; text-decoration: none; }
+    .brand span { color: var(--accent-red); }
+    .nav-menu {
+      display: flex;
+      gap: 1.25rem;
+      align-items: center;
+      list-style: none;
+    }
+    .nav-menu a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .nav-menu a:hover { color: #fff; }
+    .nav-btns { display: flex; gap: 0.6rem; align-items: center; }
+    .nav-btn {
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .nav-btn:hover { opacity: 0.88; }
+    .btn-tt { background: var(--accent-pink); color: #fff; }
+    .btn-yt { background: var(--accent-red); color: #fff; }
+    .btn-amz { background: var(--accent-gold); color: #111; }
+
+    /* Hero Section */
+    .hero {
+      max-width: 1140px;
+      margin: 2.5rem auto 3.5rem;
+      padding: 3.5rem 2rem;
+      background: linear-gradient(180deg, #151e30 0%, #0e1422 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 59, 48, 0.15);
+      border: 1px solid rgba(255, 59, 48, 0.35);
+      color: #ff6b6b;
+      padding: 0.4rem 1.2rem;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      margin-bottom: 1.25rem;
+      color: #fff;
+    }
+    p.lead {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      max-width: 800px;
+      margin: 0 auto 2.5rem;
+    }
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .btn-large {
+      padding: 1rem 1.8rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-large:hover { transform: translateY(-2px); }
+    .btn-large.tt { background: var(--accent-pink); color: #fff; box-shadow: 0 4px 20px rgba(254,44,85,0.4); }
+    .btn-large.yt { background: var(--accent-red); color: #fff; box-shadow: 0 4px 20px rgba(255,59,48,0.4); }
+    .btn-large.amz { background: var(--accent-gold); color: #111; box-shadow: 0 4px 20px rgba(255,170,0,0.4); }
+
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+      border-top: 1px solid var(--card-border);
+      padding-top: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .stat-box h3 { font-size: 2rem; font-weight: 900; color: #fff; }
+    .stat-box p { color: var(--text-muted); font-size: 0.95rem; font-weight: 600; }
+
+    /* Content Containers */
+    .container { max-width: 1140px; margin: 0 auto 4rem; padding: 0 1.5rem; }
+    .section-title {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .section-sub { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
+
+    /* Showcase Grids */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,0.2); }
+    .card-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    .tag-books { background: rgba(255, 170, 0, 0.15); color: var(--accent-gold); }
+    .tag-video { background: rgba(255, 59, 48, 0.15); color: var(--accent-red); }
+    .tag-tiktok { background: rgba(254, 44, 85, 0.15); color: var(--accent-pink); }
+    .card h3 { font-size: 1.35rem; color: #fff; margin-bottom: 0.75rem; line-height: 1.3; }
+    .card p { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 1.5rem; }
+    .card-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.25rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .card-cta:hover { opacity: 0.9; }
+
+    /* Newsletter Box */
+    .newsletter-banner {
+      background: linear-gradient(135deg, #182236 0%, #111827 100%);
+      border: 1px solid var(--accent-cyan);
+      border-radius: var(--radius);
+      padding: 3rem 2rem;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    .newsletter-banner h2 { font-size: 2.2rem; color: #fff; margin-bottom: 0.75rem; }
+    .newsletter-banner p { color: var(--text-muted); font-size: 1.1rem; max-width: 650px; margin: 0 auto 1.75rem; }
+    
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding-top: 3rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+    footer a { color: var(--accent-gold); text-decoration: none; font-weight: 600; }
+  </style>
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="nav-container">
-      <a href="index.html" class="brand">JASON COLEMAN HUB</a>
-      <ul class="nav-links">
-        <li><a href="#fantasy">Vampire & Fantasy</a></li>
-        <li><a href="#military">Wars & Politics</a></li>
-        <li><a href="#comics">Comics & Graphic Novels</a></li>
-        <li><a href="#comedy">Comedy Shorts</a></li>
-        <li><a href="#kids">Kids Stories</a></li>
+  <header>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">JASON COLEMAN <span>CREATIVE HUB</span></a>
+      <ul class="nav-menu">
+        <li><a href="#books">Books (8)</a></li>
+        <li><a href="#videos">YouTube (800+)</a></li>
+        <li><a href="#tiktok">TikTok Shorts</a></li>
+        <li><a href="#newsletter">VIP Dispatch</a></li>
       </ul>
-      <div class="header-cta-group">
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-yt">
-          ▶ Watch on YouTube
-        </a>
-        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-amazon">
-          📚 Amazon Books
-        </a>
+      <div class="nav-btns">
+        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt">TikTok</a>
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt">YouTube</a>
+        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="nav-btn btn-amz">Amazon</a>
       </div>
     </div>
   </header>
 
   <main>
+    <!-- Master Hero Section -->
     <section class="hero">
-      <span class="hero-badge">Direct Creator Network</span>
-      <h1>Stories, Cinema & Hard-Hitting Analysis</h1>
-      <p>From blood-drenched dark vampire fantasy and epic graphic novels to unfiltered wartime documentaries and razor-sharp political essays. Enter the multi-genre universe of Jason Coleman.</p>
+      <span class="badge">Independent Author & Content Creator</span>
+      <h1>Unfiltered Fiction, Deep Documentaries & Pure Entertainment</h1>
+      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore 8 published novels and books on Amazon, dive into 800+ military history documentaries on YouTube, and catch daily comedy rants on TikTok.</p>
       
-      <div class="header-cta-group" style="justify-content: center;">
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-yt" style="font-size: 1rem; padding: 0.75rem 1.5rem;">
-          Subscribe on YouTube (800+ Videos)
-        </a>
-        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-amazon" style="font-size: 1rem; padding: 0.75rem 1.5rem;">
-          Browse All 8 Books on Amazon
-        </a>
+      <div class="hero-actions">
+        <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-large amz">📚 Explore 8 Books on Amazon</a>
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt">▶ Stream 800+ Videos on YouTube</a>
+        <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt">♬ Follow TikTok @jasontv1982</a>
       </div>
 
-      <div class="stats-bar">
-        <div class="stat-item">
+      <div class="stats-strip">
+        <div class="stat-box">
+          <h3>8</h3>
+          <p>Published Books on Amazon</p>
+        </div>
+        <div class="stat-box">
           <h3>800+</h3>
-          <p>Documentaries & Shorts</p>
+          <p>Documentary & Media Episodes</p>
         </div>
-        <div class="stat-item">
-          <h3>8+</h3>
-          <p>Published Novels & Books</p>
+        <div class="stat-box">
+          <h3>Daily</h3>
+          <p>TikTok Comedy Shorts</p>
         </div>
-        <div class="stat-item">
-          <h3>Multiple</h3>
-          <p>Upcoming Graphic Novels</p>
-        </div>
-        <div class="stat-item">
-          <h3>Global</h3>
-          <p>International Readership</p>
+        <div class="stat-box">
+          <h3>100%</h3>
+          <p>Independent Storytelling</p>
         </div>
       </div>
     </section>
 
-    <!-- Niche Discovery Grid -->
-    <section class="container" id="genres">
-      <div class="section-header">
-        <h2>Explore By Genre & Category</h2>
-        <p>Targeted archives linking directly to long-form video breakdowns and full bookstore listings.</p>
-      </div>
-
-      <div class="niche-grid">
-        <!-- Card 1: Vampire & Dark Fantasy -->
-        <article class="card" id="fantasy">
-          <div>
-            <span class="card-tag tag-fantasy">Dark Fantasy & Horror</span>
-            <h3>Vampire Lore, Mythos & Dark Realms</h3>
-            <p>Immerse yourself in gritty vampire novels and dark fantasy epics. Rich worldbuilding, supernatural warfare, and atmospheric fiction for serious fantasy enthusiasts.</p>
-          </div>
-          <div class="card-actions">
-            <a href="niche-vampires-fantasy.html" class="btn-card-yt">Read Article & Lore Guide</a>
-            <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-card-book">Get Novels on Amazon</a>
-          </div>
-        </article>
-
-        <!-- Card 2: Military & Wars -->
-        <article class="card" id="military">
-          <div>
-            <span class="card-tag tag-military">Military & Geopolitics</span>
-            <h3>Wars, Warfare Tactics & Historical Documentaries</h3>
-            <p>Unfiltered explorations of frontline warfare, battlefield decisions, historical battles, and geopolitical clashes analyzed from realistic ground perspectives.</p>
-          </div>
-          <div class="card-actions">
-            <a href="niche-war-documentaries.html" class="btn-card-yt">View War Dossiers</a>
-            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="btn-card-yt">Watch War Docs</a>
-          </div>
-        </article>
-
-        <!-- Card 3: Graphic Novels & Comics -->
-        <article class="card" id="comics">
-          <div>
-            <span class="card-tag tag-comics">Visual Fiction</span>
-            <h3>Comics & Graphic Novel Sagas</h3>
-            <p>Cinematic storyboards turned into dark, energetic sequential art. Discover visual trailers and previews of Jason Coleman's upcoming graphic releases.</p>
-          </div>
-          <div class="card-actions">
-            <a href="niche-comics-graphic-novels.html" class="btn-card-yt">Comic Previews</a>
-            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="btn-card-yt">Watch Video Trailers</a>
-          </div>
-        </article>
-
-        <!-- Card 4: Comedy & Entertainment for Men -->
-        <article class="card" id="comedy">
-          <div>
-            <span class="card-tag tag-comedy">Entertainment</span>
-            <h3>Sharp Comedy, Wild Shorts & Real Talk</h3>
-            <p>No-filter observations, irreverent skits, and hilarious viral shorts tailored for guys looking for authentic, unapologetic entertainment.</p>
-          </div>
-          <div class="card-actions">
-            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="btn-card-yt">Watch 800+ Shorts & Vids</a>
-          </div>
-        </article>
-
-        <!-- Card 5: Children's Books -->
-        <article class="card" id="kids">
-          <div>
-            <span class="card-tag tag-kids">Young Readers</span>
-            <h3>Engaging Children's Stories</h3>
-            <p>Whimsical storytelling, imaginative themes, and engaging adventures written to foster creativity, courage, and a love for reading in young minds.</p>
-          </div>
-          <div class="card-actions">
-            <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-card-book">Shop Kids Books</a>
-          </div>
-        </article>
-
-        <!-- Card 6: Politics & Society -->
+    <!-- SECTION 1: BOOKS & LITERARY CATALOG -->
+    <section class="container" id="books">
+      <h2 class="section-title">📚 Published Books & Novels Catalog</h2>
+      <p class="section-sub">Explore full-length novels and illustrated adventures available in paperback and Kindle editions on Amazon.</p>
+      
+      <div class="grid">
         <article class="card">
           <div>
-            <span class="card-tag tag-military">Commentary</span>
-            <h3>Political Deep-Dives & World Analysis</h3>
-            <p>Cutting through the noise of media spin to break down power struggles, cultural shifts, and political debates driving the modern world.</p>
+            <span class="card-tag tag-books">Dark Fantasy Novel</span>
+            <h3>Vampire Sagas & Ancient Bloodline Covenants</h3>
+            <p>Calculated apex predators, blood oaths, and shadowy gothic politics. No romantic cliches—pure supernatural conflict, ancient power struggles, and high-tension storytelling.</p>
           </div>
-          <div class="card-actions">
-            <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="btn-card-yt">Watch Political Breakdowns</a>
-            <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="btn-card-book">Read Non-Fiction Books</a>
-          </div>
+          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
         </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-books">Military & Action Thriller</span>
+            <h3>Gritty Combat Realism & Tactical Fiction</h3>
+            <p>Authentic weapons dynamics, battlefield friction, and unrelenting squad-level survival under fire. Written for enthusiasts of serious tactical military operations.</p>
+          </div>
+          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-books">Illustrated Children's Fiction</span>
+            <h3>Bedtime Adventures & Heartwarming Tales</h3>
+            <p>Whimsical picture stories featuring courageous animal heroes, soothing bedtime rhymes, and engaging adventures that inspire kindness and imagination in young readers.</p>
+          </div>
+          <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" class="card-cta btn-amz">Order on Amazon &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 2: YOUTUBE DOCUMENTARIES & VIDEO ARCHIVE -->
+    <section class="container" id="videos">
+      <h2 class="section-title">🎬 YouTube Video Archive (800+ Episodes)</h2>
+      <p class="section-sub">Deep-dive documentary series, historic warfare retrospectives, cinema dissections, and tactical gameplay reviews.</p>
+      
+      <div class="grid">
+        <article class="card">
+          <div>
+            <span class="card-tag tag-video">Military Documentaries</span>
+            <h3>Battlefield Tactics, Armor & War History</h3>
+            <p>Comprehensive tactical retrospectives examining WWII armored maneuvers, naval carrier strikes in the Pacific, Vietnam air cavalry operations, and cold war undersea stealth.</p>
+          </div>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Stream Free on YouTube &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-video">Cinema & Pop Culture</span>
+            <h3>80s & 90s Action Cinema Dissections</h3>
+            <p>Why classic action movies hit harder: celebrating practical stuntwork, real pyrotechnics, tension building, and iconic sound design against modern digital effects.</p>
+          </div>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Watch Movie Breakdowns &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-video">Gaming Mechanics</span>
+            <h3>Tactical Shooters & Steam Early Access</h3>
+            <p>Alpha playtest assessments, gunplay recoil dynamics, hardcore survival permadeath loops, and no-fluff assessments of upcoming indie and AAA gaming releases.</p>
+          </div>
+          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="card-cta btn-yt">Explore Gaming Streams &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TIKTOK VIRAL REELS & DAILY SHORTS -->
+    <section class="container" id="tiktok">
+      <h2 class="section-title">♬ TikTok @jasontv1982 & Daily Comedy Shorts</h2>
+      <p class="section-sub">Quick, unvarnished laughs, handyman fails, gym realities, and everyday working-man observations.</p>
+      
+      <div class="grid">
+        <article class="card">
+          <div>
+            <span class="card-tag tag-tiktok">Viral TikTok Reels</span>
+            <h3>Jobsite Fails & Handyman Realities</h3>
+            <p>Weekend DIY disasters, contractor nightmares, missing 10mm sockets, and the sheer comedy of home improvement projects gone completely wrong.</p>
+          </div>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Follow @jasontv1982 &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-tiktok">Everyday Satire</span>
+            <h3>Blue-Collar Rants & Real Life Observational Humor</h3>
+            <p>Relatable morning commute rage, grocery store sticker shock, suburban dad stereotypes, and unvarnished common sense rants that cut through the noise.</p>
+          </div>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Watch Comedy Clips &rarr;</a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="card-tag tag-tiktok">Behind The Scenes</span>
+            <h3>Writer Life, Book Previews & Uncut Takes</h3>
+            <p>Quick video dispatches from the writing desk, early drafts of upcoming books, and unfiltered Q&A sessions with readers and viewers.</p>
+          </div>
+          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="card-cta btn-tt">Join on TikTok &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 4: NEWSLETTER / VIP DISPATCH -->
+    <section class="container" id="newsletter">
+      <div class="newsletter-banner">
+        <h2>Join The Coleman Dispatch</h2>
+        <p>Get exclusive book release alerts, free short-form horror previews, and behind-the-scenes military history essays sent directly to your inbox. No spam, ever.</p>
+        <div style="display:flex; justify-content:center; gap: 0.75rem; max-width: 480px; margin: 0 auto; flex-wrap: wrap;">
+          <input type="email" placeholder="Enter your email address" style="padding: 0.85rem 1.2rem; border-radius: 6px; border: 1px solid var(--card-border); background: #0c121e; color: #fff; flex: 1; min-width: 240px; font-size: 1rem;">
+          <button type="button" onclick="alert('Thank you for subscribing to The Coleman Dispatch!')" style="padding: 0.85rem 1.6rem; border-radius: 6px; background: var(--accent-cyan); color: #090c15; border: none; font-weight: 800; font-size: 1rem; cursor: pointer;">Subscribe Free</button>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2026 Jason Coleman Creative Network. All rights reserved.</p>
-    <p style="margin-top: 0.5rem;">
-      <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" style="color: var(--accent-amber);">Official YouTube Channel</a> &bull; 
-      <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener" style="color: var(--accent-amber);">Official Amazon Author Catalog</a>
+    <p style="margin-top: 0.75rem;">
+      <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener">TikTok (@jasontv1982)</a> &bull; 
+      <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener">YouTube (800+ Videos)</a> &bull; 
+      <a href="https://www.amazon.com/author/jasoncolemanbooks" target="_blank" rel="noopener">Amazon Author Catalog (8 Books)</a>
     </p>
   </footer>
 
