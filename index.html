@@ -283,6 +283,7 @@
         <li><a href="#newsletter">Newsletter</a></li>
       </ul>
       <div class="nav-btns">
+        <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="nav-btn btn-pin track-click" data-target="pinterest_nav" style="background:#e60023;color:#fff;">Pinterest</a>
         <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt track-click" data-target="tiktok_nav">TikTok</a>
         <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt track-click" data-target="youtube_nav">YouTube</a>
         <a href="#books" class="nav-btn btn-amz track-click" data-target="books_nav">Books</a>
@@ -295,11 +296,12 @@
     <section class="hero">
       <span class="badge">Independent Author & Content Creator</span>
       <h1>Unfiltered Fiction, Deep Documentaries & Pure Entertainment</h1>
-      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore original novels including <em>The Shattered Crown</em>, stream 800+ military history documentaries on YouTube, and catch daily comedy rants on TikTok.</p>
+      <p class="lead">Welcome to the central network of author and producer Jason Coleman. Explore original novels including <em>The Shattered Crown</em>, stream 800+ military history documentaries on YouTube, follow daily visual ideas on Pinterest, and catch comedy rants on TikTok.</p>
       
       <div class="hero-actions">
         <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore Published Books</a>
         <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt track-click" data-target="hero_youtube">▶ Stream 800+ Videos on YouTube</a>
+        <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="btn-large pin track-click" data-target="hero_pinterest" style="background:#e60023;color:#fff;box-shadow:0 4px 20px rgba(230,0,35,0.4);">📌 Follow Pinterest</a>
         <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ Follow TikTok @jasontv1982</a>
       </div>
 
@@ -345,6 +347,10 @@
           <div class="dash-metric">
             <div class="dash-metric-num" id="stat-tt">0</div>
             <div class="dash-metric-lbl">TikTok Clicks</div>
+          </div>
+          <div class="dash-metric">
+            <div class="dash-metric-num" id="stat-pin">0</div>
+            <div class="dash-metric-lbl">Pinterest Clicks</div>
           </div>
           <div class="dash-metric">
             <div class="dash-metric-num" id="stat-amz">0</div>
@@ -513,7 +519,7 @@
       if (data) {
         try { return JSON.parse(data); } catch(e) {}
       }
-      return { sessions: 0, youtube: 0, tiktok: 0, amazon: 0, total: 0 };
+      return { sessions: 0, youtube: 0, tiktok: 0, pinterest: 0, amazon: 0, total: 0 };
     }
 
     function saveTelemetry(data) {
@@ -526,12 +532,14 @@
       const sEl = document.getElementById('stat-sessions');
       const ytEl = document.getElementById('stat-yt');
       const ttEl = document.getElementById('stat-tt');
+      const pinEl = document.getElementById('stat-pin');
       const amzEl = document.getElementById('stat-amz');
       const totEl = document.getElementById('stat-total');
 
       if (sEl) sEl.textContent = d.sessions;
       if (ytEl) ytEl.textContent = d.youtube;
       if (ttEl) ttEl.textContent = d.tiktok;
+      if (pinEl) pinEl.textContent = d.pinterest || 0;
       if (amzEl) amzEl.textContent = d.amazon;
       if (totEl) totEl.textContent = d.total;
     }
@@ -541,6 +549,7 @@
       d.total = (d.total || 0) + 1;
       if (type === 'youtube') d.youtube = (d.youtube || 0) + 1;
       else if (type === 'tiktok') d.tiktok = (d.tiktok || 0) + 1;
+      else if (type === 'pinterest') d.pinterest = (d.pinterest || 0) + 1;
       else if (type === 'amazon') d.amazon = (d.amazon || 0) + 1;
       
       saveTelemetry(d);
@@ -566,6 +575,7 @@
           let type = 'general';
           if (target.includes('youtube')) type = 'youtube';
           else if (target.includes('tiktok')) type = 'tiktok';
+          else if (target.includes('pinterest') || target.includes('pin')) type = 'pinterest';
           else if (target.includes('book') || target.includes('amazon') || el.classList.contains('btn-amz')) type = 'amazon';
 
           recordOutbound(type, target);
