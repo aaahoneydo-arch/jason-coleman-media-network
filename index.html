@@ -55,6 +55,24 @@
       --radius-sm: 8px;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #07090e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 5px;
+      border: 2px solid #07090e;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-gold);
+    }
     body {
       background-color: var(--bg);
       color: var(--text);
@@ -62,9 +80,9 @@
       line-height: 1.6;
       overflow-x: hidden;
       background-image: 
-        radial-gradient(circle at 15% 15%, rgba(0, 210, 211, 0.06) 0%, transparent 40%),
-        radial-gradient(circle at 85% 45%, rgba(254, 44, 85, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 50% 85%, rgba(255, 170, 0, 0.05) 0%, transparent 40%);
+        radial-gradient(circle at 15% 15%, rgba(0, 210, 211, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 45%, rgba(254, 44, 85, 0.07) 0%, transparent 40%),
+        radial-gradient(circle at 50% 85%, rgba(255, 170, 0, 0.06) 0%, transparent 40%);
     }
 
     h1, h2, h3, h4, .brand, .btn-large {
@@ -393,6 +411,38 @@
       font-size: 0.85rem;
       font-weight: 700;
       margin-top: 1rem;
+    }
+
+    #back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: rgba(18, 24, 38, 0.85);
+      border: 1px solid var(--accent-gold);
+      color: var(--accent-gold);
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, transform 0.3s, background-color 0.2s;
+      z-index: 999;
+    }
+    #back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    #back-to-top:hover {
+      background: var(--accent-gold);
+      color: #07090e;
+      transform: translateY(-3px);
     }
 
     footer {
@@ -862,6 +912,7 @@
       <div class="grid">
         <!-- Video 1: SPARTA: The Brutal Truth Behind the Legend -->
         <article class="card">
+          <img src="assets/sparta-feature.jpg" alt="SPARTA The Brutal Truth Behind the Legend 4K Documentary on JasonTV" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video" style="background:rgba(255,59,48,0.15);color:var(--accent-red);">4K Cinematic History &bull; 1.9K+ Views</span>
@@ -898,6 +949,7 @@
 
         <!-- Video 4: The Most Amazing Facts About Space -->
         <article class="card">
+          <img src="assets/space-feature.jpg" alt="The Most Amazing Facts About Space on JasonTV" class="card-thumb" style="height:200px; object-fit:cover;">
           <div class="card-body">
             <div>
               <span class="card-tag tag-video" style="background:rgba(0,210,211,0.15);color:var(--accent-cyan);">Cosmic Documentary &bull; 3K+ Views</span>
@@ -1125,7 +1177,23 @@
           else recordClick('other');
         });
       });
+
+      // Floating Back-to-Top logic
+      const topBtn = document.getElementById('back-to-top');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 400) {
+          topBtn.classList.add('visible');
+        } else {
+          topBtn.classList.remove('visible');
+        }
+      });
+      topBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     });
   </script>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</button>
 </body>
 </html>
