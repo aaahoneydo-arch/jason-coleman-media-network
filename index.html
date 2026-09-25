@@ -247,26 +247,47 @@
     }
     .book-featured-card {
       display: grid;
-      grid-template-columns: 200px 1fr;
-      gap: 1.75rem;
-      background: linear-gradient(135deg, rgba(21, 28, 44, 0.85) 0%, rgba(13, 18, 31, 0.95) 100%);
+      grid-template-columns: 220px 1fr;
+      gap: 2rem;
+      background: linear-gradient(135deg, rgba(21, 28, 44, 0.95) 0%, rgba(13, 18, 31, 0.98) 100%);
       border: 1px solid rgba(255, 170, 0, 0.35);
       border-radius: var(--radius);
-      padding: 2rem;
+      padding: 2.25rem 2rem;
       align-items: center;
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
     }
     .book-featured-card.americana {
       border-color: rgba(0, 210, 211, 0.35);
     }
-    .book-cover-img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.8);
-      transition: transform 0.3s;
+    .book-cover-stage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem 1rem;
+      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.45) 100%);
+      border-radius: 12px;
+      min-height: 290px;
     }
-    .book-cover-img:hover {
-      transform: translateY(-4px) scale(1.03);
+    .book-cover-3d {
+      width: 175px;
+      max-width: 100%;
+      aspect-ratio: 1 / 1.55;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 4px 10px 10px 4px;
+      box-shadow: 
+        -4px 4px 12px rgba(0, 0, 0, 0.7),
+        0 14px 28px rgba(0, 0, 0, 0.6),
+        inset 4px 0 6px rgba(255, 255, 255, 0.15),
+        inset -2px 0 4px rgba(0, 0, 0, 0.4);
+      transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s ease;
+      filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.8));
+    }
+    .book-cover-3d:hover {
+      transform: translateY(-6px) scale(1.04);
+      box-shadow: 
+        -6px 8px 18px rgba(0, 0, 0, 0.8),
+        0 20px 40px rgba(0, 0, 0, 0.7);
     }
     .book-info h3 { font-size: 1.8rem; color: #fff; margin-bottom: 0.4rem; }
     .book-info p { color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.25rem; }
@@ -386,7 +407,8 @@
     @media (max-width: 900px) {
       .books-showcase-grid { grid-template-columns: 1fr; }
       .book-featured-card { grid-template-columns: 1fr; text-align: center; }
-      .book-cover-img { max-width: 220px; margin: 0 auto 1rem; }
+      .book-cover-stage { min-height: 250px; margin-bottom: 1rem; }
+      .book-cover-3d { width: 160px; }
       h1 { font-size: 2.2rem; }
       .hero-banner-wrapper { height: 260px; }
     }
@@ -512,7 +534,9 @@
       <div class="books-showcase-grid">
         <!-- Book 1: The Shattered Crown -->
         <div class="book-featured-card">
-          <img src="assets/books/shattered_crown.jpg" alt="The Shattered Crown by Jason Coleman" class="book-cover-img" style="aspect-ratio:2/3; object-fit:cover;">
+          <div class="book-cover-stage">
+            <img src="assets/books/shattered_crown.jpg" alt="The Shattered Crown by Jason Coleman" class="book-cover-3d">
+          </div>
           <div class="book-info">
             <span class="card-tag tag-books">Epic Dark Fantasy Novel &bull; 179 Pages</span>
             <h3>The Shattered Crown</h3>
@@ -527,7 +551,9 @@
 
         <!-- Book 2: The Real Americana -->
         <div class="book-featured-card americana">
-          <img src="assets/books/real_americana.jpg" alt="The Real Americana: A Novel Inspired by True Events by Jason Coleman" class="book-cover-img" style="aspect-ratio:2/3; object-fit:cover;">
+          <div class="book-cover-stage">
+            <img src="assets/books/real_americana.jpg" alt="The Real Americana: A Novel Inspired by True Events by Jason Coleman" class="book-cover-3d">
+          </div>
           <div class="book-info">
             <span class="card-tag tag-books" style="background:rgba(0,210,211,0.15);color:var(--accent-cyan);">Autobiographical Fiction &bull; Raw American Story</span>
             <h3>The Real Americana</h3>
@@ -545,8 +571,8 @@
       <div class="grid">
         <!-- Book 3: DRAEVAN: The Immortal -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/draevan.jpg" alt="Draevan : Book One: The Immortal by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/draevan.jpg" alt="Draevan : Book One: The Immortal by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -563,8 +589,8 @@
 
         <!-- Book 4: The Deception Habit -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/deception.jpg" alt="The Deception Habit by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/deception.jpg" alt="The Deception Habit by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -578,8 +604,8 @@
 
         <!-- Book 5: Life In The Year 2035 -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/year_2035.jpg" alt="Life In The Year 2035 by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/year_2035.jpg" alt="Life In The Year 2035 by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -596,8 +622,8 @@
 
         <!-- Book 6: The Moonlight Outcasts -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/moonlight_outcasts.jpg" alt="The Moonlight Outcasts by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/moonlight_outcasts.jpg" alt="The Moonlight Outcasts by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -614,8 +640,8 @@
 
         <!-- Book 7: TIFF: Book One: I AM -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/tiff.jpg" alt="TIFF: Book One: I AM by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/tiff.jpg" alt="TIFF: Book One: I AM by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -629,8 +655,8 @@
 
         <!-- Book 8: How Matter Became Conscious -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/matter_conscious.jpg" alt="How Matter Became Conscious by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/matter_conscious.jpg" alt="How Matter Became Conscious by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
@@ -647,8 +673,8 @@
 
         <!-- Book 9: Old Men Start Wars That Young Men Die In -->
         <article class="card">
-          <div style="text-align:center; padding:1.5rem 1.5rem 0; background:rgba(0,0,0,0.2);">
-            <img src="assets/books/old_men_wars.jpg" alt="Old Men Start Wars That Young Men Die In by Jason Coleman" style="max-height:220px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.7);">
+          <div class="book-cover-stage">
+            <img src="assets/books/old_men_wars.jpg" alt="Old Men Start Wars That Young Men Die In by Jason Coleman" class="book-cover-3d">
           </div>
           <div class="card-body">
             <div>
