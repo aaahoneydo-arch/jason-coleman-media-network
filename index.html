@@ -138,6 +138,40 @@
     .btn-yt { background: var(--accent-red); color: #fff; }
     .btn-amz { background: var(--accent-gold); color: #111; }
 
+    /* Multilingual Switcher */
+    .lang-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-sm);
+      padding: 0.35rem 0.6rem;
+    }
+    .lang-icon { font-size: 0.95rem; }
+    #google_translate_element {
+      display: inline-block;
+    }
+    .goog-te-gadget-simple {
+      background-color: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+      font-size: 0.82rem !important;
+      font-family: inherit !important;
+      color: #fff !important;
+    }
+    .goog-te-gadget-simple .goog-te-menu-value {
+      color: #e2e8f0 !important;
+    }
+    .goog-te-gadget-simple .goog-te-menu-value span {
+      text-decoration: none !important;
+      color: #e2e8f0 !important;
+      font-weight: 600 !important;
+    }
+    .goog-te-gadget-icon { display: none !important; }
+    .goog-te-banner-frame { display: none !important; }
+    body { top: 0px !important; }
+
     /* Ultra-Premium Hero Showcase */
     .hero {
       max-width: 1240px;
@@ -483,6 +517,10 @@
         <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt track-click" data-target="tiktok_nav">TikTok</a>
         <a href="https://www.pinterest.com/aaahoneydo/" target="_blank" rel="noopener" class="nav-btn btn-pin track-click" data-target="pinterest_nav" style="background:#e60023;color:#fff;">Pinterest</a>
         <a href="https://www.goodreads.com/user/show/204581010-honey-do" target="_blank" rel="noopener" class="nav-btn btn-gr track-click" data-target="goodreads_nav" style="background:#7b5e38;color:#fff;">Goodreads</a>
+        <div class="lang-switcher" title="Translate Website into 100+ Languages">
+          <span class="lang-icon">🌐</span>
+          <div id="google_translate_element"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -1195,5 +1233,18 @@
 
   <!-- Floating Back to Top Button -->
   <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8679;</button>
+
+  <!-- Google Translate Multilingual Script -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'es,fr,de,it,pt,ru,zh-CN,ja,ko,ar,hi,nl,pl,tr,vi,id,uk,el,he,sv',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
