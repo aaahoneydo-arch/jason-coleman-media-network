@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Master Flagship Hub -->
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- High-Value Core Hubs & Gamers Hub -->
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-gamers-hub/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/niche-vampires-fantasy.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/niche-war-documentaries.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/niche-comics-graphic-novels.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Deep Historical & Tactical Warfare Dissections -->
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/battle-of-midway-carrier-warfare.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/stalingrad-urban-tactics-rattenkrieg.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/vietnam-tunnel-rats-guerrilla-warfare.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/cold-war-blackbird-sr71-mach-3-recon.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Action Cinema & Cult Dissections -->
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/die-hard-building-siege-blueprint.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/80s-action-cinema-practical-explosions-vs-cgi.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/john-carpenter-the-thing-practical-fx-mastery.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Viral Shorts & TikTok Comedy -->
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/viral-tiktok-humor-blue-collar-rants.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/tiktok-contractor-nightmares-jobsite-fails.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Googlebot, Bingbot, YandexBot, DuckDuckBot, Applebot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://aaahoneydo-arch.github.io/jason-coleman-media-network/sitemap.xml
