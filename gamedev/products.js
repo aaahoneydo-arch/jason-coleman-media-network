@@ -497,7 +497,7 @@ const PRODUCTS = [
       "Client Prediction"
     ],
     "cover": "assets/covers/dungeonengine.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/multiplayer-state-sync-deterministic-netcode-engine",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Production-grade headless multiplayer netcode engine. Features client-side movement prediction with input buffers, authoritative server reconciliation, smooth cubic Hermite entity interpolation, delta compression for network snapshots, lag compensation rewind raycasting, room/lobby/session state machine, and simulated latency/jitter/packet-loss testing harnesses.",
     "specs": [
@@ -521,7 +521,7 @@ const PRODUCTS = [
       "Grid & Slot Inventory"
     ],
     "cover": "assets/covers/dungeonengine.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/inventory-crafting-loot-matrix-engine",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Modular headless inventory, crafting, and loot engine for RPGs, survival games, and roguelikes. Features Resident Evil / Diablo style 2D grid spatial placement with item rotation and collision checks, standard slot-based stack/weight systems, multi-station recipe crafting (shapeless, shaped, catalyst), 4-tier weighted drop matrices, equipment paperdoll sockets with gem durability, and atomic JSON serialization.",
     "specs": [
@@ -545,7 +545,7 @@ const PRODUCTS = [
       "GOAP & Behavior Trees"
     ],
     "cover": "assets/covers/tacticalgrid.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/behavior-tree-goap-ai-decision-architecture",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Autonomous decision-making engine for indie game developers. Combines hierarchical Behavior Trees (Sequences, Selectors, Inverters, Repeats, Cooldowns) with Goal-Oriented Action Planning (GOAP) via A* search over symbolic world state. Built-in reactive Blackboard state management, sensory perception pipeline, and step-by-step debug logging.",
     "specs": [
@@ -593,7 +593,7 @@ const PRODUCTS = [
       "Socket Snapping"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/godot-4-modular-castle-fortress-building-system",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "A complete runtime modular building system extracted from production Godot 4 code. Place fortress walls, battlements, towers, ramps, and gates on a 3D grid with snap-to-socket mechanics, automatic collision generation, structural stability validation, and instant JSON save/load persistence.",
     "specs": [
@@ -617,7 +617,7 @@ const PRODUCTS = [
       "Status Pipeline"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/godot-4-arpg-tactical-combat-defense-framework",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Production-ready 3D Action RPG combat framework for Godot 4. Includes precise hitbox/hurtbox registration, poise damage thresholds, stagger frames, active blocking, status ailment ticking (burn, poison, frost, bleed), combo attack buffers, projectile physics, and floating combat text HUD integration.",
     "specs": [
@@ -641,7 +641,7 @@ const PRODUCTS = [
       "Dungeon Crawl"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/godot-4-procedural-3d-dungeon-delve-terrain-engine",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Procedural 3D dungeon crawl and mountainous terrain generator for Godot 4. Generates multi-floor dungeons with room-and-corridor geometry, heightmap terrace sculpting, seeded level layouts, automatic stair and door placement, and dynamic room lighting anchors.",
     "specs": [
@@ -665,7 +665,7 @@ const PRODUCTS = [
       "Pet Summoning"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/",
+    "itchUrl": "https://jasonc101.itch.io/godot-4-autonomous-companion-pet-ai-summoning-system",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Complete companion, pet, and summoned minion AI architecture for Godot 4. Features intelligent follow behaviors with rubber-banding leash distances, combat target selection, autonomous spell/skill casting, assist modes, companion inventory, and a ready-to-use summon HUD bar.",
     "specs": [
