@@ -72,14 +72,14 @@ const PRODUCTS = [
   {
     "id": "i-got-this",
     "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-    "subtitle": "67.1 km² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+    "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
     "category": "godot",
     "price": 39.99,
     "rating": 5,
     "reviews": 21,
     "badges": [
       "Godot 4",
-      "67km² Terrain",
+      "67kmÂ² Terrain",
       "Base Building"
     ],
     "cover": "assets/covers/igotthis.jpg",
@@ -1007,6 +1007,127 @@ const PRODUCTS = [
       "Clean GDScript Component",
       "JSON Dialogue Formatting",
       "Commercial License Included"
+    ]
+  },
+  {
+    "id": "so-its-war-then-core-engine",
+    "title": "So It's War Then: 4-Faction RTS Core Simulation Engine",
+    "subtitle": "Deterministic headless RTS framework with 4 asymmetric factions, tactical bot AI & match telemetry.",
+    "category": "engine",
+    "price": 49.99,
+    "rating": 5,
+    "reviews": 38,
+    "badges": [
+      "4 Factions",
+      "Headless RTS",
+      "Tactical AI"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4faction-rts-core-engine",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Production-grade, high-performance RTS core simulation engine. Decoupled headless game loop, 4 completely distinct factions (Human, Zurgz swarm, Ironclad mechs, Ascended), multi-profile bot AI architectures, hero skill pipeline, and comprehensive telemetry metrics.",
+    "specs": [
+      "Pure Python & Pygame Ready",
+      "Headless High-Tick Sim",
+      "4 Asymmetric Factions",
+      "Full Commercial License"
+    ]
+  },
+  {
+    "id": "rts-formation-pathfinding-system",
+    "title": "RTS Multi-Unit Formation & Spatial Pathfinding Engine",
+    "subtitle": "Spatial hash grid partitioning, boids crowd flocking & tactical squad formation geometry.",
+    "category": "engine",
+    "price": 34.99,
+    "rating": 5,
+    "reviews": 21,
+    "badges": [
+      "Boids Flocking",
+      "Spatial Hash Grid",
+      "Squad Formations"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/rts-multi-unit-formation-pathfinding-system",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Drop-in spatial navigation and formation engine engineered for large unit counts in RTS and squad games. Includes 2D spatial grid partitioning, collision avoidance, crowd flocking, and dynamic formation adapting (Wedge, Box, Line, Column).",
+    "specs": [
+      "Sub-millisecond Spatial Queries",
+      "Vector Math / Python Core",
+      "Dynamic Obstacle Avoidance",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "rts-economy-techtree-matrix",
+    "title": "RTS Dynamic Economy, Tech Tree & Base Construction Matrix",
+    "subtitle": "Worker harvesting logistics, 21-phase branching tech trees & grid-aligned building placement.",
+    "category": "engine",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 17,
+    "badges": [
+      "Worker Logistics",
+      "21-Phase Tech Tree",
+      "Base Building"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/rts-economy-techtree-building-matrix",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Turnkey economic and technological foundation for real-time strategy games. Handles worker harvesting loops, drop-off warehouses, 21-phase tech dependencies, and grid-aligned construction collision checks with power grid validation.",
+    "specs": [
+      "Modular Python Architecture",
+      "Customizable Resource Nodes",
+      "Dependency Graph Resolver",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "warfront-rts-2d-sprite-vault",
+    "title": "Warfront RTS: 2D Building & Unit High-Res Sprite Sheet Vault",
+    "subtitle": "13 master high-res sprite sheets covering 4 factions, base buildings, terrain tiles & UI frames.",
+    "category": "assets",
+    "price": 39.99,
+    "rating": 5,
+    "reviews": 31,
+    "badges": [
+      "13 Master Sheets",
+      "4 Faction Sprites",
+      "Terrain & UI"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/warfront-rts-2d-building-unit-asset-vault",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Complete production art vault for 2D top-down RTS, Tower Defense, and tactical games. Features master sprite sheets for Human, Robot, Alien, and Zurgz rosters, faction buildings, hero structures, seamless terrain tiles, weathered tarmac, and UI command frames.",
+    "specs": [
+      "13 High-Res PNG Sheets",
+      "Grid-Aligned & Ready to Slice",
+      "Multiple Factions & Base Props",
+      "Commercial Royalty-Free License"
+    ]
+  },
+  {
+    "id": "necrodominion-conquest-framework",
+    "title": "Necro Dominion: Undead Legion Conquest Framework",
+    "subtitle": "Godot 4 minion horde AI, corpse harvesting, soul reanimation & dark grimoire spells suite.",
+    "category": "godot",
+    "price": 49.99,
+    "rating": 5,
+    "reviews": 44,
+    "badges": [
+      "Godot 4 Addon",
+      "Undead Minion AI",
+      "Corpse Harvesting",
+      "12 Summon Sprites"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/necrodominion-undead-legion-conquest-framework",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Extensive dark fantasy necromancy systems suite built and battle-tested in Godot 4. Includes corpse harvesting, minion swarm AI, autonomous companion spirits, dark grimoire spells, castle defense controller, and 12 hand-crafted summon roster sprites.",
+    "specs": [
+      "Godot 4.x Compatible",
+      "22 Production GDScripts",
+      "12 High-Res Undead Sprites",
+      "Full Commercial License"
     ]
   }
 ];
