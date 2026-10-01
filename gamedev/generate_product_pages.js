@@ -247,6 +247,7 @@ products.forEach(p => {
         </div>
       </a>
       <nav class="nav-menu">
+        <a href="../../index.html" class="nav-link" style="color:var(--cyan); font-weight:700;">🏠 Media Network Hub</a>
         <a href="../index.html#catalog" class="nav-link">Catalog (31)</a>
         <a href="${p.itchUrl}" target="_blank" rel="noopener" class="nav-btn-primary">
           <span>Buy on itch.io ($${p.price})</span>
