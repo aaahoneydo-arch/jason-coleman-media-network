@@ -1,4 +1,4 @@
-const PRODUCTS = [
+﻿const PRODUCTS = [
   {
     "id": "procedural-dungeon-engine",
     "title": "Procedural Dungeon Engine: Roguelike Map Generator",
@@ -72,14 +72,14 @@ const PRODUCTS = [
   {
     "id": "i-got-this",
     "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-    "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+    "subtitle": "67.1 kmÃ‚Â² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
     "category": "godot",
     "price": 39.99,
     "rating": 5,
     "reviews": 21,
     "badges": [
       "Godot 4",
-      "67kmÂ² Terrain",
+      "67kmÃ‚Â² Terrain",
       "Base Building"
     ],
     "cover": "assets/covers/igotthis.jpg",
@@ -1023,7 +1023,7 @@ const PRODUCTS = [
       "Tactical AI"
     ],
     "cover": "assets/covers/soitswarthen.jpg",
-    "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4faction-rts-core-engine",
+    "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4-faction-rts-core-simulation-engine",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Production-grade, high-performance RTS core simulation engine. Decoupled headless game loop, 4 completely distinct factions (Human, Zurgz swarm, Ironclad mechs, Ascended), multi-profile bot AI architectures, hero skill pipeline, and comprehensive telemetry metrics.",
     "specs": [
@@ -1120,7 +1120,7 @@ const PRODUCTS = [
       "12 Summon Sprites"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/necrodominion-undead-legion-conquest-framework",
+    "itchUrl": "https://jasonc101.itch.io/necro-dominion-undead-legion-conquest-framework",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Extensive dark fantasy necromancy systems suite built and battle-tested in Godot 4. Includes corpse harvesting, minion swarm AI, autonomous companion spirits, dark grimoire spells, castle defense controller, and 12 hand-crafted summon roster sprites.",
     "specs": [
@@ -1131,3 +1131,4 @@ const PRODUCTS = [
     ]
   }
 ];
+
