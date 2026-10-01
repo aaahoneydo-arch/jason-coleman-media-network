@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/</loc></url>
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/watch.html</loc></url>
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/books.html</loc></url>
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/samurai-daughter.html</loc></url>
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/draevan-narrated-graphic-novel.html</loc></url>
-<url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/cant-turn-it-off.html</loc></url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/podcast.xml</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/2024-military-shooter-reviews.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/military-documentary-economics.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/book-launch-checklist.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/starbucks-local-coffee-shop-model.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/content-library.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/tank-commander-to-creator.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/book-launch-formula.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/posts/CONTENT_LIBRARY_INDEX.md</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/posts/CREATOR_ECONOMICS_SYSTEM.md</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/seo-military-documentary-monetization.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/seo-creator-income-system.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
 </urlset>

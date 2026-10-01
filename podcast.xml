@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Coleman Creator Network</title>
+    <description>From Tank Commander to $12K/Month Creator | Military History, Book Marketing, Game Development</description>
+    <link>https://aaahoneydo-arch.github.io/jason-coleman-media-network/</link>
+    <language>en-US</language>
+    <copyright>© 2026 Jason Coleman</copyright>
+    <itunes:author>Jason Coleman</itunes:author>
+    <itunes:summary>Creator economics, military history analysis, and indie publishing strategy from a former military veteran turned entrepreneur.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Jason Coleman</itunes:name>
+      <itunes:email>jason@aaahoneydo-arch.github.io</itunes:email>
+    </itunes:owner>
+    <itunes:image>
+      <url>https://aaahoneydo-arch.github.io/jason-coleman-media-network/assets/podcast-cover.jpg</url>
+    </itunes:image>
+    <itunes:category text="Business">
+      <itunes:category text="Entrepreneurship"/>
+    </itunes:category>
+    <itunes:category text="History"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+    <atom:link href="https://aaahoneydo-arch.github.io/jason-coleman-media-network/podcast.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>From Tank Commander to $12K/Month Creator</title>
+      <description>How I transitioned from military service to running multiple income streams generating $8,000-$12,000 monthly through YouTube, Amazon books, TikTok, Steam games, affiliate marketing, and merchandise.</description>
+      <link>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/tank-commander-to-creator.html</link>
+      <guid>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/tank-commander-to-creator</guid>
+      <pubDate>2026-09-27T06:00:00Z</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>45:23</itunes:duration>
+      <enclosure url="https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/tank-commander-to-creator.mp3" length="45321000" type="audio/mpeg"/>
+    </item>
+    
+    <item>
+      <title>The $5,000 Book Launch Formula</title>
+      <description>Step-by-step checklist that got my fantasy novel $5,400 in its first month without spending a dollar on marketing ads.</description>
+      <link>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/book-launch-formula.html</link>
+      <guid>https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/book-launch-formula</guid>
+      <pubDate>2026-09-26T06:00:00Z</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+      <itunes:duration>32:18</itunes:duration>
+      <enclosure url="https://aaahoneydo-arch.github.io/jason-coleman-media-network/episodes/book-launch-formula.mp3" length="32456000" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
