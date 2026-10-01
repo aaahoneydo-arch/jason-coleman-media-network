@@ -487,4 +487,54 @@
       <image:title>Necro Dominion: Undead Legion Conquest Framework</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/master-4k-interiors-lookbook-vol2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/soitswarthen.jpg</image:loc>
+      <image:title>Master 4K Interiors &amp; Architectural Lookbook Vol. 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/scifi-starship-bridges-cyberpunk-vistas.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/soitswarthen.jpg</image:loc>
+      <image:title>Sci-Fi Starship Bridges &amp; Cyberpunk City Vistas Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/alchemical-potions-grimoires-vtt-tokens.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/relics_abyss.jpg</image:loc>
+      <image:title>Alchemical Potions, Grimoires &amp; VTT Tokens Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/fineart-ukiyoe-dutch-botanicals.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/grimrealm.jpg</image:loc>
+      <image:title>Fine Art: Japanese Ukiyo-e &amp; Dutch Golden Age Botanicals</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/flow-master-production-vault-467.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/soitswarthen.jpg</image:loc>
+      <image:title>Google Flow Master Production Vault (467 High-Res Assets)</image:title>
+    </image:image>
+  </url>
 </urlset>

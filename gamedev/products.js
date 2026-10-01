@@ -1,4 +1,4 @@
-﻿const PRODUCTS = [
+const PRODUCTS = [
   {
     "id": "procedural-dungeon-engine",
     "title": "Procedural Dungeon Engine: Roguelike Map Generator",
@@ -72,14 +72,14 @@
   {
     "id": "i-got-this",
     "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-    "subtitle": "67.1 kmÃ‚Â² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+    "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
     "category": "godot",
     "price": 39.99,
     "rating": 5,
     "reviews": 21,
     "badges": [
       "Godot 4",
-      "67kmÃ‚Â² Terrain",
+      "67kmÂ² Terrain",
       "Base Building"
     ],
     "cover": "assets/covers/igotthis.jpg",
@@ -1023,7 +1023,7 @@
       "Tactical AI"
     ],
     "cover": "assets/covers/soitswarthen.jpg",
-    "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4-faction-rts-core-simulation-engine",
+    "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4faction-rts-core-engine",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Production-grade, high-performance RTS core simulation engine. Decoupled headless game loop, 4 completely distinct factions (Human, Zurgz swarm, Ironclad mechs, Ascended), multi-profile bot AI architectures, hero skill pipeline, and comprehensive telemetry metrics.",
     "specs": [
@@ -1120,7 +1120,7 @@
       "12 Summon Sprites"
     ],
     "cover": "assets/covers/necros.jpg",
-    "itchUrl": "https://jasonc101.itch.io/necro-dominion-undead-legion-conquest-framework",
+    "itchUrl": "https://jasonc101.itch.io/necrodominion-undead-legion-conquest-framework",
     "gumroadUrl": "https://honeydo5.gumroad.com/",
     "description": "Extensive dark fantasy necromancy systems suite built and battle-tested in Godot 4. Includes corpse harvesting, minion swarm AI, autonomous companion spirits, dark grimoire spells, castle defense controller, and 12 hand-crafted summon roster sprites.",
     "specs": [
@@ -1129,6 +1129,120 @@
       "12 High-Res Undead Sprites",
       "Full Commercial License"
     ]
+  },
+{
+    "id": "master-4k-interiors-lookbook-vol2",
+    "title": "Master 4K Interiors & Architectural Lookbook Vol. 2",
+    "subtitle": "150 ultra-high definition 4K photorealistic interior design, luxury spa, villa & minimalist room assets.",
+    "category": "assets",
+    "price": 39.99,
+    "rating": 5,
+    "reviews": 29,
+    "badges": [
+      "150 4K Images",
+      "Photorealistic",
+      "Commercial License"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Premium 150-piece 4K architectural visual archive. Spans minimalist Scandinavian/Japandi lounges, dark academia executive offices, cliffside Mediterranean infinity pool villas, and high-tech streamer gaming sanctuaries.",
+    "specs": [
+      "3840x2160 & 4K Resolution",
+      "150 Curated Master Images",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "scifi-starship-bridges-cyberpunk-vistas",
+    "title": "Sci-Fi Starship Bridges & Cyberpunk City Vistas Pack",
+    "subtitle": "168 widescreen cinematic sci-fi command bridges, rainy neon megacities & orbital spaceports.",
+    "category": "assets",
+    "price": 34.99,
+    "rating": 5,
+    "reviews": 32,
+    "badges": [
+      "168 4K Vistas",
+      "Cyberpunk",
+      "Starship Bridges"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Cinematic visual library for sci-fi games, visual novels, and worldbuilding. Features detailed starship helm bridges, panoramic observation decks, flying vehicle skylines, and moody cyberpunk night markets.",
+    "specs": [
+      "Ultra-Wide 16:9 4K",
+      "168 High-Resolution Assets",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "alchemical-potions-grimoires-vtt-tokens",
+    "title": "Alchemical Potions, Grimoires & VTT Tokens Pack",
+    "subtitle": "110 square 1:1 fantasy alchemy flasks, ancient spellbooks, astrolabes & VTT tokens.",
+    "category": "assets",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 24,
+    "badges": [
+      "110 Square Assets",
+      "RPG & VTT Ready",
+      "Alchemy & Magic"
+    ],
+    "cover": "assets/covers/relics_abyss.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Complete tabletop and RPG icon collection. Includes bubbling alchemical elixirs, leather-bound grimoires, arcane planetary astrolabes, and circular creature tokens ready for Roll20, Foundry, and mobile UI slots.",
+    "specs": [
+      "Square 1:1 Aspect Ratio",
+      "110 Ultra-Detailed Assets",
+      "Print & Digital Commercial License"
+    ]
+  },
+  {
+    "id": "fineart-ukiyoe-dutch-botanicals",
+    "title": "Fine Art: Japanese Ukiyo-e & Dutch Golden Age Botanicals",
+    "subtitle": "39 museum-grade high-resolution portrait art prints, Edo woodblock prints & chiaroscuro oil still lifes.",
+    "category": "assets",
+    "price": 24.99,
+    "rating": 5,
+    "reviews": 18,
+    "badges": [
+      "Museum Grade",
+      "39 Art Prints",
+      "Ukiyo-e & Dutch Oil"
+    ],
+    "cover": "assets/covers/grimrealm.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Authentic period art styles recreated in modern ultra-high resolution: Japanese Edo period woodblock landscapes with Mount Fuji, 17th century Dutch Golden Age dramatic floral oil still lifes, and dark gothic tarot cards.",
+    "specs": [
+      "Vertical 2:3 & 9:16 Prints",
+      "39 Master Artwork Files",
+      "Full Commercial & Print Rights"
+    ]
+  },
+  {
+    "id": "flow-master-production-vault-467",
+    "title": "Google Flow Master Production Vault (467 High-Res Assets)",
+    "subtitle": "The entire master archive: 467 4K visual assets sorted into widescreen environments, square tokens & art prints.",
+    "category": "assets",
+    "price": 79.99,
+    "rating": 5,
+    "reviews": 51,
+    "badges": [
+      "467 Total Assets",
+      "Complete Master Vault",
+      "398 MB High-Res"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Massive 467-asset visual megavault containing every production asset from our Google Flow pipeline. Completely categorized into widescreen 16:9 cinematic vistas, 1:1 square VTT tokens/potions, and vertical 2:3 fine art prints.",
+    "specs": [
+      "467 High-Res Image Files",
+      "Categorized Folder Hierarchy",
+      "Unrestricted Commercial License"
+    ]
   }
 ];
-
