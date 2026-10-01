@@ -313,5 +313,411 @@ const PRODUCTS = [
     gumroadUrl: "https://honeydo5.gumroad.com/",
     description: "An unsparing forensic autopsy of humanity's 5,000-year ledger of warfare by author Jason Coleman. Examines the biological operating system of conflict and introduces the five technological pillars of post-human peace.",
     specs: ["Complete DOCX & Markdown", "Story Bible & Timeline", "Full Commercial Launch Kit"]
+  },
+  {
+    "id": "multiplayer-netcode-engine",
+    "title": "Multiplayer State Sync & Deterministic Netcode Engine",
+    "subtitle": "Production-grade headless netcode: client prediction, server reconciliation, entity interpolation & snapshot deltas.",
+    "category": "engine",
+    "price": 44.99,
+    "rating": 5,
+    "reviews": 16,
+    "badges": [
+      "Python 3.10+",
+      "Deterministic Netcode",
+      "Client Prediction"
+    ],
+    "cover": "assets/covers/dungeonengine.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Production-grade headless multiplayer netcode engine. Features client-side movement prediction with input buffers, authoritative server reconciliation, smooth cubic Hermite entity interpolation, delta compression for network snapshots, lag compensation rewind raycasting, room/lobby/session state machine, and simulated latency/jitter/packet-loss testing harnesses.",
+    "specs": [
+      "Pure Python Stdlib (Zero External Dependencies)",
+      "Tick-Rate Agnostic Simulation",
+      "Deterministic Input Buffers",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "inventory-crafting-loot-engine",
+    "title": "Inventory, Crafting & Loot Matrix Engine",
+    "subtitle": "Headless grid+slot inventory, multi-station crafting pipeline, weighted loot tables & gear sockets. 175 unit tests.",
+    "category": "engine",
+    "price": 44.99,
+    "rating": 5,
+    "reviews": 21,
+    "badges": [
+      "Python 3.10+",
+      "175 Tests Passing",
+      "Grid & Slot Inventory"
+    ],
+    "cover": "assets/covers/dungeonengine.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Modular headless inventory, crafting, and loot engine for RPGs, survival games, and roguelikes. Features Resident Evil / Diablo style 2D grid spatial placement with item rotation and collision checks, standard slot-based stack/weight systems, multi-station recipe crafting (shapeless, shaped, catalyst), 4-tier weighted drop matrices, equipment paperdoll sockets with gem durability, and atomic JSON serialization.",
+    "specs": [
+      "175/175 Pytest Suite Passing",
+      "Zero External Dependencies",
+      "Atomic Save/Load Persistence",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "behavior-tree-goap-ai",
+    "title": "Behavior Tree & GOAP AI Decision Architecture",
+    "subtitle": "Headless AI decision engine with composite/decorator trees, GOAP A* planning & blackboard state. 114 tests passing.",
+    "category": "engine",
+    "price": 44.99,
+    "rating": 5,
+    "reviews": 18,
+    "badges": [
+      "Python 3.10+",
+      "114 Tests Passing",
+      "GOAP & Behavior Trees"
+    ],
+    "cover": "assets/covers/tacticalgrid.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Autonomous decision-making engine for indie game developers. Combines hierarchical Behavior Trees (Sequences, Selectors, Inverters, Repeats, Cooldowns) with Goal-Oriented Action Planning (GOAP) via A* search over symbolic world state. Built-in reactive Blackboard state management, sensory perception pipeline, and step-by-step debug logging.",
+    "specs": [
+      "114/114 Pytest Suite Passing",
+      "Pure Python Standard Library",
+      "Full CLI & Simulation Harness",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "card-battler-engine",
+    "title": "Card Battler: Headless Deck Combat & Balance Simulator",
+    "subtitle": "Simulate 1,000 deck-vs-deck battles in under 3 seconds. Status stacking, energy economy & JSON balance telemetry.",
+    "category": "engine",
+    "price": 39.99,
+    "rating": 5,
+    "reviews": 15,
+    "badges": [
+      "Python 3.10+",
+      "Monte Carlo Balancer",
+      "Deckbuilder Engine"
+    ],
+    "cover": "assets/covers/cardsim.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "A production-grade, headless card combat simulator. Execute thousands of Monte Carlo matches across custom deck archetypes in seconds. Complete card effect pipeline (damage, shield, poison, vulnerable, weakness, heal), energy cost curves, card draw/discard piles, and comprehensive win-rate/card-value telemetry exportable to JSON.",
+    "specs": [
+      "1000 Battles in <3 Seconds",
+      "Zero External Dependencies",
+      "Full JSON Telemetry Export",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "godot4-modular-castle-builder",
+    "title": "Godot 4 Modular Castle & Fortress Building System",
+    "subtitle": "Runtime 3D grid building system: socket snapping, collision generation, structural integrity & JSON serialization.",
+    "category": "godot",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 14,
+    "badges": [
+      "Godot 4 Addon",
+      "Modular Building",
+      "Socket Snapping"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "A complete runtime modular building system extracted from production Godot 4 code. Place fortress walls, battlements, towers, ramps, and gates on a 3D grid with snap-to-socket mechanics, automatic collision generation, structural stability validation, and instant JSON save/load persistence.",
+    "specs": [
+      "Godot 4.2+ Compatible",
+      "Clean GDScript Architecture",
+      "Includes Sample Scene & Plugin.cfg",
+      "Full Commercial License"
+    ]
+  },
+  {
+    "id": "godot4-arpg-combat-defense",
+    "title": "Godot 4 ARPG Tactical Combat & Defense Framework",
+    "subtitle": "Hitboxes, hurtboxes, poise damage, hitstun, status ailments (burn, poison, bleed) & floating combat numbers.",
+    "category": "godot",
+    "price": 39.99,
+    "rating": 5,
+    "reviews": 22,
+    "badges": [
+      "Godot 4 Addon",
+      "Action RPG Combat",
+      "Status Pipeline"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Production-ready 3D Action RPG combat framework for Godot 4. Includes precise hitbox/hurtbox registration, poise damage thresholds, stagger frames, active blocking, status ailment ticking (burn, poison, frost, bleed), combo attack buffers, projectile physics, and floating combat text HUD integration.",
+    "specs": [
+      "Godot 4.2+ Forward+",
+      "Modular Component Architecture",
+      "Includes Audio Impact Triggers",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "godot4-procedural-dungeon-delve",
+    "title": "Godot 4 Procedural 3D Dungeon Delve & Terrain Engine",
+    "subtitle": "3D procedural dungeon generator and dynamic mountain terrain sculpting with seeded layout and stair connections.",
+    "category": "godot",
+    "price": 34.99,
+    "rating": 5,
+    "reviews": 17,
+    "badges": [
+      "Godot 4 Addon",
+      "Procedural 3D",
+      "Dungeon Crawl"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Procedural 3D dungeon crawl and mountainous terrain generator for Godot 4. Generates multi-floor dungeons with room-and-corridor geometry, heightmap terrace sculpting, seeded level layouts, automatic stair and door placement, and dynamic room lighting anchors.",
+    "specs": [
+      "Godot 4.2+ Forward+",
+      "Seeded Reproducibility",
+      "Optimized Mesh Generation",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "godot4-companion-pet-ai-system",
+    "title": "Godot 4 Autonomous Companion & Pet AI Summoning System",
+    "subtitle": "Autonomous follow, leash distances, combat target selection, skill timers & minion summon HUD bar.",
+    "category": "godot",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 16,
+    "badges": [
+      "Godot 4 Addon",
+      "Companion AI",
+      "Pet Summoning"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Complete companion, pet, and summoned minion AI architecture for Godot 4. Features intelligent follow behaviors with rubber-banding leash distances, combat target selection, autonomous spell/skill casting, assist modes, companion inventory, and a ready-to-use summon HUD bar.",
+    "specs": [
+      "Godot 4.2+ Compatible",
+      "Autonomous AI State Machine",
+      "Summon Bar UI Components",
+      "Royalty-Free License"
+    ]
+  },
+  {
+    "id": "godot4-rpg-progression-skill-tree",
+    "title": "Godot 4 RPG Character Progression & Talent Tree Matrix",
+    "subtitle": "Configurable level-scaling formulas, branching talent trees, attribute points & ready-to-use skill menu UI.",
+    "category": "godot",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 19,
+    "badges": [
+      "Godot 4 Addon",
+      "Skill Tree UI",
+      "RPG Progression"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Deep RPG character progression and skill tree framework for Godot 4. Features mathematical XP scaling curves, tiered active and passive skill nodes with prerequisite branches, attribute allocation, and a polished dark fantasy skill menu UI.",
+    "specs": [
+      "Godot 4.2+ Compatible",
+      "Configurable XP Formulas",
+      "Full GDScript UI Included",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "godot4-living-world-sky-minimap",
+    "title": "Godot 4 Dynamic Living World, Celestial Sky & Minimap Radar",
+    "subtitle": "Day/night celestial orbital cycles with sun/moon lighting curves, dynamic sky shader & 2D/3D radar minimap.",
+    "category": "godot",
+    "price": 24.99,
+    "rating": 5,
+    "reviews": 18,
+    "badges": [
+      "Godot 4 Addon",
+      "Day/Night Cycle",
+      "Minimap Radar"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Atmospheric world environment suite for Godot 4. Provides smooth orbital day/night cycles with synchronized sun/moon directional lights, dynamic sky shader parameters, ambient lighting curves, a real-time 2D/3D radar minimap with customizable POI markers, and a full-screen atlas map view.",
+    "specs": [
+      "Godot 4.2+ Forward+",
+      "Dynamic Sky Shaders",
+      "Zero External Dependencies",
+      "Full Commercial License"
+    ]
+  },
+  {
+    "id": "godot4-rpg-inventory-crafting-system",
+    "title": "Godot 4 RPG Inventory, Crafting Bench & Loot Drop Addon",
+    "subtitle": "Grid/slot item management, recipe requirements checking, rarity color borders, drag & drop, and stat tooltips.",
+    "category": "godot",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 20,
+    "badges": [
+      "Godot 4 Addon",
+      "Crafting Bench",
+      "Inventory UI"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Turnkey RPG inventory and crafting bench UI for Godot 4. Includes slot/grid inventory containers, recipe unlocking systems, station crafting requirements (forge, alchemy, workbench), rarity border shaders, drag-and-drop mechanics, item stat comparison tooltips, and ground drop physics.",
+    "specs": [
+      "Godot 4.2+ Compatible",
+      "Drag & Drop Supported",
+      "Customizable UI Themes",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "godot4-quest-journal-dynamic-events",
+    "title": "Godot 4 Quest Log, Field Journal & Dynamic Event Tracker",
+    "subtitle": "Multi-stage objective tracking, branching quest states, field journal entry unlocking & dynamic world encounters.",
+    "category": "godot",
+    "price": 24.99,
+    "rating": 5,
+    "reviews": 15,
+    "badges": [
+      "Godot 4 Addon",
+      "Quest System",
+      "Lore Journal"
+    ],
+    "cover": "assets/covers/necros.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Dynamic quest tracking, lore journal, and encounter management system for Godot 4. Features multi-step objective states, reward payouts, journal lore entry unlocking, and random wilderness danger event triggers.",
+    "specs": [
+      "Godot 4.2+ Compatible",
+      "JSON Quest Definitions",
+      "Event-Driven Signals",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "video-montage-auto-pipeline",
+    "title": "Automated Video Montage & YouTube Media Pipeline Engine",
+    "subtitle": "Python batch video automation: clip splicing, voice synthesis ducking, 20min+ montage rendering & overlays.",
+    "category": "engine",
+    "price": 49.99,
+    "rating": 5,
+    "reviews": 14,
+    "badges": [
+      "Python Automation",
+      "Video Pipeline",
+      "YouTube Tools"
+    ],
+    "cover": "assets/covers/soitswarthen.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "Complete Python batch video automation suite. Automatically splices video clips into cohesive long-form montages (10-25+ minutes), synthesizes and aligns audio narration, applies background music ducking, and renders broadcast-ready MP4s with transition overlays.",
+    "specs": [
+      "Python 3.10+ Script Suite",
+      "Automated Montage Splicing",
+      "Audio Ducking & Narration",
+      "Commercial License Included"
+    ]
+  },
+  {
+    "id": "modern-interiors-executive-spa-4k",
+    "title": "Modern Japandi Interiors & Executive Spa Design Lookbook (4K)",
+    "subtitle": "Curated collection of 4K ultra-wide architectural renders: luxury spa bathrooms, executive offices & minimalist living rooms.",
+    "category": "assets",
+    "price": 29.99,
+    "rating": 5,
+    "reviews": 24,
+    "badges": [
+      "4K Renders",
+      "Interior Design",
+      "Architectural Mockups"
+    ],
+    "cover": "assets/covers/grimrealm.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "A premium commercial digital asset collection featuring 170+ ultra-high-resolution 4K architectural and interior design renders. Categories include Dark Moody Executive Home Offices, Luxury Spa Bathrooms, Japandi Minimalist Living Rooms, and High-End Scenic Backdrops. Perfect for design lookbooks, product mockups, 3D visualization backgrounds, and desktop wallpapers.",
+    "specs": [
+      "3840x2160 & Ultra-Wide 4K",
+      "170+ High-Resolution PNGs",
+      "Royalty-Free Commercial License"
+    ]
+  },
+  {
+    "id": "cyberpunk-streamer-lounges",
+    "title": "Cyberpunk Streamer Lounges & Lo-Fi Studio Backdrops (4K)",
+    "subtitle": "Ultra-wide 4K cyberpunk gaming rooms, neon lighting, lo-fi stages & modular streaming background renders.",
+    "category": "assets",
+    "price": 19.99,
+    "rating": 5,
+    "reviews": 17,
+    "badges": [
+      "Cyberpunk 4K",
+      "Streamer Backdrops",
+      "Lo-Fi Rooms"
+    ],
+    "cover": "assets/covers/cyberpunkwarlords.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "High-resolution ultra-wide 4K cyberpunk streamer lounge environments. Featuring intricate dual-monitor battlestations, moody ambient neon glow, acoustic paneling, futuristic lo-fi aesthetics, and panoramic city skylines. Ready for stream overlays, video podcasts, and visual novel backgrounds.",
+    "specs": [
+      "Ultra-Wide 4K Resolution",
+      "High Dynamic Range Color",
+      "Full Commercial License"
+    ]
+  },
+  {
+    "id": "dark-gothic-tarot-deck",
+    "title": "Dark Gothic Eldritch Tarot Deck (20 High-Res Cards)",
+    "subtitle": "20 illustrated occult tarot cards with intricate filigree borders, arcane symbols & gold-foil aesthetic.",
+    "category": "assets",
+    "price": 24.99,
+    "rating": 5,
+    "reviews": 21,
+    "badges": [
+      "Tarot Deck",
+      "Dark Gothic",
+      "Print & Digital Ready"
+    ],
+    "cover": "assets/covers/slaythevoid.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "A complete 20-card dark gothic tarot deck featuring major arcana interpretations including The Hermit, Death, The High Priestess, The Wheel, and The Void. Designed with ornate antique filigree borders and high-contrast gold/crimson detailing suitable for physical printing (300 DPI) or digital card game integration.",
+    "specs": [
+      "Portrait Aspect Ratio (768x1376)",
+      "300 DPI High-Resolution",
+      "Print & Game Dev Ready",
+      "Royalty-Free Commercial Rights"
+    ]
+  },
+  {
+    "id": "eldritch-vtt-tokens-pack",
+    "title": "Eldritch VTT Round Token Master Pack (Sliced PNGs)",
+    "subtitle": "24 precision-sliced circular tokens with brass filigree bezels & transparent alpha backgrounds for VTTs.",
+    "category": "assets",
+    "price": 14.99,
+    "rating": 5,
+    "reviews": 28,
+    "badges": [
+      "VTT Tokens",
+      "Transparent PNG",
+      "Roll20 & Foundry"
+    ],
+    "cover": "assets/covers/necrobestiary.jpg",
+    "itchUrl": "https://jasonc101.itch.io/",
+    "gumroadUrl": "https://honeydo5.gumroad.com/",
+    "description": "24 circular virtual tabletop (VTT) tokens sliced from master artwork. Each token is framed by an antique brass filigree bezel with a transparent background. Fully compatible with Roll20, Foundry VTT, Owlbear Rodeo, and Fantasy Grounds for dark fantasy and eldritch horror campaigns.",
+    "specs": [
+      "Transparent Alpha PNGs",
+      "Standard 256x256 VTT Resolution",
+      "Drag-and-Drop VTT Ready",
+      "Full Commercial License"
+    ]
   }
 ];
