@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/procedural-dungeon-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/dungeonengine.jpg</image:loc>
+      <image:title>Procedural Dungeon Engine: Roguelike Map Generator</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/so-its-war-then.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:title>So It's War Then: 4-Faction RTS &amp; Grand Strategy Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/necros.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:title>Necros: Godot 4 Dark Fantasy Turn-Based RPG &amp; Combat Framework</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/i-got-this.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/igotthis.jpg</image:loc>
+      <image:title>I Got This: Godot 4 Open-World 3D Survival &amp; Building Framework</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/tactical-grid-combat-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/tacticalgrid.jpg</image:loc>
+      <image:title>Tactical Grid Combat Engine: Turn-Based Strategy Framework</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/mechzilla.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/mechzilla.jpg</image:loc>
+      <image:title>MechZilla: Tactical Turn-Based Mech Combat &amp; Commander Framework</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/soldiers-last-stand.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/soldierslaststand.jpg</image:loc>
+      <image:title>Soldiers' Last Stand: Modular Squad &amp; Horde Survival Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/cyberpunk-warlords.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/cyberpunkwarlords.jpg</image:loc>
+      <image:title>Cyberpunk Warlords: Grand Strategy &amp; Auto-Battle RPG Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/cardsim.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/cardsim.jpg</image:loc>
+      <image:title>CardSim: Headless Card Battler &amp; Monte Carlo Balancing Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/hextactics.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/hextactics.jpg</image:loc>
+      <image:title>HexTactics: Headless Grid, A* Pathfinding &amp; Combat Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/warfront-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/warfront.jpg</image:loc>
+      <image:title>Warfront: 8,000+ Sci-Fi &amp; Alien RTS 2D/3D Isometric Sprite Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/relics-of-the-abyss.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/relicsabyss.jpg</image:loc>
+      <image:title>Relics of the Abyss: 650+ Dark Fantasy RPG Assets &amp; Textures Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/wildlands-protocol.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/wildlands.jpg</image:loc>
+      <image:title>Wildlands Protocol: Godot 4 3D Mech Locomotion &amp; Urban Sandbox Kit</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/voidrogue.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/voidrogue.jpg</image:loc>
+      <image:title>VoidRogue: Production TypeScript Roguelike Deckbuilder Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/necrobestiary.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/necrobestiary.jpg</image:loc>
+      <image:title>NecroBestiary: Dark Fantasy Undead &amp; Bosses 2D Sprite Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/mechdominion.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/mechdominion.jpg</image:loc>
+      <image:title>MechDominion: Cybernetic Titans &amp; Mecha Bosses 2D Sprite Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/slay-the-void.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/slaythevoid.jpg</image:loc>
+      <image:title>Slay The Void: Cosmic Sci-Fi &amp; Dark RPG Card Art Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/grimrealm.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/grimrealm.jpg</image:loc>
+      <image:title>GrimRealm: RPG Terrains &amp; Environment Textures (79 Pack)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/we-got-this.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/wegotthis.jpg</image:loc>
+      <image:title>WE GOT THIS!: Narrative Fallout Shelter Survival Game</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/glyphcore-icons.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/glyphcore.jpg</image:loc>
+      <image:title>GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/products/humans-endless-warmonger.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/assets/covers/humansendless.jpg</image:loc>
+      <image:title>Humans: The Endless Warmonger by Jason Coleman</image:title>
+    </image:image>
+  </url>
+</urlset>
