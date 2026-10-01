@@ -1,4 +1,4 @@
-const PRODUCTS = [
+﻿const PRODUCTS = [
   {
     "id": "procedural-dungeon-engine",
     "title": "Procedural Dungeon Engine: Roguelike Map Generator",
@@ -72,14 +72,14 @@ const PRODUCTS = [
   {
     "id": "i-got-this",
     "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-    "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+    "subtitle": "67.1 kmÃ‚Â² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
     "category": "godot",
     "price": 39.99,
     "rating": 5,
     "reviews": 21,
     "badges": [
       "Godot 4",
-      "67kmÂ² Terrain",
+      "67kmÃ‚Â² Terrain",
       "Base Building"
     ],
     "cover": "assets/covers/igotthis.jpg",
@@ -1246,3 +1246,4 @@ const PRODUCTS = [
     ]
   }
 ];
+
