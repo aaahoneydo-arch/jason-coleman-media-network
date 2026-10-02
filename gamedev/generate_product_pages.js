@@ -16,11 +16,9 @@ if (!fs.existsSync(productsDir)) {
   fs.mkdirSync(productsDir, { recursive: true });
 }
 
-const BASE_URL = 'https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev';
-
 let sitemapUrls = [
   '  <url>',
-  `    <loc>${BASE_URL}/</loc>`,
+  '    <loc>https://jasoncoleman-gamedev.surge.sh/</loc>',
   '    <lastmod>2026-10-01</lastmod>',
   '    <changefreq>daily</changefreq>',
   '    <priority>1.0</priority>',
@@ -30,9 +28,9 @@ let sitemapUrls = [
 products.forEach(p => {
   const filename = `${p.id}.html`;
   const filepath = path.join(productsDir, filename);
-  const canonicalUrl = `${BASE_URL}/products/${filename}`;
+  const canonicalUrl = `https://jasoncoleman-gamedev.surge.sh/products/${filename}`;
   const coverRelative = `../${p.cover}`;
-  const coverAbsolute = `${BASE_URL}/${p.cover}`;
+  const coverAbsolute = `https://jasoncoleman-gamedev.surge.sh/${p.cover}`;
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -247,7 +245,6 @@ products.forEach(p => {
         </div>
       </a>
       <nav class="nav-menu">
-        <a href="../../index.html" class="nav-link" style="color:var(--cyan); font-weight:700;">🏠 Media Network Hub</a>
         <a href="../index.html#catalog" class="nav-link">Catalog (31)</a>
         <a href="${p.itchUrl}" target="_blank" rel="noopener" class="nav-btn-primary">
           <span>Buy on itch.io ($${p.price})</span>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aaahoneydo-arch.github.io/jason-coleman-media-network/gamedev/sitemap.xml
+Sitemap: https://jasoncoleman-gamedev.surge.sh/sitemap.xml

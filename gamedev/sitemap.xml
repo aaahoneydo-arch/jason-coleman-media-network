@@ -8,6 +8,616 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/ancient-nordic-glaciers-tundra-flora-mountain-biome-4k-texture-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/nordic_glaciers_cover.jpg</image:loc>
+      <image:title>Ancient Nordic Glaciers, Tundra Flora &amp; Mountain Biome 4K Texture Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/eldritch-spell-sigils-runic-circles-arcane-decals-vector-asset-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/eldritch_sigils_cover.jpg</image:loc>
+      <image:title>Eldritch Spell Sigils, Runic Circles &amp; Arcane Decals Vector Asset Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/armored-warmachines-mecha-exosuits-heavy-ordnance-concept-art-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/mecha_warmachines_cover.jpg</image:loc>
+      <image:title>Armored Warmachines, Mecha Exosuits &amp; Heavy Ordnance Concept Art Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/high-fantasy-medieval-strongholds-marketplace-environment-4k-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/medieval_strongholds_cover.jpg</image:loc>
+      <image:title>High-Fantasy Medieval Strongholds &amp; Marketplace Environment 4K Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/alchemical-elixirs-toxic-phials-arcane-ingredients-4k-icon-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/alchemical_elixirs_cover.jpg</image:loc>
+      <image:title>Alchemical Elixirs, Toxic Phials &amp; Arcane Ingredients 4K Icon Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/deep-space-nebulae-alien-planetary-skyboxes-4k-panoramic-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/deep_space_nebulae_cover.jpg</image:loc>
+      <image:title>Deep Space Nebulae &amp; Alien Planetary Skyboxes 4K Panoramic Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/sci-fi-cyberpunk-megacity-neon-spire-overlooks-4k-concept-art-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/cyberpunk_megacity_cover.jpg</image:loc>
+      <image:title>Sci-Fi Cyberpunk Megacity &amp; Neon Spire Overlooks 4K Concept Art Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/ancient-relics-marrow-rings-enchanted-talismans-4k-rpg-icon-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ancient_relics_cover.jpg</image:loc>
+      <image:title>Ancient Relics, Marrow Rings &amp; Enchanted Talismans 4K RPG Icon Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/cosmic-horrors-abyssal-fiends-swamp-beasts-vtt-monster-tokens-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/cosmic_horrors_cover.jpg</image:loc>
+      <image:title>Cosmic Horrors, Abyssal Fiends &amp; Swamp Beasts VTT Monster Token Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/dark-gothic-crypts-catacombs-dungeon-ruins-4k-texture-vault.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/gothic_crypts_cover.jpg</image:loc>
+      <image:title>Dark Gothic Crypts, Catacombs &amp; Dungeon Ruins 4K Texture Vault</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/chiptune-8-bit-synth-sound-effect-generator-studio-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/chiptune_synth_cover.jpg</image:loc>
+      <image:title>Chiptune 8-Bit Synth &amp; Sound Effect Generator Studio CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/level-design-heatmap-player-movement-analytics-logger-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/heatmap_analytics_cover.jpg</image:loc>
+      <image:title>Level Design Heatmap &amp; Player Movement Analytics Logger CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/game-localization-multi-language-string-translation-manager-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/localization_manager_cover.jpg</image:loc>
+      <image:title>Game Localization &amp; Multi-Language String Translation Manager CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/tilemap-rule-tile-matrix-collision-boundary-exporter-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/tilemap_rule_matrix_cover.jpg</image:loc>
+      <image:title>Tilemap Rule-Tile Matrix &amp; Collision Boundary Exporter CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/shorts-reel-automation-video-subtitle-beat-sync-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/shorts_automation_cover.jpg</image:loc>
+      <image:title>Shorts &amp; Reel Automation: Video Subtitle &amp; Beat Sync CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/pixel-art-upscaler-palette-quantizer-tool-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/pixel_art_scaler_cover.jpg</image:loc>
+      <image:title>Pixel Art Upscaler &amp; Palette Quantizer Tool CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/procedural-fantasy-name-lore-item-description-generator-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/fantasy_lore_gen_cover.jpg</image:loc>
+      <image:title>Procedural Fantasy Name, Lore &amp; Item Description Generator CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/game-audio-batch-master-normalizer-looper-wav-converter-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/audio_batch_master_cover.jpg</image:loc>
+      <image:title>Game Audio Batch Master: Normalizer, Looper &amp; Wav Converter CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/vtt-token-forge-circular-bevel-border-mask-generator-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/vtt_token_forge_cover.jpg</image:loc>
+      <image:title>VTT Token Forge: Circular Bevel Border &amp; Mask Generator CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/spritesheet-pro-automated-slicer-packer-json-exporter-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/spritesheet_pro_cover.jpg</image:loc>
+      <image:title>SpriteSheet Pro: Automated Slicer, Packer &amp; JSON Exporter CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-procedural-cave-cellular-automata-map-builder.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_cave_builder_cover.jpg</image:loc>
+      <image:title>Godot 4 Procedural Cave &amp; Cellular Automata Map Builder</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-3d-bullet-hell-object-pooler-particle-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_bullet_hell_cover.jpg</image:loc>
+      <image:title>Godot 4 3D Bullet Hell &amp; Object Pooler Particle Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-pro-ui-theme-responsive-hud-component-library.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_pro_ui_cover.jpg</image:loc>
+      <image:title>Godot 4 Pro UI Theme &amp; Responsive HUD Component Library</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-top-down-space-sim-newtonian-flight-controller.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_space_sim_cover.jpg</image:loc>
+      <image:title>Godot 4 Top-Down Space Sim &amp; Newtonian Flight Controller</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-dynamic-weather-rain-storm-particle-vfx-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_weather_vfx_cover.jpg</image:loc>
+      <image:title>Godot 4 Dynamic Weather, Rain &amp; Storm Particle VFX Pack</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-behavior-tree-smart-npc-ai-blackboard-system.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_behavior_tree_cover.jpg</image:loc>
+      <image:title>Godot 4 Behavior Tree &amp; Smart NPC AI Blackboard System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-roguelike-deckbuilder-hand-management-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_deckbuilder_cover.jpg</image:loc>
+      <image:title>Godot 4 Roguelike Deckbuilder &amp; Hand Management Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-infinite-2d-parallax-world-auto-tile-generator.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_parallax_world_cover.jpg</image:loc>
+      <image:title>Godot 4 Infinite 2D Parallax World &amp; Auto-Tile Generator</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-turn-based-tactical-hex-grid-combat-system.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_hex_grid_cover.jpg</image:loc>
+      <image:title>Godot 4 Turn-Based Tactical Hex Grid Combat System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot-4-3d-platformer-fluid-character-controller-kit.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_3d_platformer_cover.jpg</image:loc>
+      <image:title>Godot 4 3D Platformer &amp; Fluid Character Controller Kit</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unreal-engine-5-modular-weapon-customization-ballistics.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_weapon_ballistics_cover.jpg</image:loc>
+      <image:title>Unreal Engine 5 Modular Weapon Customization &amp; Ballistics</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unreal-engine-5-branching-quest-objective-state-graph.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_quest_state_graph_cover.jpg</image:loc>
+      <image:title>Unreal Engine 5 Branching Quest &amp; Objective State Graph</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unreal-engine-5-celestial-day-night-dynamic-weather-system.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_day_night_weather_cover.jpg</image:loc>
+      <image:title>Unreal Engine 5 Celestial Day-Night &amp; Dynamic Weather System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unreal-engine-5-procedural-foliage-biome-scatter-tool.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_foliage_scatter_cover.jpg</image:loc>
+      <image:title>Unreal Engine 5 Procedural Foliage &amp; Biome Scatter Tool</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unreal-engine-5-pro-locomotion-parkour-vaulting-controller.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_locomotion_parkour_cover.jpg</image:loc>
+      <image:title>Unreal Engine 5 Pro Locomotion &amp; Parkour Vaulting Controller</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-encrypted-json-save-system-state-serializer.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_save_system_cover.jpg</image:loc>
+      <image:title>Unity Pro Encrypted JSON Save System &amp; State Serializer</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-adaptive-audio-manager-music-stems-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_audio_manager_cover.jpg</image:loc>
+      <image:title>Unity Pro Adaptive Audio Manager &amp; Music Stems Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-2d-top-down-shooter-weapon-system.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_topdown_shooter_cover.jpg</image:loc>
+      <image:title>Unity Pro 2D Top-Down Shooter &amp; Weapon System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-inventory-dynamic-loot-grid-system.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_inventory_loot_cover.jpg</image:loc>
+      <image:title>Unity Pro Inventory &amp; Dynamic Loot Grid System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-a-pathfinding-grid-navmesh-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_astar_navmesh_cover.jpg</image:loc>
+      <image:title>Unity Pro A* Pathfinding &amp; Grid NavMesh Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/2d-dynamic-fov-symmetric-recursive-shadowcasting-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/fov_shadow_casting_cover.jpg</image:loc>
+      <image:title>2D Dynamic FOV &amp; Symmetric Recursive Shadowcasting Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/rollback-netcode-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/rollback_netcode_cover.jpg</image:loc>
+      <image:title>Deterministic Rollback Netcode &amp; Frame Resimulation Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/autonomous-steering-swarm-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/autonomous_steering_swarm_cover.jpg</image:loc>
+      <image:title>Autonomous Steering Behaviors &amp; Boids Swarm Simulation Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/cardsim.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/cardsim_montecarlo_cover.jpg</image:loc>
+      <image:title>CardSim: Headless Combat &amp; Monte Carlo Balancing Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/video-montage-pipeline-cli.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/video_montage_pipeline.jpg</image:loc>
+      <image:title>Automated Video Montage &amp; Shorts Production Pipeline CLI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-castle-builder.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_castle_builder.jpg</image:loc>
+      <image:title>Godot 4 Modular Castle &amp; Fortress Builder Addon</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-dynamic-sky-minimap.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_living_world.jpg</image:loc>
+      <image:title>Godot 4 Dynamic Sky, Minimap &amp; Living World Framework</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-quest-journal.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_quest_journal.jpg</image:loc>
+      <image:title>Godot 4 Quest Journal &amp; Dynamic Event Matrix</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-companion-pets.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_companion_pets.jpg</image:loc>
+      <image:title>Godot 4 Companion Pet AI &amp; Summoning System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/rts-economy-techtree.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/rts_economy_techtree.jpg</image:loc>
+      <image:title>RTS Economy, Tech Tree &amp; Building Production Matrix</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-horde-survivors.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_survivors.jpg</image:loc>
+      <image:title>Godot 4 Horde Survivors Auto-Shooter Architecture</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/turnbased-4x-hex-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/turnbased_4x_hex.jpg</image:loc>
+      <image:title>Turn-Based 4X Hex Territory &amp; Diplomacy Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/rts-multi-unit-formations.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/rts_formations.jpg</image:loc>
+      <image:title>RTS Tactical Multi-Unit Formations &amp; Fluid Pathfinding System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-rpg-skill-tree.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_skilltree.jpg</image:loc>
+      <image:title>Godot 4 RPG Progression &amp; Skill Tree Matrix Architecture</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/ue5-pro-action-camera.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_pro_camera.jpg</image:loc>
+      <image:title>Unreal Engine 5 Pro Action Camera &amp; SpringArm System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-procedural-dungeon.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_pro_dungeon.jpg</image:loc>
+      <image:title>Unity Pro Procedural 2D &amp; 3D Dungeon Delve Generator Architecture</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/ue5-python-automation-suite.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ue5_automation_suite.jpg</image:loc>
+      <image:title>Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/unity-pro-hfsm-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/unity_pro_hfsm.jpg</image:loc>
+      <image:title>Unity Pro Hierarchical State Machine &amp; AI Decision Architecture (HFSM)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/procedural-audio-synth-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/procedural_audio_synth.jpg</image:loc>
+      <image:title>Procedural Retro &amp; Sci-Fi Game Audio Synthesizer Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/dialogue-quest-narrative-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/dialogue_quest_narrative.jpg</image:loc>
+      <image:title>Dialogue &amp; Quest Narrative Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/rigidbody-physics-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/rigidbody_physics.jpg</image:loc>
+      <image:title>2D Rigid-Body Physics &amp; Collision Engine</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://jasoncoleman-gamedev.surge.sh/products/procedural-dungeon-engine.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -208,16 +818,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://jasoncoleman-gamedev.surge.sh/products/humans-endless-warmonger.html</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/humansendless.jpg</image:loc>
-      <image:title>Humans: The Endless Warmonger by Jason Coleman</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://jasoncoleman-gamedev.surge.sh/products/multiplayer-netcode-engine.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -323,8 +923,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/necros.jpg</image:loc>
-      <image:title>Godot 4 RPG Inventory, Crafting Bench &amp; Loot Drop Addon</image:title>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/godot4_inventory_crafting_cover.jpg</image:loc>
+      <image:title>Godot 4 RPG Inventory, Crafting Bench &amp; Loot Addon</image:title>
     </image:image>
   </url>
   <url>
@@ -363,8 +963,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/cyberpunkwarlords.jpg</image:loc>
-      <image:title>Cyberpunk Streamer Lounges &amp; Lo-Fi Studio Backdrops (4K)</image:title>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/streamer_lounges_cover.jpg</image:loc>
+      <image:title>Cyberpunk Streamer Lounges &amp; Battlestations (4K UHD)</image:title>
     </image:image>
   </url>
   <url>
@@ -373,8 +973,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/slaythevoid.jpg</image:loc>
-      <image:title>Dark Gothic Eldritch Tarot Deck (20 High-Res Cards)</image:title>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/dark_gothic_tarot_cover.jpg</image:loc>
+      <image:title>Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)</image:title>
     </image:image>
   </url>
   <url>
@@ -383,8 +983,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/necrobestiary.jpg</image:loc>
-      <image:title>Eldritch VTT Round Token Master Pack (Sliced PNGs)</image:title>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/eldritch_vtt_tokens_cover.jpg</image:loc>
+      <image:title>Eldritch &amp; Abyssal VTT Tokens Pack (24 Circular Cutouts)</image:title>
     </image:image>
   </url>
   <url>
@@ -403,7 +1003,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/soldierslaststand.jpg</image:loc>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/horde_spawner_cover.jpg</image:loc>
       <image:title>Horde Wave Survival &amp; Enemy Spawner Matrix</image:title>
     </image:image>
   </url>
@@ -528,13 +1128,103 @@
     </image:image>
   </url>
   <url>
-    <loc>https://jasoncoleman-gamedev.surge.sh/products/flow-master-production-vault-467.html</loc>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/titan-master-production-vault-467.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/soitswarthen.jpg</image:loc>
-      <image:title>Google Flow Master Production Vault (467 High-Res Assets)</image:title>
+      <image:title>Titan 4K Master Studio Asset Vault (467 High-Res Assets)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/ecs-spatial-partitioning-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/ecs_engine.jpg</image:loc>
+      <image:title>High-Performance ECS &amp; Spatial Partitioning Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/nextgen-4k-commercial-asset-collection-vol2.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/flowvol2.jpg</image:loc>
+      <image:title>NextGen 4K Commercial Asset Collection Vol. 2 (364 Assets)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-horde-survivors-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/survivors_engine.jpg</image:loc>
+      <image:title>Godot 4 Horde Survivors &amp; Auto-Shooter Engine Template</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/godot4-pro-shaders-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/pro_shaders.jpg</image:loc>
+      <image:title>Godot 4 Pro Shaders &amp; Visual FX Pack (12 Shaders)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/dark-gothic-tarot-deck.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/gothic_tarot.jpg</image:loc>
+      <image:title>Dark Gothic Tarot &amp; Oracle Deck (20 High-Res Cards)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/cyberpunk-streamer-lounges-4k.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/streamer_lounges.jpg</image:loc>
+      <image:title>Cyberpunk Streamer Lounges &amp; Battlestations (4K UHD)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/eldritch-vtt-tokens-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/eldritch_tokens.jpg</image:loc>
+      <image:title>Eldritch &amp; Abyssal VTT Tokens Pack (24 Circular Cutouts)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/master-rpg-square-icons-pack.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/rpg_square_icons.jpg</image:loc>
+      <image:title>Master RPG Square Icons &amp; PBR Tokens (40 High-Res Icons)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jasoncoleman-gamedev.surge.sh/products/procedural-terrain-biome-engine.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jasoncoleman-gamedev.surge.sh/assets/covers/terrain_biome_engine.jpg</image:loc>
+      <image:title>Procedural 3D/2D Terrain &amp; Biome Generation Engine</image:title>
     </image:image>
   </url>
 </urlset>
