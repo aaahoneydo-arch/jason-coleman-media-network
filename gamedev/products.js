@@ -411,7 +411,7 @@ const PRODUCTS = [
         "title": "Pixel Art Upscaler & Palette Quantizer Tool CLI",
         "subtitle": "Nearest-neighbor integer scaling, edge-preserving upscaling, and retro palette color reduction CLI.",
         "category": "tool",
-        "price": 1,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -492,7 +492,7 @@ const PRODUCTS = [
         "title": "VTT Token Forge: Circular Bevel Border & Mask Generator CLI",
         "subtitle": "Automated virtual tabletop circular token generator with metallic borders and alpha masking for Foundry & Roll20.",
         "category": "tool",
-        "price": 1,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -546,7 +546,7 @@ const PRODUCTS = [
         "title": "Godot 4 Procedural Cave & Cellular Automata Map Builder",
         "subtitle": "Cellular automata, flood-fill connectivity validation, island pruning, and TileMapLayer exporter for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 24.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -602,7 +602,7 @@ const PRODUCTS = [
         "title": "Godot 4 Pro UI Theme & Responsive HUD Component Library",
         "subtitle": "Glassmorphic theme, styled buttons, radial health bars, modal dialogs, and 4K responsive scaling for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -630,7 +630,7 @@ const PRODUCTS = [
         "title": "Godot 4 Top-Down Space Sim & Newtonian Flight Controller",
         "subtitle": "RigidBody2D physics, inertia dampening, vector RCS thrusters, and orbital mechanics for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 24.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -658,7 +658,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack",
         "subtitle": "GPU-accelerated rain, snow, lightning flashes, wind turbulence, and mist particles for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -714,7 +714,7 @@ const PRODUCTS = [
         "title": "Godot 4 Roguelike Deckbuilder & Hand Management Engine",
         "subtitle": "Slay the Spire style draw/discard pile mechanics, curved hand fan layout, and energy system for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 24.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -742,7 +742,7 @@ const PRODUCTS = [
         "title": "Godot 4 Infinite 2D Parallax World & Auto-Tile Generator",
         "subtitle": "Seamless multi-layer Parallax2D scrolling, procedural chunk streaming, and auto-tiling for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 24.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -770,7 +770,7 @@ const PRODUCTS = [
         "title": "Godot 4 Turn-Based Tactical Hex Grid Combat System",
         "subtitle": "Axial coordinate math, Dijkstra AP pathfinding, turn queue initiative, and hex highlights for Godot 4.",
         "category": "engine",
-        "price": 1,
+        "price": 24.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -826,7 +826,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Modular Weapon Customization & Ballistics",
         "subtitle": "Tarkov-grade modular firearm attachment sockets, realistic gravity/drag ballistics simulation, and procedural spring recoil for Unreal Engine 5.",
         "category": "engine",
-        "price": 1,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -854,7 +854,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Branching Quest & Objective State Graph",
         "subtitle": "Production node-based quest state machine, objective prerequisites, timeline triggers, and save-state persistence for Unreal Engine 5.",
         "category": "engine",
-        "price": 1,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -882,7 +882,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Celestial Day-Night & Dynamic Weather System",
         "subtitle": "Physically grounded astronomical solar/lunar ephemeris, volumetric cloud states, and dynamic rain wetness shaders for Unreal Engine 5.",
         "category": "engine",
-        "price": 1,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -910,7 +910,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Procedural Foliage & Biome Scatter Tool",
         "subtitle": "High-performance Poisson disc & Simplex noise procedural foliage spawner and Hierarchical Instanced Static Mesh (HISM) optimizer for Unreal Engine 5.",
         "category": "engine",
-        "price": 1,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
