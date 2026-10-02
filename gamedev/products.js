@@ -3127,30 +3127,61 @@ const PRODUCTS = [
     },
     {
         "id": "custom-cinematic-video-production",
-        "title": "Custom Cinematic Video Production by JasonTV (4 to 5 Minutes)",
-        "subtitle": "Order a custom 4-5 minute cinematic video produced by JasonTV for $19.99, or get 2 videos for $30.00. Scriptwriting, voiceover, sound design & 4K visuals.",
+        "title": "Custom Cinematic Video Production by JasonTV (Up to 5 Minutes)",
+        "subtitle": "Order a custom cinematic video (up to 5 minutes) produced by JasonTV for $49.99, or get 2 videos for $59.99. Scriptwriting, voiceover, sound design & 4K visuals.",
         "category": "tools",
-        "price": 19.99,
+        "price": 49.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
             "Video Commission",
-            "4-5 Mins 4K",
-            "2 Videos for $30 Option"
+            "Up to 5 Mins 4K",
+            "2 Videos for $59.99 Option"
         ],
-        "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "cover": "assets/covers/custom_video_production.jpg",
+        "itchUrl": "https://jasonc101.itch.io/custom-cinematic-video-production-4-5-min-jasontv",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
-        "description": "Commission an epic sci-fi mech clash, dark fantasy tale, military war chronicle, comedy skit, or custom channel promo. 4 to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
+        "description": "Commission realistic music videos, high-fashion visuals, colossal mythical dragons, epic sci-fi mech clashes, dark fantasy sagas, military war chronicles, viral comedy skits, or custom game trailers. Up to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
         "specs": [
-            "1 Full Custom Video (4-5 Minutes) for $19.99",
-            "Dual Video Package (Two 4-5 Min Videos) for $30.00 (Save $10)",
+            "1 Full Custom Video (Up to 5 Minutes) for $49.99",
+            "Dual Video Package (Two Videos Up to 5 Mins Each) for $59.99 (Save $40)",
+            "Any Genre: Realistic Music Videos, Dragons, Fantasy, Sci-Fi, Military, Game Trailers, Comedy & More",
+            "Official Production Sample: Can’t Turn It Off (Official Music Video)",
             "16:9 Landscape (YouTube) or 9:16 Vertical (TikTok/Shorts)",
             "Custom AI Visual Production & Scene Art Direction",
             "Character Voiceover & Dynamic Audio Mix",
             "Direct Email Delivery to Your Active Email Address",
             "100% Royalty-Free Commercial & Monetization Rights",
             "Non-Refundable Custom Digital Commission Policy"
+        ]
+    },
+    {
+        "id": "flow-field-pathfinding-engine",
+        "title": "High-Throughput Flow Field & Crowd Pathfinding Engine",
+        "subtitle": "Pure Python flow field pathfinding with 127K+ agent evals/sec for 25,000 concurrent agents, spatial-hash avoidance, binary .flow serialization, and 312 tests.",
+        "category": "engine",
+        "price": 39.99,
+        "rating": 5,
+        "reviews": 34,
+        "badges": [
+            "Python 3.10+",
+            "127K+ Evals/Sec",
+            "312 Tests Passing",
+            "25K Agents"
+        ],
+        "cover": "assets/covers/flow_field_pathfinding.jpg",
+        "itchUrl": "https://jasonc101.itch.io/high-throughput-flow-field-crowd-pathfinding-engine",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Production-grade, headless Flow Field (Vector Field) pathfinding and crowd simulation engine implemented entirely in pure Python standard library. Features prioritized multi-goal Dijkstra integration wavefronts (613K cells/sec), gradient vector derivation (396K cells/sec), bilinear continuous velocity sampling, spatial-hash soft avoidance forces and hard push-out, 25,000+ concurrent agents with flocking at 127K evals/sec, high-density 16-byte binary .flow format, full JSON export, and 312 unit tests passing in 1.45 seconds.",
+        "specs": [
+            "127,933+ Agent Evaluations/Sec with 25,000 Concurrent Agents",
+            "613,000+ Cells/Sec Dijkstra Wavefront Integration Field",
+            "396,000+ Cells/Sec Normalized Vector Field with Bilinear Sampling",
+            "Spatial-Hash Collision Avoidance & Push-Out (0.7 Radius Tuned)",
+            "312 / 312 Automated Pytest Tests Passing (100% Deterministic)",
+            "High-Density 16-Byte Packed Binary .flow Format + JSON Exporter",
+            "Zero External Dependencies (Pure Python Standard Library)",
+            "100% Royalty-Free Perpetual Commercial Rights"
         ]
     }
 ];
