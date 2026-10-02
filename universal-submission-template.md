@@ -164,7 +164,7 @@ Systems compound. Consistency matters more than virality.
 
 - **Analytics Hub:** https://jasontvmarketplace.com/
 - **RSS Feed:** https://jasontvmarketplace.com/feed.xml
-- **YouTube Analytics:** https://studio.youtube.com/@jasontv1982/dashboard
+- **YouTube Analytics:** https://studio.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q
 - **Amazon KDP Reports:** https://kdp.amazon.com/en_US/
 - **Steam Analytics:** https://partner.steamgames.com/
 
