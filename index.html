@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="aWyFuS8Py2vO-Dna0Qu7hlJYRmI3EW6utjRSXM1NgoA" />
   <meta name="yandex-verification" content="1c8bb5ca2e4ffbfd" />
-  <title>JasonTV Marketplace | 122 Commercial Game Engines, 10 Books & Developer Tools by Jason Coleman</title>
+  <title>JasonTV Marketplace | 122 Commercial Game Engines, 9 Books & Developer Tools by Jason Coleman</title>
   <meta name="description" content="Official home of creator & author Jason Coleman. Explore novels 'The Shattered Crown', 'DRAEVAN: The Immortal', 'The Real Americana', original songs like 'Can't Turn It Off', indie games, WWII documentaries, and comedy shorts on YouTube and TikTok.">
   <meta name="keywords" content="Jason Coleman, JasonTV, The Shattered Crown, Draevan, The Real Americana, Can't Turn It Off, Epic Last Stands, Jason Coleman author, YouTube JasonTV, TikTok jasontv1982">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="JasonTV Marketplace | 122 Game Engines, 10 Books & Videos">
+  <meta name="twitter:title" content="JasonTV Marketplace | 122 Game Engines, 9 Books & Videos">
   <meta name="twitter:description" content="Commercial game engines, developer tools, published novels, original music, and 900+ films by Jason Coleman.">
   <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
   
@@ -1229,6 +1229,127 @@
     }
     .modal-btn-itch:hover, .modal-btn-gumroad:hover { opacity: 0.9; }
 
+  
+    /* Scrollable itch.io Vault Styles */
+    .itch-vault-wrapper {
+      background: linear-gradient(135deg, rgba(15, 20, 28, 0.95), rgba(8, 12, 20, 0.98));
+      border: 1px solid rgba(250, 92, 92, 0.35);
+      border-radius: var(--radius);
+      padding: 2.2rem;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    }
+    .itch-vault-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 1.8rem;
+    }
+    .itch-vault-scrollbox {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+      max-height: 680px;
+      overflow-y: auto;
+      padding-right: 0.75rem;
+      scrollbar-width: thin;
+      scrollbar-color: #fa5c5c #0c111c;
+    }
+    .itch-vault-scrollbox::-webkit-scrollbar {
+      width: 8px;
+    }
+    .itch-vault-scrollbox::-webkit-scrollbar-track {
+      background: #0c111c;
+      border-radius: 4px;
+    }
+    .itch-vault-scrollbox::-webkit-scrollbar-thumb {
+      background: #fa5c5c;
+      border-radius: 4px;
+    }
+    .itch-vault-card {
+      background: #090d16;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .itch-vault-card:hover {
+      transform: translateY(-4px);
+      border-color: #fa5c5c;
+    }
+    .itch-vault-media {
+      position: relative;
+      height: 145px;
+      background: #04060a;
+      overflow: hidden;
+    }
+    .itch-vault-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .itch-vault-card:hover .itch-vault-media img {
+      transform: scale(1.05);
+    }
+    .itch-vault-badge {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: rgba(0,0,0,0.85);
+      color: #00ff88;
+      font-weight: 800;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      border: 1px solid rgba(0,255,136,0.3);
+    }
+    .itch-vault-body {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+    .itch-vault-tag {
+      font-size: 0.72rem;
+      color: #ff7675;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.35rem;
+    }
+    .itch-vault-title {
+      color: #fff;
+      font-size: 0.92rem;
+      line-height: 1.35;
+      margin-bottom: 0.85rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .itch-vault-btn {
+      display: block;
+      text-align: center;
+      background: rgba(250, 92, 92, 0.15);
+      color: #ff7675;
+      border: 1px solid rgba(250, 92, 92, 0.4);
+      padding: 0.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+    .itch-vault-btn:hover {
+      background: #fa5c5c;
+      color: #fff;
+    }
+
   </style>
   <!-- Gumroad In-Page Checkout Overlay -->
   <script src="https://gumroad.com/js/gumroad.js"></script>
@@ -1239,7 +1360,7 @@
     <div class="nav-inner">
       <a href="index.html" class="brand">JASONTV <span>MARKETPLACE</span></a>
       <ul class="nav-menu">
-        <li><a href="#books">Books (10)</a></li>
+        <li><a href="#books">Books (9)</a></li>
         <li><a href="gamedev/index.html" style="color:var(--accent-gold); font-weight:800;">⚡ Game Studios (123)</a></li>
         <li><a href="custom-videos.html" style="color:var(--accent-cyan); font-weight:800;">🎬 Custom Videos ($49.99)</a></li>
         <li><a href="#music">Original Music</a></li>
@@ -1251,7 +1372,7 @@
         <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:#fa5c5c;color:#fff;font-weight:800;" data-target="itch_store_nav">itch.io Store (122 Live)</a>
         <a href="https://honeydo5.gumroad.com/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:#ff90e8;color:#000;font-weight:800;" data-target="gumroad_store_nav">Gumroad Store</a>
         <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener" class="nav-btn btn-amz track-click" data-target="amazon_store_nav">Amazon Store</a>
-        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt track-click" data-target="youtube_nav">YouTube (800+)</a>
+        <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q" target="_blank" rel="noopener" class="nav-btn btn-yt track-click" data-target="youtube_nav">YouTube (900+)</a>
         <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="nav-btn btn-tt track-click" data-target="tiktok_nav">TikTok</a>
         <div class="lang-switcher" title="Translate Website into 100+ Languages">
           <span class="lang-icon">🌐</span>
@@ -1283,7 +1404,7 @@
           <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ Daily Comedy on TikTok</a>
         </div>
 
-        <!-- Universal Instant Search Across 122 Products, 10 Books & Videos -->
+        <!-- Universal Instant Search Across 122 Products, 9 Books & Videos -->
         <div class="hero-search-container">
           <div class="hero-search-bar">
             <span class="search-icon">🔍</span>
@@ -1299,7 +1420,7 @@
             <p>itch.io &amp; Gumroad Vault ($3,500+ Value)</p>
           </div>
           <div class="stat-box">
-            <h3>10 Books</h3>
+            <h3>9 Books</h3>
             <p>Published Author Works</p>
           </div>
           <div class="stat-box">
@@ -1528,75 +1649,164 @@
           </div>
 
           <div class="theater-playlist">
-            <!-- Video 1: JasonTV Marketplace Is Live -->
-            <div class="theater-item active" onclick="switchVideo('NHfK-njzuX0', 'JasonTV Marketplace Is Live | Books, Games, Films, Music & More', 'Official launch and showcase of JasonTV Marketplace featuring 122+ commercial game engines, 10 published books, developer toolkits, cinematic films, and original music by Jason Coleman.', this)">
-              <img src="https://img.youtube.com/vi/NHfK-njzuX0/mqdefault.jpg" alt="JasonTV Marketplace Is Live" class="theater-thumb">
+            <!-- Video: JasonTV Marketplace Is Live |  -->
+            <div class="theater-item active" onclick="switchVideo('NHfK-njzuX0', 'JasonTV Marketplace Is Live | Books, Games, Films, Music & More', 'Official launch and walkthrough of the JasonTV Marketplace featuring 122+ commercial game engines, developer toolkits, 10 published books, and high-impact cinematic trailers.', this)">
+              <img src="https://img.youtube.com/vi/NHfK-njzuX0/mqdefault.jpg" alt="JasonTV Marketplace Is Live | Books, Gam" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>JasonTV Marketplace Is Live</h4>
-                <span>🚀 Official Showcase &amp; Launch</span>
+                <h4>JasonTV Marketplace Is Live | Books, Games, Films, Music & More</h4>
+                <span>🚀 Marketplace Showcase</span>
               </div>
             </div>
-
-            <!-- Video 2: Can't Turn It Off -->
+            <!-- Video: Can’t Turn It Off — Official M -->
             <div class="theater-item" onclick="switchVideo('cPm0DmhLjl8', 'Can’t Turn It Off — Official Music Video | Original Song', 'Sometimes your own mind is the loudest thing in the room. An original song and cinematic short film about love, obsession, overthinking, and waking dreams.', this)">
-              <img src="https://img.youtube.com/vi/cPm0DmhLjl8/mqdefault.jpg" alt="Can't Turn It Off" class="theater-thumb">
+              <img src="https://img.youtube.com/vi/cPm0DmhLjl8/mqdefault.jpg" alt="Can’t Turn It Off — Official Music Video" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>Can’t Turn It Off — Official Music Video</h4>
-                <span>🎵 Premiere Track (4:20)</span>
+                <h4>Can’t Turn It Off — Official Music Video | Original Song</h4>
+                <span>🎵 Official Music Video</span>
               </div>
             </div>
-
-            <!-- Video 2: JASON: CALL TO WAR -->
-            <div class="theater-item" onclick="switchVideo('ZhqsGfnmOls', 'JASON: CALL TO WAR | Epic Mech Short Film', 'A veteran mech commander returns to the cockpit of Titan Black to stop the Ashen Legion before humanity’s final stronghold falls. Lasers, missiles, giant combat walkers.', this)">
-              <img src="https://img.youtube.com/vi/ZhqsGfnmOls/mqdefault.jpg" alt="CALL TO WAR" class="theater-thumb">
+            <!-- Video: JASON: CALL TO WAR | Epic Mech -->
+            <div class="theater-item" onclick="switchVideo('ZhqsGfnmOls', 'JASON: CALL TO WAR | Epic Mech Short Film', 'A veteran mech commander returns to the cockpit of Titan Black to stop the Ashen Legion before humanity’s final stronghold falls.', this)">
+              <img src="https://img.youtube.com/vi/ZhqsGfnmOls/mqdefault.jpg" alt="JASON: CALL TO WAR | Epic Mech Short Fil" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>JASON: CALL TO WAR | Epic Mech Film</h4>
+                <h4>JASON: CALL TO WAR | Epic Mech Short Film</h4>
                 <span>🤖 Sci-Fi Action (4:11)</span>
               </div>
             </div>
-
-            <!-- Video 3: THE LAST SECOND -->
+            <!-- Video: THE LAST SECOND | A Time Trave -->
             <div class="theater-item" onclick="switchVideo('SlR3N10e3-4', 'THE LAST SECOND | A Time Traveler Through History', 'Follow Evelyn Vale through Pompeii, Imperial Rome, the Renaissance, and World War II as her device threatens the fabric of the timeline.', this)">
-              <img src="https://img.youtube.com/vi/SlR3N10e3-4/mqdefault.jpg" alt="THE LAST SECOND" class="theater-thumb">
+              <img src="https://img.youtube.com/vi/SlR3N10e3-4/mqdefault.jpg" alt="THE LAST SECOND | A Time Traveler Throug" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>THE LAST SECOND | Time Traveler</h4>
+                <h4>THE LAST SECOND | A Time Traveler Through History</h4>
                 <span>⏳ Cinematic Short (4:01)</span>
               </div>
             </div>
-
-            <!-- Video 4: MECHABELLUM RANKED SHOWDOWN -->
-            <div class="theater-item" onclick="switchVideo('IoNXvcEKBis', 'MECHABELLUM RANKED — FINAL ROUND SHOWDOWN + ORIGINAL MUSIC', 'High-stakes Mechabellum ranked battle coming down to the wire with custom positioning, counters, and an original JasonTV soundtrack.', this)">
-              <img src="https://img.youtube.com/vi/IoNXvcEKBis/mqdefault.jpg" alt="Mechabellum Ranked" class="theater-thumb">
+            <!-- Video: THE WAR BEHIND THE VEIL | Ange -->
+            <div class="theater-item" onclick="switchVideo('bgiFp3Ee28o', 'THE WAR BEHIND THE VEIL | Angels vs Demons Epic Short Film', 'A secret war rages just beyond human vision. Archangels Michael and Seraphiel descend to confront the demon general Azrak.', this)">
+              <img src="https://img.youtube.com/vi/bgiFp3Ee28o/mqdefault.jpg" alt="THE WAR BEHIND THE VEIL | Angels vs Demo" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>MECHABELLUM RANKED: Final Round</h4>
-                <span>⚔️ Strategy &amp; Music (20:54)</span>
+                <h4>THE WAR BEHIND THE VEIL | Angels vs Demons Epic Short Film</h4>
+                <span>⚔️ Dark Fantasy (6:01)</span>
               </div>
             </div>
-
-            <!-- Video 5: TEEMO IN REAL LIFE -->
-            <div class="theater-item" onclick="switchVideo('7vtHPT6w_XE', 'TEEMO IN REAL LIFE 😂🍄 | League of Legends Cinematic Fan Film', 'What happens when the swift scout enters the real world? Blinding darts, deadly mushroom traps, and utter urban chaos.', this)">
-              <img src="https://img.youtube.com/vi/7vtHPT6w_XE/mqdefault.jpg" alt="TEEMO IN REAL LIFE" class="theater-thumb">
+            <!-- Video: MECHABELLUM RANKED — FINAL ROU -->
+            <div class="theater-item" onclick="switchVideo('IoNXvcEKBis', 'MECHABELLUM RANKED — FINAL ROUND SHOWDOWN + ORIGINAL MUSIC', 'High-stakes Mechabellum ranked battle coming down to the wire with custom positioning, counters, and an original JasonTV soundtrack.', this)">
+              <img src="https://img.youtube.com/vi/IoNXvcEKBis/mqdefault.jpg" alt="MECHABELLUM RANKED — FINAL ROUND SHOWDOW" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>TEEMO IN REAL LIFE 😂🍄</h4>
+                <h4>MECHABELLUM RANKED — FINAL ROUND SHOWDOWN + ORIGINAL MUSIC</h4>
+                <span>⚔️ Strategy & Music (20:54)</span>
+              </div>
+            </div>
+            <!-- Video: TEEMO IN REAL LIFE 😂🍄 | League -->
+            <div class="theater-item" onclick="switchVideo('7vtHPT6w_XE', 'TEEMO IN REAL LIFE 😂🍄 | League of Legends Cinematic Fan Film', 'What happens when the swift scout enters the real world? Blinding darts, deadly mushroom traps, and utter urban chaos.', this)">
+              <img src="https://img.youtube.com/vi/7vtHPT6w_XE/mqdefault.jpg" alt="TEEMO IN REAL LIFE 😂🍄 | League of Legend" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>TEEMO IN REAL LIFE 😂🍄 | League of Legends Cinematic Fan Film</h4>
                 <span>🍄 Comedy Fan Film (3:21)</span>
               </div>
             </div>
-
-            <!-- Video 6: THERE IS ONLY DOOM -->
+            <!-- Video: THERE IS ONLY DOOM | The Histo -->
             <div class="theater-item" onclick="switchVideo('RkZaUIazQQQ', 'THERE IS ONLY DOOM | The History & Power of Doctor Doom', 'Explore the comic book origin, sorcery, technology, and sheer willpower of Victor von Doom in this Marvel lore retrospective.', this)">
-              <img src="https://img.youtube.com/vi/RkZaUIazQQQ/mqdefault.jpg" alt="THERE IS ONLY DOOM" class="theater-thumb">
+              <img src="https://img.youtube.com/vi/RkZaUIazQQQ/mqdefault.jpg" alt="THERE IS ONLY DOOM | The History & Power" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>THERE IS ONLY DOOM | Doctor Doom</h4>
-                <span>🛡️ Marvel Retrospective (2:51)</span>
+                <h4>THERE IS ONLY DOOM | The History & Power of Doctor Doom</h4>
+                <span>🛡️ Marvel Lore (2:51)</span>
               </div>
             </div>
-
-            <!-- Video 7: THE WAR BEHIND THE VEIL -->
-            <div class="theater-item" onclick="switchVideo('bgiFp3Ee28o', 'THE WAR BEHIND THE VEIL | Angels vs Demons Epic Short Film', 'A secret war rages just beyond human vision. Archangels Michael and Seraphiel descend to confront the demon general Azrak.', this)">
-              <img src="https://img.youtube.com/vi/bgiFp3Ee28o/mqdefault.jpg" alt="THE WAR BEHIND THE VEIL" class="theater-thumb">
+            <!-- Video: DRAEVAN: The Immortal (116-Pag -->
+            <div class="theater-item" onclick="switchVideo('czl3ZmsLcBI', 'DRAEVAN: The Immortal (116-Page Narrated Graphic Novel)', 'All 116 illustrated graphic novel pages narrated with full dramatic character voices and custom soundtrack.', this)">
+              <img src="https://img.youtube.com/vi/czl3ZmsLcBI/mqdefault.jpg" alt="DRAEVAN: The Immortal (116-Page Narrated" class="theater-thumb" loading="lazy">
               <div class="theater-item-meta">
-                <h4>THE WAR BEHIND THE VEIL: Angels &amp; Demons</h4>
-                <span>⚔️ Dark Fantasy (6:01)</span>
+                <h4>DRAEVAN: The Immortal (116-Page Narrated Graphic Novel)</h4>
+                <span>📖 Narrated Novel (18:42)</span>
+              </div>
+            </div>
+            <!-- Video: Cops on Patrol — Episode 1 (Po -->
+            <div class="theater-item" onclick="switchVideo('GolTRk6S45w', 'Cops on Patrol — Episode 1 (Police Encounters)', 'Real police patrol encounters with insightful and candid commentary from Jason Coleman.', this)">
+              <img src="https://img.youtube.com/vi/GolTRk6S45w/mqdefault.jpg" alt="Cops on Patrol — Episode 1 (Police Encou" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Cops on Patrol — Episode 1 (Police Encounters)</h4>
+                <span>🚔 Police Docu (12:15)</span>
+              </div>
+            </div>
+            <!-- Video: Built Our Own Road & Never Qui -->
+            <div class="theater-item" onclick="switchVideo('VroKdsXFUxY', 'Built Our Own Road & Never Quit | Motivational Anthem', 'High-energy motivational anthem paired with legendary athletic triumphs and sports perseverance.', this)">
+              <img src="https://img.youtube.com/vi/VroKdsXFUxY/mqdefault.jpg" alt="Built Our Own Road & Never Quit | Motiva" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Built Our Own Road & Never Quit | Motivational Anthem</h4>
+                <span>🥊 Motivation Anthem</span>
+              </div>
+            </div>
+            <!-- Video: Mike Tyson & Black Mamba Songs -->
+            <div class="theater-item" onclick="switchVideo('zKE7NV5mty4', 'Mike Tyson & Black Mamba Songs | Explosive Knockout Tribute', 'Original tracks \'I Knock Mofos Out\' and moving Kobe Bryant legacy tribute.', this)">
+              <img src="https://img.youtube.com/vi/zKE7NV5mty4/mqdefault.jpg" alt="Mike Tyson & Black Mamba Songs | Explosi" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Mike Tyson & Black Mamba Songs | Explosive Knockout Tribute</h4>
+                <span>🥊 Sports Tribute</span>
+              </div>
+            </div>
+            <!-- Video: Git Down With the Git Down | C -->
+            <div class="theater-item" onclick="switchVideo('wVf14ic_KQQ', 'Git Down With the Git Down | Country Party Anthem', 'High-energy original country party anthem built for boots, line dancing, and letting loose.', this)">
+              <img src="https://img.youtube.com/vi/wVf14ic_KQQ/mqdefault.jpg" alt="Git Down With the Git Down | Country Par" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Git Down With the Git Down | Country Party Anthem</h4>
+                <span>🤠 Country Bop</span>
+              </div>
+            </div>
+            <!-- Video: The Algorithm Hates Me & 6 7 R -->
+            <div class="theater-item" onclick="switchVideo('sVD52SXPNKM', 'The Algorithm Hates Me & 6 7 Rizz | Comedy Music', 'Satirical comedy anthems every content creator understands: spending 12 hours making a video just to get 3 views.', this)">
+              <img src="https://img.youtube.com/vi/sVD52SXPNKM/mqdefault.jpg" alt="The Algorithm Hates Me & 6 7 Rizz | Come" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>The Algorithm Hates Me & 6 7 Rizz | Comedy Music</h4>
+                <span>😂 Creator Comedy</span>
+              </div>
+            </div>
+            <!-- Video: You Never Know | Official Jaso -->
+            <div class="theater-item" onclick="switchVideo('2BW7F9vwtLA', 'You Never Know | Official JasonTV Channel Theme Song', 'The official upbeat theme song representing JasonTV: \'Movies, gaming, music, history, comedy, and whatever we discover along the way!\'', this)">
+              <img src="https://img.youtube.com/vi/2BW7F9vwtLA/mqdefault.jpg" alt="You Never Know | Official JasonTV Channe" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>You Never Know | Official JasonTV Channel Theme Song</h4>
+                <span>🌟 Channel Theme</span>
+              </div>
+            </div>
+            <!-- Video: CAN’T TURN IT OFF 😂 | Original -->
+            <div class="theater-item" onclick="switchVideo('Iyj2lG2H86g', 'CAN’T TURN IT OFF 😂 | Original Song + Jason Being Jason', 'Original music paired with comedic behind-the-scenes energy from Jason.', this)">
+              <img src="https://img.youtube.com/vi/Iyj2lG2H86g/mqdefault.jpg" alt="CAN’T TURN IT OFF 😂 | Original Song + Ja" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>CAN’T TURN IT OFF 😂 | Original Song + Jason Being Jason</h4>
+                <span>😂 Music Short</span>
+              </div>
+            </div>
+            <!-- Video: HEY YOU! 🕷️ Yeah, YOU -->
+            <div class="theater-item" onclick="switchVideo('yPSmiQNg3PQ', 'HEY YOU! 🕷️ Yeah, YOU', 'Hilarious spider comedy short asking for likes & subscriptions.', this)">
+              <img src="https://img.youtube.com/vi/yPSmiQNg3PQ/mqdefault.jpg" alt="HEY YOU! 🕷️ Yeah, YOU" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>HEY YOU! 🕷️ Yeah, YOU</h4>
+                <span>🕷️ Comedy Short</span>
+              </div>
+            </div>
+            <!-- Video: CALL TO WAR | Epic Mech Short  -->
+            <div class="theater-item" onclick="switchVideo('ZT5qaRZiIuI', 'CALL TO WAR | Epic Mech Short Film Extended', 'Full extended cut of the titan mech battle with enhanced visual effects.', this)">
+              <img src="https://img.youtube.com/vi/ZT5qaRZiIuI/mqdefault.jpg" alt="CALL TO WAR | Epic Mech Short Film Exten" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>CALL TO WAR | Epic Mech Short Film Extended</h4>
+                <span>🤖 Mech Extended</span>
+              </div>
+            </div>
+            <!-- Video: Mechabellum Ranked Battle Gets -->
+            <div class="theater-item" onclick="switchVideo('Vdfp24b28UE', 'Mechabellum Ranked Battle Gets INTENSE | Tactical Mech Warfare', 'Another intense battle full of giant mechs, tactical counters, and nonstop strategy.', this)">
+              <img src="https://img.youtube.com/vi/Vdfp24b28UE/mqdefault.jpg" alt="Mechabellum Ranked Battle Gets INTENSE |" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Mechabellum Ranked Battle Gets INTENSE | Tactical Mech Warfare</h4>
+                <span>🤖 Mech Gameplay</span>
+              </div>
+            </div>
+            <!-- Video: Mechabellum Match OVER in 7 Mi -->
+            <div class="theater-item" onclick="switchVideo('RYs-y-APWkk', 'Mechabellum Match OVER in 7 Minutes | Fast Ranked Win', 'Fast counters, aggressive positioning, smart upgrades, and a lightning-fast finish.', this)">
+              <img src="https://img.youtube.com/vi/RYs-y-APWkk/mqdefault.jpg" alt="Mechabellum Match OVER in 7 Minutes | Fa" class="theater-thumb" loading="lazy">
+              <div class="theater-item-meta">
+                <h4>Mechabellum Match OVER in 7 Minutes | Fast Ranked Win</h4>
+                <span>⚡ Fast Mech Win</span>
               </div>
             </div>
           </div>
@@ -1633,7 +1843,7 @@
             <div>
               <div style="display: flex; justify-content: space-between; align-items: baseline;">
                 <h3 style="color: #fff; font-size: 1.3rem;">1 Custom Video</h3>
-                <span style="font-size: 2.2rem; font-weight: 900; color: #fff; font-family: 'Outfit', sans-serif;">$19.99</span>
+                <span style="font-size: 2.2rem; font-weight: 900; color: #fff; font-family: 'Outfit', sans-serif;">$49.99</span>
               </div>
               <p style="color: var(--text-muted); font-size: 0.88rem; margin: 0.5rem 0 1.25rem;">1 Complete 4-5 minute cinematic video (16:9 YouTube or 9:16 TikTok).</p>
               <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.9rem; color: #cbd5e1; margin-bottom: 1.5rem;">
@@ -1645,20 +1855,20 @@
               </ul>
             </div>
             <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
-              <a href="custom-videos.html#order" class="card-cta track-click" style="flex: 1; background: rgba(255,255,255,0.12); color: #fff; border: 1px solid rgba(255,255,255,0.2); text-align: center; text-decoration: none;">Submit Brief ($19.99) &rarr;</a>
+              <a href="custom-videos.html#order" class="card-cta track-click" style="flex: 1; background: rgba(255,255,255,0.12); color: #fff; border: 1px solid rgba(255,255,255,0.2); text-align: center; text-decoration: none;">Submit Brief ($49.99) &rarr;</a>
               <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="card-cta track-click" style="background: #fa5c5c; color: #fff; text-decoration: none;">Buy on itch.io ↗</a>
             </div>
           </div>
 
           <!-- Tier 2 -->
           <div style="background: linear-gradient(135deg, rgba(35, 25, 48, 0.95), #090d16); border: 2px solid var(--accent-gold); border-radius: 14px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; position: relative;">
-            <span style="position: absolute; top: 12px; right: 14px; background: linear-gradient(135deg, #ffaa00, #ff7700); color: #000; font-size: 0.72rem; font-weight: 900; padding: 0.25rem 0.65rem; border-radius: 50px; text-transform: uppercase;">★ Save $10 (Best Value)</span>
+            <span style="position: absolute; top: 12px; right: 14px; background: linear-gradient(135deg, #ffaa00, #ff7700); color: #000; font-size: 0.72rem; font-weight: 900; padding: 0.25rem 0.65rem; border-radius: 50px; text-transform: uppercase;">★ Save $40 (Best Value)</span>
             <div>
               <div style="display: flex; justify-content: space-between; align-items: baseline;">
                 <h3 style="color: #fff; font-size: 1.3rem;">2 Custom Videos</h3>
-                <span style="font-size: 2.2rem; font-weight: 900; color: var(--accent-gold); font-family: 'Outfit', sans-serif;">$30.00</span>
+                <span style="font-size: 2.2rem; font-weight: 900; color: var(--accent-gold); font-family: 'Outfit', sans-serif;">$59.99</span>
               </div>
-              <p style="color: var(--text-muted); font-size: 0.88rem; margin: 0.5rem 0 1.25rem;">Two 4-5 minute videos ($15 each &mdash; 8 to 10 minutes total).</p>
+              <p style="color: var(--text-muted); font-size: 0.88rem; margin: 0.5rem 0 1.25rem;">Two 4-5 minute videos ($29.99 each &mdash; 8 to 10 minutes total).</p>
               <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.9rem; color: #cbd5e1; margin-bottom: 1.5rem;">
                 <li><span style="color: var(--accent-cyan); font-weight: 900;">✓</span> 2 Full videos (4 to 5 minutes each)</li>
                 <li><span style="color: var(--accent-cyan); font-weight: 900;">✓</span> Multi-part story arc or 1 YouTube + 1 TikTok</li>
@@ -1668,7 +1878,7 @@
               </ul>
             </div>
             <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
-              <a href="custom-videos.html#order" class="card-cta track-click" style="flex: 1; background: linear-gradient(135deg, #ffaa00, #ff5500); color: #000; font-weight: 800; text-align: center; text-decoration: none;">Submit Brief ($30.00) &rarr;</a>
+              <a href="custom-videos.html#order" class="card-cta track-click" style="flex: 1; background: linear-gradient(135deg, #ffaa00, #ff5500); color: #000; font-weight: 800; text-align: center; text-decoration: none;">Submit Brief ($59.99) &rarr;</a>
               <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="card-cta track-click" style="background: #fa5c5c; color: #fff; text-decoration: none;">Buy on itch.io ↗</a>
             </div>
           </div>
@@ -1856,15 +2066,21 @@
       <p class="section-sub">Original studio tracks composed and produced for JasonTV. High-octane motivation, rock anthems, country bops, and comedy hits.</p>
       
       <div class="grid">
-        <article class="card">
-          <img src="assets/music-production.jpg" alt="JasonTV Original Music Production" class="card-thumb" style="height:200px; object-fit:cover;">
+        <article class="card" style="border: 2px solid var(--accent-cyan);">
+          <div style="position:relative; width:100%; height:200px; background:#000; overflow:hidden;">
+            <img src="https://img.youtube.com/vi/cPm0DmhLjl8/maxresdefault.jpg" alt="Can’t Turn It Off — Official Music Video | JasonTV" class="card-thumb" style="width:100%; height:100%; object-fit:cover;">
+            <a href="https://www.youtube.com/watch?v=cPm0DmhLjl8" target="_blank" rel="noopener" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(255,0,0,0.85); color:#fff; width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.4rem; text-decoration:none; box-shadow:0 4px 15px rgba(255,0,0,0.5);">▶</a>
+          </div>
           <div class="card-body">
             <div>
-              <span class="card-tag tag-music">Viral Hit &bull; 1,300+ Views</span>
-              <h3>Can't Turn It Off</h3>
-              <p>Cinematic indie rock anthem about overthinking, passion, and thoughts that refuse to quiet down. Featured across the Sports Illustrated-inspired swimsuit edit and Anna de Armas montage.</p>
+              <span class="card-tag tag-music">★ New Official Music Video &bull; 2026 Premiere</span>
+              <h3>Can’t Turn It Off — Official Music Video</h3>
+              <p>The newest official release of Jason Coleman’s hit track <em>&ldquo;Can’t Turn It Off&rdquo;</em>. An original song paired with high-impact cinematic visuals, dramatic sound staging, and midnight rock intensity.</p>
             </div>
-            <a href="https://www.youtube.com/watch?v=YbMON-UG3-4" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="yt_music_cant_turn_off">Listen to "Can't Turn It Off" &rarr;</a>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <a href="https://www.youtube.com/watch?v=cPm0DmhLjl8" target="_blank" rel="noopener" class="card-cta btn-yt track-click" style="flex:1;" data-target="yt_music_cant_turn_off">Watch on YouTube ↗</a>
+              <a href="cant-turn-it-off.html" class="card-cta track-click" style="background:rgba(0,210,211,0.15); color:var(--accent-cyan); border:1px solid rgba(0,210,211,0.35);">Lyrics &amp; Lore &rarr;</a>
+            </div>
           </div>
         </article>
 
@@ -1927,6 +2143,1518 @@
             <a href="https://www.youtube.com/watch?v=2BW7F9vwtLA" target="_blank" rel="noopener" class="card-cta btn-yt track-click" data-target="yt_music_theme">Stream JasonTV Theme &rarr;</a>
           </div>
         </article>
+      </div>
+    </section>
+
+        <!-- SCROLLABLE ITCH.IO STOREFRONT VAULT (ALL 106+ LISTINGS) -->
+    <section class="container" id="itch-vault" style="margin-bottom: 4.5rem;">
+      <div class="itch-vault-wrapper">
+        <div class="itch-vault-header">
+          <div>
+            <span class="dash-badge" style="background:rgba(250,92,92,0.2); color:#ff7675; border:1px solid #fa5c5c;">
+              ⚡ OFFICIAL ITCH.IO COMMERCIAL VAULT
+            </span>
+            <h2 style="font-size:2.2rem; color:#fff; margin:0.6rem 0 0.3rem;">
+              All 106+ Commercial Engines, Frameworks &amp; Asset Vaults
+            </h2>
+            <p style="color:var(--text-muted); font-size:1rem; max-width:800px; margin:0;">
+              Scroll through our complete commercial release catalog on itch.io. Every system includes source code, automated test suites, and 100% royalty-free commercial distribution rights.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+            <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="btn-large" style="background:linear-gradient(135deg, #fa5c5c, #d63031); color:#fff; text-decoration:none; padding:0.75rem 1.4rem; font-size:0.95rem;">
+              Open Store on itch.io ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Scrollable Cards Shelf -->
+        <div class="itch-vault-scrollbox" id="itchVaultShelf">
+          <!-- itch.io Card: Custom Cinematic Video Product -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Custom Cinematic Video Production | Any Genre (Up to 5 Min) - JasonTV" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$49.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Studio Commission</span>
+              <h4 class="itch-vault-title" title="Custom Cinematic Video Production | Any Genre (Up to 5 Min) - JasonTV">Custom Cinematic Video Production | Any Genre (Up to 5 Min) - JasonTV</h4>
+              <a href="https://jasonc101.itch.io/custom-cinematic-video-production-4-5-min-jasontv" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5088232">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: High-Throughput Flow Field & C -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/flowvol2.jpg" alt="High-Throughput Flow Field & Crowd Pathfinding Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="High-Throughput Flow Field & Crowd Pathfinding Engine">High-Throughput Flow Field & Crowd Pathfinding Engine</h4>
+              <a href="https://jasonc101.itch.io/high-throughput-flow-field-crowd-pathfinding-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5088244">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: HexTactics: Headless Grid, A*  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/hextactics.jpg" alt="HexTactics: Headless Grid, A* Pathfinding & Combat Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="HexTactics: Headless Grid, A* Pathfinding & Combat Engine">HexTactics: Headless Grid, A* Pathfinding & Combat Engine</h4>
+              <a href="https://jasonc101.itch.io/hextactics-headless-grid-a-pathfinding-combat-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083578">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Horde Wave Survival & Enemy Sp -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/horde_spawner_cover.jpg" alt="Horde Wave Survival & Enemy Spawner Matrix" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Horde Wave Survival & Enemy Spawner Matrix">Horde Wave Survival & Enemy Spawner Matrix</h4>
+              <a href="https://jasonc101.itch.io/horde-wave-survival-enemy-spawner-matrix" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087302">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Eldritch & Abyssal VTT Tokens  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/eldritch_vtt_tokens_cover.jpg" alt="Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)">Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)</h4>
+              <a href="https://jasonc101.itch.io/eldritch-abyssal-vtt-tokens-pack-24-circular-cutouts" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087318">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Dark Gothic Eldritch Tarot Dec -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/dark_gothic_tarot_cover.jpg" alt="Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)">Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)</h4>
+              <a href="https://jasonc101.itch.io/dark-gothic-eldritch-tarot-deck-20-illustrated-cards" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087325">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Cyberpunk Streamer Lounges & B -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/streamer_lounges.jpg" alt="Cyberpunk Streamer Lounges & Battlestations (4K UHD)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Cyberpunk Streamer Lounges & Battlestations (4K UHD)">Cyberpunk Streamer Lounges & Battlestations (4K UHD)</h4>
+              <a href="https://jasonc101.itch.io/cyberpunk-streamer-lounges-battlestations-4k-uhd" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087329">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 RPG Inventory, Craftin -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 RPG Inventory, Crafting Bench & Loot Addon" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 RPG Inventory, Crafting Bench & Loot Addon">Godot 4 RPG Inventory, Crafting Bench & Loot Addon</h4>
+              <a href="https://jasonc101.itch.io/godot-4-rpg-inventory-crafting-bench-loot-addon" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087339">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Autonomous Steering Behaviors  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/autonomous_steering_swarm_cover.jpg" alt="Autonomous Steering Behaviors & Boids Swarm Simulation Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Autonomous Steering Behaviors & Boids Swarm Simulation Engine">Autonomous Steering Behaviors & Boids Swarm Simulation Engine</h4>
+              <a href="https://jasonc101.itch.io/autonomous-steering-behaviors-boids-swarm-simulation-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087373">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Ancient Nordic Glaciers, Tundr -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/ancient_relics_cover.jpg" alt="Ancient Nordic Glaciers, Tundra Flora & Mountain Biome 4K Texture Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Ancient Nordic Glaciers, Tundra Flora & Mountain Biome 4K Texture Vault">Ancient Nordic Glaciers, Tundra Flora & Mountain Biome 4K Texture Vault</h4>
+              <a href="https://jasonc101.itch.io/ancient-nordic-glaciers-tundra-flora-mountain-biome-4k-texture-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087692">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Eldritch Spell Sigils, Runic C -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/eldritch_sigils_cover.jpg" alt="Eldritch Spell Sigils, Runic Circles & Arcane Decals Vector Asset Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Eldritch Spell Sigils, Runic Circles & Arcane Decals Vector Asset Pack">Eldritch Spell Sigils, Runic Circles & Arcane Decals Vector Asset Pack</h4>
+              <a href="https://jasonc101.itch.io/eldritch-spell-sigils-runic-circles-arcane-decals-vector-asset-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087689">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Armored Warmachines, Mecha Exo -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Armored Warmachines, Mecha Exosuits & Heavy Ordnance Concept Art Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Armored Warmachines, Mecha Exosuits & Heavy Ordnance Concept Art Vault">Armored Warmachines, Mecha Exosuits & Heavy Ordnance Concept Art Vault</h4>
+              <a href="https://jasonc101.itch.io/armored-warmachines-mecha-exosuits-heavy-ordnance-concept-art-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087685">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: High-Fantasy Medieval Strongho -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="High-Fantasy Medieval Strongholds & Marketplace Environment 4K Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="High-Fantasy Medieval Strongholds & Marketplace Environment 4K Pack">High-Fantasy Medieval Strongholds & Marketplace Environment 4K Pack</h4>
+              <a href="https://jasonc101.itch.io/high-fantasy-medieval-strongholds-marketplace-environment-4k-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087683">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Alchemical Elixirs, Toxic Phia -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/alchemical_elixirs_cover.jpg" alt="Alchemical Elixirs, Toxic Phials & Arcane Ingredients 4K Icon Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Alchemical Elixirs, Toxic Phials & Arcane Ingredients 4K Icon Vault">Alchemical Elixirs, Toxic Phials & Arcane Ingredients 4K Icon Vault</h4>
+              <a href="https://jasonc101.itch.io/alchemical-elixirs-toxic-phials-arcane-ingredients-4k-icon-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087680">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Deep Space Nebulae & Alien Pla -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/deep_space_nebulae_cover.jpg" alt="Deep Space Nebulae & Alien Planetary Skyboxes 4K Panoramic Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Deep Space Nebulae & Alien Planetary Skyboxes 4K Panoramic Pack">Deep Space Nebulae & Alien Planetary Skyboxes 4K Panoramic Pack</h4>
+              <a href="https://jasonc101.itch.io/deep-space-nebulae-alien-planetary-skyboxes-4k-panoramic-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087677">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Sci-Fi Cyberpunk Megacity & Ne -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Sci-Fi Cyberpunk Megacity & Neon Spire Overlooks 4K Concept Art Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Sci-Fi Cyberpunk Megacity & Neon Spire Overlooks 4K Concept Art Vault">Sci-Fi Cyberpunk Megacity & Neon Spire Overlooks 4K Concept Art Vault</h4>
+              <a href="https://jasonc101.itch.io/sci-fi-cyberpunk-megacity-neon-spire-overlooks-4k-concept-art-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087675">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Ancient Relics, Marrow Rings & -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Ancient Relics, Marrow Rings & Enchanted Talismans 4K RPG Icon Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Ancient Relics, Marrow Rings & Enchanted Talismans 4K RPG Icon Pack">Ancient Relics, Marrow Rings & Enchanted Talismans 4K RPG Icon Pack</h4>
+              <a href="https://jasonc101.itch.io/ancient-relics-marrow-rings-enchanted-talismans-4k-rpg-icon-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087669">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Cosmic Horrors, Abyssal Fiends -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/eldritch_vtt_tokens_cover.jpg" alt="Cosmic Horrors, Abyssal Fiends & Swamp Beasts VTT Monster Token Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Cosmic Horrors, Abyssal Fiends & Swamp Beasts VTT Monster Token Vault">Cosmic Horrors, Abyssal Fiends & Swamp Beasts VTT Monster Token Vault</h4>
+              <a href="https://jasonc101.itch.io/cosmic-horrors-abyssal-fiends-swamp-beasts-vtt-monster-token-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087664">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Dark Gothic Crypts, Catacombs  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/unity_pro_dungeon.jpg" alt="Dark Gothic Crypts, Catacombs & Dungeon Ruins 4K Texture Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Dark Gothic Crypts, Catacombs & Dungeon Ruins 4K Texture Vault">Dark Gothic Crypts, Catacombs & Dungeon Ruins 4K Texture Vault</h4>
+              <a href="https://jasonc101.itch.io/dark-gothic-crypts-catacombs-dungeon-ruins-4k-texture-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087662">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Chiptune 8-Bit Synth & Sound E -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/chiptune_synth_cover.jpg" alt="Chiptune 8-Bit Synth & Sound Effect Generator Studio CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Chiptune 8-Bit Synth & Sound Effect Generator Studio CLI">Chiptune 8-Bit Synth & Sound Effect Generator Studio CLI</h4>
+              <a href="https://jasonc101.itch.io/chiptune-8-bit-synth-sound-effect-generator-studio-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087622">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Level Design Heatmap & Player  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Level Design Heatmap & Player Movement Analytics Logger CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Level Design Heatmap & Player Movement Analytics Logger CLI">Level Design Heatmap & Player Movement Analytics Logger CLI</h4>
+              <a href="https://jasonc101.itch.io/level-design-heatmap-player-movement-analytics-logger-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087619">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Game Localization & Multi-Lang -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Game Localization & Multi-Language String Translation Manager CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Game Localization & Multi-Language String Translation Manager CLI">Game Localization & Multi-Language String Translation Manager CLI</h4>
+              <a href="https://jasonc101.itch.io/game-localization-multi-language-string-translation-manager-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087616">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Tilemap Rule-Tile Matrix & Col -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Tilemap Rule-Tile Matrix & Collision Boundary Exporter CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Tilemap Rule-Tile Matrix & Collision Boundary Exporter CLI">Tilemap Rule-Tile Matrix & Collision Boundary Exporter CLI</h4>
+              <a href="https://jasonc101.itch.io/tilemap-rule-tile-matrix-collision-boundary-exporter-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087612">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Shorts & Reel Automation: Vide -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Shorts & Reel Automation: Video Subtitle & Beat Sync CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$49.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Studio Commission</span>
+              <h4 class="itch-vault-title" title="Shorts & Reel Automation: Video Subtitle & Beat Sync CLI">Shorts & Reel Automation: Video Subtitle & Beat Sync CLI</h4>
+              <a href="https://jasonc101.itch.io/shorts-reel-automation-video-subtitle-beat-sync-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087610">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Pixel Art Upscaler & Palette Q -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Pixel Art Upscaler & Palette Quantizer Tool CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Pixel Art Upscaler & Palette Quantizer Tool CLI">Pixel Art Upscaler & Palette Quantizer Tool CLI</h4>
+              <a href="https://jasonc101.itch.io/pixel-art-upscaler-palette-quantizer-tool-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087598">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Procedural Fantasy Name, Lore  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Procedural Fantasy Name, Lore & Item Description Generator CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Procedural Fantasy Name, Lore & Item Description Generator CLI">Procedural Fantasy Name, Lore & Item Description Generator CLI</h4>
+              <a href="https://jasonc101.itch.io/procedural-fantasy-name-lore-item-description-generator-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087594">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Game Audio Batch Master: Norma -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/audio_batch_master_cover.jpg" alt="Game Audio Batch Master: Normalizer, Looper & Wav Converter CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Game Audio Batch Master: Normalizer, Looper & Wav Converter CLI">Game Audio Batch Master: Normalizer, Looper & Wav Converter CLI</h4>
+              <a href="https://jasonc101.itch.io/game-audio-batch-master-normalizer-looper-wav-converter-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087586">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: VTT Token Forge: Circular Beve -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/eldritch_vtt_tokens_cover.jpg" alt="VTT Token Forge: Circular Bevel Border & Mask Generator CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="VTT Token Forge: Circular Bevel Border & Mask Generator CLI">VTT Token Forge: Circular Bevel Border & Mask Generator CLI</h4>
+              <a href="https://jasonc101.itch.io/vtt-token-forge-circular-bevel-border-mask-generator-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087583">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: SpriteSheet Pro: Automated Sli -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="SpriteSheet Pro: Automated Slicer, Packer & JSON Exporter CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="SpriteSheet Pro: Automated Slicer, Packer & JSON Exporter CLI">SpriteSheet Pro: Automated Slicer, Packer & JSON Exporter CLI</h4>
+              <a href="https://jasonc101.itch.io/spritesheet-pro-automated-slicer-packer-json-exporter-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087580">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Procedural Cave & Cell -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Procedural Cave & Cellular Automata Map Builder" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Procedural Cave & Cellular Automata Map Builder">Godot 4 Procedural Cave & Cellular Automata Map Builder</h4>
+              <a href="https://jasonc101.itch.io/godot-4-procedural-cave-cellular-automata-map-builder" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087573">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 3D Bullet Hell & Objec -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 3D Bullet Hell & Object Pooler Particle Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 3D Bullet Hell & Object Pooler Particle Engine">Godot 4 3D Bullet Hell & Object Pooler Particle Engine</h4>
+              <a href="https://jasonc101.itch.io/godot-4-3d-bullet-hell-object-pooler-particle-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087567">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Pro UI Theme & Respons -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Pro UI Theme & Responsive HUD Component Library" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Pro UI Theme & Responsive HUD Component Library">Godot 4 Pro UI Theme & Responsive HUD Component Library</h4>
+              <a href="https://jasonc101.itch.io/godot-4-pro-ui-theme-responsive-hud-component-library" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087564">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Top-Down Space Sim & N -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Top-Down Space Sim & Newtonian Flight Controller" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Top-Down Space Sim & Newtonian Flight Controller">Godot 4 Top-Down Space Sim & Newtonian Flight Controller</h4>
+              <a href="https://jasonc101.itch.io/godot-4-top-down-space-sim-newtonian-flight-controller" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087557">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Dynamic Weather, Rain  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack">Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack</h4>
+              <a href="https://jasonc101.itch.io/godot-4-dynamic-weather-rain-storm-particle-vfx-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087552">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Behavior Tree & Smart  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Behavior Tree & Smart NPC AI Blackboard System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Behavior Tree & Smart NPC AI Blackboard System">Godot 4 Behavior Tree & Smart NPC AI Blackboard System</h4>
+              <a href="https://jasonc101.itch.io/godot-4-behavior-tree-smart-npc-ai-blackboard-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087541">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Roguelike Deckbuilder  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Roguelike Deckbuilder & Hand Management Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Roguelike Deckbuilder & Hand Management Engine">Godot 4 Roguelike Deckbuilder & Hand Management Engine</h4>
+              <a href="https://jasonc101.itch.io/godot-4-roguelike-deckbuilder-hand-management-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087538">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Infinite 2D Parallax W -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Infinite 2D Parallax World & Auto-Tile Generator" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Infinite 2D Parallax World & Auto-Tile Generator">Godot 4 Infinite 2D Parallax World & Auto-Tile Generator</h4>
+              <a href="https://jasonc101.itch.io/godot-4-infinite-2d-parallax-world-auto-tile-generator" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087536">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Turn-Based Tactical He -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Turn-Based Tactical Hex Grid Combat System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Turn-Based Tactical Hex Grid Combat System">Godot 4 Turn-Based Tactical Hex Grid Combat System</h4>
+              <a href="https://jasonc101.itch.io/godot-4-turn-based-tactical-hex-grid-combat-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087532">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 3D Platformer & Fluid  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 3D Platformer & Fluid Character Controller Kit" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 3D Platformer & Fluid Character Controller Kit">Godot 4 3D Platformer & Fluid Character Controller Kit</h4>
+              <a href="https://jasonc101.itch.io/godot-4-3d-platformer-fluid-character-controller-kit" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087529">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Modular Weapon -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Modular Weapon Customization & Ballistics" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Modular Weapon Customization & Ballistics">Unreal Engine 5 Modular Weapon Customization & Ballistics</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-modular-weapon-customization-ballistics" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087521">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Branching Ques -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Branching Quest & Objective State Graph" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Branching Quest & Objective State Graph">Unreal Engine 5 Branching Quest & Objective State Graph</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-branching-quest-objective-state-graph" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087515">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Celestial Day- -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Celestial Day-Night & Dynamic Weather System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Celestial Day-Night & Dynamic Weather System">Unreal Engine 5 Celestial Day-Night & Dynamic Weather System</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-celestial-day-night-dynamic-weather-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087513">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Procedural Fol -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Procedural Foliage & Biome Scatter Tool" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Procedural Foliage & Biome Scatter Tool">Unreal Engine 5 Procedural Foliage & Biome Scatter Tool</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-procedural-foliage-biome-scatter-tool" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087512">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Pro Locomotion -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Pro Locomotion & Parkour Vaulting Controller" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Pro Locomotion & Parkour Vaulting Controller">Unreal Engine 5 Pro Locomotion & Parkour Vaulting Controller</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-pro-locomotion-parkour-vaulting-controller" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087509">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro Encrypted JSON Save  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unity Pro Encrypted JSON Save System & State Serializer" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro Encrypted JSON Save System & State Serializer">Unity Pro Encrypted JSON Save System & State Serializer</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-encrypted-json-save-system-state-serializer" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087503">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro Adaptive Audio Manag -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/audio_batch_master_cover.jpg" alt="Unity Pro Adaptive Audio Manager & Music Stems Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro Adaptive Audio Manager & Music Stems Engine">Unity Pro Adaptive Audio Manager & Music Stems Engine</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-adaptive-audio-manager-music-stems-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087496">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro 2D Top-Down Shooter  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unity Pro 2D Top-Down Shooter & Weapon System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro 2D Top-Down Shooter & Weapon System">Unity Pro 2D Top-Down Shooter & Weapon System</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-2d-top-down-shooter-weapon-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087492">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro Inventory & Dynamic  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unity Pro Inventory & Dynamic Loot Grid System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro Inventory & Dynamic Loot Grid System">Unity Pro Inventory & Dynamic Loot Grid System</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-inventory-dynamic-loot-grid-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087490">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro A* Pathfinding & Gri -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unity Pro A* Pathfinding & Grid NavMesh Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro A* Pathfinding & Grid NavMesh Engine">Unity Pro A* Pathfinding & Grid NavMesh Engine</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-a-pathfinding-grid-navmesh-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087480">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: 2D Dynamic FOV & Symmetric Rec -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/fov_shadow_casting_cover.jpg" alt="2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine">2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine</h4>
+              <a href="https://jasonc101.itch.io/2d-dynamic-fov-symmetric-recursive-shadowcasting-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087467">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Deterministic Rollback Netcode -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/rollback_netcode_cover.jpg" alt="Deterministic Rollback Netcode & Frame Resimulation Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Deterministic Rollback Netcode & Frame Resimulation Engine">Deterministic Rollback Netcode & Frame Resimulation Engine</h4>
+              <a href="https://jasonc101.itch.io/deterministic-rollback-netcode-frame-resimulation-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087384">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: CardSim: Headless Card Battler -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/cardsim.jpg" alt="CardSim: Headless Card Battler & Monte Carlo Balancing Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="CardSim: Headless Card Battler & Monte Carlo Balancing Engine">CardSim: Headless Card Battler & Monte Carlo Balancing Engine</h4>
+              <a href="https://jasonc101.itch.io/cardsim-combat-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083630">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Automated Video Montage & Shor -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Automated Video Montage & Shorts Production Pipeline CLI" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$49.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Studio Commission</span>
+              <h4 class="itch-vault-title" title="Automated Video Montage & Shorts Production Pipeline CLI">Automated Video Montage & Shorts Production Pipeline CLI</h4>
+              <a href="https://jasonc101.itch.io/automated-video-montage-shorts-production-pipeline-cli" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087283">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Modular Castle & Fortr -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Modular Castle & Fortress Builder Addon" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Modular Castle & Fortress Builder Addon">Godot 4 Modular Castle & Fortress Builder Addon</h4>
+              <a href="https://jasonc101.itch.io/godot-4-modular-castle-fortress-builder-addon" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087259">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Dynamic Sky, Minimap & -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Dynamic Sky, Minimap & Living World Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Dynamic Sky, Minimap & Living World Framework">Godot 4 Dynamic Sky, Minimap & Living World Framework</h4>
+              <a href="https://jasonc101.itch.io/godot-4-dynamic-sky-minimap-living-world-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087252">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Quest Journal & Dynami -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Quest Journal & Dynamic Event Matrix" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Quest Journal & Dynamic Event Matrix">Godot 4 Quest Journal & Dynamic Event Matrix</h4>
+              <a href="https://jasonc101.itch.io/godot-4-quest-journal-dynamic-event-matrix" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087238">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Companion Pet AI & Sum -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Companion Pet AI & Summoning System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Companion Pet AI & Summoning System">Godot 4 Companion Pet AI & Summoning System</h4>
+              <a href="https://jasonc101.itch.io/godot-4-companion-pet-ai-summoning-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087231">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: RTS Economy, Tech Tree & Build -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="RTS Economy, Tech Tree & Building Production Matrix" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$49.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="RTS Economy, Tech Tree & Building Production Matrix">RTS Economy, Tech Tree & Building Production Matrix</h4>
+              <a href="https://jasonc101.itch.io/rts-economy-tech-tree-building-production-matrix" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087226">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Horde Survivors Auto-S -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/horde_spawner_cover.jpg" alt="Godot 4 Horde Survivors Auto-Shooter Architecture" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Horde Survivors Auto-Shooter Architecture">Godot 4 Horde Survivors Auto-Shooter Architecture</h4>
+              <a href="https://jasonc101.itch.io/godot-4-horde-survivors-auto-shooter-architecture" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087221">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Turn-Based 4X Hex Territory &  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Turn-Based 4X Hex Territory & Diplomacy Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Turn-Based 4X Hex Territory & Diplomacy Engine">Turn-Based 4X Hex Territory & Diplomacy Engine</h4>
+              <a href="https://jasonc101.itch.io/turn-based-4x-hex-territory-diplomacy-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087212">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: RTS Tactical Multi-Unit Format -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="RTS Tactical Multi-Unit Formations & Fluid Pathfinding System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="RTS Tactical Multi-Unit Formations & Fluid Pathfinding System">RTS Tactical Multi-Unit Formations & Fluid Pathfinding System</h4>
+              <a href="https://jasonc101.itch.io/rts-tactical-multi-unit-formations-fluid-pathfinding-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087204">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 RPG Progression & Skil -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 RPG Progression & Skill Tree Matrix Architecture" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 RPG Progression & Skill Tree Matrix Architecture">Godot 4 RPG Progression & Skill Tree Matrix Architecture</h4>
+              <a href="https://jasonc101.itch.io/godot-4-rpg-progression-skill-tree-matrix-architecture" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087192">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Pro Action Cam -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Pro Action Camera & SpringArm System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Pro Action Camera & SpringArm System">Unreal Engine 5 Pro Action Camera & SpringArm System</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-pro-action-camera-springarm-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087184">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro Procedural 2D & 3D D -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/unity_pro_dungeon.jpg" alt="Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture">Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-procedural-2d-3d-dungeon-delve-generator-architecture" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087177">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unreal Engine 5 Python Editor  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unreal Engine 5</span>
+              <h4 class="itch-vault-title" title="Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)">Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)</h4>
+              <a href="https://jasonc101.itch.io/unreal-engine-5-python-editor-automation-suite-15-pro-tools" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087164">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Unity Pro Hierarchical State M -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Unity Pro</span>
+              <h4 class="itch-vault-title" title="Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)">Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)</h4>
+              <a href="https://jasonc101.itch.io/unity-pro-hierarchical-state-machine-ai-decision-architecture-hfsm" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087149">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Pro Shaders & Visual F -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/pro_shaders.jpg" alt="Godot 4 Pro Shaders & Visual FX Pack (12 Shaders)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Pro Shaders & Visual FX Pack (12 Shaders)">Godot 4 Pro Shaders & Visual FX Pack (12 Shaders)</h4>
+              <a href="https://jasonc101.itch.io/godot-4-pro-shaders-vfx-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087127">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Dialogue & Quest Narrative Eng -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/dialogue_quest_narrative.jpg" alt="Dialogue & Quest Narrative Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Dialogue & Quest Narrative Engine">Dialogue & Quest Narrative Engine</h4>
+              <a href="https://jasonc101.itch.io/dialogue-quest-narrative-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087102">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Procedural Retro & Sci-Fi Game -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/audio_batch_master_cover.jpg" alt="Procedural Retro & Sci-Fi Game Audio Synthesizer Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Procedural Retro & Sci-Fi Game Audio Synthesizer Engine">Procedural Retro & Sci-Fi Game Audio Synthesizer Engine</h4>
+              <a href="https://jasonc101.itch.io/procedural-retro-sci-fi-game-audio-synthesizer-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087078">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: 2D Rigid-Body Physics & Collis -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/rigidbody_physics.jpg" alt="2D Rigid-Body Physics & Collision Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="2D Rigid-Body Physics & Collision Engine">2D Rigid-Body Physics & Collision Engine</h4>
+              <a href="https://jasonc101.itch.io/2d-rigid-body-physics-collision-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5087015">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Procedural 3D/2D Terrain & Bio -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Procedural 3D/2D Terrain & Biome Generation Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Procedural 3D/2D Terrain & Biome Generation Engine">Procedural 3D/2D Terrain & Biome Generation Engine</h4>
+              <a href="https://jasonc101.itch.io/procedural-3d2d-terrain-biome-generation-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5086682">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: High-Performance ECS & Spatial -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/ecs_engine.jpg" alt="High-Performance ECS & Spatial Partitioning Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="High-Performance ECS & Spatial Partitioning Engine">High-Performance ECS & Spatial Partitioning Engine</h4>
+              <a href="https://jasonc101.itch.io/high-performance-ecs-spatial-partitioning-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5085342">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: NextGen 4K Commercial Asset Co -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="NextGen 4K Commercial Asset Collection Vol. 2" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="NextGen 4K Commercial Asset Collection Vol. 2">NextGen 4K Commercial Asset Collection Vol. 2</h4>
+              <a href="https://jasonc101.itch.io/nextgen-4k-commercial-asset-collection-vol2" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5085350">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Titan 4K Master Studio Asset V -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Titan 4K Master Studio Asset Vault (467 High-Res Assets)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Titan 4K Master Studio Asset Vault (467 High-Res Assets)">Titan 4K Master Studio Asset Vault (467 High-Res Assets)</h4>
+              <a href="https://jasonc101.itch.io/titan-4k-master-studio-asset-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084711">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: So It's War Then: 4-Faction RT -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="So It's War Then: 4-Faction RTS & Grand Strategy Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="So It's War Then: 4-Faction RTS & Grand Strategy Engine">So It's War Then: 4-Faction RTS & Grand Strategy Engine</h4>
+              <a href="https://jasonc101.itch.io/so-its-war-then-4-faction-rts-grand-strategy-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083739">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Sci-Fi Starship Bridges & Cybe -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Sci-Fi Starship Bridges & Cyberpunk City Vistas Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Sci-Fi Starship Bridges & Cyberpunk City Vistas Pack">Sci-Fi Starship Bridges & Cyberpunk City Vistas Pack</h4>
+              <a href="https://jasonc101.itch.io/sci-fi-starship-bridges-cyberpunk-city-vistas-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084704">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Master 4K Interiors & Architec -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Master 4K Interiors & Architectural Lookbook Vol. 2" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Master 4K Interiors & Architectural Lookbook Vol. 2">Master 4K Interiors & Architectural Lookbook Vol. 2</h4>
+              <a href="https://jasonc101.itch.io/master-4k-interiors-architectural-lookbook-vol-2" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084703">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Fine Art: Japanese Ukiyo-e & D -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Fine Art: Japanese Ukiyo-e & Dutch Golden Age Botanicals" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Fine Art: Japanese Ukiyo-e & Dutch Golden Age Botanicals">Fine Art: Japanese Ukiyo-e & Dutch Golden Age Botanicals</h4>
+              <a href="https://jasonc101.itch.io/fine-art-japanese-ukiyo-e-dutch-golden-age-botanicals" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084710">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Alchemical Potions, Grimoires  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/eldritch_vtt_tokens_cover.jpg" alt="Alchemical Potions, Grimoires & VTT Tokens Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Alchemical Potions, Grimoires & VTT Tokens Pack">Alchemical Potions, Grimoires & VTT Tokens Pack</h4>
+              <a href="https://jasonc101.itch.io/alchemical-potions-grimoires-vtt-tokens-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084708">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Necro Dominion: Undead Legion  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Necro Dominion: Undead Legion Conquest Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Necro Dominion: Undead Legion Conquest Framework">Necro Dominion: Undead Legion Conquest Framework</h4>
+              <a href="https://jasonc101.itch.io/necro-dominion-undead-legion-conquest-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084536">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: So It's War Then: 4-Faction RT -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="So It's War Then: 4-Faction RTS Core Simulation Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="So It's War Then: 4-Faction RTS Core Simulation Engine">So It's War Then: 4-Faction RTS Core Simulation Engine</h4>
+              <a href="https://jasonc101.itch.io/so-its-war-then-4-faction-rts-core-simulation-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084533">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Autonomous Companion & -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Autonomous Companion & Pet AI Summoning System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Autonomous Companion & Pet AI Summoning System">Godot 4 Autonomous Companion & Pet AI Summoning System</h4>
+              <a href="https://jasonc101.itch.io/godot-4-autonomous-companion-pet-ai-summoning-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084492">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Procedural 3D Dungeon  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/unity_pro_dungeon.jpg" alt="Godot 4 Procedural 3D Dungeon Delve & Terrain Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Procedural 3D Dungeon Delve & Terrain Engine">Godot 4 Procedural 3D Dungeon Delve & Terrain Engine</h4>
+              <a href="https://jasonc101.itch.io/godot-4-procedural-3d-dungeon-delve-terrain-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084488">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 Modular Castle & Fortr -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 Modular Castle & Fortress Building System" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 Modular Castle & Fortress Building System">Godot 4 Modular Castle & Fortress Building System</h4>
+              <a href="https://jasonc101.itch.io/godot-4-modular-castle-fortress-building-system" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084484">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Behavior Tree & GOAP AI Decisi -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Behavior Tree & GOAP AI Decision Architecture" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="Behavior Tree & GOAP AI Decision Architecture">Behavior Tree & GOAP AI Decision Architecture</h4>
+              <a href="https://jasonc101.itch.io/behavior-tree-goap-ai-decision-architecture" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084480">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Inventory, Crafting & Loot Mat -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Inventory, Crafting & Loot Matrix Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Inventory, Crafting & Loot Matrix Engine">Inventory, Crafting & Loot Matrix Engine</h4>
+              <a href="https://jasonc101.itch.io/inventory-crafting-loot-matrix-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084477">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Multiplayer State Sync & Deter -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Multiplayer State Sync & Deterministic Netcode Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Multiplayer State Sync & Deterministic Netcode Engine">Multiplayer State Sync & Deterministic Netcode Engine</h4>
+              <a href="https://jasonc101.itch.io/multiplayer-state-sync-deterministic-netcode-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084473">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Godot 4 ARPG Tactical Combat & -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Godot 4 ARPG Tactical Combat & Defense Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Godot 4 ARPG Tactical Combat & Defense Framework">Godot 4 ARPG Tactical Combat & Defense Framework</h4>
+              <a href="https://jasonc101.itch.io/godot-4-arpg-tactical-combat-defense-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084485">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Procedural Dungeon Engine: Rog -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/unity_pro_dungeon.jpg" alt="Procedural Dungeon Engine: Roguelike Map Generator" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Procedural Dungeon Engine: Roguelike Map Generator">Procedural Dungeon Engine: Roguelike Map Generator</h4>
+              <a href="https://jasonc101.itch.io/procedural-dungeon-engine-roguelike-map-generator" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5084061">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Wildlands Protocol: Godot 4 3D -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/wildlands.jpg" alt="Wildlands Protocol: Godot 4 3D Mech Locomotion & Urban Sandbox Kit" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Wildlands Protocol: Godot 4 3D Mech Locomotion & Urban Sandbox Kit">Wildlands Protocol: Godot 4 3D Mech Locomotion & Urban Sandbox Kit</h4>
+              <a href="https://jasonc101.itch.io/wildlands-protocol-godot-4-3d-mech-locomotion-urban-sandbox-kit" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083987">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: I Got This: Godot 4 Open-World -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="I Got This: Godot 4 Open-World 3D Survival & Building Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="I Got This: Godot 4 Open-World 3D Survival & Building Framework">I Got This: Godot 4 Open-World 3D Survival & Building Framework</h4>
+              <a href="https://jasonc101.itch.io/i-got-this-godot-4-open-world-3d-survival-building-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083971">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Cyberpunk Warlords: Grand Stra -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Cyberpunk Warlords: Grand Strategy & Auto-Battle RPG Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Cyberpunk Warlords: Grand Strategy & Auto-Battle RPG Engine">Cyberpunk Warlords: Grand Strategy & Auto-Battle RPG Engine</h4>
+              <a href="https://jasonc101.itch.io/cyberpunk-warlords-grand-strategy-auto-battle-rpg-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083950">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: WE GOT THIS!: Narrative Fallou -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="WE GOT THIS!: Narrative Fallout Shelter Survival Game" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="WE GOT THIS!: Narrative Fallout Shelter Survival Game">WE GOT THIS!: Narrative Fallout Shelter Survival Game</h4>
+              <a href="https://jasonc101.itch.io/we-got-this-narrative-fallout-shelter-survival-game" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083926">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Relics of the Abyss: 650+ Dark -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Relics of the Abyss: 650+ Dark Fantasy RPG Assets & Textures Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Relics of the Abyss: 650+ Dark Fantasy RPG Assets & Textures Vault">Relics of the Abyss: 650+ Dark Fantasy RPG Assets & Textures Vault</h4>
+              <a href="https://jasonc101.itch.io/relics-of-the-abyss-650-dark-fantasy-rpg-assets-textures-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083912">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Tactical Grid Combat Engine: T -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Tactical Grid Combat Engine: Turn-Based Strategy Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Tactical Grid Combat Engine: Turn-Based Strategy Framework">Tactical Grid Combat Engine: Turn-Based Strategy Framework</h4>
+              <a href="https://jasonc101.itch.io/tactical-grid-combat-engine-turn-based-strategy-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083899">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: GlyphCore Icons Pro: 200+ Clea -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/glyphcore.jpg" alt="GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Commercial Asset</span>
+              <h4 class="itch-vault-title" title="GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons">GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons</h4>
+              <a href="https://jasonc101.itch.io/glyphcore-icons-pro-200-clean-modern-vector-ui-icons" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083884">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Slay The Void: Cosmic Sci-Fi & -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/cosmic_horrors_cover.jpg" alt="Slay The Void: Cosmic Sci-Fi & Dark RPG Card Art Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Slay The Void: Cosmic Sci-Fi & Dark RPG Card Art Pack">Slay The Void: Cosmic Sci-Fi & Dark RPG Card Art Pack</h4>
+              <a href="https://jasonc101.itch.io/slay-the-void-cosmic-sci-fi-dark-rpg-card-art-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083861">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: VoidRogue: Production TypeScri -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/voidrogue.jpg" alt="VoidRogue: Production TypeScript Roguelike Deckbuilder Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="VoidRogue: Production TypeScript Roguelike Deckbuilder Engine">VoidRogue: Production TypeScript Roguelike Deckbuilder Engine</h4>
+              <a href="https://jasonc101.itch.io/voidrogue-production-typescript-roguelike-deckbuilder-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083844">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: GrimRealm: RPG Terrains & Envi -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/grimrealm.jpg" alt="GrimRealm: RPG Terrains & Environment Textures (79 Pack)" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="GrimRealm: RPG Terrains & Environment Textures (79 Pack)">GrimRealm: RPG Terrains & Environment Textures (79 Pack)</h4>
+              <a href="https://jasonc101.itch.io/grimrealm-rpg-terrains-environment-textures-79-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083819">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: NecroBestiary: Dark Fantasy Un -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/necrobestiary.jpg" alt="NecroBestiary: Dark Fantasy Undead & Bosses 2D Sprite Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="NecroBestiary: Dark Fantasy Undead & Bosses 2D Sprite Pack">NecroBestiary: Dark Fantasy Undead & Bosses 2D Sprite Pack</h4>
+              <a href="https://jasonc101.itch.io/necrobestiary-dark-fantasy-undead-bosses-2d-sprite-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083804">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Necros: Godot 4 Dark Fantasy T -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/necros.jpg" alt="Necros: Godot 4 Dark Fantasy Turn-Based RPG & Combat Framework" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="Necros: Godot 4 Dark Fantasy Turn-Based RPG & Combat Framework">Necros: Godot 4 Dark Fantasy Turn-Based RPG & Combat Framework</h4>
+              <a href="https://jasonc101.itch.io/necros-godot-4-dark-fantasy-turn-based-rpg-combat-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083782">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Warfront: 8,000+ Sci-Fi & Alie -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/warfront.jpg" alt="Warfront: 8,000+ Sci-Fi & Alien RTS 2D/3D Isometric Sprite Vault" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="Warfront: 8,000+ Sci-Fi & Alien RTS 2D/3D Isometric Sprite Vault">Warfront: 8,000+ Sci-Fi & Alien RTS 2D/3D Isometric Sprite Vault</h4>
+              <a href="https://jasonc101.itch.io/warfront-8000-sci-fi-alien-rts-2d3d-isometric-sprite-vault" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083756">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: Soldiers' Last Stand: Modular  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/horde_spawner_cover.jpg" alt="Soldiers' Last Stand: Modular Squad & Horde Survival Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="Soldiers' Last Stand: Modular Squad & Horde Survival Engine">Soldiers' Last Stand: Modular Squad & Horde Survival Engine</h4>
+              <a href="https://jasonc101.itch.io/soldiers-last-stand-horde-survival-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083700">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: MechDominion: Cybernetic Titan -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/mechdominion.jpg" alt="MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$19.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">4K Asset Vault</span>
+              <h4 class="itch-vault-title" title="MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack">MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack</h4>
+              <a href="https://jasonc101.itch.io/mechdominion-titans-bosses-sprite-pack" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083677">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: MechZilla: Tactical Turn-Based -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/mechzilla.jpg" alt="MechZilla: Tactical Turn-Based Mech Combat & Commander Framework for Godot 4" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$29.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Godot 4 Addon</span>
+              <h4 class="itch-vault-title" title="MechZilla: Tactical Turn-Based Mech Combat & Commander Framework for Godot 4">MechZilla: Tactical Turn-Based Mech Combat & Commander Framework for Godot 4</h4>
+              <a href="https://jasonc101.itch.io/mechzilla-tactical-combat-framework" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083660">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+          <!-- itch.io Card: HexTactics: Headless Grid, A*  -->
+          <article class="itch-vault-card">
+            <div class="itch-vault-media">
+              <img src="gamedev/assets/covers/hextactics.jpg" alt="HexTactics: Headless Grid, A* Pathfinding & Combat Engine" loading="lazy" onerror="this.src='gamedev/assets/covers/soitswarthen.jpg'">
+              <span class="itch-vault-badge">$39.99</span>
+            </div>
+            <div class="itch-vault-body">
+              <span class="itch-vault-tag">Core Engine Kernel</span>
+              <h4 class="itch-vault-title" title="HexTactics: Headless Grid, A* Pathfinding & Combat Engine">HexTactics: Headless Grid, A* Pathfinding & Combat Engine</h4>
+              <a href="https://jasonc101.itch.io/hextactics-tactical-engine" target="_blank" rel="noopener" class="itch-vault-btn track-click" data-target="itch_listing_5083606">
+                Buy on itch.io &rarr;
+              </a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
