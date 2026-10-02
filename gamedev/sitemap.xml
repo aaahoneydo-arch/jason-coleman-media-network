@@ -213,7 +213,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_cave_builder_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087573.jpg</image:loc>
       <image:title>Godot 4 Procedural Cave &amp; Cellular Automata Map Builder</image:title>
     </image:image>
   </url>
@@ -223,7 +223,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_bullet_hell_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087567.jpg</image:loc>
       <image:title>Godot 4 3D Bullet Hell &amp; Object Pooler Particle Engine</image:title>
     </image:image>
   </url>
@@ -233,7 +233,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_pro_ui_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087564.jpg</image:loc>
       <image:title>Godot 4 Pro UI Theme &amp; Responsive HUD Component Library</image:title>
     </image:image>
   </url>
@@ -243,7 +243,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_space_sim_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087557.jpg</image:loc>
       <image:title>Godot 4 Top-Down Space Sim &amp; Newtonian Flight Controller</image:title>
     </image:image>
   </url>
@@ -253,7 +253,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_weather_vfx_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087552.jpg</image:loc>
       <image:title>Godot 4 Dynamic Weather, Rain &amp; Storm Particle VFX Pack</image:title>
     </image:image>
   </url>
@@ -263,7 +263,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_behavior_tree_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087541.jpg</image:loc>
       <image:title>Godot 4 Behavior Tree &amp; Smart NPC AI Blackboard System</image:title>
     </image:image>
   </url>
@@ -273,7 +273,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_deckbuilder_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087538.jpg</image:loc>
       <image:title>Godot 4 Roguelike Deckbuilder &amp; Hand Management Engine</image:title>
     </image:image>
   </url>
@@ -283,7 +283,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_parallax_world_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087536.jpg</image:loc>
       <image:title>Godot 4 Infinite 2D Parallax World &amp; Auto-Tile Generator</image:title>
     </image:image>
   </url>
@@ -293,7 +293,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_hex_grid_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087532.jpg</image:loc>
       <image:title>Godot 4 Turn-Based Tactical Hex Grid Combat System</image:title>
     </image:image>
   </url>
@@ -303,7 +303,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_3d_platformer_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087529.jpg</image:loc>
       <image:title>Godot 4 3D Platformer &amp; Fluid Character Controller Kit</image:title>
     </image:image>
   </url>
@@ -313,7 +313,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_weapon_ballistics_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087521.jpg</image:loc>
       <image:title>Unreal Engine 5 Modular Weapon Customization &amp; Ballistics</image:title>
     </image:image>
   </url>
@@ -323,7 +323,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_quest_state_graph_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087515.jpg</image:loc>
       <image:title>Unreal Engine 5 Branching Quest &amp; Objective State Graph</image:title>
     </image:image>
   </url>
@@ -333,7 +333,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_day_night_weather_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087513.jpg</image:loc>
       <image:title>Unreal Engine 5 Celestial Day-Night &amp; Dynamic Weather System</image:title>
     </image:image>
   </url>
@@ -343,7 +343,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_foliage_scatter_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087512.jpg</image:loc>
       <image:title>Unreal Engine 5 Procedural Foliage &amp; Biome Scatter Tool</image:title>
     </image:image>
   </url>
@@ -353,7 +353,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_locomotion_parkour_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087509.jpg</image:loc>
       <image:title>Unreal Engine 5 Pro Locomotion &amp; Parkour Vaulting Controller</image:title>
     </image:image>
   </url>
@@ -363,7 +363,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_save_system_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087503.jpg</image:loc>
       <image:title>Unity Pro Encrypted JSON Save System &amp; State Serializer</image:title>
     </image:image>
   </url>
@@ -373,7 +373,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_audio_manager_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087496.jpg</image:loc>
       <image:title>Unity Pro Adaptive Audio Manager &amp; Music Stems Engine</image:title>
     </image:image>
   </url>
@@ -383,7 +383,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_topdown_shooter_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087492.jpg</image:loc>
       <image:title>Unity Pro 2D Top-Down Shooter &amp; Weapon System</image:title>
     </image:image>
   </url>
@@ -393,7 +393,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_inventory_loot_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087490.jpg</image:loc>
       <image:title>Unity Pro Inventory &amp; Dynamic Loot Grid System</image:title>
     </image:image>
   </url>
@@ -403,7 +403,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_astar_navmesh_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087480.jpg</image:loc>
       <image:title>Unity Pro A* Pathfinding &amp; Grid NavMesh Engine</image:title>
     </image:image>
   </url>
@@ -413,7 +413,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/fov_shadow_casting_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087467.jpg</image:loc>
       <image:title>2D Dynamic FOV &amp; Symmetric Recursive Shadowcasting Engine</image:title>
     </image:image>
   </url>
@@ -423,7 +423,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/rollback_netcode_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087384.jpg</image:loc>
       <image:title>Deterministic Rollback Netcode &amp; Frame Resimulation Engine</image:title>
     </image:image>
   </url>
@@ -433,7 +433,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/autonomous_steering_swarm_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087373.jpg</image:loc>
       <image:title>Autonomous Steering Behaviors &amp; Boids Swarm Simulation Engine</image:title>
     </image:image>
   </url>
@@ -443,7 +443,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cardsim_montecarlo_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083630.jpg</image:loc>
       <image:title>CardSim: Headless Combat &amp; Monte Carlo Balancing Engine</image:title>
     </image:image>
   </url>
@@ -453,7 +453,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/video_montage_pipeline.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087283.jpg</image:loc>
       <image:title>Automated Video Montage &amp; Shorts Production Pipeline CLI</image:title>
     </image:image>
   </url>
@@ -463,7 +463,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_castle_builder.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087259.jpg</image:loc>
       <image:title>Godot 4 Modular Castle &amp; Fortress Builder Addon</image:title>
     </image:image>
   </url>
@@ -473,7 +473,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_living_world.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087252.jpg</image:loc>
       <image:title>Godot 4 Dynamic Sky, Minimap &amp; Living World Framework</image:title>
     </image:image>
   </url>
@@ -483,7 +483,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_quest_journal.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087238.jpg</image:loc>
       <image:title>Godot 4 Quest Journal &amp; Dynamic Event Matrix</image:title>
     </image:image>
   </url>
@@ -493,7 +493,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_companion_pets.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087231.jpg</image:loc>
       <image:title>Godot 4 Companion Pet AI &amp; Summoning System</image:title>
     </image:image>
   </url>
@@ -503,7 +503,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/rts_economy_techtree.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087226.jpg</image:loc>
       <image:title>RTS Economy, Tech Tree &amp; Building Production Matrix</image:title>
     </image:image>
   </url>
@@ -513,7 +513,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_survivors.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087221.jpg</image:loc>
       <image:title>Godot 4 Horde Survivors Auto-Shooter Architecture</image:title>
     </image:image>
   </url>
@@ -523,7 +523,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/turnbased_4x_hex.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087212.jpg</image:loc>
       <image:title>Turn-Based 4X Hex Territory &amp; Diplomacy Engine</image:title>
     </image:image>
   </url>
@@ -533,7 +533,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/rts_formations.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087204.jpg</image:loc>
       <image:title>RTS Tactical Multi-Unit Formations &amp; Fluid Pathfinding System</image:title>
     </image:image>
   </url>
@@ -543,7 +543,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_skilltree.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087192.jpg</image:loc>
       <image:title>Godot 4 RPG Progression &amp; Skill Tree Matrix Architecture</image:title>
     </image:image>
   </url>
@@ -553,7 +553,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_pro_camera.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087184.jpg</image:loc>
       <image:title>Unreal Engine 5 Pro Action Camera &amp; SpringArm System</image:title>
     </image:image>
   </url>
@@ -563,7 +563,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_pro_dungeon.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087177.jpg</image:loc>
       <image:title>Unity Pro Procedural 2D &amp; 3D Dungeon Delve Generator Architecture</image:title>
     </image:image>
   </url>
@@ -573,7 +573,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ue5_automation_suite.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087164.jpg</image:loc>
       <image:title>Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)</image:title>
     </image:image>
   </url>
@@ -583,7 +583,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/unity_pro_hfsm.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087149.jpg</image:loc>
       <image:title>Unity Pro Hierarchical State Machine &amp; AI Decision Architecture (HFSM)</image:title>
     </image:image>
   </url>
@@ -593,7 +593,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/procedural_audio_synth.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087078.jpg</image:loc>
       <image:title>Procedural Retro &amp; Sci-Fi Game Audio Synthesizer Engine</image:title>
     </image:image>
   </url>
@@ -603,7 +603,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/dialogue_quest_narrative.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087102.jpg</image:loc>
       <image:title>Dialogue &amp; Quest Narrative Engine</image:title>
     </image:image>
   </url>
@@ -613,7 +613,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/rigidbody_physics.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087015.jpg</image:loc>
       <image:title>2D Rigid-Body Physics &amp; Collision Engine</image:title>
     </image:image>
   </url>
@@ -623,7 +623,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/dungeonengine.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084061.jpg</image:loc>
       <image:title>Procedural Dungeon Engine: Roguelike Map Generator</image:title>
     </image:image>
   </url>
@@ -633,7 +633,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083739.jpg</image:loc>
       <image:title>So It's War Then: 4-Faction RTS &amp; Grand Strategy Engine</image:title>
     </image:image>
   </url>
@@ -643,7 +643,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083782.jpg</image:loc>
       <image:title>Necros: Godot 4 Dark Fantasy Turn-Based RPG &amp; Combat Framework</image:title>
     </image:image>
   </url>
@@ -653,7 +653,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/igotthis.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083971.jpg</image:loc>
       <image:title>I Got This: Godot 4 Open-World 3D Survival &amp; Building Framework</image:title>
     </image:image>
   </url>
@@ -663,7 +663,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/tacticalgrid.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083899.jpg</image:loc>
       <image:title>Tactical Grid Combat Engine: Turn-Based Strategy Framework</image:title>
     </image:image>
   </url>
@@ -673,7 +673,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/mechzilla.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083660.jpg</image:loc>
       <image:title>MechZilla: Tactical Turn-Based Mech Combat &amp; Commander Framework</image:title>
     </image:image>
   </url>
@@ -683,7 +683,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soldierslaststand.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083700.jpg</image:loc>
       <image:title>Soldiers' Last Stand: Modular Squad &amp; Horde Survival Engine</image:title>
     </image:image>
   </url>
@@ -693,7 +693,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cyberpunkwarlords.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083950.jpg</image:loc>
       <image:title>Cyberpunk Warlords: Grand Strategy &amp; Auto-Battle RPG Engine</image:title>
     </image:image>
   </url>
@@ -703,7 +703,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cardsim.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083630.jpg</image:loc>
       <image:title>CardSim: Headless Card Battler &amp; Monte Carlo Balancing Engine</image:title>
     </image:image>
   </url>
@@ -713,7 +713,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/hextactics.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083578.jpg</image:loc>
       <image:title>HexTactics: Headless Grid, A* Pathfinding &amp; Combat Engine</image:title>
     </image:image>
   </url>
@@ -723,7 +723,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/warfront.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083756.jpg</image:loc>
       <image:title>Warfront: 8,000+ Sci-Fi &amp; Alien RTS 2D/3D Isometric Sprite Vault</image:title>
     </image:image>
   </url>
@@ -733,7 +733,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/relicsabyss.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083912.jpg</image:loc>
       <image:title>Relics of the Abyss: 650+ Dark Fantasy RPG Assets &amp; Textures Vault</image:title>
     </image:image>
   </url>
@@ -743,7 +743,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/wildlands.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083987.jpg</image:loc>
       <image:title>Wildlands Protocol: Godot 4 3D Mech Locomotion &amp; Urban Sandbox Kit</image:title>
     </image:image>
   </url>
@@ -753,7 +753,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/voidrogue.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083844.jpg</image:loc>
       <image:title>VoidRogue: Production TypeScript Roguelike Deckbuilder Engine</image:title>
     </image:image>
   </url>
@@ -763,7 +763,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necrobestiary.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083804.jpg</image:loc>
       <image:title>NecroBestiary: Dark Fantasy Undead &amp; Bosses 2D Sprite Pack</image:title>
     </image:image>
   </url>
@@ -773,7 +773,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/mechdominion.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083677.jpg</image:loc>
       <image:title>MechDominion: Cybernetic Titans &amp; Mecha Bosses 2D Sprite Pack</image:title>
     </image:image>
   </url>
@@ -783,7 +783,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/slaythevoid.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083861.jpg</image:loc>
       <image:title>Slay The Void: Cosmic Sci-Fi &amp; Dark RPG Card Art Pack</image:title>
     </image:image>
   </url>
@@ -793,7 +793,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/grimrealm.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083819.jpg</image:loc>
       <image:title>GrimRealm: RPG Terrains &amp; Environment Textures (79 Pack)</image:title>
     </image:image>
   </url>
@@ -803,7 +803,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/wegotthis.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083926.jpg</image:loc>
       <image:title>WE GOT THIS!: Narrative Fallout Shelter Survival Game</image:title>
     </image:image>
   </url>
@@ -813,7 +813,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/glyphcore.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083884.jpg</image:loc>
       <image:title>GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons</image:title>
     </image:image>
   </url>
@@ -823,7 +823,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/dungeonengine.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084473.jpg</image:loc>
       <image:title>Multiplayer State Sync &amp; Deterministic Netcode Engine</image:title>
     </image:image>
   </url>
@@ -833,7 +833,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/dungeonengine.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084477.jpg</image:loc>
       <image:title>Inventory, Crafting &amp; Loot Matrix Engine</image:title>
     </image:image>
   </url>
@@ -843,7 +843,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/tacticalgrid.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084480.jpg</image:loc>
       <image:title>Behavior Tree &amp; GOAP AI Decision Architecture</image:title>
     </image:image>
   </url>
@@ -863,7 +863,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084484.jpg</image:loc>
       <image:title>Godot 4 Modular Castle &amp; Fortress Building System</image:title>
     </image:image>
   </url>
@@ -873,7 +873,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084485.jpg</image:loc>
       <image:title>Godot 4 ARPG Tactical Combat &amp; Defense Framework</image:title>
     </image:image>
   </url>
@@ -883,7 +883,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084488.jpg</image:loc>
       <image:title>Godot 4 Procedural 3D Dungeon Delve &amp; Terrain Engine</image:title>
     </image:image>
   </url>
@@ -893,7 +893,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084492.jpg</image:loc>
       <image:title>Godot 4 Autonomous Companion &amp; Pet AI Summoning System</image:title>
     </image:image>
   </url>
@@ -923,7 +923,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/godot4_inventory_crafting_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087339.jpg</image:loc>
       <image:title>Godot 4 RPG Inventory, Crafting Bench &amp; Loot Addon</image:title>
     </image:image>
   </url>
@@ -963,7 +963,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/streamer_lounges_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087329.jpg</image:loc>
       <image:title>Cyberpunk Streamer Lounges &amp; Battlestations (4K UHD)</image:title>
     </image:image>
   </url>
@@ -973,7 +973,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/dark_gothic_tarot_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087325.jpg</image:loc>
       <image:title>Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)</image:title>
     </image:image>
   </url>
@@ -983,7 +983,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/eldritch_vtt_tokens_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087318.jpg</image:loc>
       <image:title>Eldritch &amp; Abyssal VTT Tokens Pack (24 Circular Cutouts)</image:title>
     </image:image>
   </url>
@@ -1003,7 +1003,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/horde_spawner_cover.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087302.jpg</image:loc>
       <image:title>Horde Wave Survival &amp; Enemy Spawner Matrix</image:title>
     </image:image>
   </url>
@@ -1013,7 +1013,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087212.jpg</image:loc>
       <image:title>Turn-Based 4X Hex Territory &amp; Diplomacy Engine</image:title>
     </image:image>
   </url>
@@ -1043,7 +1043,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084533.jpg</image:loc>
       <image:title>So It's War Then: 4-Faction RTS Core Simulation Engine</image:title>
     </image:image>
   </url>
@@ -1083,7 +1083,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/necros.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084536.jpg</image:loc>
       <image:title>Necro Dominion: Undead Legion Conquest Framework</image:title>
     </image:image>
   </url>
@@ -1093,7 +1093,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084703.jpg</image:loc>
       <image:title>Master 4K Interiors &amp; Architectural Lookbook Vol. 2</image:title>
     </image:image>
   </url>
@@ -1103,7 +1103,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084704.jpg</image:loc>
       <image:title>Sci-Fi Starship Bridges &amp; Cyberpunk City Vistas Pack</image:title>
     </image:image>
   </url>
@@ -1113,7 +1113,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/relicsabyss.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084708.jpg</image:loc>
       <image:title>Alchemical Potions, Grimoires &amp; VTT Tokens Pack</image:title>
     </image:image>
   </url>
@@ -1123,7 +1123,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/grimrealm.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084710.jpg</image:loc>
       <image:title>Fine Art: Japanese Ukiyo-e &amp; Dutch Golden Age Botanicals</image:title>
     </image:image>
   </url>
@@ -1133,7 +1133,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/soitswarthen.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084711.jpg</image:loc>
       <image:title>Titan 4K Master Studio Asset Vault (467 High-Res Assets)</image:title>
     </image:image>
   </url>
@@ -1143,7 +1143,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/ecs_engine.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5085342.jpg</image:loc>
       <image:title>High-Performance ECS &amp; Spatial Partitioning Engine</image:title>
     </image:image>
   </url>
@@ -1153,7 +1153,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/flowvol2.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5085350.jpg</image:loc>
       <image:title>NextGen 4K Commercial Asset Collection Vol. 2 (364 Assets)</image:title>
     </image:image>
   </url>
@@ -1173,7 +1173,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/pro_shaders.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087127.jpg</image:loc>
       <image:title>Godot 4 Pro Shaders &amp; Visual FX Pack (12 Shaders)</image:title>
     </image:image>
   </url>
@@ -1193,7 +1193,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/streamer_lounges.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087329.jpg</image:loc>
       <image:title>Cyberpunk Streamer Lounges &amp; Battlestations (4K UHD)</image:title>
     </image:image>
   </url>
@@ -1203,7 +1203,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/eldritch_tokens.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087318.jpg</image:loc>
       <image:title>Eldritch &amp; Abyssal VTT Tokens Pack (24 Circular Cutouts)</image:title>
     </image:image>
   </url>
@@ -1223,7 +1223,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/terrain_biome_engine.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5086682.jpg</image:loc>
       <image:title>Procedural 3D/2D Terrain &amp; Biome Generation Engine</image:title>
     </image:image>
   </url>
@@ -1233,7 +1233,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/custom_video_production.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5088232.jpg</image:loc>
       <image:title>Custom Cinematic Video Production by JasonTV (Up to 5 Minutes)</image:title>
     </image:image>
   </url>
@@ -1243,7 +1243,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/flow_field_pathfinding.jpg</image:loc>
+      <image:loc>https://jasontvmarketplace.com/gamedev/assets/covers/cover_5088244.jpg</image:loc>
       <image:title>High-Throughput Flow Field &amp; Crowd Pathfinding Engine</image:title>
     </image:image>
   </url>
