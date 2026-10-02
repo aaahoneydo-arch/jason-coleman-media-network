@@ -63,7 +63,7 @@ Files in `POST_READY/Pinterest_*.md`:
 ## RSS FEEDS FOR AUTOMATED DISTRIBUTION
 
 ### Primary Feed
-`https://aaahoneydo-arch.github.io/jason-coleman-media-network/feed.xml`
+`https://jasontvmarketplace.com/feed.xml`
 Submit to:
 - Medium Partner Program
 - LinkedIn Articles (via RSS)
@@ -71,7 +71,7 @@ Submit to:
 - Reddit (automoderator)
 
 ### Podcast Feed
-`https://aaahoneydo-arch.github.io/jason-coleman-media-network/podcast.xml`
+`https://jasontvmarketplace.com/podcast.xml`
 Submit to:
 - Spotify for Podcasters
 - Apple Podcasts Connect

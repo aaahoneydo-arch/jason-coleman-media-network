@@ -1,12 +1,12 @@
 # Comprehensive Multi-Platform Growth & Syndication Action Plan
 **Author & Creator:** Jason Coleman  
-**Central Hub:** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/`
+**Central Hub:** `https://jasontvmarketplace.com/`
 
 ---
 
 ## 1. Verified Core Identity Links
 
-- **Main Website (Verified in Google Search Console):** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/`
+- **Main Website (Verified in Google Search Console):** `https://jasontvmarketplace.com/`
 - **Pinterest Account:** `https://www.pinterest.com/aaahoneydo/` (from `https://pin.it/3XJ2Ihy6A`)
 - **Goodreads Profile:** `https://www.goodreads.com/user/show/204581010-honey-do`
 - **YouTube Channel:** `https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q` (800+ Videos)
@@ -20,7 +20,7 @@
 1. **Name:** Jason Coleman | Author of The Shattered Crown & Video Creator
 2. **About Bio:**
    > Author of epic fantasy novel *The Shattered Crown*. Video creator exploring military warfare history, 80s/90s action cinema, and daily relatable comedy across YouTube and TikTok.
-3. **Website Link on Profile:** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/`
+3. **Website Link on Profile:** `https://jasontvmarketplace.com/`
 
 ### 4 Strategic Boards to Launch & First Pin Concepts:
 
@@ -29,7 +29,7 @@
   - **Image:** Dark anvil, glowing orange steel, mountain silhouette in background.
   - **Title:** "The Shattered Crown: Gritty Epic Fantasy by Jason Coleman"
   - **Description:** "In the valley of Bramblehold, when the Crown shatters, the old wars awaken. Meet Kaia Blackwood. Available now on Amazon."
-  - **Destination URL:** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/#books`
+  - **Destination URL:** `https://jasontvmarketplace.com/#books`
 
 #### Board 2: *WWII Warfare & Armor Tactics*
 - **Pin 1:** *Battle of Midway Carrier Strike Tactics*
@@ -43,7 +43,7 @@
   - **Image:** 80s retro film still aesthetic / Nakatomi vertical blueprint.
   - **Title:** "The Lost Art of Practical Stunts: Die Hard 1988"
   - **Description:** "Why practical explosions and claustrophobic vertical tension beat modern CGI every single time."
-  - **Destination URL:** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/#videos`
+  - **Destination URL:** `https://jasontvmarketplace.com/#videos`
 
 #### Board 4: *Jobsite Fails & Everyday Humor*
 - **Pin 1:** *The Missing 10mm Socket Mystery*
@@ -64,7 +64,7 @@
 5. Fill out the quick verification form (Goodreads will link your book to your author profile and add the official "Goodreads Author" badge).
 
 ### Step 2: Goodreads Author Bio Copy (Ready to Paste)
-> "Jason Coleman is an independent author, video creator, and storyteller. He is the author of *The Shattered Crown*, a gritty epic fantasy novel set in the sundered valleys of the Cinderpeak Mountains. Alongside his writing, Jason produces in-depth military documentaries and classic cinema retrospectives on YouTube, as well as daily comedy rants on TikTok. Connect with his central network at https://aaahoneydo-arch.github.io/jason-coleman-media-network/."
+> "Jason Coleman is an independent author, video creator, and storyteller. He is the author of *The Shattered Crown*, a gritty epic fantasy novel set in the sundered valleys of the Cinderpeak Mountains. Alongside his writing, Jason produces in-depth military documentaries and classic cinema retrospectives on YouTube, as well as daily comedy rants on TikTok. Connect with his central network at https://jasontvmarketplace.com/."
 
 ---
 

@@ -132,7 +132,7 @@ Would you be interested in a guest article or interview?
 Best,
 Jason Coleman
 jasontv1982@gmail.com
-https://aaahoneydo-arch.github.io/jason-coleman-media-network/
+https://jasontvmarketplace.com/
 
 ---
 
@@ -140,17 +140,17 @@ https://aaahoneydo-arch.github.io/jason-coleman-media-network/
 
 **Item 1:**
 - Title: "7-Platform Business Model: $10K/Month Creator System"
-- Link: https://aaahoneydo-arch.github.io/jason-coleman-media-network/7-platform-business-model.html
+- Link: https://jasontvmarketplace.com/7-platform-business-model.html
 - Description: From military veteran to creator entrepreneur making $8,000-12,000 monthly using a 7-platform system. YouTube, Amazon Books, TikTok, Steam Games, Affiliate, Merch, Substack.
 
 **Item 2:**
 - Title: "Military Documentary Economics: $3K/Month YouTube Income"
-- Link: https://aaahoneydo-arch.github.io/jason-coleman-media-network/military-documentary-economics.html
+- Link: https://jasontvmarketplace.com/military-documentary-economics.html
 - Description: No ads, no products, no affiliate links in videos. Just consistent military history documentaries pulling $3,000/month.
 
 **Item 3:**
 - Title: "The $5,400 Book Launch Without Spending $1 on Ads"
-- Link: https://aaahoneydo-arch.github.io/jason-coleman-media-network/book-launch-checklist.html
+- Link: https://jasontvmarketplace.com/book-launch-checklist.html
 - Description: Complete checklist that got The Shattered Crown $5,400 in first month without spending a dollar on advertising.
 
 ---

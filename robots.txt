@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# Googlebot, Bingbot, YandexBot, DuckDuckBot, Applebot
+# Elite Crawler Access: Googlebot, Bingbot, YandexBot, DuckDuckBot, Applebot
 User-agent: Googlebot
 Allow: /
 
@@ -17,4 +17,12 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-Sitemap: https://aaahoneydo-arch.github.io/jason-coleman-media-network/sitemap.xml
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://jasontvmarketplace.com/sitemap.xml
+Sitemap: https://jasontvmarketplace.com/video-sitemap.xml
+Sitemap: https://jasontvmarketplace.com/gamedev/sitemap.xml

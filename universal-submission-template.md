@@ -1,7 +1,7 @@
 ---
 title: "Universal Content Submission Package"
 description: "Copy-paste ready content for all platforms - includes direct links, templates, and posting instructions"
-canonical: "https://aaahoneydo-arch.github.io/jason-coleman-media-network/universal-submission.html"
+canonical: "https://jasontvmarketplace.com/universal-submission.html"
 ---
 
 # Universal Content Submission Package
@@ -162,8 +162,8 @@ Systems compound. Consistency matters more than virality.
 
 ## PERFORMANCE TRACKING LINKS
 
-- **Analytics Hub:** https://aaahoneydo-arch.github.io/jason-coleman-media-network/
-- **RSS Feed:** https://aaahoneydo-arch.github.io/jason-coleman-media-network/feed.xml
+- **Analytics Hub:** https://jasontvmarketplace.com/
+- **RSS Feed:** https://jasontvmarketplace.com/feed.xml
 - **YouTube Analytics:** https://studio.youtube.com/@jasontv1982/dashboard
 - **Amazon KDP Reports:** https://kdp.amazon.com/en_US/
 - **Steam Analytics:** https://partner.steamgames.com/

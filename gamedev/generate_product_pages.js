@@ -18,7 +18,7 @@ if (!fs.existsSync(productsDir)) {
 
 let sitemapUrls = [
   '  <url>',
-  '    <loc>https://jasoncoleman-gamedev.surge.sh/</loc>',
+  '    <loc>https://jasontvmarketplace.com/gamedev/</loc>',
   '    <lastmod>2026-10-01</lastmod>',
   '    <changefreq>daily</changefreq>',
   '    <priority>1.0</priority>',
@@ -28,9 +28,9 @@ let sitemapUrls = [
 products.forEach(p => {
   const filename = `${p.id}.html`;
   const filepath = path.join(productsDir, filename);
-  const canonicalUrl = `https://jasoncoleman-gamedev.surge.sh/products/${filename}`;
+  const canonicalUrl = `https://jasontvmarketplace.com/gamedev/products/${filename}`;
   const coverRelative = `../${p.cover}`;
-  const coverAbsolute = `https://jasoncoleman-gamedev.surge.sh/${p.cover}`;
+  const coverAbsolute = `https://jasontvmarketplace.com/gamedev/${p.cover}`;
 
   const html = `<!DOCTYPE html>
 <html lang="en">

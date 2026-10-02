@@ -2,12 +2,12 @@
 title: "Free RSS to Social Media Distribution Directory"
 description: "Submit this RSS feed for automatic content distribution to Medium, LinkedIn, Reddit, and Twitter"
 tags: ["rss", "syndication", "content-marketing", "distribution"]
-canonical: "https://aaahoneydo-arch.github.io/jason-coleman-media-network/feed.xml"
+canonical: "https://jasontvmarketplace.com/feed.xml"
 ---
 
 # RSS Feed Submission Package for Multi-Platform Distribution
 
-**Primary RSS Feed:** https://aaahoneydo-arch.github.io/jason-coleman-media-network/feed.xml
+**Primary RSS Feed:** https://jasontvmarketplace.com/feed.xml
 
 ## RSS Feed Aggregator Services (Free)
 
@@ -60,7 +60,7 @@ Your feed is configured for:
 **For platform dashboards:**
 
 ```
-RSS Feed URL: https://aaahoneydo-arch.github.io/jason-coleman-media-network/feed.xml
+RSS Feed URL: https://jasontvmarketplace.com/feed.xml
 Feed Title: Jason Coleman Creator Network
 Feed Description: Creator economics, military history content, and multi-platform business strategies
 Content Type: Articles/Newsletters/Podcast Episodes

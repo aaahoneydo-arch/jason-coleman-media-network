@@ -27,7 +27,7 @@ Your confirmed Pinterest account is: **`https://www.pinterest.com/aaahoneydo/`**
 - **Username / Handle:** Can remain `aaahoneydo` or update to `jasontv1982` / `jasoncolemanbooks`
 - **About You (Bio):**
   > "Author of epic fantasy novel *The Shattered Crown*. Video creator exploring military history, 80s/90s action cinema, and daily relatable comedy across YouTube and TikTok."
-- **Website link on Pinterest:** `https://aaahoneydo-arch.github.io/jason-coleman-media-network/`
+- **Website link on Pinterest:** `https://jasontvmarketplace.com/`
 
 ### 4 Strategic Boards to Create:
 1. **Board 1: *The Shattered Crown & Epic Fantasy Lore***
