@@ -4,7 +4,7 @@
     <loc>https://jasontvmarketplace.com/</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/NHfK-njzuX0/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>JasonTV Marketplace Is Live | Books, Games, Films, Music & More</video:title>
+      <video:title>JasonTV Marketplace Is Live | Books, Games, Films, Music &amp; More</video:title>
       <video:description>Official launch showcase of JasonTV Marketplace featuring 122+ commercial game engines, 9 published books, developer toolkits, cinematic films, and original music by Jason Coleman.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/NHfK-njzuX0</video:player_loc>
       <video:publication_date>2026-10-02</video:publication_date>
@@ -44,7 +44,7 @@
     <loc>https://jasontvmarketplace.com/#theater</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/VroKdsXFUxY/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Built Our Own Road & Never Quit | Original Motivational Music Video</video:title>
+      <video:title>Built Our Own Road &amp; Never Quit | Original Motivational Music Video</video:title>
       <video:description>High-energy workout and perseverance anthem backed by legendary sports triumphs, written and produced by Jason Coleman.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/VroKdsXFUxY</video:player_loc>
       <video:publication_date>2026-09-20</video:publication_date>
