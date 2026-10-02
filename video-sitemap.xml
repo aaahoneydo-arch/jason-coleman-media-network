@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://jasontvmarketplace.com/samurai-daughter.html</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/D8FgDRvIOuc/hqdefault.jpg</video:thumbnail_loc><video:title>A Day in the Life of a Samurai’s Daughter</video:title><video:description>Watch JasonTV’s cinematic story of a samurai’s daughter choosing her own path. Explore the story themes, viewing guide, and more JasonTV stories.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/D8FgDRvIOuc</video:player_loc><video:publication_date>2025-05-18</video:publication_date></video:video></url>
-<url><loc>https://jasontvmarketplace.com/draevan-narrated-graphic-novel.html</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/czl3ZmsLcBI/hqdefault.jpg</video:thumbnail_loc><video:title>DRAEVAN: The Immortal — Narrated Vampire Graphic Novel, Vol. 1</video:title><video:description>Watch all 116 illustrated pages of DRAEVAN Volume One with character narration. An ancient vampire, a Miami laboratory, and journalist Kira Morrison.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/czl3ZmsLcBI</video:player_loc><video:publication_date>2026-09-24</video:publication_date></video:video></url>
-<url><loc>https://jasontvmarketplace.com/cant-turn-it-off.html</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/YbMON-UG3-4/hqdefault.jpg</video:thumbnail_loc><video:title>Can’t Turn It Off — Original JasonTV Song &amp; Fashion Video</video:title><video:description>Listen to Can’t Turn It Off, an original JasonTV song paired with a cinematic swimsuit and fashion montage. Watch the video and discover more JasonTV music.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/YbMON-UG3-4</video:player_loc><video:publication_date>2026-08-13</video:publication_date></video:video></url>
+  <url>
+    <loc>https://jasontvmarketplace.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/NHfK-njzuX0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>JasonTV Marketplace Is Live | Books, Games, Films, Music & More</video:title>
+      <video:description>Official launch showcase of JasonTV Marketplace featuring 122+ commercial game engines, 9 published books, developer toolkits, cinematic films, and original music by Jason Coleman.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/NHfK-njzuX0</video:player_loc>
+      <video:publication_date>2026-10-02</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://jasontvmarketplace.com/cant-turn-it-off.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/cPm0DmhLjl8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Can’t Turn It Off — Official Music Video | JasonTV</video:title>
+      <video:description>Listen to Can’t Turn It Off, an original JasonTV song paired with a high-impact cinematic music video. Composed and produced by Jason Coleman.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/cPm0DmhLjl8</video:player_loc>
+      <video:publication_date>2026-10-02</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://jasontvmarketplace.com/samurai-daughter.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/D8FgDRvIOuc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>A Day in the Life of a Samurai’s Daughter</video:title>
+      <video:description>Watch JasonTV’s cinematic story of a samurai’s daughter choosing her own path. Explore the story themes, viewing guide, and more JasonTV stories.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/D8FgDRvIOuc</video:player_loc>
+      <video:publication_date>2025-05-18</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://jasontvmarketplace.com/draevan-narrated-graphic-novel.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/czl3ZmsLcBI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>DRAEVAN: The Immortal — Narrated Vampire Graphic Novel, Vol. 1</video:title>
+      <video:description>Watch all 116 illustrated pages of DRAEVAN Volume One with character narration. An ancient vampire, a Miami laboratory, and journalist Kira Morrison.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/czl3ZmsLcBI</video:player_loc>
+      <video:publication_date>2026-09-24</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://jasontvmarketplace.com/#theater</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/VroKdsXFUxY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Built Our Own Road & Never Quit | Original Motivational Music Video</video:title>
+      <video:description>High-energy workout and perseverance anthem backed by legendary sports triumphs, written and produced by Jason Coleman.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/VroKdsXFUxY</video:player_loc>
+      <video:publication_date>2026-09-20</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://jasontvmarketplace.com/#theater</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/ZhqsGfnmOls/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>JASON: CALL TO WAR | Epic Mech Short Film</video:title>
+      <video:description>A veteran mech commander returns to the cockpit of Titan Black to stop the Ashen Legion before humanity’s final stronghold falls.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ZhqsGfnmOls</video:player_loc>
+      <video:publication_date>2026-09-30</video:publication_date>
+    </video:video>
+  </url>
 </urlset>
