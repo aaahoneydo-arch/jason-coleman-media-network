@@ -11,7 +11,7 @@ In 2019 I wasn't making money from my 800+ military history videos. Today I pull
 
 **YouTube Ad Revenue: $1,200/month**
 - CPM of $5-7 from documentary content
-- 600,000 monthly views across 800+ videos
+- 600,000 monthly views across 900+ videos
 - Consistent Tuesday/Thursday upload schedule
 
 **Book Sales (Cross-Promotion): $1,400/month**

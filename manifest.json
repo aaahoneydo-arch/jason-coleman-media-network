@@ -1,7 +1,7 @@
 {
   "name": "JasonTV Marketplace | Commercial Game Engines & Books",
   "short_name": "JasonTV",
-  "description": "122 commercial game engines, developer CLI tools, 10 published books, and 800+ YouTube films by creator Jason Coleman.",
+  "description": "122 commercial game engines, developer CLI tools, 10 published books, and 900+ YouTube films by creator Jason Coleman.",
   "start_url": "/?pwa=1",
   "scope": "/",
   "display": "standalone",

@@ -37,7 +37,7 @@ We audited public author and creator registries for existing accounts under your
 
 ### A. Amazon Author Central & Goodreads Bio
 **Author Bio (Ready to paste):**
-> Jason Coleman is an independent author, video creator, and storyteller with 8 published books spanning dark fantasy vampire lore, intense military action, and illustrated children's adventures. Alongside his literary work, Jason produces video documentaries, tactical cinema dissections, and daily comedy shorts for an audience across YouTube (800+ videos) and TikTok (@jasontv1982). Whether diving into forgotten battlefield tactics or weaving gothic supernatural thrillers, his work delivers authentic, unfiltered entertainment.
+> Jason Coleman is an independent author, video creator, and storyteller with 8 published books spanning dark fantasy vampire lore, intense military action, and illustrated children's adventures. Alongside his literary work, Jason produces video documentaries, tactical cinema dissections, and daily comedy shorts for an audience across YouTube (900+ videos) and TikTok (@jasontv1982). Whether diving into forgotten battlefield tactics or weaving gothic supernatural thrillers, his work delivers authentic, unfiltered entertainment.
 
 ### B. BookBub Author Profile
 - **Author Tagline:** Independent Author of Dark Fantasy, Military Fiction & Children's Books.

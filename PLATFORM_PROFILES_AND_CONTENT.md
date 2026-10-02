@@ -9,7 +9,7 @@
 | Platform | Verified URL | Status | Next Step |
 | :--- | :--- | :--- | :--- |
 | **Pinterest** | `https://www.pinterest.com/aaahoneydo/` (from `https://pin.it/3XJ2Ihy6A`) | **Confirmed Account Found** | Update profile display name from default to **Jason Coleman (Author & Creator)**. Add avatar and bio. |
-| **YouTube** | `https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q` | **Confirmed Active** | Verified 800+ videos. Primary destination for long-form documentaries and movie reviews. |
+| **YouTube** | `https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q` | **Confirmed Active** | Verified 900+ videos. Primary destination for long-form documentaries and movie reviews. |
 | **TikTok** | `https://www.tiktok.com/@jasontv1982` | **Confirmed Active** | Primary destination for daily observational comedy reels, handyman fails, and short rants. |
 | **Amazon Author Central** | `author.amazon.com` | **Not Found Publicly — Ownership Unverified** | Log in with KDP credentials, claim *The Shattered Crown* and your remaining titles, and set up your author vanity URL. |
 | **Goodreads** | `https://www.goodreads.com/user/show/204581010-honey-do` | **Confirmed Account Found (Reader Profile)** | Reader account active under "Honey Do". Upgrade to **Goodreads Author Profile** by navigating to *The Shattered Crown* book page and clicking "Is this you? Claim this author profile." |

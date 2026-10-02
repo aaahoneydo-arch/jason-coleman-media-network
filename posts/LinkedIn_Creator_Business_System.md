@@ -15,7 +15,7 @@ I've been a creator for 7 years. I went from $0/month to $8,000-$12,000/month by
 ## My 6-Platform Income System
 
 ### YouTube: The Foundation (35% of income)
-- 800+ documentary videos about military history
+- 900+ documentary videos about military history
 - No sponsorships, no products, no affiliate links in videos
 - $2,800-$3,200 monthly from $4-7 CPM
 

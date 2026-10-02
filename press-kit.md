@@ -72,7 +72,7 @@ Here's the exact 7-platform income breakdown that generates $10,300/month with 1
 From tank commander to creator entrepreneur making $8,000-12,000 monthly. Spent 7 years building a 7-platform system using military multi-domain operations framework.
 
 Platform breakdown:
-- YouTube: $3,200 (800+ documentaries)
+- YouTube: $3,200 (900+ documentaries)
 - Amazon Books: $2,100 (9 novels)
 - TikTok: $1,400 (daily shorts)
 - Steam Games: $2,500 (tactical RTS)

@@ -9,7 +9,7 @@
 - **Main Website (Verified in Google Search Console):** `https://jasontvmarketplace.com/`
 - **Pinterest Account:** `https://www.pinterest.com/aaahoneydo/` (from `https://pin.it/3XJ2Ihy6A`)
 - **Goodreads Profile:** `https://www.goodreads.com/user/show/204581010-honey-do`
-- **YouTube Channel:** `https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q` (800+ Videos)
+- **YouTube Channel:** `https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q` (900+ Videos)
 - **TikTok Account:** `https://www.tiktok.com/@jasontv1982`
 
 ---
