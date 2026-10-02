@@ -1760,14 +1760,14 @@ const PRODUCTS = [
     {
         "id": "i-got-this",
         "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-        "subtitle": "67.1 km\u00c2\u00b2 deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+        "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
         "category": "godot",
         "price": 39.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
             "Godot 4",
-            "67km\u00c2\u00b2 Terrain",
+            "67kmÂ² Terrain",
             "Base Building"
         ],
         "cover": "assets/covers/igotthis.jpg",
@@ -2234,7 +2234,7 @@ const PRODUCTS = [
             "Deckbuilder Engine"
         ],
         "cover": "assets/covers/cardsim.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/cardsim-combat-engine",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "A production-grade, headless card combat simulator. Execute thousands of Monte Carlo matches across custom deck archetypes in seconds. Complete card effect pipeline (damage, shield, poison, vulnerable, weakness, heal), energy cost curves, card draw/discard piles, and comprehensive win-rate/card-value telemetry exportable to JSON.",
         "specs": [
@@ -2354,7 +2354,7 @@ const PRODUCTS = [
             "RPG Progression"
         ],
         "cover": "assets/covers/necros.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/godot-4-rpg-progression-skill-tree-matrix-architecture",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Deep RPG character progression and skill tree framework for Godot 4. Features mathematical XP scaling curves, tiered active and passive skill nodes with prerequisite branches, attribute allocation, and a polished dark fantasy skill menu UI.",
         "specs": [
@@ -2378,7 +2378,7 @@ const PRODUCTS = [
             "Minimap Radar"
         ],
         "cover": "assets/covers/necros.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/godot-4-dynamic-sky-minimap-living-world-framework",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Atmospheric world environment suite for Godot 4. Provides smooth orbital day/night cycles with synchronized sun/moon directional lights, dynamic sky shader parameters, ambient lighting curves, a real-time 2D/3D radar minimap with customizable POI markers, and a full-screen atlas map view.",
         "specs": [
@@ -2428,7 +2428,7 @@ const PRODUCTS = [
             "Lore Journal"
         ],
         "cover": "assets/covers/necros.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/godot-4-quest-journal-dynamic-event-matrix",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Dynamic quest tracking, lore journal, and encounter management system for Godot 4. Features multi-step objective states, reward payouts, journal lore entry unlocking, and random wilderness danger event triggers.",
         "specs": [
@@ -2452,7 +2452,7 @@ const PRODUCTS = [
             "YouTube Tools"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/automated-video-montage-shorts-production-pipeline-cli",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Complete Python batch video automation suite. Automatically splices video clips into cohesive long-form montages (10-25+ minutes), synthesizes and aligns audio narration, applies background music ducking, and renders broadcast-ready MP4s with transition overlays.",
         "specs": [
@@ -2476,7 +2476,7 @@ const PRODUCTS = [
             "Architectural Mockups"
         ],
         "cover": "assets/covers/grimrealm.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/master-4k-interiors-architectural-lookbook-vol-2",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "A premium commercial digital asset collection featuring 170+ ultra-high-resolution 4K architectural and interior design renders. Categories include Dark Moody Executive Home Offices, Luxury Spa Bathrooms, Japandi Minimalist Living Rooms, and High-End Scenic Backdrops. Perfect for design lookbooks, product mockups, 3D visualization backgrounds, and desktop wallpapers.",
         "specs": [
@@ -2573,7 +2573,7 @@ const PRODUCTS = [
             "3D Model Included"
         ],
         "cover": "assets/covers/wildlands.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/wildlands-protocol-godot-4-3d-mech-locomotion-urban-sandbox-kit",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-performance mechanical character controller for Godot 4. Includes smooth 3rd-person camera orbit with pitch clamping, sprint and hover-thrust kinematics, jump momentum dampening, atmospheric volumetric fog, screen-space reflections, bloom glow, and includes the textured 3D mech model (RobotExpressive.glb).",
         "specs": [
@@ -2621,7 +2621,7 @@ const PRODUCTS = [
             "Monte Carlo Balancer"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/turn-based-4x-hex-territory-diplomacy-engine",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Production headless 4X strategy and territory conquest engine in pure Python. Features turn-based 4-faction empire simulation, hex grid territory borders with supply line validation, 3-resource economic loops (Ore, Energy, Biomass), automated AI build orders with distinct aggression profiles, and a Monte Carlo testing harness.",
         "specs": [
@@ -2645,7 +2645,7 @@ const PRODUCTS = [
             "Video Pipeline"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/shorts-reel-automation-video-subtitle-beat-sync-cli",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "End-to-end batch video generation CLI for content creators and automated channels. Automatically sequences raw video clips into cohesive montages, synthesizes and ducks background audio under narration, scales to 9:16 vertical (Shorts/TikTok) or 16:9 4K landscape, and renders finished MP4s with transition overlays.",
         "specs": [
@@ -2669,7 +2669,7 @@ const PRODUCTS = [
             "Branching Narrative"
         ],
         "cover": "assets/covers/necros.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/dialogue-quest-narrative-engine",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Modular conversation engine and narrative reactivity system for Godot 4. Includes node-based dialogue trees with branching player responses, dynamic proximity battle banter triggers, reputation and quest prerequisite condition checks, and automatic lore journal entry reveals.",
         "specs": [
@@ -2953,7 +2953,7 @@ const PRODUCTS = [
             "Commercial Royalty-Free"
         ],
         "cover": "assets/covers/flowvol2.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/nextgen-4k-commercial-asset-collection-vol2",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Comprehensive 364-piece visual asset library generated directly through our commercial studio pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.",
         "specs": [
@@ -2976,7 +2976,7 @@ const PRODUCTS = [
             "Auto-Shooter"
         ],
         "cover": "assets/covers/survivors_engine.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/godot-4-horde-survivors-auto-shooter-architecture",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Production-ready, pure GDScript starter kit for building horde survival games in Godot 4. Features automatic targeting, orbital projectiles, scaling perimeter wave spawner, magnetic XP gem attraction, 3-card random level-up upgrade modal, and complete HUD with game-over flow.",
         "specs": [
@@ -3024,7 +3024,7 @@ const PRODUCTS = [
             "VTT & Print Ready"
         ],
         "cover": "assets/covers/gothic_tarot.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/dark-gothic-eldritch-tarot-deck-20-illustrated-cards",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Haunting collection of 20 ultra-detailed dark gothic tarot card illustrations representing the Major Arcana. Handcrafted for digital card battlers, tabletop RPG campaigns, and physical print production.",
         "specs": [
@@ -3047,7 +3047,7 @@ const PRODUCTS = [
             "Streamer & VN Ready"
         ],
         "cover": "assets/covers/streamer_lounges.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/cyberpunk-streamer-lounges-battlestations-4k-uhd",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Sleek, vibrant 4K cyberpunk interior backgrounds showcasing high-tech streaming lounges, illuminated RGB battlestations, and futuristic penthouse gaming rooms. Perfect for Twitch/YouTube stream overlays, visual novels, and sci-fi games.",
         "specs": [
@@ -3070,7 +3070,7 @@ const PRODUCTS = [
             "Dark Fantasy"
         ],
         "cover": "assets/covers/eldritch_tokens.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/eldritch-abyssal-vtt-tokens-pack-24-circular-cutouts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Pre-sliced circular token pack for tabletop RPGs and tactical battle grids. Features 24 dark fantasy horrors including tentacled void aberrations, armored abyssal knights, weeping bone wraiths, and eldritch familiars.",
         "specs": [
@@ -3093,7 +3093,7 @@ const PRODUCTS = [
             "PBR Rendered"
         ],
         "cover": "assets/covers/rpg_square_icons.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/ancient-relics-marrow-rings-enchanted-talismans-4k-rpg-icon-pack",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Comprehensive library of 40 square inventory icons designed for fantasy RPGs, action games, and card battlers. Includes elemental runes, alchemical elixirs, glowing artifacts, and enchanted gear.",
         "specs": [
@@ -3148,7 +3148,7 @@ const PRODUCTS = [
             "1 Full Custom Video (Up to 5 Minutes) for $49.99",
             "Dual Video Package (Two Videos Up to 5 Mins Each) for $59.99 (Save $40)",
             "Any Genre: Realistic Music Videos, Dragons, Fantasy, Sci-Fi, Military, Game Trailers, Comedy & More",
-            "Official Production Sample: Can\u2019t Turn It Off (Official Music Video)",
+            "Official Production Sample: Can’t Turn It Off (Official Music Video)",
             "16:9 Landscape (YouTube) or 9:16 Vertical (TikTok/Shorts)",
             "Custom AI Visual Production & Scene Art Direction",
             "Character Voiceover & Dynamic Audio Mix",
@@ -3202,7 +3202,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-001.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3232,7 +3232,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-002.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3262,7 +3262,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-003.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3292,7 +3292,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-004.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3322,7 +3322,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-005.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3352,7 +3352,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-006.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3382,7 +3382,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-007.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3412,7 +3412,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-008.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3442,7 +3442,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-009.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3472,7 +3472,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-010.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3502,7 +3502,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-011.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3532,7 +3532,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-012.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3562,7 +3562,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-013.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3592,7 +3592,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-014.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3622,7 +3622,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-015.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3652,7 +3652,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-016.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3682,7 +3682,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-017.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3712,7 +3712,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-018.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3742,7 +3742,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-019.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3772,7 +3772,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-020.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3802,7 +3802,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-021.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3832,7 +3832,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-022.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3862,7 +3862,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-023.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3892,7 +3892,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-024.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3922,7 +3922,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-025.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3952,7 +3952,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-026.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -3982,7 +3982,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-027.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4011,7 +4011,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-028.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4041,7 +4041,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-029.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4071,7 +4071,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-030.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4101,7 +4101,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-031.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4131,7 +4131,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-032.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4161,7 +4161,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-033.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4191,7 +4191,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-034.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4221,7 +4221,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-035.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4252,7 +4252,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-036.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4282,7 +4282,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-037.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4312,7 +4312,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-038.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4343,7 +4343,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-039.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4373,7 +4373,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-040.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4403,7 +4403,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-041.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4433,7 +4433,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-042.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4463,7 +4463,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-043.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4493,7 +4493,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-044.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4523,7 +4523,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-045.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4553,7 +4553,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-046.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4583,7 +4583,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-047.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4613,7 +4613,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-048.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4643,7 +4643,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-049.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4673,7 +4673,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-050.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4703,7 +4703,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-051.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4733,7 +4733,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-052.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4763,7 +4763,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-053.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4793,7 +4793,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-054.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4823,7 +4823,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-055.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4853,7 +4853,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-056.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4883,7 +4883,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-057.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4913,7 +4913,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-058.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4943,7 +4943,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-059.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -4973,7 +4973,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-060.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5003,7 +5003,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-061.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5033,7 +5033,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-062.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5063,7 +5063,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-063.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5093,7 +5093,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-064.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5123,7 +5123,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-065.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5153,7 +5153,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-066.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5183,7 +5183,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-067.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5213,7 +5213,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-068.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5243,7 +5243,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-069.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5273,7 +5273,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-070.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5303,7 +5303,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-071.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5333,7 +5333,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-072.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5363,7 +5363,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-073.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5393,7 +5393,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-074.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5423,7 +5423,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-075.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5453,7 +5453,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-076.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5483,7 +5483,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-077.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5513,7 +5513,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-078.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5543,7 +5543,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-079.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5573,7 +5573,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-080.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5603,7 +5603,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-081.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5631,7 +5631,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-082.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5659,7 +5659,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-083.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5687,7 +5687,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-084.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5715,7 +5715,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-085.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5743,7 +5743,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-086.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5771,7 +5771,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-087.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5799,7 +5799,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-088.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5827,7 +5827,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-089.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5855,7 +5855,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-090.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5883,7 +5883,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-091.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5911,7 +5911,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-092.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5939,7 +5939,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-093.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5967,7 +5967,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-094.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -5995,7 +5995,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-095.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6023,7 +6023,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-096.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6051,7 +6051,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-097.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6079,7 +6079,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-098.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6107,7 +6107,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-099.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6135,7 +6135,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-100.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6163,7 +6163,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-101.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6192,7 +6192,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-102.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6221,7 +6221,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-103.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6250,7 +6250,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-104.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6279,7 +6279,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-105.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6308,7 +6308,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-106.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6337,7 +6337,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-107.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6366,7 +6366,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-108.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6395,7 +6395,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-109.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6424,7 +6424,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-110.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6453,7 +6453,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-111.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6482,7 +6482,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-112.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6511,7 +6511,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-113.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6540,7 +6540,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-114.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6569,7 +6569,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-115.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6598,7 +6598,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-116.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6627,7 +6627,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-117.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6656,7 +6656,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-118.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6685,7 +6685,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-119.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6714,7 +6714,7 @@ const PRODUCTS = [
             "Game-Template"
         ],
         "cover": "assets/covers/cover_PT-120.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/pygame-120-in-1-game-engine-vault-120-complete-source-code-templates",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pygame Templates for game development.",
         "specs": [
@@ -6743,7 +6743,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-001.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6770,7 +6770,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-002.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6797,7 +6797,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-003.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6824,7 +6824,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-004.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6851,7 +6851,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-005.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6878,7 +6878,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-006.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6905,7 +6905,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-007.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6932,7 +6932,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-008.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6959,7 +6959,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-009.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -6986,7 +6986,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-010.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7013,7 +7013,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-011.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7040,7 +7040,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-012.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7067,7 +7067,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-013.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7094,7 +7094,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-014.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7121,7 +7121,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-015.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7148,7 +7148,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-016.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7175,7 +7175,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-017.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7202,7 +7202,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-018.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7229,7 +7229,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-019.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7256,7 +7256,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-020.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7283,7 +7283,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-021.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7310,7 +7310,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-022.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7337,7 +7337,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-023.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7364,7 +7364,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-024.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7391,7 +7391,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-025.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7418,7 +7418,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-026.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7445,7 +7445,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-027.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7472,7 +7472,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-028.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7499,7 +7499,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-029.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7526,7 +7526,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-030.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7553,7 +7553,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-031.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7580,7 +7580,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-032.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7607,7 +7607,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-033.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7634,7 +7634,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-034.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7661,7 +7661,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-035.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7688,7 +7688,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-036.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7715,7 +7715,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-037.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7742,7 +7742,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-038.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7769,7 +7769,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-039.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7796,7 +7796,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-040.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7823,7 +7823,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-041.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7850,7 +7850,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-042.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7877,7 +7877,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-043.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7904,7 +7904,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-044.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7931,7 +7931,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-045.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7958,7 +7958,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-046.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -7985,7 +7985,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-047.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8012,7 +8012,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-048.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8039,7 +8039,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-049.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8066,7 +8066,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-050.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8093,7 +8093,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-051.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8120,7 +8120,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-052.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8147,7 +8147,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-053.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8174,7 +8174,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-054.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8201,7 +8201,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-055.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8228,7 +8228,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-056.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8255,7 +8255,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-057.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8282,7 +8282,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-058.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8309,7 +8309,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-059.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8336,7 +8336,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-060.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8363,7 +8363,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-061.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8390,7 +8390,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-062.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8417,7 +8417,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-063.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8444,7 +8444,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-064.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8471,7 +8471,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-065.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8498,7 +8498,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-066.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8525,7 +8525,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-067.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8552,7 +8552,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-068.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8579,7 +8579,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-069.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8606,7 +8606,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-070.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8633,7 +8633,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-071.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8660,7 +8660,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-072.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8687,7 +8687,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-073.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8714,7 +8714,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-074.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8741,7 +8741,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-075.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8768,7 +8768,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-076.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8795,7 +8795,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-077.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8822,7 +8822,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-078.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8849,7 +8849,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-079.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8876,7 +8876,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-080.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8903,7 +8903,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-081.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8930,7 +8930,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-082.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8957,7 +8957,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-083.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -8984,7 +8984,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-084.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9011,7 +9011,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-085.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9038,7 +9038,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-086.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9065,7 +9065,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-087.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9092,7 +9092,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-088.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9119,7 +9119,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-089.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9146,7 +9146,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-090.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9173,7 +9173,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-091.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9200,7 +9200,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-092.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9227,7 +9227,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-093.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9254,7 +9254,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-094.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9281,7 +9281,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-095.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9308,7 +9308,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-096.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9335,7 +9335,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-097.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9362,7 +9362,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-098.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9389,7 +9389,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-099.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9416,7 +9416,7 @@ const PRODUCTS = [
             "Pixel-Art"
         ],
         "cover": "assets/covers/cover_PA-100.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/2d-pixel-art-ultimate-game-dev-asset-vault-100-character-monster-packs",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Art Assets for game development.",
         "specs": [
@@ -9443,7 +9443,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-001.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9470,7 +9470,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-002.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9497,7 +9497,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-003.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9524,7 +9524,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-004.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9551,7 +9551,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-005.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9578,7 +9578,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-006.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9605,7 +9605,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-007.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9632,7 +9632,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-008.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9659,7 +9659,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-009.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9686,7 +9686,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-010.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9713,7 +9713,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-011.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9740,7 +9740,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-012.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9767,7 +9767,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-013.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9794,7 +9794,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-014.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9821,7 +9821,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-015.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9848,7 +9848,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-016.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9875,7 +9875,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-017.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9902,7 +9902,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-018.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9929,7 +9929,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-019.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9956,7 +9956,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-020.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -9983,7 +9983,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-021.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10010,7 +10010,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-022.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10037,7 +10037,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-023.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10064,7 +10064,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-024.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10091,7 +10091,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-025.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10118,7 +10118,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-026.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10145,7 +10145,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-027.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10172,7 +10172,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-028.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10199,7 +10199,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-029.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10226,7 +10226,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-030.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10253,7 +10253,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-031.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10280,7 +10280,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-032.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10307,7 +10307,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-033.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10334,7 +10334,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-034.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10361,7 +10361,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-035.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10388,7 +10388,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-036.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10415,7 +10415,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-037.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10442,7 +10442,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-038.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10469,7 +10469,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-039.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10496,7 +10496,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-040.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10523,7 +10523,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-041.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10550,7 +10550,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-042.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10577,7 +10577,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-043.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10604,7 +10604,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-044.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10631,7 +10631,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-045.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10658,7 +10658,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-046.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10685,7 +10685,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-047.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10712,7 +10712,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-048.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10739,7 +10739,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-049.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10766,7 +10766,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-050.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10793,7 +10793,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-051.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10820,7 +10820,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-052.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10847,7 +10847,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-053.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10874,7 +10874,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-054.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10901,7 +10901,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-055.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10928,7 +10928,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-056.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10955,7 +10955,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-057.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -10982,7 +10982,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-058.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11009,7 +11009,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-059.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11036,7 +11036,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-060.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11063,7 +11063,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-061.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11090,7 +11090,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-062.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11117,7 +11117,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-063.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11144,7 +11144,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-064.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11171,7 +11171,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-065.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11198,7 +11198,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-066.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11225,7 +11225,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-067.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11252,7 +11252,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-068.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11279,7 +11279,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-069.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11306,7 +11306,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-070.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11333,7 +11333,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-071.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11360,7 +11360,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-072.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11387,7 +11387,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-073.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11414,7 +11414,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-074.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11441,7 +11441,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-075.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11468,7 +11468,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-076.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11495,7 +11495,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-077.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11522,7 +11522,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-078.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11549,7 +11549,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-079.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11576,7 +11576,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-080.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11603,7 +11603,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-081.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11630,7 +11630,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-082.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11657,7 +11657,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-083.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11684,7 +11684,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-084.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11711,7 +11711,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-085.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11738,7 +11738,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-086.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11765,7 +11765,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-087.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11792,7 +11792,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-088.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11819,7 +11819,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-089.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11846,7 +11846,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-090.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11873,7 +11873,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-091.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11900,7 +11900,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-092.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11927,7 +11927,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-093.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11954,7 +11954,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-094.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -11981,7 +11981,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-095.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12008,7 +12008,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-096.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12035,7 +12035,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-097.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12062,7 +12062,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-098.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12089,7 +12089,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-099.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12116,7 +12116,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-100.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12143,7 +12143,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-101.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12170,7 +12170,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-102.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12197,7 +12197,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-103.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12224,7 +12224,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-104.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12251,7 +12251,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-105.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12278,7 +12278,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-106.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12305,7 +12305,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-107.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12332,7 +12332,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-108.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12359,7 +12359,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-109.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12386,7 +12386,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-110.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12413,7 +12413,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-111.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12440,7 +12440,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-112.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12467,7 +12467,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-113.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12494,7 +12494,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-114.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12521,7 +12521,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-115.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12548,7 +12548,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-116.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12575,7 +12575,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-117.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12602,7 +12602,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-118.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12629,7 +12629,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-119.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12656,7 +12656,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-120.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12683,7 +12683,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-121.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12710,7 +12710,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-122.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12737,7 +12737,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-123.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12764,7 +12764,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-124.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12791,7 +12791,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-125.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12818,7 +12818,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-126.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12845,7 +12845,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-127.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12872,7 +12872,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-128.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12899,7 +12899,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-129.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12926,7 +12926,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-130.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12953,7 +12953,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-131.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -12980,7 +12980,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-132.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13007,7 +13007,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-133.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13034,7 +13034,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-134.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13061,7 +13061,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-135.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13088,7 +13088,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-136.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13115,7 +13115,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-137.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13142,7 +13142,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-138.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13169,7 +13169,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-139.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13196,7 +13196,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-140.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13223,7 +13223,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-141.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13250,7 +13250,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-142.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13277,7 +13277,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-143.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13304,7 +13304,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-144.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13331,7 +13331,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-145.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13358,7 +13358,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-146.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13385,7 +13385,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-147.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13412,7 +13412,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-148.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13439,7 +13439,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-149.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13466,7 +13466,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-150.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13493,7 +13493,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-151.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13520,7 +13520,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-152.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13547,7 +13547,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-153.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13574,7 +13574,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-154.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13601,7 +13601,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-155.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13628,7 +13628,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-156.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13655,7 +13655,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-157.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13682,7 +13682,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-158.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13709,7 +13709,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-159.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13736,7 +13736,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-160.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13763,7 +13763,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-161.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13790,7 +13790,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-162.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13817,7 +13817,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-163.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13844,7 +13844,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-164.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13871,7 +13871,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-165.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13898,7 +13898,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-166.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13925,7 +13925,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-167.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13952,7 +13952,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-168.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -13979,7 +13979,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-169.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14006,7 +14006,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-170.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14033,7 +14033,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-171.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14060,7 +14060,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-172.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14087,7 +14087,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-173.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14114,7 +14114,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-174.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14141,7 +14141,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-175.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14168,7 +14168,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-176.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14195,7 +14195,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-177.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14222,7 +14222,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-178.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14249,7 +14249,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-179.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14276,7 +14276,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-180.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14303,7 +14303,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-181.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14330,7 +14330,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-182.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14357,7 +14357,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-183.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14384,7 +14384,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-184.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14411,7 +14411,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-185.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14438,7 +14438,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-186.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14465,7 +14465,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-187.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14492,7 +14492,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-188.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14519,7 +14519,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-189.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14546,7 +14546,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-190.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14573,7 +14573,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-191.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14600,7 +14600,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-192.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14627,7 +14627,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-193.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14654,7 +14654,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-194.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14681,7 +14681,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-195.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14708,7 +14708,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-196.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14735,7 +14735,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-197.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14762,7 +14762,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-198.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14789,7 +14789,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-199.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14816,7 +14816,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-200.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14843,7 +14843,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-201.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14870,7 +14870,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-202.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14897,7 +14897,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-203.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14924,7 +14924,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-204.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14951,7 +14951,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-205.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -14978,7 +14978,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-206.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15005,7 +15005,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-207.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15032,7 +15032,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-208.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15059,7 +15059,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-209.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15086,7 +15086,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-210.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15113,7 +15113,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-211.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15140,7 +15140,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-212.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15167,7 +15167,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-213.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15194,7 +15194,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-214.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15221,7 +15221,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-215.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15248,7 +15248,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-216.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15275,7 +15275,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-217.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15302,7 +15302,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-218.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15329,7 +15329,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-219.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15356,7 +15356,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-220.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15383,7 +15383,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-221.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15410,7 +15410,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-222.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15437,7 +15437,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-223.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15464,7 +15464,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-224.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15491,7 +15491,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-225.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15518,7 +15518,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-226.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15545,7 +15545,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-227.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15572,7 +15572,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-228.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15599,7 +15599,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-229.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15626,7 +15626,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-230.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15653,7 +15653,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-231.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15680,7 +15680,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-232.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15707,7 +15707,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-233.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15734,7 +15734,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-234.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15761,7 +15761,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-235.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15788,7 +15788,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-236.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15815,7 +15815,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-237.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15842,7 +15842,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-238.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15869,7 +15869,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-239.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15896,7 +15896,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-240.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15923,7 +15923,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-241.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15950,7 +15950,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-242.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -15977,7 +15977,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-243.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16004,7 +16004,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-244.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16031,7 +16031,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-245.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16058,7 +16058,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-246.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16085,7 +16085,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-247.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16112,7 +16112,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-248.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16139,7 +16139,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-249.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16166,7 +16166,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-250.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16193,7 +16193,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-251.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16220,7 +16220,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-252.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16247,7 +16247,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-253.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16274,7 +16274,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-254.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16301,7 +16301,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-255.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16328,7 +16328,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-256.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16355,7 +16355,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-257.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16382,7 +16382,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-258.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16409,7 +16409,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-259.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16436,7 +16436,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-260.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16463,7 +16463,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-261.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16490,7 +16490,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-262.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16517,7 +16517,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-263.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16544,7 +16544,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-264.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16571,7 +16571,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-265.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16598,7 +16598,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-266.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16625,7 +16625,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-267.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16652,7 +16652,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-268.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16679,7 +16679,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-269.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16706,7 +16706,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-270.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16733,7 +16733,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-271.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16760,7 +16760,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-272.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16787,7 +16787,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-273.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16814,7 +16814,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-274.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16841,7 +16841,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-275.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16868,7 +16868,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-276.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16895,7 +16895,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-277.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16922,7 +16922,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-278.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16949,7 +16949,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-279.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -16976,7 +16976,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-280.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17003,7 +17003,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-281.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17030,7 +17030,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-282.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17057,7 +17057,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-283.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17084,7 +17084,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-284.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17111,7 +17111,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-285.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17138,7 +17138,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-286.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17165,7 +17165,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-287.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17192,7 +17192,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-288.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17219,7 +17219,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-289.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17246,7 +17246,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-290.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17273,7 +17273,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-291.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17300,7 +17300,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-292.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17327,7 +17327,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-293.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17354,7 +17354,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-294.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17381,7 +17381,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-295.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17408,7 +17408,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-296.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17435,7 +17435,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-297.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17462,7 +17462,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-298.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17489,7 +17489,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-299.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17516,7 +17516,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-300.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17543,7 +17543,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-301.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17570,7 +17570,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-302.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17597,7 +17597,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-303.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17624,7 +17624,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-304.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17651,7 +17651,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-305.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17678,7 +17678,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-306.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17705,7 +17705,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-307.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17732,7 +17732,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-308.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17759,7 +17759,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-309.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17786,7 +17786,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-310.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17813,7 +17813,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-311.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17840,7 +17840,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-312.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17867,7 +17867,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-313.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17894,7 +17894,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-314.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17921,7 +17921,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-315.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17948,7 +17948,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-316.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -17975,7 +17975,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-317.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18002,7 +18002,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-318.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18029,7 +18029,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-319.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18056,7 +18056,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-320.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18083,7 +18083,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-321.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18110,7 +18110,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-322.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18137,7 +18137,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-323.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18164,7 +18164,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-324.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18191,7 +18191,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-325.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18218,7 +18218,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-326.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18245,7 +18245,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-327.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18272,7 +18272,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-328.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18299,7 +18299,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-329.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18326,7 +18326,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-330.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18353,7 +18353,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-331.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18380,7 +18380,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-332.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18407,7 +18407,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-333.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18434,7 +18434,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-334.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18461,7 +18461,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-335.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18488,7 +18488,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-336.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18515,7 +18515,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-337.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18542,7 +18542,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-338.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18569,7 +18569,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-339.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18596,7 +18596,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-340.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18623,7 +18623,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-341.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18650,7 +18650,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-342.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18677,7 +18677,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-343.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18704,7 +18704,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-344.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18731,7 +18731,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-345.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18758,7 +18758,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-346.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18785,7 +18785,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-347.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18812,7 +18812,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-348.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18839,7 +18839,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-349.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18866,7 +18866,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-350.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18893,7 +18893,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-351.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18920,7 +18920,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-352.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18947,7 +18947,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-353.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -18974,7 +18974,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-354.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19001,7 +19001,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-355.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19028,7 +19028,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-356.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19055,7 +19055,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-357.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19082,7 +19082,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-358.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19109,7 +19109,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-359.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19136,7 +19136,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-360.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19163,7 +19163,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-361.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19190,7 +19190,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-362.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19217,7 +19217,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-363.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19244,7 +19244,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-364.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19271,7 +19271,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-365.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19298,7 +19298,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-366.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19325,7 +19325,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-367.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19352,7 +19352,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-368.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19379,7 +19379,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-369.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19406,7 +19406,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-370.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19433,7 +19433,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-371.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19460,7 +19460,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-372.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19487,7 +19487,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-373.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19514,7 +19514,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-374.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19541,7 +19541,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-375.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19568,7 +19568,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-376.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19595,7 +19595,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-377.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19622,7 +19622,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-378.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19649,7 +19649,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-379.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19676,7 +19676,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-380.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19703,7 +19703,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-381.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19730,7 +19730,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-382.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19757,7 +19757,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-383.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19784,7 +19784,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-384.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19811,7 +19811,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-385.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19838,7 +19838,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-386.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19865,7 +19865,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-387.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19892,7 +19892,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-388.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19919,7 +19919,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-389.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19946,7 +19946,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-390.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -19973,7 +19973,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-391.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20000,7 +20000,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-392.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20027,7 +20027,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-393.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20054,7 +20054,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-394.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20081,7 +20081,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-395.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20108,7 +20108,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-396.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20135,7 +20135,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-397.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20162,7 +20162,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-398.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20189,7 +20189,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-399.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20216,7 +20216,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-400.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20243,7 +20243,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-401.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20270,7 +20270,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-402.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20297,7 +20297,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-403.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20324,7 +20324,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-404.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20351,7 +20351,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-405.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20378,7 +20378,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-406.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20405,7 +20405,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-407.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20432,7 +20432,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-408.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20459,7 +20459,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-409.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20486,7 +20486,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-410.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20513,7 +20513,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-411.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20540,7 +20540,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-412.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20567,7 +20567,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-413.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20594,7 +20594,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-414.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20621,7 +20621,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-415.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20648,7 +20648,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-416.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20675,7 +20675,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-417.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20702,7 +20702,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-418.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20729,7 +20729,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-419.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20756,7 +20756,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-420.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20783,7 +20783,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-421.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20810,7 +20810,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-422.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20837,7 +20837,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-423.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20864,7 +20864,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-424.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20891,7 +20891,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-425.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20918,7 +20918,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-426.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20945,7 +20945,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-427.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20972,7 +20972,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-428.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -20999,7 +20999,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-429.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21026,7 +21026,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-430.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21053,7 +21053,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-431.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21080,7 +21080,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-432.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21107,7 +21107,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-433.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21134,7 +21134,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-434.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21161,7 +21161,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-435.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21188,7 +21188,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-436.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21215,7 +21215,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-437.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21242,7 +21242,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-438.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21269,7 +21269,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-439.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21296,7 +21296,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-440.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21323,7 +21323,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-441.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21350,7 +21350,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-442.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21377,7 +21377,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-443.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21404,7 +21404,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-444.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21431,7 +21431,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-445.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21458,7 +21458,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-446.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21485,7 +21485,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-447.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21512,7 +21512,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-448.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21539,7 +21539,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-449.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21566,7 +21566,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-450.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21593,7 +21593,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-451.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21620,7 +21620,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-452.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21647,7 +21647,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-453.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21674,7 +21674,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-454.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21701,7 +21701,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-455.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21728,7 +21728,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-456.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21755,7 +21755,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-457.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21782,7 +21782,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-458.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21809,7 +21809,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-459.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21836,7 +21836,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-460.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21863,7 +21863,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-461.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21890,7 +21890,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-462.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21917,7 +21917,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-463.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21944,7 +21944,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-464.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21971,7 +21971,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-465.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -21998,7 +21998,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-466.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22025,7 +22025,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-467.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22052,7 +22052,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-468.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22079,7 +22079,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-469.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22106,7 +22106,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-470.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22133,7 +22133,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-471.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22160,7 +22160,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-472.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22187,7 +22187,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-473.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22214,7 +22214,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-474.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22241,7 +22241,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-475.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22268,7 +22268,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-476.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22295,7 +22295,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-477.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22322,7 +22322,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-478.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22349,7 +22349,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-479.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22376,7 +22376,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-480.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22403,7 +22403,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-481.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22430,7 +22430,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-482.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22457,7 +22457,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-483.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22484,7 +22484,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-484.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22511,7 +22511,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-485.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22538,7 +22538,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-486.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22565,7 +22565,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-487.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22592,7 +22592,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-488.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22619,7 +22619,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-489.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22646,7 +22646,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-490.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22673,7 +22673,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-491.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22700,7 +22700,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-492.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22727,7 +22727,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-493.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22754,7 +22754,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-494.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22781,7 +22781,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-495.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22808,7 +22808,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-496.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22835,7 +22835,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-497.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22862,7 +22862,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-498.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22889,7 +22889,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-499.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22916,7 +22916,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-500.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22943,7 +22943,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-501.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22970,7 +22970,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-502.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -22997,7 +22997,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-503.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23024,7 +23024,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-504.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23051,7 +23051,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-505.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23078,7 +23078,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-506.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23105,7 +23105,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-507.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23132,7 +23132,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-508.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23159,7 +23159,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-509.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23186,7 +23186,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-510.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23213,7 +23213,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-511.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23240,7 +23240,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-512.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23267,7 +23267,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-513.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23294,7 +23294,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-514.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23321,7 +23321,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-515.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23348,7 +23348,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-516.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23375,7 +23375,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-517.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23402,7 +23402,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-518.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23429,7 +23429,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-519.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23456,7 +23456,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-520.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23483,7 +23483,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-521.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23510,7 +23510,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-522.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23537,7 +23537,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-523.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23564,7 +23564,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-524.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23591,7 +23591,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-525.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23618,7 +23618,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-526.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23645,7 +23645,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-527.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23672,7 +23672,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-528.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23699,7 +23699,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-529.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23726,7 +23726,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-530.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23753,7 +23753,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-531.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23780,7 +23780,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-532.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23807,7 +23807,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-533.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23834,7 +23834,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-534.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23861,7 +23861,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-535.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23888,7 +23888,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-536.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23915,7 +23915,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-537.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23942,7 +23942,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-538.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23969,7 +23969,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-539.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -23996,7 +23996,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-540.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24023,7 +24023,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-541.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24050,7 +24050,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-542.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24077,7 +24077,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-543.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24104,7 +24104,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-544.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24131,7 +24131,7 @@ const PRODUCTS = [
             "Assets"
         ],
         "cover": "assets/covers/cover_DT-545.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/developer-cli-game-dev-automation-suite-545-production-tools",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Dev Tools for game development.",
         "specs": [
@@ -24158,7 +24158,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-001.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24185,7 +24185,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-002.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24212,7 +24212,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-003.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24239,7 +24239,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-004.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24266,7 +24266,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-005.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24293,7 +24293,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-006.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24320,7 +24320,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-007.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24347,7 +24347,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-008.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24374,7 +24374,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-009.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24401,7 +24401,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-010.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24428,7 +24428,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-011.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24455,7 +24455,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-012.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24482,7 +24482,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-013.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24509,7 +24509,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-014.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24536,7 +24536,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-015.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24563,7 +24563,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-016.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24590,7 +24590,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-017.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24617,7 +24617,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-018.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24644,7 +24644,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-019.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24671,7 +24671,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-020.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24698,7 +24698,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-021.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24725,7 +24725,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-022.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24752,7 +24752,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-023.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24779,7 +24779,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-024.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24806,7 +24806,7 @@ const PRODUCTS = [
             "Gamedev"
         ],
         "cover": "assets/covers/cover_PF-025.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-sci-fi-bitmap-pixel-font-master-collection-25-commercial-fonts",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality Pixel Fonts for game development.",
         "specs": [
@@ -24832,7 +24832,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-001.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24858,7 +24858,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-002.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24884,7 +24884,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-003.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24910,7 +24910,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-004.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24936,7 +24936,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-005.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24962,7 +24962,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-006.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -24988,7 +24988,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-007.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -25014,7 +25014,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-008.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -25040,7 +25040,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-009.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -25066,7 +25066,7 @@ const PRODUCTS = [
             "Wav"
         ],
         "cover": "assets/covers/cover_SF-010.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/retro-cinematic-game-audio-sfx-mega-pack-10-sound-effect-collections",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-quality SFX Packs for game development.",
         "specs": [
@@ -25080,8 +25080,5 @@ const PRODUCTS = [
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = PRODUCTS;
-}
-if (typeof window !== 'undefined') {
-  window.PRODUCTS = PRODUCTS;
+    module.exports = PRODUCTS;
 }
