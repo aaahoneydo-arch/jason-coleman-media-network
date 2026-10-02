@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
       engine: 0,
       godot: 0,
       assets: 0,
+      tool: 0,
+      art: 0,
       game: 0,
       book: 0
     };
