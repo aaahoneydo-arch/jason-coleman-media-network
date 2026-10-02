@@ -22,8 +22,16 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Jason Coleman Game Studios | Commercial Game Engines & Asset Vault">
-  <meta name="twitter:description" content="Discover 30+ commercial game engines, Godot 4 frameworks, and high-res asset packs.">
+  <meta name="twitter:description" content="Discover 122 commercial game engines, Godot 4 frameworks, and high-res asset packs.">
   <meta name="twitter:image" content="assets/covers/soitswarthen.jpg">
+  
+  <!-- Favicon & PWA App Icons -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#0a0f1d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -205,11 +213,11 @@
     <div class="container announcement-inner">
       <span class="announcement-pill">LIVE RELEASE</span>
       <p class="announcement-text">
-        <strong>Over 122 Game Engines &amp; Asset Vaults Live</strong> with 100% Royalty-Free Commercial Licenses! Direct instant download via itch.io &amp; Gumroad.
+        <strong>Over 123 Game Engines & Services &amp; Asset Vaults Live</strong> with 100% Royalty-Free Commercial Licenses! Direct instant download via itch.io &amp; Gumroad.
       </p>
       <div class="announcement-links">
         <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="store-badge-link itch">
-          <span>itch.io Store (122 Live)</span> →
+          <span>itch.io Store (123 Live)</span> →
         </a>
         <a href="https://honeydo5.gumroad.com/" target="_blank" rel="noopener" class="store-badge-link gumroad">
           <span>Gumroad Store</span> →
@@ -231,7 +239,7 @@
 
       <nav class="nav-menu" aria-label="Main Navigation">
         <a href="../index.html" class="nav-link">← Main Hub</a>
-        <a href="#catalog" class="nav-link">Catalog (122)</a>
+        <a href="#catalog" class="nav-link">Catalog (123)</a>
         <a href="#features" class="nav-link">Why Our Engines</a>
         <a href="#faq" class="nav-link">License &amp; FAQ</a>
         <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="nav-btn-primary">
@@ -259,7 +267,7 @@
       <!-- Store Stats Bar -->
       <div class="stats-bar">
         <div class="stat-card">
-          <div class="stat-value">122</div>
+          <div class="stat-value">123</div>
           <div class="stat-label">Commercial Products</div>
         </div>
         <div class="stat-card">
@@ -295,7 +303,7 @@
         </div>
 
         <div class="filter-chips" role="tablist" aria-label="Product categories">
-          <button class="filter-chip active" data-filter="all" role="tab">All Products (<span id="count-all">122</span>)</button>
+          <button class="filter-chip active" data-filter="all" role="tab">All Products (<span id="count-all">123</span>)</button>
           <button class="filter-chip" data-filter="engine" role="tab">Game Engines (<span id="count-engine">59</span>)</button>
           <button class="filter-chip" data-filter="godot" role="tab">Godot 4 Frameworks (<span id="count-godot">18</span>)</button>
           <button class="filter-chip" data-filter="assets" role="tab">2D &amp; 3D Assets (<span id="count-assets">22</span>)</button>
@@ -430,5 +438,12 @@
   <!-- Scripts -->
   <script src="products.js"></script>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('../sw.js').catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>

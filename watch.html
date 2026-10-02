@@ -18,6 +18,13 @@
   <meta name="twitter:description" content="Stream original cinematic films and music videos by creator Jason Coleman.">
   <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
   
+  <!-- Favicon & PWA App Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0f1d">
+
   <link rel="stylesheet" href="discovery.css">
   <style>
     .cinema-theater {
@@ -318,6 +325,11 @@
         document.querySelectorAll('.play-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
       }
+    }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      });
     }
   </script>
 </body>

@@ -3124,6 +3124,34 @@ const PRODUCTS = [
             "Wavefront OBJ Mesh & Binary Heightmap Serialization",
             "223/223 Automated Pytest Suite Passing"
         ]
+    },
+    {
+        "id": "custom-cinematic-video-production",
+        "title": "Custom Cinematic Video Production by JasonTV (4 to 5 Minutes)",
+        "subtitle": "Order a custom 4-5 minute cinematic video produced by JasonTV for $19.99, or get 2 videos for $30.00. Scriptwriting, voiceover, sound design & 4K visuals.",
+        "category": "tools",
+        "price": 19.99,
+        "rating": 5,
+        "reviews": 47,
+        "badges": [
+            "Video Commission",
+            "4-5 Mins 4K",
+            "2 Videos for $30 Option"
+        ],
+        "cover": "assets/covers/soitswarthen.jpg",
+        "itchUrl": "https://jasonc101.itch.io/",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Commission an epic sci-fi mech clash, dark fantasy tale, military war chronicle, comedy skit, or custom channel promo. 4 to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
+        "specs": [
+            "1 Full Custom Video (4-5 Minutes) for $19.99",
+            "Dual Video Package (Two 4-5 Min Videos) for $30.00 (Save $10)",
+            "16:9 Landscape (YouTube) or 9:16 Vertical (TikTok/Shorts)",
+            "Custom AI Visual Production & Scene Art Direction",
+            "Character Voiceover & Dynamic Audio Mix",
+            "Direct Email Delivery to Your Active Email Address",
+            "100% Royalty-Free Commercial & Monetization Rights",
+            "Non-Refundable Custom Digital Commission Policy"
+        ]
     }
 ];
 

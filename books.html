@@ -18,6 +18,13 @@
   <meta name="twitter:description" content="Kindle Unlimited, paperback & digital editions by author Jason Coleman.">
   <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
   
+  <!-- Favicon & PWA App Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0f1d">
+
   <link rel="stylesheet" href="discovery.css">
   <style>
     .book-badge {
@@ -346,5 +353,12 @@
       <a href="index.html">Main Hub</a>
     </div>
   </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>
