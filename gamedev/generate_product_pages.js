@@ -11,6 +11,15 @@ const products = context.PRODUCTS;
 
 console.log(`Loaded ${products.length} products to generate SEO landing pages.`);
 
+// Load itch games catalog to match numeric IDs for custom covers and screenshots
+let itchCatalog = [];
+try {
+  const catalogPath = path.join(__dirname, '..', '..', 'itch_games_catalog.json');
+  if (fs.existsSync(catalogPath)) {
+    itchCatalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+  }
+} catch(e) {}
+
 const productsDir = path.join(__dirname, 'products');
 if (!fs.existsSync(productsDir)) {
   fs.mkdirSync(productsDir, { recursive: true });
@@ -19,7 +28,7 @@ if (!fs.existsSync(productsDir)) {
 let sitemapUrls = [
   '  <url>',
   '    <loc>https://jasontvmarketplace.com/gamedev/</loc>',
-  '    <lastmod>2026-10-01</lastmod>',
+  '    <lastmod>2026-10-02</lastmod>',
   '    <changefreq>daily</changefreq>',
   '    <priority>1.0</priority>',
   '  </url>'
@@ -29,8 +38,42 @@ products.forEach(p => {
   const filename = `${p.id}.html`;
   const filepath = path.join(productsDir, filename);
   const canonicalUrl = `https://jasontvmarketplace.com/gamedev/products/${filename}`;
-  const coverRelative = `../${p.cover}`;
-  const coverAbsolute = `https://jasontvmarketplace.com/gamedev/${p.cover}`;
+
+  // Match itch catalog for numeric ID
+  const catalogMatch = itchCatalog.find(c => c.viewUrl && (c.viewUrl === p.itchUrl || c.viewUrl.split('/').pop() === p.id || c.title.toLowerCase() === p.title.toLowerCase()));
+  const numId = catalogMatch ? catalogMatch.id : null;
+
+  let coverRelative = `../${p.cover}`;
+  let coverAbsolute = `https://jasontvmarketplace.com/gamedev/${p.cover}`;
+  const coversDirPath = path.join(__dirname, 'assets', 'covers');
+
+  if (numId && fs.existsSync(path.join(coversDirPath, `cover_${numId}.jpg`))) {
+    coverRelative = `../assets/covers/cover_${numId}.jpg`;
+    coverAbsolute = `https://jasontvmarketplace.com/gamedev/assets/covers/cover_${numId}.jpg`;
+  }
+
+  // Check for screenshots
+  let screensHtml = '';
+  if (numId && fs.existsSync(path.join(coversDirPath, `screen_${numId}_1.jpg`)) && fs.existsSync(path.join(coversDirPath, `screen_${numId}_2.jpg`))) {
+    screensHtml = `
+    <!-- In-Engine & Terminal Visual Previews -->
+    <section class="product-gallery-section" style="margin-top: 40px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:16px;">
+        <h2 style="font-family:'Cinzel',serif; font-size:1.5rem; color:#fff; margin:0;">In-Engine Screenshots &amp; Technical Inspection</h2>
+        <span style="color:var(--cyan); font-weight:700; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px;">2 Technical Views</span>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+        <div style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:12px; overflow:hidden; padding:12px;">
+          <img src="../assets/covers/screen_${numId}_1.jpg" alt="${p.title} Live CLI Execution &amp; Runtime Metrics" style="width:100%; border-radius:8px; display:block;" loading="lazy">
+          <p style="font-size:0.82rem; color:var(--text-dim); margin-top:8px; text-align:center;">Interactive CLI Execution &amp; Benchmark Profiling</p>
+        </div>
+        <div style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:12px; overflow:hidden; padding:12px;">
+          <img src="../assets/covers/screen_${numId}_2.jpg" alt="${p.title} Architecture Data Structure &amp; Specifications" style="width:100%; border-radius:8px; display:block;" loading="lazy">
+          <p style="font-size:0.82rem; color:var(--text-dim); margin-top:8px; text-align:center;">Data Structure Matrix &amp; Specification Reference</p>
+        </div>
+      </div>
+    </section>`;
+  }
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -86,11 +129,6 @@ products.forEach(p => {
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
       "url": "${p.itchUrl}"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "${p.rating}",
-      "reviewCount": "${p.reviews}"
     }
   }
   </script>
@@ -290,6 +328,8 @@ products.forEach(p => {
         </div>
       </div>
     </article>
+
+    ${screensHtml}
   </main>
 </body>
 </html>`;
@@ -299,7 +339,7 @@ products.forEach(p => {
 
   sitemapUrls.push('  <url>');
   sitemapUrls.push(`    <loc>${canonicalUrl}</loc>`);
-  sitemapUrls.push('    <lastmod>2026-10-01</lastmod>');
+  sitemapUrls.push('    <lastmod>2026-10-02</lastmod>');
   sitemapUrls.push('    <changefreq>weekly</changefreq>');
   sitemapUrls.push('    <priority>0.8</priority>');
   sitemapUrls.push('    <image:image>');
