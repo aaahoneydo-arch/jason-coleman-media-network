@@ -2570,7 +2570,7 @@ const PRODUCTS = [
             "Mech Physics",
             "3D Model Included"
         ],
-        "cover": "assets/covers/wildlandsprotocol.jpg",
+        "cover": "assets/covers/wildlands.jpg",
         "itchUrl": "https://jasonc101.itch.io/",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "High-performance mechanical character controller for Godot 4. Includes smooth 3rd-person camera orbit with pitch clamping, sprint and hover-thrust kinematics, jump momentum dampening, atmospheric volumetric fog, screen-space reflections, bloom glow, and includes the textured 3D mech model (RobotExpressive.glb).",
@@ -2857,7 +2857,7 @@ const PRODUCTS = [
             "RPG & VTT Ready",
             "Alchemy & Magic"
         ],
-        "cover": "assets/covers/relics_abyss.jpg",
+        "cover": "assets/covers/relicsabyss.jpg",
         "itchUrl": "https://jasonc101.itch.io/alchemical-potions-grimoires-vtt-tokens-pack",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Complete tabletop and RPG icon collection. Includes bubbling alchemical elixirs, leather-bound grimoires, arcane planetary astrolabes, and circular creature tokens ready for Roll20, Foundry, and mobile UI slots.",
