@@ -120,13 +120,13 @@
       },
       {
         "@type": "VideoObject",
-        "@id": "https://jasontvmarketplace.com/#video-cant-turn-it-off",
-        "name": "Can’t Turn It Off — Official Music Video | Original Song",
-        "description": "An original song and cinematic short film about love, obsession, overthinking, and waking dreams. Produced by Jason Coleman.",
-        "thumbnailUrl": "https://img.youtube.com/vi/cPm0DmhLjl8/maxresdefault.jpg",
+        "@id": "https://jasontvmarketplace.com/#video-marketplace-live",
+        "name": "JasonTV Marketplace Is Live | Books, Games, Films, Music & More",
+        "description": "Official launch and showcase of JasonTV Marketplace featuring 122+ commercial game engines, 10 published books, developer toolkits, cinematic films, and original music by Jason Coleman.",
+        "thumbnailUrl": "https://img.youtube.com/vi/NHfK-njzuX0/maxresdefault.jpg",
         "uploadDate": "2026-10-02T00:00:00Z",
-        "duration": "PT4M20S",
-        "embedUrl": "https://www.youtube-nocookie.com/embed/cPm0DmhLjl8"
+        "duration": "PT3M30S",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/NHfK-njzuX0"
       },
       {
         "@type": "VideoObject",
@@ -1519,17 +1519,26 @@
         <div class="theater-stage">
           <div>
             <div class="theater-screen-wrapper">
-              <iframe id="cinemaPlayer" src="https://www.youtube-nocookie.com/embed/cPm0DmhLjl8?rel=0&modestbranding=1" title="JasonTV Video Theater" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe id="cinemaPlayer" src="https://www.youtube-nocookie.com/embed/NHfK-njzuX0?autoplay=1&mute=1&rel=0&modestbranding=1" title="JasonTV Marketplace Is Live | Books, Games, Films, Music & More" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="theater-now-playing">
-              <div class="theater-now-playing-title" id="nowPlayingTitle">Can’t Turn It Off — Official Music Video | Original Song</div>
-              <div class="theater-now-playing-desc" id="nowPlayingDesc">Sometimes your own mind is the loudest thing in the room. An original song and cinematic short film about love, obsession, overthinking, and waking dreams. Produced by Jason Coleman.</div>
+              <div class="theater-now-playing-title" id="nowPlayingTitle">JasonTV Marketplace Is Live | Books, Games, Films, Music &amp; More</div>
+              <div class="theater-now-playing-desc" id="nowPlayingDesc">Official launch and showcase of JasonTV Marketplace featuring 122+ commercial game engines, 10 published books, developer toolkits, cinematic films, and original music by Jason Coleman.</div>
             </div>
           </div>
 
           <div class="theater-playlist">
-            <!-- Video 1: Can't Turn It Off -->
-            <div class="theater-item active" onclick="switchVideo('cPm0DmhLjl8', 'Can’t Turn It Off — Official Music Video | Original Song', 'Sometimes your own mind is the loudest thing in the room. An original song and cinematic short film about love, obsession, overthinking, and waking dreams.', this)">
+            <!-- Video 1: JasonTV Marketplace Is Live -->
+            <div class="theater-item active" onclick="switchVideo('NHfK-njzuX0', 'JasonTV Marketplace Is Live | Books, Games, Films, Music & More', 'Official launch and showcase of JasonTV Marketplace featuring 122+ commercial game engines, 10 published books, developer toolkits, cinematic films, and original music by Jason Coleman.', this)">
+              <img src="https://img.youtube.com/vi/NHfK-njzuX0/mqdefault.jpg" alt="JasonTV Marketplace Is Live" class="theater-thumb">
+              <div class="theater-item-meta">
+                <h4>JasonTV Marketplace Is Live</h4>
+                <span>🚀 Official Showcase &amp; Launch</span>
+              </div>
+            </div>
+
+            <!-- Video 2: Can't Turn It Off -->
+            <div class="theater-item" onclick="switchVideo('cPm0DmhLjl8', 'Can’t Turn It Off — Official Music Video | Original Song', 'Sometimes your own mind is the loudest thing in the room. An original song and cinematic short film about love, obsession, overthinking, and waking dreams.', this)">
               <img src="https://img.youtube.com/vi/cPm0DmhLjl8/mqdefault.jpg" alt="Can't Turn It Off" class="theater-thumb">
               <div class="theater-item-meta">
                 <h4>Can’t Turn It Off — Official Music Video</h4>
@@ -2479,6 +2488,22 @@
 
 
   <script>
+    // Cinema Theater Video Switcher
+    function switchVideo(id, title, desc, item) {
+      const player = document.getElementById('cinemaPlayer');
+      const titleEl = document.getElementById('nowPlayingTitle');
+      const descEl = document.getElementById('nowPlayingDesc');
+      if (player) {
+        player.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&mute=1&rel=0&modestbranding=1';
+      }
+      if (titleEl) titleEl.textContent = title;
+      if (descEl) descEl.textContent = desc;
+      if (item) {
+        document.querySelectorAll('.theater-item').forEach(el => el.classList.remove('active'));
+        item.classList.add('active');
+      }
+    }
+
     // Universal Instant Search Logic
     const searchInput = document.getElementById('universalSearch');
     const searchResults = document.getElementById('universalSearchResults');
