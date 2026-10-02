@@ -195,7 +195,7 @@ const PRODUCTS = [
         "title": "Ancient Relics, Marrow Rings & Enchanted Talismans 4K RPG Icon Pack",
         "subtitle": "Glowing amulets, marrow rings, iron loot chests, and high-definition square item icons for fantasy RPG inventories.",
         "category": "art",
-        "price": 19.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -231,7 +231,7 @@ const PRODUCTS = [
             "Foundry / Roll20"
         ],
         "cover": "assets/covers/cosmic_horrors_cover.jpg",
-        "itchUrl": "https://jasonc101.itch.io/cosmic-horrors-abyssal-fiends-swamp-beasts-vtt-monster-tokens-vault",
+        "itchUrl": "https://jasonc101.itch.io/cosmic-horrors-abyssal-fiends-swamp-beasts-vtt-monster-token-vault",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Terrifying cosmic horror and dark fantasy bestiary token vault. Contains high-resolution transparent circular monster tokens of arch-liches, floating eldritch brains, abyssal colossi, amphibious swamp beasts, and necrotic abominations fitted with custom ornate stone borders.",
         "specs": [
@@ -357,7 +357,7 @@ const PRODUCTS = [
         "title": "Tilemap Rule-Tile Matrix & Collision Boundary Exporter CLI",
         "subtitle": "16 and 47-neighborhood bitmask auto-tile matrices, polygon vector boundary tracing, and multi-engine JSON atlas exporter.",
         "category": "tool",
-        "price": 19.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -384,7 +384,7 @@ const PRODUCTS = [
         "title": "Shorts & Reel Automation: Video Subtitle & Beat Sync CLI",
         "subtitle": "BPM audio sync, kinetic word chunking, ASS style subtitle renderer, and automated 9:16 vertical video layout CLI.",
         "category": "tool",
-        "price": 29.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -411,7 +411,7 @@ const PRODUCTS = [
         "title": "Pixel Art Upscaler & Palette Quantizer Tool CLI",
         "subtitle": "Nearest-neighbor integer scaling, edge-preserving upscaling, and retro palette color reduction CLI.",
         "category": "tool",
-        "price": 19.99,
+        "price": 1,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -492,7 +492,7 @@ const PRODUCTS = [
         "title": "VTT Token Forge: Circular Bevel Border & Mask Generator CLI",
         "subtitle": "Automated virtual tabletop circular token generator with metallic borders and alpha masking for Foundry & Roll20.",
         "category": "tool",
-        "price": 19.99,
+        "price": 1,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -546,7 +546,7 @@ const PRODUCTS = [
         "title": "Godot 4 Procedural Cave & Cellular Automata Map Builder",
         "subtitle": "Cellular automata, flood-fill connectivity validation, island pruning, and TileMapLayer exporter for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -602,7 +602,7 @@ const PRODUCTS = [
         "title": "Godot 4 Pro UI Theme & Responsive HUD Component Library",
         "subtitle": "Glassmorphic theme, styled buttons, radial health bars, modal dialogs, and 4K responsive scaling for Godot 4.",
         "category": "engine",
-        "price": 19.99,
+        "price": 1,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -630,7 +630,7 @@ const PRODUCTS = [
         "title": "Godot 4 Top-Down Space Sim & Newtonian Flight Controller",
         "subtitle": "RigidBody2D physics, inertia dampening, vector RCS thrusters, and orbital mechanics for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -658,7 +658,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack",
         "subtitle": "GPU-accelerated rain, snow, lightning flashes, wind turbulence, and mist particles for Godot 4.",
         "category": "engine",
-        "price": 19.99,
+        "price": 1,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -714,7 +714,7 @@ const PRODUCTS = [
         "title": "Godot 4 Roguelike Deckbuilder & Hand Management Engine",
         "subtitle": "Slay the Spire style draw/discard pile mechanics, curved hand fan layout, and energy system for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -742,7 +742,7 @@ const PRODUCTS = [
         "title": "Godot 4 Infinite 2D Parallax World & Auto-Tile Generator",
         "subtitle": "Seamless multi-layer Parallax2D scrolling, procedural chunk streaming, and auto-tiling for Godot 4.",
         "category": "engine",
-        "price": 19.99,
+        "price": 1,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -770,7 +770,7 @@ const PRODUCTS = [
         "title": "Godot 4 Turn-Based Tactical Hex Grid Combat System",
         "subtitle": "Axial coordinate math, Dijkstra AP pathfinding, turn queue initiative, and hex highlights for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -826,7 +826,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Modular Weapon Customization & Ballistics",
         "subtitle": "Tarkov-grade modular firearm attachment sockets, realistic gravity/drag ballistics simulation, and procedural spring recoil for Unreal Engine 5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 1,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -854,7 +854,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Branching Quest & Objective State Graph",
         "subtitle": "Production node-based quest state machine, objective prerequisites, timeline triggers, and save-state persistence for Unreal Engine 5.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -882,7 +882,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Celestial Day-Night & Dynamic Weather System",
         "subtitle": "Physically grounded astronomical solar/lunar ephemeris, volumetric cloud states, and dynamic rain wetness shaders for Unreal Engine 5.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -910,7 +910,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Procedural Foliage & Biome Scatter Tool",
         "subtitle": "High-performance Poisson disc & Simplex noise procedural foliage spawner and Hierarchical Instanced Static Mesh (HISM) optimizer for Unreal Engine 5.",
         "category": "engine",
-        "price": 24.99,
+        "price": 1,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -1189,7 +1189,7 @@ const PRODUCTS = [
         "title": "CardSim: Headless Combat & Monte Carlo Balancing Engine",
         "subtitle": "Simulate 10,000 deckbuilder battles in 70ms: win-rate distributions, synergy matrix & TTK curves in TypeScript.",
         "category": "engine",
-        "price": 24.99,
+        "price": 39.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -1216,7 +1216,7 @@ const PRODUCTS = [
         "title": "Automated Video Montage & Shorts Production Pipeline CLI",
         "subtitle": "Multi-track NLE video timeline, auto audio mixing, B-roll splicing & batch 9:16 Shorts/Reels rendering.",
         "category": "tool",
-        "price": 29.99,
+        "price": 49.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -1272,7 +1272,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Sky, Minimap & Living World Framework",
         "subtitle": "24h celestial day/night cycle, circular radar minimap with blips, interactive atlas & living biome ambience.",
         "category": "engine",
-        "price": 19.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -1300,7 +1300,7 @@ const PRODUCTS = [
         "title": "Godot 4 Quest Journal & Dynamic Event Matrix",
         "subtitle": "Branching quest objectives, world event triggers, danger population scaling & field journal UI.",
         "category": "engine",
-        "price": 19.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -1877,7 +1877,7 @@ const PRODUCTS = [
         "title": "CardSim: Headless Card Battler & Monte Carlo Balancing Engine",
         "subtitle": "Automate card game balance with high-speed headless simulations & win-rate analytics.",
         "category": "engine",
-        "price": 34.99,
+        "price": 39.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -1969,7 +1969,7 @@ const PRODUCTS = [
         "title": "Wildlands Protocol: Godot 4 3D Mech Locomotion & Urban Sandbox Kit",
         "subtitle": "3D battle mech action starter kit for Godot 4: 6-DOF locomotion, boost thrusters & procedural cities.",
         "category": "godot",
-        "price": 24.99,
+        "price": 39.99,
         "rating": 5,
         "reviews": 11,
         "badges": [
@@ -2153,7 +2153,7 @@ const PRODUCTS = [
         "title": "Multiplayer State Sync & Deterministic Netcode Engine",
         "subtitle": "Production-grade headless netcode: client prediction, server reconciliation, entity interpolation & snapshot deltas.",
         "category": "engine",
-        "price": 44.99,
+        "price": 49.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2297,7 +2297,7 @@ const PRODUCTS = [
         "title": "Godot 4 Procedural 3D Dungeon Delve & Terrain Engine",
         "subtitle": "3D procedural dungeon generator and dynamic mountain terrain sculpting with seeded layout and stair connections.",
         "category": "godot",
-        "price": 34.99,
+        "price": 44.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -2321,7 +2321,7 @@ const PRODUCTS = [
         "title": "Godot 4 Autonomous Companion & Pet AI Summoning System",
         "subtitle": "Autonomous follow, leash distances, combat target selection, skill timers & minion summon HUD bar.",
         "category": "godot",
-        "price": 29.99,
+        "price": 34.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2345,7 +2345,7 @@ const PRODUCTS = [
         "title": "Godot 4 RPG Character Progression & Talent Tree Matrix",
         "subtitle": "Configurable level-scaling formulas, branching talent trees, attribute points & ready-to-use skill menu UI.",
         "category": "godot",
-        "price": 29.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -2467,7 +2467,7 @@ const PRODUCTS = [
         "title": "Modern Japandi Interiors & Executive Spa Design Lookbook (4K)",
         "subtitle": "Curated collection of 4K ultra-wide architectural renders: luxury spa bathrooms, executive offices & minimalist living rooms.",
         "category": "assets",
-        "price": 29.99,
+        "price": 39.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -2612,7 +2612,7 @@ const PRODUCTS = [
         "title": "Turn-Based 4X Hex Territory & Diplomacy Engine",
         "subtitle": "Headless 4-faction empire state machine: hex borders, supply lines, economic nodes & automated AI build orders.",
         "category": "engine",
-        "price": 49.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -2636,7 +2636,7 @@ const PRODUCTS = [
         "title": "Video Automation & YouTube Shorts Media Pipeline CLI",
         "subtitle": "Turnkey Python CLI: batch clip splicing, voice synthesis ducking, vertical 9:16 Shorts & 16:9 4K longform rendering.",
         "category": "engine",
-        "price": 49.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -2660,7 +2660,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dark Fantasy RPG Dialogue & Branching Choice System",
         "subtitle": "Node-based conversation graph, dynamic battle banter triggers, reputation condition checks & lore journal unlocks.",
         "category": "godot",
-        "price": 24.99,
+        "price": 34.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -2693,7 +2693,7 @@ const PRODUCTS = [
             "Tactical AI"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4faction-rts-core-engine",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then-4-faction-rts-core-simulation-engine",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Production-grade, high-performance RTS core simulation engine. Decoupled headless game loop, 4 completely distinct factions (Human, Zurgz swarm, Ironclad mechs, Ascended), multi-profile bot AI architectures, hero skill pipeline, and comprehensive telemetry metrics.",
         "specs": [
@@ -2790,7 +2790,7 @@ const PRODUCTS = [
             "12 Summon Sprites"
         ],
         "cover": "assets/covers/necros.jpg",
-        "itchUrl": "https://jasonc101.itch.io/necrodominion-undead-legion-conquest-framework",
+        "itchUrl": "https://jasonc101.itch.io/necro-dominion-undead-legion-conquest-framework",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Extensive dark fantasy necromancy systems suite built and battle-tested in Godot 4. Includes corpse harvesting, minion swarm AI, autonomous companion spirits, dark grimoire spells, castle defense controller, and 12 hand-crafted summon roster sprites.",
         "specs": [
@@ -2920,7 +2920,7 @@ const PRODUCTS = [
         "title": "High-Performance ECS & Spatial Partitioning Engine",
         "subtitle": "Sparse-set Entity Component System with Generational IDs, Quadtree & BVH Spatial Partitioning.",
         "category": "engine",
-        "price": 49.99,
+        "price": 39.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2967,7 +2967,7 @@ const PRODUCTS = [
         "title": "Godot 4 Horde Survivors & Auto-Shooter Engine Template",
         "subtitle": "Complete Vampire Survivors / Brotato-style horde survival template with auto-aim, scaling waves & upgrade modal.",
         "category": "godot",
-        "price": 24.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -3015,7 +3015,7 @@ const PRODUCTS = [
         "title": "Dark Gothic Tarot & Oracle Deck (20 High-Res Cards)",
         "subtitle": "20 major arcana dark fantasy tarot illustrations for tabletop RPGs, card battlers & collectors.",
         "category": "assets",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -3038,7 +3038,7 @@ const PRODUCTS = [
         "title": "Cyberpunk Streamer Lounges & Battlestations (4K UHD)",
         "subtitle": "9 ultra-high resolution 4K neon battlestations, streamer rooms & futuristic interior environments.",
         "category": "assets",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -3061,7 +3061,7 @@ const PRODUCTS = [
         "title": "Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)",
         "subtitle": "24 circular Virtual Tabletop tokens for D&D, Pathfinder, and tactical RPG monster encounters.",
         "category": "assets",
-        "price": 7.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -3084,7 +3084,7 @@ const PRODUCTS = [
         "title": "Master RPG Square Icons & PBR Tokens (40 High-Res Icons)",
         "subtitle": "40 detailed square icons for RPG inventories: mystical runes, elixirs, enchanted relics & weapons.",
         "category": "assets",
-        "price": 12.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -3193,7 +3193,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3214,7 +3214,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-002-platformer-engine-double-jump-pt-002",
@@ -3223,7 +3224,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3244,7 +3245,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-003-platformer-engine-wall-jump-pt-003",
@@ -3253,7 +3255,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3274,7 +3276,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-004-platformer-engine-dash-pt-004",
@@ -3283,7 +3286,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3304,7 +3307,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-005-top-down-rpg-basic-movement-pt-005",
@@ -3313,7 +3317,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3334,7 +3338,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-006-top-down-rpg-combat-system-pt-006",
@@ -3343,7 +3348,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -3364,7 +3369,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-007-top-down-rpg-ranged-combat-pt-007",
@@ -3373,7 +3379,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3394,7 +3400,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-008-top-down-rpg-dialogue-system-pt-008",
@@ -3403,7 +3410,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -3424,7 +3431,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-009-top-down-rpg-inventory-system-pt-009",
@@ -3433,7 +3441,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -3454,7 +3462,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-010-top-down-rpg-quest-system-pt-010",
@@ -3463,7 +3472,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3484,7 +3493,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-011-shmup-vertical-scroller-pt-011",
@@ -3493,7 +3503,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -3514,7 +3524,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-012-shmup-horizontal-scroller-pt-012",
@@ -3523,7 +3534,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3544,7 +3555,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-013-shmup-twin-stick-shooter-pt-013",
@@ -3553,7 +3565,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3574,7 +3586,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-014-shmup-bullet-hell-pt-014",
@@ -3583,7 +3596,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3604,7 +3617,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-015-roguelike-dungeon-crawler-pt-015",
@@ -3613,7 +3627,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -3634,7 +3648,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-016-roguelike-procedural-generation-pt-016",
@@ -3643,7 +3658,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -3664,7 +3679,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-017-roguelike-permadeath-system-pt-017",
@@ -3673,7 +3689,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -3694,7 +3710,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-018-puzzle-match-3-engine-pt-018",
@@ -3703,7 +3720,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3724,7 +3741,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-019-puzzle-sliding-tile-pt-019",
@@ -3733,7 +3751,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3754,7 +3772,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-020-puzzle-tetris-clone-pt-020",
@@ -3763,7 +3782,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3784,7 +3803,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-021-puzzle-sudoku-generator-pt-021",
@@ -3793,7 +3813,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -3814,7 +3834,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-022-puzzle-minesweeper-pt-022",
@@ -3823,7 +3844,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -3844,7 +3865,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-023-card-battler-basic-pt-023",
@@ -3853,7 +3875,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3874,7 +3896,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-024-card-battler-deck-building-pt-024",
@@ -3883,7 +3906,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -3904,7 +3927,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-025-card-battler-resource-system-pt-025",
@@ -3913,7 +3937,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -3934,7 +3958,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-026-tower-defense-basic-pt-026",
@@ -3943,7 +3968,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3964,7 +3989,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-027-tower-defense-pathfinding-pt-027",
@@ -3973,7 +3999,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -3993,7 +4019,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-028-tower-defense-upgrades-pt-028",
@@ -4002,7 +4029,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -4023,7 +4050,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-029-match-3-candy-style-pt-029",
@@ -4032,7 +4060,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -4053,7 +4081,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-030-idle-incremental-basic-pt-030",
@@ -4062,7 +4091,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -4083,7 +4112,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-031-idle-incremental-prestige-pt-031",
@@ -4092,7 +4122,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -4113,7 +4143,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-032-idle-incremental-automation-pt-032",
@@ -4122,7 +4153,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4143,7 +4174,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-033-text-adventure-engine-pt-033",
@@ -4152,7 +4184,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4173,7 +4205,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-034-visual-novel-engine-pt-034",
@@ -4182,7 +4215,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -4203,7 +4236,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-035-jrpg-battle-system-pt-035",
@@ -4212,7 +4246,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -4234,7 +4268,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-036-metroidvania-engine-pt-036",
@@ -4243,7 +4278,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -4264,7 +4299,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-037-beat-em-up-engine-pt-037",
@@ -4273,7 +4309,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -4294,7 +4330,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-038-racing-game-engine-pt-038",
@@ -4303,7 +4340,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -4325,7 +4362,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-039-arcade-pong-clone-pt-039",
@@ -4334,7 +4372,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -4355,7 +4393,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-040-arcade-breakout-clone-pt-040",
@@ -4364,7 +4403,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -4385,7 +4424,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-041-platformer-coyote-time-pt-041",
@@ -4394,7 +4434,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -4415,7 +4455,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-042-platformer-air-boost-pt-042",
@@ -4424,7 +4465,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -4445,7 +4486,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-043-platformer-wall-slide-pt-043",
@@ -4454,7 +4496,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -4475,7 +4517,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-044-top-down-rpg-crafting-system-pt-044",
@@ -4484,7 +4527,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4505,7 +4548,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-045-top-down-rpg-fishing-system-pt-045",
@@ -4514,7 +4558,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -4535,7 +4579,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-046-top-down-rpg-camping-system-pt-046",
@@ -4544,7 +4589,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -4565,7 +4610,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-047-shmup-boss-rush-pt-047",
@@ -4574,7 +4620,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -4595,7 +4641,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-048-shmup-survival-mode-pt-048",
@@ -4604,7 +4651,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -4625,7 +4672,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-049-roguelike-event-system-pt-049",
@@ -4634,7 +4682,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -4655,7 +4703,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-050-roguelike-combat-focus-pt-050",
@@ -4664,7 +4713,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -4685,7 +4734,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-051-roguelike-economy-focus-pt-051",
@@ -4694,7 +4744,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -4715,7 +4765,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-052-puzzle-match-3-hex-pt-052",
@@ -4724,7 +4775,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -4745,7 +4796,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-053-puzzle-tetris-2d-pt-053",
@@ -4754,7 +4806,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -4775,7 +4827,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-054-puzzle-15-puzzle-pt-054",
@@ -4784,7 +4837,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -4805,7 +4858,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-055-puzzle-killer-sudoku-pt-055",
@@ -4814,7 +4868,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -4835,7 +4889,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-056-puzzle-mega-minesweeper-pt-056",
@@ -4844,7 +4899,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -4865,7 +4920,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-057-card-battler-synergy-system-pt-057",
@@ -4874,7 +4930,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -4895,7 +4951,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-058-tower-defense-elemental-pt-058",
@@ -4904,7 +4961,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -4925,7 +4982,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-059-tower-defense-maze-defense-pt-059",
@@ -4934,7 +4992,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -4955,7 +5013,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-060-idle-offline-progress-pt-060",
@@ -4964,7 +5023,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -4985,7 +5044,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-061-idle-multiple-resources-pt-061",
@@ -4994,7 +5054,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -5015,7 +5075,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-062-idle-prestige-layers-pt-062",
@@ -5024,7 +5085,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -5045,7 +5106,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-063-arcade-snake-clone-pt-063",
@@ -5054,7 +5116,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -5075,7 +5137,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-064-arcade-space-invaders-pt-064",
@@ -5084,7 +5147,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -5105,7 +5168,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-065-arcade-flappy-bird-clone-pt-065",
@@ -5114,7 +5178,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -5135,7 +5199,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-066-arcade-galaga-clone-pt-066",
@@ -5144,7 +5209,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5165,7 +5230,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-067-arcade-brick-breaker-pt-067",
@@ -5174,7 +5240,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -5195,7 +5261,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-068-arcade-block-fall-pt-068",
@@ -5204,7 +5271,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -5225,7 +5292,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-069-arcade-reaction-test-pt-069",
@@ -5234,7 +5302,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -5255,7 +5323,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-070-arcade-memory-game-pt-070",
@@ -5264,7 +5333,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -5285,7 +5354,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-071-beat-em-up-combo-system-pt-071",
@@ -5294,7 +5364,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -5315,7 +5385,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-072-beat-em-up-weapon-system-pt-072",
@@ -5324,7 +5395,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 7.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -5345,7 +5416,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-073-text-adventure-choice-focus-pt-073",
@@ -5354,7 +5426,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -5375,7 +5447,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-074-text-adventure-inventory-focus-pt-074",
@@ -5384,7 +5457,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -5405,7 +5478,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-075-racing-time-trial-pt-075",
@@ -5414,7 +5488,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -5435,7 +5509,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-076-survival-base-building-pt-076",
@@ -5444,7 +5519,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -5465,7 +5540,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-077-rhythm-beat-matching-pt-077",
@@ -5474,7 +5550,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 6.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -5495,7 +5571,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-078-simulation-farm-pt-078",
@@ -5504,7 +5581,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 8.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5525,7 +5602,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-079-strategy-turn-based-pt-079",
@@ -5534,7 +5612,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -5555,7 +5633,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-080-deck-builder-roguelike-pt-080",
@@ -5564,7 +5643,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 9.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -5585,7 +5664,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-081-platformer-coyote-time-pt-081",
@@ -5594,7 +5674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -5613,7 +5693,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-082-platformer-air-boost-pt-082",
@@ -5622,7 +5703,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -5641,7 +5722,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-083-platformer-wall-slide-pt-083",
@@ -5650,7 +5732,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -5669,7 +5751,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-084-platformer-double-jump-pt-084",
@@ -5678,7 +5761,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -5697,7 +5780,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-085-platformer-dash-pt-085",
@@ -5706,7 +5790,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -5725,7 +5809,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-086-platformer-charge-jump-pt-086",
@@ -5734,7 +5819,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -5753,7 +5838,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-087-platformer-wall-climb-pt-087",
@@ -5762,7 +5848,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -5781,7 +5867,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-088-platformer-ground-pound-pt-088",
@@ -5790,7 +5877,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5809,7 +5896,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-089-platformer-slide-pt-089",
@@ -5818,7 +5906,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -5837,7 +5925,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-090-platformer-grapple-hook-pt-090",
@@ -5846,7 +5935,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -5865,7 +5954,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-091-platformer-wall-kick-pt-091",
@@ -5874,7 +5964,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -5893,7 +5983,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-092-platformer-air-dash-pt-092",
@@ -5902,7 +5993,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -5921,7 +6012,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-093-platformer-double-dash-pt-093",
@@ -5930,7 +6022,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -5949,7 +6041,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-094-platformer-crouch-slide-pt-094",
@@ -5958,7 +6051,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -5977,7 +6070,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-095-platformer-vault-jump-pt-095",
@@ -5986,7 +6080,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -6005,7 +6099,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-096-platformer-coyote-time-pt-096",
@@ -6014,7 +6109,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6033,7 +6128,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-097-platformer-air-boost-pt-097",
@@ -6042,7 +6138,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -6061,7 +6157,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-098-platformer-wall-slide-pt-098",
@@ -6070,7 +6167,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6089,7 +6186,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-099-platformer-double-jump-pt-099",
@@ -6098,7 +6196,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -6117,7 +6215,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-100-platformer-dash-pt-100",
@@ -6126,7 +6225,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -6145,7 +6244,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-101-platformer-charge-jump-double-dash-pt-101",
@@ -6154,7 +6254,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6174,7 +6274,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-102-platformer-wall-climb-crouch-slide-pt-102",
@@ -6183,7 +6284,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -6203,7 +6304,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-103-platformer-ground-pound-vault-jump-pt-103",
@@ -6212,7 +6314,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -6232,7 +6334,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-104-platformer-slide-coyote-time-pt-104",
@@ -6241,7 +6344,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -6261,7 +6364,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-105-platformer-grapple-hook-air-boost-pt-105",
@@ -6270,7 +6374,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6290,7 +6394,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-106-platformer-wall-kick-wall-slide-pt-106",
@@ -6299,7 +6404,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -6319,7 +6424,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-107-platformer-air-dash-double-jump-pt-107",
@@ -6328,7 +6434,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -6348,7 +6454,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-108-platformer-double-dash-dash-pt-108",
@@ -6357,7 +6464,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6377,7 +6484,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-109-platformer-crouch-slide-charge-jump-pt-109",
@@ -6386,7 +6494,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -6406,7 +6514,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-110-platformer-vault-jump-wall-climb-pt-110",
@@ -6415,7 +6524,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6435,7 +6544,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-111-platformer-coyote-time-ground-pound-pt-111",
@@ -6444,7 +6554,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -6464,7 +6574,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-112-platformer-air-boost-slide-pt-112",
@@ -6473,7 +6584,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -6493,7 +6604,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-113-platformer-wall-slide-grapple-hook-pt-113",
@@ -6502,7 +6614,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -6522,7 +6634,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-114-platformer-double-jump-wall-kick-pt-114",
@@ -6531,7 +6644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -6551,7 +6664,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-115-platformer-dash-air-dash-pt-115",
@@ -6560,7 +6674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -6580,7 +6694,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-116-platformer-charge-jump-double-dash-pt-116",
@@ -6589,7 +6704,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6609,7 +6724,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-117-platformer-wall-climb-crouch-slide-pt-117",
@@ -6618,7 +6734,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -6638,7 +6754,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-118-platformer-ground-pound-vault-jump-pt-118",
@@ -6647,7 +6764,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -6667,7 +6784,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-119-platformer-slide-coyote-time-pt-119",
@@ -6676,7 +6794,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -6696,7 +6814,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pt-120-platformer-grapple-hook-air-boost-pt-120",
@@ -6705,7 +6824,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 12.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -6725,7 +6844,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "120-in-1 Vault ($19.99)"
     },
     {
         "id": "pa-001-16x16-fantasy-heroes-sprite-pack-pa-001",
@@ -6734,7 +6854,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -6752,7 +6872,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-002-16x16-fantasy-enemies-sprite-pack-pa-002",
@@ -6761,7 +6882,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -6779,7 +6900,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-003-16x16-fantasy-npcs-sprite-pack-pa-003",
@@ -6788,7 +6910,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -6806,7 +6928,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-004-16x16-fantasy-melee-weapons-pa-004",
@@ -6815,7 +6938,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -6833,7 +6956,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-005-16x16-fantasy-ranged-weapons-pa-005",
@@ -6842,7 +6966,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -6860,7 +6984,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-006-16x16-fantasy-armor-sets-pa-006",
@@ -6869,7 +6994,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -6887,7 +7012,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-007-16x16-fantasy-potions-consumables-pa-007",
@@ -6896,7 +7022,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -6914,7 +7040,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-008-16x16-fantasy-treasures-loot-pa-008",
@@ -6923,7 +7050,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -6941,7 +7068,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-009-16x16-dungeon-tileset-walls-floors-pa-009",
@@ -6950,7 +7078,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -6968,7 +7096,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-010-16x16-dungeon-props-decorations-pa-010",
@@ -6977,7 +7106,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -6995,7 +7124,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-011-16x16-dungeon-doors-traps-pa-011",
@@ -7004,7 +7134,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7022,7 +7152,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-012-16x16-nature-tileset-trees-foliage-pa-012",
@@ -7031,7 +7162,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -7049,7 +7180,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-013-16x16-nature-rocks-terrain-pa-013",
@@ -7058,7 +7190,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7076,7 +7208,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-014-16x16-farm-village-buildings-pa-014",
@@ -7085,7 +7218,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7103,7 +7236,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-015-16x16-modern-interiors-furniture-pa-015",
@@ -7112,7 +7246,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -7130,7 +7264,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-016-16x16-sci-fi-tileset-pack-pa-016",
@@ -7139,7 +7274,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -7157,7 +7292,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-017-32x32-fantasy-heroes-pack-1-pa-017",
@@ -7166,7 +7302,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -7184,7 +7320,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-018-32x32-fantasy-heroes-pack-2-pa-018",
@@ -7193,7 +7330,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7211,7 +7348,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-019-32x32-fantasy-enemies-pack-1-pa-019",
@@ -7220,7 +7358,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -7238,7 +7376,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-020-32x32-fantasy-enemies-pack-2-pa-020",
@@ -7247,7 +7386,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -7265,7 +7404,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-021-32x32-fantasy-npcs-pa-021",
@@ -7274,7 +7414,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -7292,7 +7432,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-022-32x32-fantasy-weapons-items-pa-022",
@@ -7301,7 +7442,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -7319,7 +7460,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-023-32x32-dungeon-tileset-pa-023",
@@ -7328,7 +7470,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -7346,7 +7488,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-024-32x32-forest-nature-tileset-pa-024",
@@ -7355,7 +7498,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -7373,7 +7516,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-025-32x32-modern-city-tileset-pa-025",
@@ -7382,7 +7526,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7400,7 +7544,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-026-pixel-ui-buttons-panels-pa-026",
@@ -7409,7 +7554,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7427,7 +7572,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-027-pixel-ui-health-status-bars-pa-027",
@@ -7436,7 +7582,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7454,7 +7600,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-028-pixel-ui-inventory-system-pa-028",
@@ -7463,7 +7610,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -7481,7 +7628,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-029-pixel-ui-dialogue-box-system-pa-029",
@@ -7490,7 +7638,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -7508,7 +7656,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-030-pixel-ui-menu-hud-elements-pa-030",
@@ -7517,7 +7666,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -7535,7 +7684,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-031-pixel-icons-rpg-items-pa-031",
@@ -7544,7 +7694,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7562,7 +7712,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-032-pixel-icons-skills-abilities-pa-032",
@@ -7571,7 +7722,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7589,7 +7740,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-033-pixel-vfx-hit-damage-effects-pa-033",
@@ -7598,7 +7750,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7616,7 +7768,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-034-pixel-vfx-environmental-effects-pa-034",
@@ -7625,7 +7778,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -7643,7 +7796,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-035-pixel-character-creator-parts-pa-035",
@@ -7652,7 +7806,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -7670,7 +7824,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-036-16x16-sci-fi-characters-pack-1-pa-036",
@@ -7679,7 +7834,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7697,7 +7852,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-037-16x16-sci-fi-characters-pack-2-pa-037",
@@ -7706,7 +7862,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -7724,7 +7880,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-038-16x16-sci-fi-enemies-pa-038",
@@ -7733,7 +7890,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -7751,7 +7908,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-039-16x16-sci-fi-weapons-pa-039",
@@ -7760,7 +7918,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7778,7 +7936,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-040-16x16-sci-fi-items-powerups-pa-040",
@@ -7787,7 +7946,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7805,7 +7964,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-041-16x16-sci-fi-tileset-metal-walls-pa-041",
@@ -7814,7 +7974,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7832,7 +7992,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-042-16x16-sci-fi-tileset-panels-consoles-pa-042",
@@ -7841,7 +8002,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -7859,7 +8020,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-043-16x16-sci-fi-tileset-hangers-bridges-pa-043",
@@ -7868,7 +8030,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -7886,7 +8048,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-044-16x16-sci-fi-props-decorations-pa-044",
@@ -7895,7 +8058,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7913,7 +8076,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-045-16x16-sci-fi-vehicles-pa-045",
@@ -7922,7 +8086,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -7940,7 +8104,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-046-32x32-sci-fi-characters-pack-1-pa-046",
@@ -7949,7 +8114,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -7967,7 +8132,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-047-32x32-sci-fi-characters-pack-2-pa-047",
@@ -7976,7 +8142,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7994,7 +8160,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-048-32x32-sci-fi-enemies-pack-1-pa-048",
@@ -8003,7 +8170,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -8021,7 +8188,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-049-32x32-sci-fi-enemies-pack-2-pa-049",
@@ -8030,7 +8198,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -8048,7 +8216,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-050-32x32-sci-fi-tileset-ships-stations-pa-050",
@@ -8057,7 +8226,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -8075,7 +8244,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-051-32x32-sci-fi-tileset-alien-architecture-pa-051",
@@ -8084,7 +8254,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 5.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -8102,7 +8272,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-052-32x32-sci-fi-weapons-items-pa-052",
@@ -8111,7 +8282,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -8129,7 +8300,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-053-32x32-sci-fi-vehicles-mechs-pa-053",
@@ -8138,7 +8310,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8156,7 +8328,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-054-32x32-sci-fi-ui-panels-displays-pa-054",
@@ -8165,7 +8338,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -8183,7 +8356,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-055-32x32-sci-fi-ui-status-indicators-pa-055",
@@ -8192,7 +8366,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -8210,7 +8384,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-056-pixel-ui-sci-fi-buttons-bars-pa-056",
@@ -8219,7 +8394,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -8237,7 +8412,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-057-pixel-ui-inventory-menu-pa-057",
@@ -8246,7 +8422,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -8264,7 +8440,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-058-pixel-icons-weapons-armor-pa-058",
@@ -8273,7 +8450,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -8291,7 +8468,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-059-pixel-icons-magic-abilities-pa-059",
@@ -8300,7 +8478,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -8318,7 +8496,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-060-pixel-icons-resources-materials-pa-060",
@@ -8327,7 +8506,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -8345,7 +8524,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-061-pixel-vfx-spell-magic-effects-pa-061",
@@ -8354,7 +8534,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -8372,7 +8552,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-062-pixel-vfx-explosion-impact-pa-062",
@@ -8381,7 +8562,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -8399,7 +8580,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-063-pixel-vfx-environmental-particles-pa-063",
@@ -8408,7 +8590,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -8426,7 +8608,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-064-pixel-vfx-ui-animations-pa-064",
@@ -8435,7 +8618,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8453,7 +8636,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-065-pixel-character-creator-heads-pa-065",
@@ -8462,7 +8646,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8480,7 +8664,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-066-pixel-character-creator-bodies-pa-066",
@@ -8489,7 +8674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -8507,7 +8692,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-067-pixel-character-creator-equipment-pa-067",
@@ -8516,7 +8702,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -8534,7 +8720,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-068-pixel-character-creator-accessories-pa-068",
@@ -8543,7 +8730,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -8561,7 +8748,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-069-16x16-fantasy-extra-sprites-pa-069",
@@ -8570,7 +8758,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -8588,7 +8776,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-070-32x32-modern-city-props-vehicles-pa-070",
@@ -8597,7 +8786,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -8615,7 +8804,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-071-16x16-fantasy-heroes-pack-vol-1-pa-071",
@@ -8624,7 +8814,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -8642,7 +8832,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-072-16x16-sci-fi-enemies-pack-vol-1-pa-072",
@@ -8651,7 +8842,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -8669,7 +8860,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-073-16x16-modern-npcs-vol-1-pa-073",
@@ -8678,7 +8870,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -8696,7 +8888,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-074-16x16-horror-melee-weapons-vol-1-pa-074",
@@ -8705,7 +8898,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -8723,7 +8916,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-075-16x16-steampunk-ranged-weapons-vol-1-pa-075",
@@ -8732,7 +8926,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -8750,7 +8944,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-076-16x16-cyberpunk-armor-sets-vol-1-pa-076",
@@ -8759,7 +8954,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -8777,7 +8972,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-077-16x16-post-apocalyptic-potions-vol-1-pa-077",
@@ -8786,7 +8982,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -8804,7 +9000,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-078-16x16-medieval-treasures-vol-1-pa-078",
@@ -8813,7 +9010,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -8831,7 +9028,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-079-16x16-western-dungeon-tileset-vol-1-pa-079",
@@ -8840,7 +9038,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -8858,7 +9056,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-080-16x16-pirate-nature-tileset-vol-1-pa-080",
@@ -8867,7 +9066,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 3.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -8885,7 +9084,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-081-16x16-fantasy-props-vol-1-pa-081",
@@ -8894,7 +9094,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -8912,7 +9112,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-082-16x16-sci-fi-doors-traps-vol-1-pa-082",
@@ -8921,7 +9122,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -8939,7 +9140,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-083-16x16-modern-vehicles-vol-1-pa-083",
@@ -8948,7 +9150,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8966,7 +9168,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-084-16x16-horror-ui-buttons-vol-1-pa-084",
@@ -8975,7 +9178,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -8993,7 +9196,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-085-16x16-steampunk-ui-bars-vol-1-pa-085",
@@ -9002,7 +9206,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -9020,7 +9224,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-086-16x16-cyberpunk-ui-inventory-vol-1-pa-086",
@@ -9029,7 +9234,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -9047,7 +9252,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-087-16x16-post-apocalyptic-ui-dialogue-vol-1-pa-087",
@@ -9056,7 +9262,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9074,7 +9280,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-088-16x16-medieval-icons-items-vol-1-pa-088",
@@ -9083,7 +9290,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -9101,7 +9308,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-089-16x16-western-icons-skills-vol-1-pa-089",
@@ -9110,7 +9318,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -9128,7 +9336,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-090-16x16-pirate-icons-weapons-vol-1-pa-090",
@@ -9137,7 +9346,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -9155,7 +9364,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-091-16x16-fantasy-icons-magic-vol-1-pa-091",
@@ -9164,7 +9374,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -9182,7 +9392,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-092-16x16-sci-fi-vfx-hits-vol-1-pa-092",
@@ -9191,7 +9402,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9209,7 +9420,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-093-16x16-modern-vfx-environment-vol-1-pa-093",
@@ -9218,7 +9430,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -9236,7 +9448,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-094-16x16-horror-vfx-spells-vol-1-pa-094",
@@ -9245,7 +9458,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -9263,7 +9476,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-095-16x16-steampunk-vfx-explosions-vol-1-pa-095",
@@ -9272,7 +9486,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -9290,7 +9504,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-096-16x16-cyberpunk-creator-heads-vol-1-pa-096",
@@ -9299,7 +9514,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9317,7 +9532,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-097-16x16-post-apocalyptic-creator-bodies-vol-1-pa-097",
@@ -9326,7 +9542,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9344,7 +9560,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-098-16x16-medieval-creator-equipment-vol-1-pa-098",
@@ -9353,7 +9570,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 2.49,
+        "price": 19.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -9371,7 +9588,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-099-16x16-western-creator-accessories-vol-1-pa-099",
@@ -9380,7 +9598,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 1.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -9398,7 +9616,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "pa-100-32x32-pirate-characters-vol-1-pa-100",
@@ -9407,7 +9626,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 4.99,
+        "price": 19.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -9425,7 +9644,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "100-Pack Vault ($19.99)"
     },
     {
         "id": "dt-001-sprite-sheet-packer-dt-001",
@@ -9434,7 +9654,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 14.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -9452,7 +9672,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-002-tilemap-editor-dt-002",
@@ -9461,7 +9682,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 19.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -9479,7 +9700,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-003-animation-frame-tool-dt-003",
@@ -9488,7 +9710,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 12.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -9506,7 +9728,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-004-color-palette-manager-dt-004",
@@ -9515,7 +9738,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 7.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -9533,7 +9756,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-005-collision-shape-editor-dt-005",
@@ -9542,7 +9766,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 9.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -9560,7 +9784,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-006-level-json-builder-dt-006",
@@ -9569,7 +9794,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 8.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -9587,7 +9812,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-007-asset-metadata-generator-dt-007",
@@ -9596,7 +9822,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 5.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9614,7 +9840,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-008-particle-effect-designer-dt-008",
@@ -9623,7 +9850,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 11.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -9641,7 +9868,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-009-game-icon-creator-dt-009",
@@ -9650,7 +9878,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 6.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -9668,7 +9896,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-010-font-bitmap-generator-dt-010",
@@ -9677,7 +9906,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 5.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -9695,7 +9924,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-011-texture-atlas-packer-dt-011",
@@ -9704,7 +9934,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 13.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -9722,7 +9952,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-012-grid-based-level-designer-dt-012",
@@ -9731,7 +9962,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 14.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -9749,7 +9980,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-013-data-driven-config-editor-dt-013",
@@ -9758,7 +9990,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 9.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -9776,7 +10008,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-014-audio-manager-tool-dt-014",
@@ -9785,7 +10018,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 6.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -9803,7 +10036,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-015-debug-console-overlay-dt-015",
@@ -9812,7 +10046,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -9830,7 +10064,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-016-json-data-validator-dt-016",
@@ -9839,7 +10074,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 6.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -9857,7 +10092,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-017-dialogue-tree-visualizer-dt-017",
@@ -9866,7 +10102,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 9.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9884,7 +10120,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-018-map-collision-editor-dt-018",
@@ -9893,7 +10130,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 11.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -9911,7 +10148,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-019-animation-timeline-tool-dt-019",
@@ -9920,7 +10158,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 12.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9938,7 +10176,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-020-quest-log-designer-dt-020",
@@ -9947,7 +10186,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 8.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -9965,7 +10204,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-021-inventory-system-builder-dt-021",
@@ -9974,7 +10214,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 7.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -9992,7 +10232,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-022-particle-system-designer-dt-022",
@@ -10001,7 +10242,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 11.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -10019,7 +10260,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-023-audio-mixer-tool-dt-023",
@@ -10028,7 +10270,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 9.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -10046,7 +10288,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-024-save-file-editor-dt-024",
@@ -10055,7 +10298,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 6.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -10073,7 +10316,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-025-game-settings-manager-dt-025",
@@ -10082,7 +10326,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 5.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -10100,7 +10344,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-026-localization-editor-dt-026",
@@ -10109,7 +10354,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 8.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -10127,7 +10372,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-027-asset-bundle-packer-dt-027",
@@ -10136,7 +10382,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 10.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -10154,7 +10400,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-028-event-system-designer-dt-028",
@@ -10163,7 +10410,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 7.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -10181,7 +10428,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-029-behavior-tree-editor-dt-029",
@@ -10190,7 +10438,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 12.49,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -10208,7 +10456,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-030-sprite-sheet-cutter-dt-030",
@@ -10217,7 +10466,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -10235,7 +10484,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-031-data-inventory-utility-dt-031",
@@ -10244,7 +10494,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -10262,7 +10512,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-032-level-combat-editor-dt-032",
@@ -10271,7 +10522,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -10289,7 +10540,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-033-animation-level-map-generator-dt-033",
@@ -10298,7 +10550,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -10316,7 +10568,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-034-audio-save-manager-dt-034",
@@ -10325,7 +10578,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -10343,7 +10596,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-035-visual-physics-particle-builder-dt-035",
@@ -10352,7 +10606,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10370,7 +10624,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-036-utility-npc-designer-dt-036",
@@ -10379,7 +10634,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -10397,7 +10652,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-037-editor-effect-validator-dt-037",
@@ -10406,7 +10662,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -10424,7 +10680,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-038-generator-wave-viewer-dt-038",
@@ -10433,7 +10690,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -10451,7 +10708,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-039-manager-config-asset-converter-dt-039",
@@ -10460,7 +10718,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -10478,7 +10736,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-040-builder-cache-mapper-dt-040",
@@ -10487,7 +10746,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -10505,7 +10764,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-041-designer-dialogue-planner-dt-041",
@@ -10514,7 +10774,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -10532,7 +10792,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-042-validator-audio-scheduler-dt-042",
@@ -10541,7 +10802,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -10559,7 +10820,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-043-viewer-loot-inspector-dt-043",
@@ -10568,7 +10830,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -10586,7 +10848,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-044-converter-ui-input-optimizer-dt-044",
@@ -10595,7 +10858,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -10613,7 +10876,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-045-mapper-enemy-simulator-dt-045",
@@ -10622,7 +10886,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -10640,7 +10904,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-046-editor-sprite-packer-dt-046",
@@ -10649,7 +10914,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -10667,7 +10932,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-047-editor-sprite-importer-dt-047",
@@ -10676,7 +10942,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10694,7 +10960,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-048-editor-sprite-generator-dt-048",
@@ -10703,7 +10970,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -10721,7 +10988,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-049-editor-sprite-builder-dt-049",
@@ -10730,7 +10998,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10748,7 +11016,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-050-editor-sprite-designer-dt-050",
@@ -10757,7 +11026,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -10775,7 +11044,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-051-editor-sprite-validator-dt-051",
@@ -10784,7 +11054,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -10802,7 +11072,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-052-editor-sprite-editor-dt-052",
@@ -10811,7 +11082,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -10829,7 +11100,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-053-editor-sprite-creator-dt-053",
@@ -10838,7 +11110,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -10856,7 +11128,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-054-editor-sprite-manager-dt-054",
@@ -10865,7 +11138,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -10883,7 +11156,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-055-editor-sprite-assembler-dt-055",
@@ -10892,7 +11166,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -10910,7 +11184,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-056-editor-sprite-processor-dt-056",
@@ -10919,7 +11194,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -10937,7 +11212,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-057-editor-sprite-planner-dt-057",
@@ -10946,7 +11222,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -10964,7 +11240,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-058-editor-sprite-simulator-dt-058",
@@ -10973,7 +11250,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -10991,7 +11268,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-059-editor-sprite-renderer-dt-059",
@@ -11000,7 +11278,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -11018,7 +11296,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-060-editor-sprite-mapper-dt-060",
@@ -11027,7 +11306,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -11045,7 +11324,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-061-editor-sprite-inspector-dt-061",
@@ -11054,7 +11334,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -11072,7 +11352,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-062-editor-sprite-composer-dt-062",
@@ -11081,7 +11362,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -11099,7 +11380,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-063-editor-sprite-converter-dt-063",
@@ -11108,7 +11390,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -11126,7 +11408,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-064-editor-sprite-debugger-dt-064",
@@ -11135,7 +11418,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11153,7 +11436,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-065-editor-sprite-analyzer-dt-065",
@@ -11162,7 +11446,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11180,7 +11464,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-066-editor-audio-packer-dt-066",
@@ -11189,7 +11474,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -11207,7 +11492,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-067-editor-audio-importer-dt-067",
@@ -11216,7 +11502,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11234,7 +11520,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-068-editor-audio-generator-dt-068",
@@ -11243,7 +11530,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11261,7 +11548,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-069-editor-audio-builder-dt-069",
@@ -11270,7 +11558,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -11288,7 +11576,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-070-editor-audio-designer-dt-070",
@@ -11297,7 +11586,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -11315,7 +11604,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-071-editor-audio-validator-dt-071",
@@ -11324,7 +11614,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -11342,7 +11632,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-072-editor-audio-editor-dt-072",
@@ -11351,7 +11642,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -11369,7 +11660,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-073-editor-audio-creator-dt-073",
@@ -11378,7 +11670,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11396,7 +11688,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-074-editor-audio-manager-dt-074",
@@ -11405,7 +11698,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -11423,7 +11716,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-075-editor-audio-assembler-dt-075",
@@ -11432,7 +11726,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -11450,7 +11744,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-076-editor-audio-processor-dt-076",
@@ -11459,7 +11754,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -11477,7 +11772,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-077-editor-audio-planner-dt-077",
@@ -11486,7 +11782,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11504,7 +11800,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-078-editor-audio-simulator-dt-078",
@@ -11513,7 +11810,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -11531,7 +11828,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-079-editor-audio-renderer-dt-079",
@@ -11540,7 +11838,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -11558,7 +11856,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-080-editor-audio-mapper-dt-080",
@@ -11567,7 +11866,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -11585,7 +11884,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-081-editor-audio-inspector-dt-081",
@@ -11594,7 +11894,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -11612,7 +11912,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-082-editor-audio-composer-dt-082",
@@ -11621,7 +11922,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11639,7 +11940,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-083-editor-audio-converter-dt-083",
@@ -11648,7 +11950,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -11666,7 +11968,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-084-editor-audio-debugger-dt-084",
@@ -11675,7 +11978,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11693,7 +11996,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-085-editor-audio-analyzer-dt-085",
@@ -11702,7 +12006,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11720,7 +12024,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-086-editor-texture-packer-dt-086",
@@ -11729,7 +12034,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -11747,7 +12052,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-087-editor-texture-importer-dt-087",
@@ -11756,7 +12062,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11774,7 +12080,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-088-editor-texture-generator-dt-088",
@@ -11783,7 +12090,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -11801,7 +12108,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-089-editor-texture-builder-dt-089",
@@ -11810,7 +12118,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -11828,7 +12136,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-090-editor-texture-designer-dt-090",
@@ -11837,7 +12146,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -11855,7 +12164,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-091-editor-texture-validator-dt-091",
@@ -11864,7 +12174,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -11882,7 +12192,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-092-editor-texture-editor-dt-092",
@@ -11891,7 +12202,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -11909,7 +12220,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-093-editor-texture-creator-dt-093",
@@ -11918,7 +12230,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -11936,7 +12248,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-094-editor-texture-manager-dt-094",
@@ -11945,7 +12258,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -11963,7 +12276,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-095-editor-texture-assembler-dt-095",
@@ -11972,7 +12286,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -11990,7 +12304,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-096-editor-texture-processor-dt-096",
@@ -11999,7 +12314,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12017,7 +12332,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-097-editor-texture-planner-dt-097",
@@ -12026,7 +12342,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -12044,7 +12360,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-098-editor-texture-simulator-dt-098",
@@ -12053,7 +12370,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -12071,7 +12388,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-099-editor-texture-renderer-dt-099",
@@ -12080,7 +12398,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -12098,7 +12416,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-100-editor-texture-mapper-dt-100",
@@ -12107,7 +12426,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -12125,7 +12444,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-101-editor-texture-inspector-dt-101",
@@ -12134,7 +12454,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12152,7 +12472,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-102-editor-texture-composer-dt-102",
@@ -12161,7 +12482,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -12179,7 +12500,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-103-editor-texture-converter-dt-103",
@@ -12188,7 +12510,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -12206,7 +12528,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-104-editor-texture-debugger-dt-104",
@@ -12215,7 +12538,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -12233,7 +12556,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-105-editor-texture-analyzer-dt-105",
@@ -12242,7 +12566,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12260,7 +12584,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-106-editor-font-packer-dt-106",
@@ -12269,7 +12594,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -12287,7 +12612,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-107-editor-font-importer-dt-107",
@@ -12296,7 +12622,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12314,7 +12640,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-108-editor-font-generator-dt-108",
@@ -12323,7 +12650,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -12341,7 +12668,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-109-editor-font-builder-dt-109",
@@ -12350,7 +12678,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -12368,7 +12696,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-110-editor-font-designer-dt-110",
@@ -12377,7 +12706,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -12395,7 +12724,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-111-editor-font-validator-dt-111",
@@ -12404,7 +12734,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -12422,7 +12752,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-112-editor-font-editor-dt-112",
@@ -12431,7 +12762,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -12449,7 +12780,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-113-editor-font-creator-dt-113",
@@ -12458,7 +12790,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12476,7 +12808,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-114-editor-font-manager-dt-114",
@@ -12485,7 +12818,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -12503,7 +12836,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-115-editor-font-assembler-dt-115",
@@ -12512,7 +12846,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -12530,7 +12864,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-116-editor-font-processor-dt-116",
@@ -12539,7 +12874,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12557,7 +12892,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-117-editor-font-planner-dt-117",
@@ -12566,7 +12902,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -12584,7 +12920,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-118-editor-font-simulator-dt-118",
@@ -12593,7 +12930,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -12611,7 +12948,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-119-editor-font-renderer-dt-119",
@@ -12620,7 +12958,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -12638,7 +12976,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-120-editor-font-mapper-dt-120",
@@ -12647,7 +12986,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -12665,7 +13004,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-121-editor-font-inspector-dt-121",
@@ -12674,7 +13014,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -12692,7 +13032,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-122-editor-font-composer-dt-122",
@@ -12701,7 +13042,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -12719,7 +13060,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-123-editor-font-converter-dt-123",
@@ -12728,7 +13070,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -12746,7 +13088,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-124-editor-font-debugger-dt-124",
@@ -12755,7 +13098,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -12773,7 +13116,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-125-editor-font-analyzer-dt-125",
@@ -12782,7 +13126,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -12800,7 +13144,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-126-editor-level-packer-dt-126",
@@ -12809,7 +13154,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -12827,7 +13172,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-127-editor-level-importer-dt-127",
@@ -12836,7 +13182,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -12854,7 +13200,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-128-editor-level-generator-dt-128",
@@ -12863,7 +13210,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -12881,7 +13228,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-129-editor-level-builder-dt-129",
@@ -12890,7 +13238,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -12908,7 +13256,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-130-editor-level-designer-dt-130",
@@ -12917,7 +13266,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -12935,7 +13284,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-131-editor-level-validator-dt-131",
@@ -12944,7 +13294,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -12962,7 +13312,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-132-editor-level-editor-dt-132",
@@ -12971,7 +13322,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -12989,7 +13340,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-133-editor-level-creator-dt-133",
@@ -12998,7 +13350,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -13016,7 +13368,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-134-editor-level-manager-dt-134",
@@ -13025,7 +13378,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -13043,7 +13396,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-135-editor-level-assembler-dt-135",
@@ -13052,7 +13406,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13070,7 +13424,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-136-editor-level-processor-dt-136",
@@ -13079,7 +13434,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -13097,7 +13452,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-137-editor-level-planner-dt-137",
@@ -13106,7 +13462,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13124,7 +13480,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-138-editor-level-simulator-dt-138",
@@ -13133,7 +13490,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -13151,7 +13508,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-139-editor-level-renderer-dt-139",
@@ -13160,7 +13518,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -13178,7 +13536,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-140-editor-level-mapper-dt-140",
@@ -13187,7 +13546,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13205,7 +13564,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-141-editor-level-inspector-dt-141",
@@ -13214,7 +13574,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13232,7 +13592,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-142-editor-level-composer-dt-142",
@@ -13241,7 +13602,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -13259,7 +13620,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-143-editor-level-converter-dt-143",
@@ -13268,7 +13630,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -13286,7 +13648,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-144-editor-level-debugger-dt-144",
@@ -13295,7 +13658,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -13313,7 +13676,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-145-editor-level-analyzer-dt-145",
@@ -13322,7 +13686,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -13340,7 +13704,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-146-editor-config-packer-dt-146",
@@ -13349,7 +13714,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13367,7 +13732,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-147-editor-config-importer-dt-147",
@@ -13376,7 +13742,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -13394,7 +13760,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-148-editor-config-generator-dt-148",
@@ -13403,7 +13770,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -13421,7 +13788,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-149-editor-config-builder-dt-149",
@@ -13430,7 +13798,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13448,7 +13816,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-150-editor-config-designer-dt-150",
@@ -13457,7 +13826,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -13475,7 +13844,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-151-editor-config-validator-dt-151",
@@ -13484,7 +13854,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -13502,7 +13872,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-152-editor-config-editor-dt-152",
@@ -13511,7 +13882,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -13529,7 +13900,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-153-editor-config-creator-dt-153",
@@ -13538,7 +13910,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13556,7 +13928,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-154-editor-config-manager-dt-154",
@@ -13565,7 +13938,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -13583,7 +13956,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-155-editor-config-assembler-dt-155",
@@ -13592,7 +13966,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -13610,7 +13984,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-156-editor-config-processor-dt-156",
@@ -13619,7 +13994,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -13637,7 +14012,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-157-editor-config-planner-dt-157",
@@ -13646,7 +14022,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -13664,7 +14040,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-158-editor-config-simulator-dt-158",
@@ -13673,7 +14050,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -13691,7 +14068,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-159-editor-config-renderer-dt-159",
@@ -13700,7 +14078,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -13718,7 +14096,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-160-editor-config-mapper-dt-160",
@@ -13727,7 +14106,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -13745,7 +14124,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-161-editor-config-inspector-dt-161",
@@ -13754,7 +14134,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -13772,7 +14152,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-162-editor-config-composer-dt-162",
@@ -13781,7 +14162,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -13799,7 +14180,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-163-editor-config-converter-dt-163",
@@ -13808,7 +14190,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -13826,7 +14208,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-164-editor-config-debugger-dt-164",
@@ -13835,7 +14218,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -13853,7 +14236,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-165-editor-config-analyzer-dt-165",
@@ -13862,7 +14246,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -13880,7 +14264,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-166-editor-asset-packer-dt-166",
@@ -13889,7 +14274,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -13907,7 +14292,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-167-editor-asset-importer-dt-167",
@@ -13916,7 +14302,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -13934,7 +14320,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-168-editor-asset-generator-dt-168",
@@ -13943,7 +14330,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -13961,7 +14348,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-169-editor-asset-builder-dt-169",
@@ -13970,7 +14358,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13988,7 +14376,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-170-editor-asset-designer-dt-170",
@@ -13997,7 +14386,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14015,7 +14404,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-171-editor-asset-validator-dt-171",
@@ -14024,7 +14414,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -14042,7 +14432,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-172-editor-asset-editor-dt-172",
@@ -14051,7 +14442,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -14069,7 +14460,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-173-editor-asset-creator-dt-173",
@@ -14078,7 +14470,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -14096,7 +14488,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-174-editor-asset-manager-dt-174",
@@ -14105,7 +14498,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -14123,7 +14516,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-175-editor-asset-assembler-dt-175",
@@ -14132,7 +14526,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -14150,7 +14544,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-176-editor-asset-processor-dt-176",
@@ -14159,7 +14554,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -14177,7 +14572,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-177-editor-asset-planner-dt-177",
@@ -14186,7 +14582,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -14204,7 +14600,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-178-editor-asset-simulator-dt-178",
@@ -14213,7 +14610,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14231,7 +14628,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-179-editor-asset-renderer-dt-179",
@@ -14240,7 +14638,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -14258,7 +14656,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-180-editor-asset-mapper-dt-180",
@@ -14267,7 +14666,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -14285,7 +14684,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-181-editor-asset-inspector-dt-181",
@@ -14294,7 +14694,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -14312,7 +14712,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-182-editor-asset-composer-dt-182",
@@ -14321,7 +14722,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -14339,7 +14740,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-183-editor-asset-converter-dt-183",
@@ -14348,7 +14750,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -14366,7 +14768,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-184-editor-asset-debugger-dt-184",
@@ -14375,7 +14778,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -14393,7 +14796,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-185-editor-asset-analyzer-dt-185",
@@ -14402,7 +14806,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -14420,7 +14824,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-186-editor-model-packer-dt-186",
@@ -14429,7 +14834,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -14447,7 +14852,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-187-editor-model-importer-dt-187",
@@ -14456,7 +14862,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -14474,7 +14880,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-188-editor-model-generator-dt-188",
@@ -14483,7 +14890,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14501,7 +14908,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-189-editor-model-builder-dt-189",
@@ -14510,7 +14918,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -14528,7 +14936,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-190-editor-model-designer-dt-190",
@@ -14537,7 +14946,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -14555,7 +14964,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-191-editor-model-validator-dt-191",
@@ -14564,7 +14974,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -14582,7 +14992,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-192-editor-model-editor-dt-192",
@@ -14591,7 +15002,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -14609,7 +15020,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-193-editor-model-creator-dt-193",
@@ -14618,7 +15030,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -14636,7 +15048,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-194-editor-model-manager-dt-194",
@@ -14645,7 +15058,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -14663,7 +15076,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-195-editor-model-assembler-dt-195",
@@ -14672,7 +15086,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -14690,7 +15104,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-196-editor-model-processor-dt-196",
@@ -14699,7 +15114,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -14717,7 +15132,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-197-editor-model-planner-dt-197",
@@ -14726,7 +15142,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -14744,7 +15160,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-198-editor-model-simulator-dt-198",
@@ -14753,7 +15170,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -14771,7 +15188,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-199-editor-model-renderer-dt-199",
@@ -14780,7 +15198,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -14798,7 +15216,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-200-editor-model-mapper-dt-200",
@@ -14807,7 +15226,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -14825,7 +15244,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-201-editor-model-inspector-dt-201",
@@ -14834,7 +15254,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -14852,7 +15272,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-202-editor-model-composer-dt-202",
@@ -14861,7 +15282,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -14879,7 +15300,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-203-editor-model-converter-dt-203",
@@ -14888,7 +15310,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -14906,7 +15328,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-204-editor-model-debugger-dt-204",
@@ -14915,7 +15338,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -14933,7 +15356,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-205-editor-model-analyzer-dt-205",
@@ -14942,7 +15366,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -14960,7 +15384,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-206-editor-map-packer-dt-206",
@@ -14969,7 +15394,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -14987,7 +15412,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-207-editor-map-importer-dt-207",
@@ -14996,7 +15422,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15014,7 +15440,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-208-editor-map-generator-dt-208",
@@ -15023,7 +15450,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15041,7 +15468,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-209-editor-map-builder-dt-209",
@@ -15050,7 +15478,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -15068,7 +15496,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-210-editor-map-designer-dt-210",
@@ -15077,7 +15506,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15095,7 +15524,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-211-editor-map-validator-dt-211",
@@ -15104,7 +15534,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -15122,7 +15552,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-212-editor-map-editor-dt-212",
@@ -15131,7 +15562,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -15149,7 +15580,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-213-editor-map-creator-dt-213",
@@ -15158,7 +15590,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -15176,7 +15608,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-214-editor-map-manager-dt-214",
@@ -15185,7 +15618,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -15203,7 +15636,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-215-editor-map-assembler-dt-215",
@@ -15212,7 +15646,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15230,7 +15664,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-216-editor-map-processor-dt-216",
@@ -15239,7 +15674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15257,7 +15692,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-217-editor-map-planner-dt-217",
@@ -15266,7 +15702,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -15284,7 +15720,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-218-editor-map-simulator-dt-218",
@@ -15293,7 +15730,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15311,7 +15748,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-219-editor-map-renderer-dt-219",
@@ -15320,7 +15758,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -15338,7 +15776,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-220-editor-map-mapper-dt-220",
@@ -15347,7 +15786,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -15365,7 +15804,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-221-editor-map-inspector-dt-221",
@@ -15374,7 +15814,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -15392,7 +15832,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-222-editor-map-composer-dt-222",
@@ -15401,7 +15842,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -15419,7 +15860,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-223-editor-map-converter-dt-223",
@@ -15428,7 +15870,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -15446,7 +15888,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-224-editor-map-debugger-dt-224",
@@ -15455,7 +15898,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -15473,7 +15916,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-225-editor-map-analyzer-dt-225",
@@ -15482,7 +15926,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -15500,7 +15944,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-226-editor-icon-packer-dt-226",
@@ -15509,7 +15954,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15527,7 +15972,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-227-editor-icon-importer-dt-227",
@@ -15536,7 +15982,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -15554,7 +16000,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-228-editor-icon-generator-dt-228",
@@ -15563,7 +16010,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -15581,7 +16028,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-229-editor-icon-builder-dt-229",
@@ -15590,7 +16038,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -15608,7 +16056,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-230-editor-icon-designer-dt-230",
@@ -15617,7 +16066,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15635,7 +16084,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-231-editor-icon-validator-dt-231",
@@ -15644,7 +16094,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -15662,7 +16112,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-232-editor-icon-editor-dt-232",
@@ -15671,7 +16122,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -15689,7 +16140,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-233-editor-icon-creator-dt-233",
@@ -15698,7 +16150,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15716,7 +16168,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-234-editor-icon-manager-dt-234",
@@ -15725,7 +16178,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15743,7 +16196,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-235-editor-icon-assembler-dt-235",
@@ -15752,7 +16206,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -15770,7 +16224,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-236-editor-icon-processor-dt-236",
@@ -15779,7 +16234,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -15797,7 +16252,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-237-editor-icon-planner-dt-237",
@@ -15806,7 +16262,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -15824,7 +16280,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-238-editor-icon-simulator-dt-238",
@@ -15833,7 +16290,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15851,7 +16308,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-239-editor-icon-renderer-dt-239",
@@ -15860,7 +16318,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -15878,7 +16336,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-240-editor-icon-mapper-dt-240",
@@ -15887,7 +16346,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -15905,7 +16364,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-241-editor-icon-inspector-dt-241",
@@ -15914,7 +16374,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -15932,7 +16392,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-242-editor-icon-composer-dt-242",
@@ -15941,7 +16402,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -15959,7 +16420,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-243-editor-icon-converter-dt-243",
@@ -15968,7 +16430,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -15986,7 +16448,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-244-editor-icon-debugger-dt-244",
@@ -15995,7 +16458,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16013,7 +16476,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-245-editor-icon-analyzer-dt-245",
@@ -16022,7 +16486,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -16040,7 +16504,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-246-editor-data-packer-dt-246",
@@ -16049,7 +16514,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -16067,7 +16532,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-247-editor-data-importer-dt-247",
@@ -16076,7 +16542,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -16094,7 +16560,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-248-editor-data-generator-dt-248",
@@ -16103,7 +16570,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16121,7 +16588,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-249-editor-data-builder-dt-249",
@@ -16130,7 +16598,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -16148,7 +16616,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-250-editor-data-designer-dt-250",
@@ -16157,7 +16626,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -16175,7 +16644,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-251-editor-data-validator-dt-251",
@@ -16184,7 +16654,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -16202,7 +16672,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-252-editor-data-editor-dt-252",
@@ -16211,7 +16682,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -16229,7 +16700,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-253-editor-data-creator-dt-253",
@@ -16238,7 +16710,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16256,7 +16728,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-254-editor-data-manager-dt-254",
@@ -16265,7 +16738,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16283,7 +16756,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-255-editor-data-assembler-dt-255",
@@ -16292,7 +16766,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16310,7 +16784,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-256-editor-data-processor-dt-256",
@@ -16319,7 +16794,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -16337,7 +16812,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-257-editor-data-planner-dt-257",
@@ -16346,7 +16822,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16364,7 +16840,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-258-editor-data-simulator-dt-258",
@@ -16373,7 +16850,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16391,7 +16868,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-259-editor-data-renderer-dt-259",
@@ -16400,7 +16878,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16418,7 +16896,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-260-editor-data-mapper-dt-260",
@@ -16427,7 +16906,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -16445,7 +16924,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-261-editor-data-inspector-dt-261",
@@ -16454,7 +16934,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -16472,7 +16952,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-262-editor-data-composer-dt-262",
@@ -16481,7 +16962,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16499,7 +16980,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-263-editor-data-converter-dt-263",
@@ -16508,7 +16990,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -16526,7 +17008,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-264-editor-data-debugger-dt-264",
@@ -16535,7 +17018,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16553,7 +17036,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-265-editor-data-analyzer-dt-265",
@@ -16562,7 +17046,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -16580,7 +17064,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-266-editor-item-packer-dt-266",
@@ -16589,7 +17074,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -16607,7 +17092,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-267-editor-item-importer-dt-267",
@@ -16616,7 +17102,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -16634,7 +17120,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-268-editor-item-generator-dt-268",
@@ -16643,7 +17130,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -16661,7 +17148,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-269-editor-item-builder-dt-269",
@@ -16670,7 +17158,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -16688,7 +17176,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-270-editor-item-designer-dt-270",
@@ -16697,7 +17186,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -16715,7 +17204,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-271-editor-item-validator-dt-271",
@@ -16724,7 +17214,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16742,7 +17232,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-272-editor-item-editor-dt-272",
@@ -16751,7 +17242,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -16769,7 +17260,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-273-editor-item-creator-dt-273",
@@ -16778,7 +17270,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -16796,7 +17288,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-274-editor-item-manager-dt-274",
@@ -16805,7 +17298,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16823,7 +17316,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-275-editor-item-assembler-dt-275",
@@ -16832,7 +17326,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -16850,7 +17344,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-276-editor-item-processor-dt-276",
@@ -16859,7 +17354,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -16877,7 +17372,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-277-editor-item-planner-dt-277",
@@ -16886,7 +17382,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -16904,7 +17400,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-278-editor-item-simulator-dt-278",
@@ -16913,7 +17410,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -16931,7 +17428,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-279-editor-item-renderer-dt-279",
@@ -16940,7 +17438,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16958,7 +17456,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-280-editor-item-mapper-dt-280",
@@ -16967,7 +17466,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -16985,7 +17484,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-281-editor-item-inspector-dt-281",
@@ -16994,7 +17494,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -17012,7 +17512,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-282-editor-item-composer-dt-282",
@@ -17021,7 +17522,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -17039,7 +17540,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-283-editor-item-converter-dt-283",
@@ -17048,7 +17550,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -17066,7 +17568,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-284-editor-item-debugger-dt-284",
@@ -17075,7 +17578,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -17093,7 +17596,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-285-editor-item-analyzer-dt-285",
@@ -17102,7 +17606,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -17120,7 +17624,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-286-editor-palette-packer-dt-286",
@@ -17129,7 +17634,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -17147,7 +17652,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-287-editor-palette-importer-dt-287",
@@ -17156,7 +17662,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -17174,7 +17680,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-288-editor-palette-generator-dt-288",
@@ -17183,7 +17690,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -17201,7 +17708,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-289-editor-palette-builder-dt-289",
@@ -17210,7 +17718,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17228,7 +17736,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-290-editor-palette-designer-dt-290",
@@ -17237,7 +17746,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17255,7 +17764,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-291-editor-palette-validator-dt-291",
@@ -17264,7 +17774,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -17282,7 +17792,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-292-editor-palette-editor-dt-292",
@@ -17291,7 +17802,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17309,7 +17820,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-293-editor-palette-creator-dt-293",
@@ -17318,7 +17830,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -17336,7 +17848,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-294-editor-palette-manager-dt-294",
@@ -17345,7 +17858,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -17363,7 +17876,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-295-editor-palette-assembler-dt-295",
@@ -17372,7 +17886,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17390,7 +17904,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-296-editor-palette-processor-dt-296",
@@ -17399,7 +17914,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -17417,7 +17932,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-297-editor-palette-planner-dt-297",
@@ -17426,7 +17942,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -17444,7 +17960,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-298-editor-palette-simulator-dt-298",
@@ -17453,7 +17970,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17471,7 +17988,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-299-editor-palette-renderer-dt-299",
@@ -17480,7 +17998,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -17498,7 +18016,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-300-editor-palette-mapper-dt-300",
@@ -17507,7 +18026,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -17525,7 +18044,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-301-editor-palette-inspector-dt-301",
@@ -17534,7 +18054,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -17552,7 +18072,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-302-editor-palette-composer-dt-302",
@@ -17561,7 +18082,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -17579,7 +18100,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-303-editor-palette-converter-dt-303",
@@ -17588,7 +18110,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17606,7 +18128,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-304-editor-palette-debugger-dt-304",
@@ -17615,7 +18138,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -17633,7 +18156,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-305-editor-palette-analyzer-dt-305",
@@ -17642,7 +18166,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -17660,7 +18184,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-306-editor-grid-packer-dt-306",
@@ -17669,7 +18194,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -17687,7 +18212,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-307-editor-grid-importer-dt-307",
@@ -17696,7 +18222,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -17714,7 +18240,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-308-editor-grid-generator-dt-308",
@@ -17723,7 +18250,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -17741,7 +18268,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-309-editor-grid-builder-dt-309",
@@ -17750,7 +18278,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -17768,7 +18296,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-310-editor-grid-designer-dt-310",
@@ -17777,7 +18306,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -17795,7 +18324,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-311-editor-grid-validator-dt-311",
@@ -17804,7 +18334,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -17822,7 +18352,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-312-editor-grid-editor-dt-312",
@@ -17831,7 +18362,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -17849,7 +18380,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-313-editor-grid-creator-dt-313",
@@ -17858,7 +18390,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -17876,7 +18408,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-314-editor-grid-manager-dt-314",
@@ -17885,7 +18418,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -17903,7 +18436,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-315-editor-grid-assembler-dt-315",
@@ -17912,7 +18446,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -17930,7 +18464,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-316-editor-grid-processor-dt-316",
@@ -17939,7 +18474,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -17957,7 +18492,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-317-editor-grid-planner-dt-317",
@@ -17966,7 +18502,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -17984,7 +18520,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-318-editor-grid-simulator-dt-318",
@@ -17993,7 +18530,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -18011,7 +18548,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-319-editor-grid-renderer-dt-319",
@@ -18020,7 +18558,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -18038,7 +18576,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-320-editor-grid-mapper-dt-320",
@@ -18047,7 +18586,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -18065,7 +18604,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-321-editor-grid-inspector-dt-321",
@@ -18074,7 +18614,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -18092,7 +18632,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-322-editor-grid-composer-dt-322",
@@ -18101,7 +18642,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -18119,7 +18660,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-323-editor-grid-converter-dt-323",
@@ -18128,7 +18670,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -18146,7 +18688,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-324-editor-grid-debugger-dt-324",
@@ -18155,7 +18698,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -18173,7 +18716,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-325-editor-grid-analyzer-dt-325",
@@ -18182,7 +18726,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -18200,7 +18744,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-326-editor-tile-packer-dt-326",
@@ -18209,7 +18754,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -18227,7 +18772,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-327-editor-tile-importer-dt-327",
@@ -18236,7 +18782,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -18254,7 +18800,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-328-editor-tile-generator-dt-328",
@@ -18263,7 +18810,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -18281,7 +18828,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-329-editor-tile-builder-dt-329",
@@ -18290,7 +18838,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -18308,7 +18856,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-330-editor-tile-designer-dt-330",
@@ -18317,7 +18866,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -18335,7 +18884,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-331-editor-tile-validator-dt-331",
@@ -18344,7 +18894,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -18362,7 +18912,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-332-editor-tile-editor-dt-332",
@@ -18371,7 +18922,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -18389,7 +18940,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-333-editor-tile-creator-dt-333",
@@ -18398,7 +18950,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -18416,7 +18968,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-334-editor-tile-manager-dt-334",
@@ -18425,7 +18978,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -18443,7 +18996,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-335-editor-tile-assembler-dt-335",
@@ -18452,7 +19006,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -18470,7 +19024,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-336-editor-tile-processor-dt-336",
@@ -18479,7 +19034,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -18497,7 +19052,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-337-editor-tile-planner-dt-337",
@@ -18506,7 +19062,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -18524,7 +19080,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-338-editor-tile-simulator-dt-338",
@@ -18533,7 +19090,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -18551,7 +19108,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-339-editor-tile-renderer-dt-339",
@@ -18560,7 +19118,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -18578,7 +19136,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-340-editor-tile-mapper-dt-340",
@@ -18587,7 +19146,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -18605,7 +19164,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-341-editor-tile-inspector-dt-341",
@@ -18614,7 +19174,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -18632,7 +19192,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-342-editor-tile-composer-dt-342",
@@ -18641,7 +19202,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -18659,7 +19220,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-343-editor-tile-converter-dt-343",
@@ -18668,7 +19230,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -18686,7 +19248,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-344-editor-tile-debugger-dt-344",
@@ -18695,7 +19258,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -18713,7 +19276,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-345-editor-tile-analyzer-dt-345",
@@ -18722,7 +19286,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -18740,7 +19304,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-346-editor-mesh-packer-dt-346",
@@ -18749,7 +19314,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -18767,7 +19332,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-347-editor-mesh-importer-dt-347",
@@ -18776,7 +19342,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -18794,7 +19360,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-348-editor-mesh-generator-dt-348",
@@ -18803,7 +19370,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -18821,7 +19388,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-349-editor-mesh-builder-dt-349",
@@ -18830,7 +19398,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -18848,7 +19416,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-350-editor-mesh-designer-dt-350",
@@ -18857,7 +19426,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -18875,7 +19444,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-351-editor-mesh-validator-dt-351",
@@ -18884,7 +19454,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -18902,7 +19472,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-352-editor-mesh-editor-dt-352",
@@ -18911,7 +19482,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -18929,7 +19500,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-353-editor-mesh-creator-dt-353",
@@ -18938,7 +19510,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -18956,7 +19528,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-354-editor-mesh-manager-dt-354",
@@ -18965,7 +19538,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -18983,7 +19556,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-355-editor-mesh-assembler-dt-355",
@@ -18992,7 +19566,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -19010,7 +19584,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-356-editor-mesh-processor-dt-356",
@@ -19019,7 +19594,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -19037,7 +19612,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-357-editor-mesh-planner-dt-357",
@@ -19046,7 +19622,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -19064,7 +19640,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-358-editor-mesh-simulator-dt-358",
@@ -19073,7 +19650,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -19091,7 +19668,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-359-editor-mesh-renderer-dt-359",
@@ -19100,7 +19678,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -19118,7 +19696,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-360-editor-mesh-mapper-dt-360",
@@ -19127,7 +19706,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -19145,7 +19724,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-361-editor-mesh-inspector-dt-361",
@@ -19154,7 +19734,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -19172,7 +19752,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-362-editor-mesh-composer-dt-362",
@@ -19181,7 +19762,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19199,7 +19780,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-363-editor-mesh-converter-dt-363",
@@ -19208,7 +19790,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -19226,7 +19808,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-364-editor-mesh-debugger-dt-364",
@@ -19235,7 +19818,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19253,7 +19836,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-365-editor-mesh-analyzer-dt-365",
@@ -19262,7 +19846,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -19280,7 +19864,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-366-editor-shader-packer-dt-366",
@@ -19289,7 +19874,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19307,7 +19892,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-367-editor-shader-importer-dt-367",
@@ -19316,7 +19902,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19334,7 +19920,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-368-editor-shader-generator-dt-368",
@@ -19343,7 +19930,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19361,7 +19948,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-369-editor-shader-builder-dt-369",
@@ -19370,7 +19958,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -19388,7 +19976,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-370-editor-shader-designer-dt-370",
@@ -19397,7 +19986,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -19415,7 +20004,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-371-editor-shader-validator-dt-371",
@@ -19424,7 +20014,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -19442,7 +20032,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-372-editor-shader-editor-dt-372",
@@ -19451,7 +20042,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -19469,7 +20060,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-373-editor-shader-creator-dt-373",
@@ -19478,7 +20070,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -19496,7 +20088,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-374-editor-shader-manager-dt-374",
@@ -19505,7 +20098,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -19523,7 +20116,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-375-editor-shader-assembler-dt-375",
@@ -19532,7 +20126,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -19550,7 +20144,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-376-editor-shader-processor-dt-376",
@@ -19559,7 +20154,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -19577,7 +20172,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-377-editor-shader-planner-dt-377",
@@ -19586,7 +20182,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -19604,7 +20200,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-378-editor-shader-simulator-dt-378",
@@ -19613,7 +20210,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -19631,7 +20228,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-379-editor-shader-renderer-dt-379",
@@ -19640,7 +20238,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -19658,7 +20256,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-380-editor-shader-mapper-dt-380",
@@ -19667,7 +20266,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19685,7 +20284,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-381-editor-shader-inspector-dt-381",
@@ -19694,7 +20294,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -19712,7 +20312,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-382-editor-shader-composer-dt-382",
@@ -19721,7 +20322,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -19739,7 +20340,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-383-editor-shader-converter-dt-383",
@@ -19748,7 +20350,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19766,7 +20368,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-384-editor-shader-debugger-dt-384",
@@ -19775,7 +20378,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -19793,7 +20396,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-385-editor-shader-analyzer-dt-385",
@@ -19802,7 +20406,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -19820,7 +20424,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-386-editor-animation-packer-dt-386",
@@ -19829,7 +20434,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -19847,7 +20452,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-387-editor-animation-importer-dt-387",
@@ -19856,7 +20462,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -19874,7 +20480,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-388-editor-animation-generator-dt-388",
@@ -19883,7 +20490,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -19901,7 +20508,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-389-editor-animation-builder-dt-389",
@@ -19910,7 +20518,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19928,7 +20536,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-390-editor-animation-designer-dt-390",
@@ -19937,7 +20546,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -19955,7 +20564,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-391-editor-animation-validator-dt-391",
@@ -19964,7 +20574,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -19982,7 +20592,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-392-editor-animation-editor-dt-392",
@@ -19991,7 +20602,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -20009,7 +20620,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-393-editor-animation-creator-dt-393",
@@ -20018,7 +20630,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -20036,7 +20648,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-394-editor-animation-manager-dt-394",
@@ -20045,7 +20658,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20063,7 +20676,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-395-editor-animation-assembler-dt-395",
@@ -20072,7 +20686,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -20090,7 +20704,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-396-editor-animation-processor-dt-396",
@@ -20099,7 +20714,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -20117,7 +20732,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-397-editor-animation-planner-dt-397",
@@ -20126,7 +20742,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20144,7 +20760,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-398-editor-animation-simulator-dt-398",
@@ -20153,7 +20770,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -20171,7 +20788,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-399-editor-animation-renderer-dt-399",
@@ -20180,7 +20798,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -20198,7 +20816,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-400-editor-animation-mapper-dt-400",
@@ -20207,7 +20826,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -20225,7 +20844,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-401-editor-animation-inspector-dt-401",
@@ -20234,7 +20854,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -20252,7 +20872,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-402-editor-animation-composer-dt-402",
@@ -20261,7 +20882,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -20279,7 +20900,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-403-editor-animation-converter-dt-403",
@@ -20288,7 +20910,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -20306,7 +20928,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-404-editor-animation-debugger-dt-404",
@@ -20315,7 +20938,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20333,7 +20956,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-405-editor-animation-analyzer-dt-405",
@@ -20342,7 +20966,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -20360,7 +20984,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-406-editor-sequence-packer-dt-406",
@@ -20369,7 +20994,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -20387,7 +21012,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-407-editor-sequence-importer-dt-407",
@@ -20396,7 +21022,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -20414,7 +21040,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-408-editor-sequence-generator-dt-408",
@@ -20423,7 +21050,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -20441,7 +21068,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-409-editor-sequence-builder-dt-409",
@@ -20450,7 +21078,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -20468,7 +21096,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-410-editor-sequence-designer-dt-410",
@@ -20477,7 +21106,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -20495,7 +21124,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-411-editor-sequence-validator-dt-411",
@@ -20504,7 +21134,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -20522,7 +21152,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-412-editor-sequence-editor-dt-412",
@@ -20531,7 +21162,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -20549,7 +21180,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-413-editor-sequence-creator-dt-413",
@@ -20558,7 +21190,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -20576,7 +21208,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-414-editor-sequence-manager-dt-414",
@@ -20585,7 +21218,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -20603,7 +21236,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-415-editor-sequence-assembler-dt-415",
@@ -20612,7 +21246,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -20630,7 +21264,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-416-editor-sequence-processor-dt-416",
@@ -20639,7 +21274,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -20657,7 +21292,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-417-editor-sequence-planner-dt-417",
@@ -20666,7 +21302,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20684,7 +21320,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-418-editor-sequence-simulator-dt-418",
@@ -20693,7 +21330,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -20711,7 +21348,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-419-editor-sequence-renderer-dt-419",
@@ -20720,7 +21358,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -20738,7 +21376,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-420-editor-sequence-mapper-dt-420",
@@ -20747,7 +21386,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -20765,7 +21404,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-421-editor-sequence-inspector-dt-421",
@@ -20774,7 +21414,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -20792,7 +21432,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-422-editor-sequence-composer-dt-422",
@@ -20801,7 +21442,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -20819,7 +21460,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-423-editor-sequence-converter-dt-423",
@@ -20828,7 +21470,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -20846,7 +21488,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-424-editor-sequence-debugger-dt-424",
@@ -20855,7 +21498,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -20873,7 +21516,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-425-editor-sequence-analyzer-dt-425",
@@ -20882,7 +21526,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -20900,7 +21544,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-426-editor-pattern-packer-dt-426",
@@ -20909,7 +21554,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -20927,7 +21572,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-427-editor-pattern-importer-dt-427",
@@ -20936,7 +21582,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20954,7 +21600,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-428-editor-pattern-generator-dt-428",
@@ -20963,7 +21610,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -20981,7 +21628,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-429-editor-pattern-builder-dt-429",
@@ -20990,7 +21638,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -21008,7 +21656,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-430-editor-pattern-designer-dt-430",
@@ -21017,7 +21666,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -21035,7 +21684,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-431-editor-pattern-validator-dt-431",
@@ -21044,7 +21694,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21062,7 +21712,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-432-editor-pattern-editor-dt-432",
@@ -21071,7 +21722,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -21089,7 +21740,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-433-editor-pattern-creator-dt-433",
@@ -21098,7 +21750,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -21116,7 +21768,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-434-editor-pattern-manager-dt-434",
@@ -21125,7 +21778,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -21143,7 +21796,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-435-editor-pattern-assembler-dt-435",
@@ -21152,7 +21806,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -21170,7 +21824,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-436-editor-pattern-processor-dt-436",
@@ -21179,7 +21834,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -21197,7 +21852,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-437-editor-pattern-planner-dt-437",
@@ -21206,7 +21862,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -21224,7 +21880,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-438-editor-pattern-simulator-dt-438",
@@ -21233,7 +21890,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -21251,7 +21908,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-439-editor-pattern-renderer-dt-439",
@@ -21260,7 +21918,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21278,7 +21936,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-440-editor-pattern-mapper-dt-440",
@@ -21287,7 +21946,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -21305,7 +21964,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-441-editor-pattern-inspector-dt-441",
@@ -21314,7 +21974,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21332,7 +21992,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-442-editor-pattern-composer-dt-442",
@@ -21341,7 +22002,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -21359,7 +22020,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-443-editor-pattern-converter-dt-443",
@@ -21368,7 +22030,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -21386,7 +22048,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-444-editor-pattern-debugger-dt-444",
@@ -21395,7 +22058,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -21413,7 +22076,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-445-editor-pattern-analyzer-dt-445",
@@ -21422,7 +22086,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -21440,7 +22104,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-446-manager-sprite-packer-dt-446",
@@ -21449,7 +22114,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -21467,7 +22132,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-447-manager-sprite-importer-dt-447",
@@ -21476,7 +22142,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -21494,7 +22160,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-448-manager-sprite-generator-dt-448",
@@ -21503,7 +22170,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -21521,7 +22188,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-449-manager-sprite-builder-dt-449",
@@ -21530,7 +22198,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -21548,7 +22216,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-450-manager-sprite-designer-dt-450",
@@ -21557,7 +22226,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -21575,7 +22244,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-451-manager-sprite-validator-dt-451",
@@ -21584,7 +22254,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21602,7 +22272,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-452-manager-sprite-editor-dt-452",
@@ -21611,7 +22282,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -21629,7 +22300,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-453-manager-sprite-creator-dt-453",
@@ -21638,7 +22310,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -21656,7 +22328,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-454-manager-sprite-manager-dt-454",
@@ -21665,7 +22338,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -21683,7 +22356,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-455-manager-sprite-assembler-dt-455",
@@ -21692,7 +22366,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21710,7 +22384,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-456-manager-sprite-processor-dt-456",
@@ -21719,7 +22394,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -21737,7 +22412,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-457-manager-sprite-planner-dt-457",
@@ -21746,7 +22422,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21764,7 +22440,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-458-manager-sprite-simulator-dt-458",
@@ -21773,7 +22450,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -21791,7 +22468,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-459-manager-sprite-renderer-dt-459",
@@ -21800,7 +22478,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -21818,7 +22496,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-460-manager-sprite-mapper-dt-460",
@@ -21827,7 +22506,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -21845,7 +22524,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-461-manager-sprite-inspector-dt-461",
@@ -21854,7 +22534,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -21872,7 +22552,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-462-manager-sprite-composer-dt-462",
@@ -21881,7 +22562,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -21899,7 +22580,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-463-manager-sprite-converter-dt-463",
@@ -21908,7 +22590,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -21926,7 +22608,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-464-manager-sprite-debugger-dt-464",
@@ -21935,7 +22618,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21953,7 +22636,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-465-manager-sprite-analyzer-dt-465",
@@ -21962,7 +22646,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -21980,7 +22664,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-466-manager-audio-packer-dt-466",
@@ -21989,7 +22674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22007,7 +22692,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-467-manager-audio-importer-dt-467",
@@ -22016,7 +22702,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22034,7 +22720,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-468-manager-audio-generator-dt-468",
@@ -22043,7 +22730,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -22061,7 +22748,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-469-manager-audio-builder-dt-469",
@@ -22070,7 +22758,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -22088,7 +22776,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-470-manager-audio-designer-dt-470",
@@ -22097,7 +22786,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -22115,7 +22804,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-471-manager-audio-validator-dt-471",
@@ -22124,7 +22814,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -22142,7 +22832,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-472-manager-audio-editor-dt-472",
@@ -22151,7 +22842,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -22169,7 +22860,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-473-manager-audio-creator-dt-473",
@@ -22178,7 +22870,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22196,7 +22888,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-474-manager-audio-manager-dt-474",
@@ -22205,7 +22898,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -22223,7 +22916,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-475-manager-audio-assembler-dt-475",
@@ -22232,7 +22926,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -22250,7 +22944,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-476-manager-audio-processor-dt-476",
@@ -22259,7 +22954,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22277,7 +22972,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-477-manager-audio-planner-dt-477",
@@ -22286,7 +22982,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -22304,7 +23000,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-478-manager-audio-simulator-dt-478",
@@ -22313,7 +23010,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -22331,7 +23028,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-479-manager-audio-renderer-dt-479",
@@ -22340,7 +23038,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -22358,7 +23056,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-480-manager-audio-mapper-dt-480",
@@ -22367,7 +23066,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -22385,7 +23084,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-481-manager-audio-inspector-dt-481",
@@ -22394,7 +23094,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -22412,7 +23112,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-482-manager-audio-composer-dt-482",
@@ -22421,7 +23122,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -22439,7 +23140,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-483-manager-audio-converter-dt-483",
@@ -22448,7 +23150,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -22466,7 +23168,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-484-manager-audio-debugger-dt-484",
@@ -22475,7 +23178,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -22493,7 +23196,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-485-manager-audio-analyzer-dt-485",
@@ -22502,7 +23206,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -22520,7 +23224,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-486-manager-texture-packer-dt-486",
@@ -22529,7 +23234,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -22547,7 +23252,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-487-manager-texture-importer-dt-487",
@@ -22556,7 +23262,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -22574,7 +23280,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-488-manager-texture-generator-dt-488",
@@ -22583,7 +23290,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -22601,7 +23308,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-489-manager-texture-builder-dt-489",
@@ -22610,7 +23318,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -22628,7 +23336,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-490-manager-texture-designer-dt-490",
@@ -22637,7 +23346,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22655,7 +23364,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-491-manager-texture-validator-dt-491",
@@ -22664,7 +23374,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -22682,7 +23392,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-492-manager-texture-editor-dt-492",
@@ -22691,7 +23402,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -22709,7 +23420,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-493-manager-texture-creator-dt-493",
@@ -22718,7 +23430,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -22736,7 +23448,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-494-manager-texture-manager-dt-494",
@@ -22745,7 +23458,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -22763,7 +23476,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-495-manager-texture-assembler-dt-495",
@@ -22772,7 +23486,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -22790,7 +23504,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-496-manager-texture-processor-dt-496",
@@ -22799,7 +23514,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -22817,7 +23532,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-497-manager-texture-planner-dt-497",
@@ -22826,7 +23542,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -22844,7 +23560,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-498-manager-texture-simulator-dt-498",
@@ -22853,7 +23570,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -22871,7 +23588,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-499-manager-texture-renderer-dt-499",
@@ -22880,7 +23598,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22898,7 +23616,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-500-manager-texture-mapper-dt-500",
@@ -22907,7 +23626,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -22925,7 +23644,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-501-manager-texture-inspector-dt-501",
@@ -22934,7 +23654,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -22952,7 +23672,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-502-manager-texture-composer-dt-502",
@@ -22961,7 +23682,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -22979,7 +23700,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-503-manager-texture-converter-dt-503",
@@ -22988,7 +23710,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -23006,7 +23728,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-504-manager-texture-debugger-dt-504",
@@ -23015,7 +23738,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23033,7 +23756,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-505-manager-texture-analyzer-dt-505",
@@ -23042,7 +23766,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -23060,7 +23784,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-506-manager-font-packer-dt-506",
@@ -23069,7 +23794,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -23087,7 +23812,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-507-manager-font-importer-dt-507",
@@ -23096,7 +23822,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -23114,7 +23840,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-508-manager-font-generator-dt-508",
@@ -23123,7 +23850,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -23141,7 +23868,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-509-manager-font-builder-dt-509",
@@ -23150,7 +23878,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -23168,7 +23896,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-510-manager-font-designer-dt-510",
@@ -23177,7 +23906,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -23195,7 +23924,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-511-manager-font-validator-dt-511",
@@ -23204,7 +23934,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -23222,7 +23952,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-512-manager-font-editor-dt-512",
@@ -23231,7 +23962,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23249,7 +23980,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-513-manager-font-creator-dt-513",
@@ -23258,7 +23990,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -23276,7 +24008,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-514-manager-font-manager-dt-514",
@@ -23285,7 +24018,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -23303,7 +24036,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-515-manager-font-assembler-dt-515",
@@ -23312,7 +24046,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23330,7 +24064,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-516-manager-font-processor-dt-516",
@@ -23339,7 +24074,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23357,7 +24092,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-517-manager-font-planner-dt-517",
@@ -23366,7 +24102,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -23384,7 +24120,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-518-manager-font-simulator-dt-518",
@@ -23393,7 +24130,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -23411,7 +24148,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-519-manager-font-renderer-dt-519",
@@ -23420,7 +24158,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -23438,7 +24176,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-520-manager-font-mapper-dt-520",
@@ -23447,7 +24186,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -23465,7 +24204,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-521-manager-font-inspector-dt-521",
@@ -23474,7 +24214,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -23492,7 +24232,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-522-manager-font-composer-dt-522",
@@ -23501,7 +24242,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23519,7 +24260,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-523-manager-font-converter-dt-523",
@@ -23528,7 +24270,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -23546,7 +24288,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-524-manager-font-debugger-dt-524",
@@ -23555,7 +24298,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -23573,7 +24316,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-525-manager-font-analyzer-dt-525",
@@ -23582,7 +24326,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23600,7 +24344,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-526-manager-level-packer-dt-526",
@@ -23609,7 +24354,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -23627,7 +24372,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-527-manager-level-importer-dt-527",
@@ -23636,7 +24382,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23654,7 +24400,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-528-manager-level-generator-dt-528",
@@ -23663,7 +24410,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -23681,7 +24428,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-529-manager-level-builder-dt-529",
@@ -23690,7 +24438,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -23708,7 +24456,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-530-manager-level-designer-dt-530",
@@ -23717,7 +24466,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -23735,7 +24484,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-531-manager-level-validator-dt-531",
@@ -23744,7 +24494,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -23762,7 +24512,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-532-manager-level-editor-dt-532",
@@ -23771,7 +24522,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -23789,7 +24540,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-533-manager-level-creator-dt-533",
@@ -23798,7 +24550,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -23816,7 +24568,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-534-manager-level-manager-dt-534",
@@ -23825,7 +24578,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -23843,7 +24596,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-535-manager-level-assembler-dt-535",
@@ -23852,7 +24606,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -23870,7 +24624,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-536-manager-level-processor-dt-536",
@@ -23879,7 +24634,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -23897,7 +24652,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-537-manager-level-planner-dt-537",
@@ -23906,7 +24662,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23924,7 +24680,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-538-manager-level-simulator-dt-538",
@@ -23933,7 +24690,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -23951,7 +24708,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-539-manager-level-renderer-dt-539",
@@ -23960,7 +24718,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23978,7 +24736,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-540-manager-level-mapper-dt-540",
@@ -23987,7 +24746,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -24005,7 +24764,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-541-manager-level-inspector-dt-541",
@@ -24014,7 +24774,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -24032,7 +24792,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-542-manager-level-composer-dt-542",
@@ -24041,7 +24802,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -24059,7 +24820,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-543-manager-level-converter-dt-543",
@@ -24068,7 +24830,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -24086,7 +24848,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-544-manager-level-debugger-dt-544",
@@ -24095,7 +24858,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -24113,7 +24876,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "dt-545-manager-level-analyzer-dt-545",
@@ -24122,7 +24886,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 4.99,
+        "price": 29.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -24140,7 +24904,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "545-in-1 Suite ($29.99)"
     },
     {
         "id": "pf-001-classic-pixel-font-pf-001",
@@ -24149,7 +24914,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -24167,7 +24932,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-002-amber-terminal-font-pf-002",
@@ -24176,7 +24942,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24194,7 +24960,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-003-green-matrix-font-pf-003",
@@ -24203,7 +24970,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -24221,7 +24988,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-004-neon-retro-font-pf-004",
@@ -24230,7 +24998,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24248,7 +25016,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-005-dark-amber-font-pf-005",
@@ -24257,7 +25026,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -24275,7 +25044,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-006-neon-glitch-font-pf-006",
@@ -24284,7 +25054,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -24302,7 +25072,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-007-space-station-font-pf-007",
@@ -24311,7 +25082,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -24329,7 +25100,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-008-horror-typewriter-font-pf-008",
@@ -24338,7 +25110,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -24356,7 +25128,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-009-steampunk-brass-font-pf-009",
@@ -24365,7 +25138,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -24383,7 +25156,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-010-digital-cyber-font-pf-010",
@@ -24392,7 +25166,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -24410,7 +25184,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-011-glitch-sci-fi-font-pf-011",
@@ -24419,7 +25194,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -24437,7 +25212,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-012-retro-cyberpunk-font-pf-012",
@@ -24446,7 +25222,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 5.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -24464,7 +25240,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-013-modern-horror-font-pf-013",
@@ -24473,7 +25250,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 6.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -24491,7 +25268,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-014-classic-steampunk-font-pf-014",
@@ -24500,7 +25278,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -24518,7 +25296,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-015-pixel-retro-font-pf-015",
@@ -24527,7 +25306,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 5.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -24545,7 +25324,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-016-digital-fantasy-font-pf-016",
@@ -24554,7 +25334,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 6.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -24572,7 +25352,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-017-typewriter-modern-font-pf-017",
@@ -24581,7 +25362,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -24599,7 +25380,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-018-terminal-digital-font-pf-018",
@@ -24608,7 +25390,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 5.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -24626,7 +25408,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-019-blocky-space-font-pf-019",
@@ -24635,7 +25418,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 6.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -24653,7 +25436,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-020-slim-neon-font-pf-020",
@@ -24662,7 +25446,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -24680,7 +25464,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-021-bold-sci-fi-font-pf-021",
@@ -24689,7 +25474,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 5.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -24707,7 +25492,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-022-outline-cyberpunk-font-pf-022",
@@ -24716,7 +25502,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 6.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -24734,7 +25520,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-023-shadow-horror-font-pf-023",
@@ -24743,7 +25530,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 4.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -24761,7 +25548,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-024-glow-steampunk-font-pf-024",
@@ -24770,7 +25558,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 5.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24788,7 +25576,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "pf-025-steampunk-retro-font-pf-025",
@@ -24797,7 +25586,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 6.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -24815,7 +25604,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "25-Font Collection ($14.99)"
     },
     {
         "id": "sf-001-ui-sound-effects-pack-sf-001",
@@ -24824,7 +25614,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -24841,7 +25631,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-002-combat-sound-effects-pack-sf-002",
@@ -24850,7 +25641,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 4.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -24867,7 +25658,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-003-environmental-sound-effects-pack-sf-003",
@@ -24876,7 +25668,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -24893,7 +25685,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-004-retro-arcade-sfx-pack-sf-004",
@@ -24902,7 +25695,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.49,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -24919,7 +25712,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-005-sci-fi-sound-effects-pack-sf-005",
@@ -24928,7 +25722,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 4.49,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -24945,7 +25739,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-006-footsteps-movement-sound-effects-pack-sf-006",
@@ -24954,7 +25749,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.49,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -24971,7 +25766,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-007-magic-spell-sound-effects-pack-sf-007",
@@ -24980,7 +25776,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 4.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -24997,7 +25793,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-008-weapon-sound-effects-pack-sf-008",
@@ -25006,7 +25803,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -25023,7 +25820,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-009-horror-ambient-sound-effects-pack-sf-009",
@@ -25032,7 +25830,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.49,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -25049,7 +25847,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     },
     {
         "id": "sf-010-retro-gaming-sound-effects-pack-sf-010",
@@ -25058,7 +25857,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 3.49,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -25075,7 +25874,8 @@ const PRODUCTS = [
             "Quality Status: 100% Automated Test Pass",
             "Includes Full Unminified Source Code",
             "100% Royalty-Free Commercial License"
-        ]
+        ],
+        "bundleBadge": "10-SFX Mega Pack ($9.99)"
     }
 ];
 
