@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "RTS Tactical Multi-Unit Formations & Fluid Pathfinding System",
-    "description": "Production-grade tactical squad formation and spatial navigation system engineered for real-time strategy (RTS), tactical squad simulations, MOBA minions, and large-scale unit formations. Features Box/Grid, Wedge/Arrowhead, Line/Column, Ring/Circle, and Surround/Flank configurations with procedural slot assignment, Reynolds steering behaviors, O(1) broadphase spatial hashing grid avoidance, and movement wheel rotation.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087204.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "RTS Tactical Multi-Unit Formations & Fluid Pathfinding System",
+  "description": "Production-grade tactical squad formation and spatial navigation system engineered for real-time strategy (RTS), tactical squad simulations, MOBA minions, and large-scale unit formations. Features Box/Grid, Wedge/Arrowhead, Line/Column, Ring/Circle, and Surround/Flank configurations with procedural slot assignment, Reynolds steering behaviors, O(1) broadphase spatial hashing grid avoidance, and movement wheel rotation.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087204.jpg",
+  "sku": "rts-multi-unit-formations",
+  "mpn": "rts-multi-unit-formations",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/rts-tactical-multi-unit-formations-fluid-pathfinding-system",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/rts-tactical-multi-unit-formations-fluid-pathfinding-system"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

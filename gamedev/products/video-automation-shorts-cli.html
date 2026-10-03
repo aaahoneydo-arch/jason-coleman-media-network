@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Video Automation & YouTube Shorts Media Pipeline CLI",
-    "description": "End-to-end batch video generation CLI for content creators and automated channels. Automatically sequences raw video clips into cohesive montages, synthesizes and ducks background audio under narration, scales to 9:16 vertical (Shorts/TikTok) or 16:9 4K landscape, and renders finished MP4s with transition overlays.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087610.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Video Automation & YouTube Shorts Media Pipeline CLI",
+  "description": "End-to-end batch video generation CLI for content creators and automated channels. Automatically sequences raw video clips into cohesive montages, synthesizes and ducks background audio under narration, scales to 9:16 vertical (Shorts/TikTok) or 16:9 4K landscape, and renders finished MP4s with transition overlays.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087610.jpg",
+  "sku": "video-automation-shorts-cli",
+  "mpn": "video-automation-shorts-cli",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/shorts-reel-automation-video-subtitle-beat-sync-cli",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/shorts-reel-automation-video-subtitle-beat-sync-cli"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

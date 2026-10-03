@@ -37,28 +37,64 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Google Flow Commercial Asset Collection Vol. 2 (364 Assets)",
-    "description": "Comprehensive 364-piece visual asset library generated directly through our commercial Google Flow pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/flowvol2.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Google Flow Commercial Asset Collection Vol. 2 (364 Assets)",
+  "description": "Comprehensive 364-piece visual asset library generated directly through our commercial Google Flow pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/flowvol2.jpg",
+  "sku": "flow-commercial-collection-vol2",
+  "mpn": "flow-commercial-collection-vol2",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "69.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "24"
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {
@@ -243,7 +279,7 @@
         <p class="detail-desc">Comprehensive 364-piece visual asset library generated directly through our commercial Google Flow pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.</p>
 
         <ul class="detail-specs">
-          <li>364 High-Res Visual Assets</li><li>Direct Studio Render Pipeline</li><li>Full Royalty-Free Commercial License</li>
+          <li>364 High-Resolution Commercial Visual Assets</li><li>180 MB High-Compression Asset Package</li><li>Environments, Characters, Props & Concepts</li><li>Full PBR and Shader-Ready Texture Formats</li><li>100% Royalty-Free Commercial License</li>
         </ul>
 
         <div class="detail-actions">
@@ -256,6 +292,8 @@
         </div>
       </div>
     </article>
+
+    
   </main>
 </body>
 </html>

@@ -37,23 +37,64 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack",
-    "description": "Precision-designed mecha titan sprites with separate weapons, missile racks, laser cannons, and tread modules ready to animate and assemble in any 2D game engine.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083677.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack",
+  "description": "Precision-designed mecha titan sprites with separate weapons, missile racks, laser cannons, and tread modules ready to animate and assemble in any 2D game engine.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083677.jpg",
+  "sku": "mechdominion",
+  "mpn": "mechdominion",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/mechdominion-titans-bosses-sprite-pack",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/mechdominion-titans-bosses-sprite-pack"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

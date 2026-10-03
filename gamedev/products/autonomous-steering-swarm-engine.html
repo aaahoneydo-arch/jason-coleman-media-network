@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Autonomous Steering Behaviors & Boids Swarm Simulation Engine",
-    "description": "High-performance, headless 2D steering-behaviors and flocking simulation engine built entirely in native Python 3.10+ standard library. Zero external dependencies. Features 10 autonomous behaviors (Seek, Flee, Arrive, Wander, Pursuit, Evade, Obstacle Avoidance, Path Following, Leader Following, Flow Field Following), Craig Reynolds Boids swarming with priority blending, and uniform-grid Spatial Hash scaling to 10,000+ entities.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087373.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Autonomous Steering Behaviors & Boids Swarm Simulation Engine",
+  "description": "High-performance, headless 2D steering-behaviors and flocking simulation engine built entirely in native Python 3.10+ standard library. Zero external dependencies. Features 10 autonomous behaviors (Seek, Flee, Arrive, Wander, Pursuit, Evade, Obstacle Avoidance, Path Following, Leader Following, Flow Field Following), Craig Reynolds Boids swarming with priority blending, and uniform-grid Spatial Hash scaling to 10,000+ entities.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087373.jpg",
+  "sku": "autonomous-steering-swarm-engine",
+  "mpn": "autonomous-steering-swarm-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/autonomous-steering-behaviors-boids-swarm-simulation-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "29.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/autonomous-steering-behaviors-boids-swarm-simulation-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

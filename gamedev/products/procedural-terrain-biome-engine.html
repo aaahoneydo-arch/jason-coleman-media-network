@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Procedural 3D/2D Terrain & Biome Generation Engine",
-    "description": "Production-grade procedural terrain and biome generation framework built entirely in pure Python standard library. Features 2D/3D Perlin and Simplex noise, multi-octave FBM and ridge synthesis, particle-based hydraulic droplet erosion, mass-conserving Jacobi thermal erosion, 12 Whittaker diagram biome classifications, 3D cellular automata cave systems with flood-fill connectivity, and full Wavefront OBJ mesh export.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5086682.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Procedural 3D/2D Terrain & Biome Generation Engine",
+  "description": "Production-grade procedural terrain and biome generation framework built entirely in pure Python standard library. Features 2D/3D Perlin and Simplex noise, multi-octave FBM and ridge synthesis, particle-based hydraulic droplet erosion, mass-conserving Jacobi thermal erosion, 12 Whittaker diagram biome classifications, 3D cellular automata cave systems with flood-fill connectivity, and full Wavefront OBJ mesh export.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5086682.jpg",
+  "sku": "procedural-terrain-biome-engine",
+  "mpn": "procedural-terrain-biome-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/procedural-3d2d-terrain-biome-generation-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "49.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/procedural-3d2d-terrain-biome-generation-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

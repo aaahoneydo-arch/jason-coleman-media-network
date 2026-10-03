@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 Procedural 3D Dungeon Delve & Terrain Engine",
-    "description": "Procedural 3D dungeon crawl and mountainous terrain generator for Godot 4. Generates multi-floor dungeons with room-and-corridor geometry, heightmap terrace sculpting, seeded level layouts, automatic stair and door placement, and dynamic room lighting anchors.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084488.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 Procedural 3D Dungeon Delve & Terrain Engine",
+  "description": "Procedural 3D dungeon crawl and mountainous terrain generator for Godot 4. Generates multi-floor dungeons with room-and-corridor geometry, heightmap terrace sculpting, seeded level layouts, automatic stair and door placement, and dynamic room lighting anchors.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084488.jpg",
+  "sku": "godot4-procedural-dungeon-delve",
+  "mpn": "godot4-procedural-dungeon-delve",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 44.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-procedural-3d-dungeon-delve-terrain-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "44.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-procedural-3d-dungeon-delve-terrain-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

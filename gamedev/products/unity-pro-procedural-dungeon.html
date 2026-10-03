@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture",
-    "description": "Production-grade procedural dungeon and cavern generation engine for Unity. Includes Binary Space Partitioning (BSP) room layouts, Cellular Automata caves, minimum spanning tree room connectivity, 2D Tilemap and 3D modular prefab spawners, and custom In-Editor generation tooling with live Scene View Gizmos.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087177.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture",
+  "description": "Production-grade procedural dungeon and cavern generation engine for Unity. Includes Binary Space Partitioning (BSP) room layouts, Cellular Automata caves, minimum spanning tree room connectivity, 2D Tilemap and 3D modular prefab spawners, and custom In-Editor generation tooling with live Scene View Gizmos.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087177.jpg",
+  "sku": "unity-pro-procedural-dungeon",
+  "mpn": "unity-pro-procedural-dungeon",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/unity-pro-procedural-2d-3d-dungeon-delve-generator-architecture",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "29.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/unity-pro-procedural-2d-3d-dungeon-delve-generator-architecture"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

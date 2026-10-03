@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Inventory, Crafting & Loot Matrix Engine",
-    "description": "Modular headless inventory, crafting, and loot engine for RPGs, survival games, and roguelikes. Features Resident Evil / Diablo style 2D grid spatial placement with item rotation and collision checks, standard slot-based stack/weight systems, multi-station recipe crafting (shapeless, shaped, catalyst), 4-tier weighted drop matrices, equipment paperdoll sockets with gem durability, and atomic JSON serialization.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084477.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Inventory, Crafting & Loot Matrix Engine",
+  "description": "Modular headless inventory, crafting, and loot engine for RPGs, survival games, and roguelikes. Features Resident Evil / Diablo style 2D grid spatial placement with item rotation and collision checks, standard slot-based stack/weight systems, multi-station recipe crafting (shapeless, shaped, catalyst), 4-tier weighted drop matrices, equipment paperdoll sockets with gem durability, and atomic JSON serialization.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5084477.jpg",
+  "sku": "inventory-crafting-loot-engine",
+  "mpn": "inventory-crafting-loot-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 44.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/inventory-crafting-loot-matrix-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "44.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/inventory-crafting-loot-matrix-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Unity Pro A* Pathfinding & Grid NavMesh Engine",
-    "description": "Production-grade C# A* pathfinding and grid navigation system engineered for Unity 2022, 2023, and Unity 6 LTS. Features binary min-heap priority queues, dynamic obstacle carving, and SphereCast raycast smoothing for top-down RTS, tactical RPGs, tower defense, and procedural dungeon crawlers.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087480.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Unity Pro A* Pathfinding & Grid NavMesh Engine",
+  "description": "Production-grade C# A* pathfinding and grid navigation system engineered for Unity 2022, 2023, and Unity 6 LTS. Features binary min-heap priority queues, dynamic obstacle carving, and SphereCast raycast smoothing for top-down RTS, tactical RPGs, tower defense, and procedural dungeon crawlers.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087480.jpg",
+  "sku": "unity-pro-a-pathfinding-grid-navmesh-engine",
+  "mpn": "unity-pro-a-pathfinding-grid-navmesh-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/unity-pro-a-pathfinding-grid-navmesh-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/unity-pro-a-pathfinding-grid-navmesh-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

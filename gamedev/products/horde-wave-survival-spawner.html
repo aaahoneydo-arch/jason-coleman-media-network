@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Horde Wave Survival & Enemy Spawner Matrix",
-    "description": "Production-grade enemy wave spawner and horde survival architecture for Godot 4. Features dynamic spawn slot allocation across camp/road/champion encounter tiers, elastic respawn timers, leash distance geometry to prevent clustering, rotating champion affixes (Bulwark, Charger, Hexer), and corpse persistence with ground loot drops.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087302.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Horde Wave Survival & Enemy Spawner Matrix",
+  "description": "Production-grade enemy wave spawner and horde survival architecture for Godot 4. Features dynamic spawn slot allocation across camp/road/champion encounter tiers, elastic respawn timers, leash distance geometry to prevent clustering, rotating champion affixes (Bulwark, Charger, Hexer), and corpse persistence with ground loot drops.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087302.jpg",
+  "sku": "horde-wave-survival-spawner",
+  "mpn": "horde-wave-survival-spawner",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/horde-wave-survival-enemy-spawner-matrix",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/horde-wave-survival-enemy-spawner-matrix"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

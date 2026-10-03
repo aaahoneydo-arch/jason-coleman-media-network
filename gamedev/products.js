@@ -25876,6 +25876,52 @@ const PRODUCTS = [
             "100% Royalty-Free Commercial License"
         ],
         "bundleBadge": "10-SFX Mega Pack ($9.99)"
+    },
+    {
+        "id": "flow-commercial-collection-vol2",
+        "title": "Google Flow Commercial Asset Collection Vol. 2 (364 Assets)",
+        "subtitle": "364 commercial-grade visual assets: environments, character concepts, game props & architectural designs.",
+        "category": "art",
+        "price": 69.99,
+        "badges": [
+            "364 Visual Assets",
+            "180 MB Package",
+            "Commercial Royalty-Free"
+        ],
+        "cover": "assets/covers/flowvol2.jpg",
+        "itchUrl": "https://jasonc101.itch.io/",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Comprehensive 364-piece visual asset library generated directly through our commercial Google Flow pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.",
+        "specs": [
+            "364 High-Resolution Commercial Visual Assets",
+            "180 MB High-Compression Asset Package",
+            "Environments, Characters, Props & Concepts",
+            "Full PBR and Shader-Ready Texture Formats",
+            "100% Royalty-Free Commercial License"
+        ]
+    },
+    {
+        "id": "flow-master-production-vault-467",
+        "title": "Google Flow Master Production Vault (467 High-Res Assets)",
+        "subtitle": "467 commercial-grade visual assets: widescreen vistas, character turnarounds & fantasy props.",
+        "category": "art",
+        "price": 79.99,
+        "badges": [
+            "467 Production Assets",
+            "Complete Vault",
+            "Commercial Royalty-Free"
+        ],
+        "cover": "assets/covers/soitswarthen.jpg",
+        "itchUrl": "https://jasonc101.itch.io/",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Massive 467-asset visual megavault containing every production asset from our Google Flow pipeline. Completely categorized into widescreen 16:9 cinematic vistas, 1:1 square VTT tokens/potions, and vertical 2:3 fine art prints.",
+        "specs": [
+            "467 Production-Grade High-Resolution Assets",
+            "Widescreen 16:9 Cinematic Environments",
+            "Square 1:1 VTT Tokens, Relics & Potions",
+            "Vertical 2:3 High-DPI Fine Art Prints",
+            "100% Royalty-Free Commercial License"
+        ]
     }
 ];
 

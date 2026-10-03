@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine",
-    "description": "Production-grade 2D field-of-view and dynamic lighting engine kernel built for roguelikes, tactical grid RPGs, stealth titles, and procedural dungeon crawlers. Combines 8-octant symmetric recursive shadowcasting, sub-pixel continuous visibility polygons, and multi-source RGB lightmaps capable of processing over 250,000 tiles per second.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087467.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine",
+  "description": "Production-grade 2D field-of-view and dynamic lighting engine kernel built for roguelikes, tactical grid RPGs, stealth titles, and procedural dungeon crawlers. Combines 8-octant symmetric recursive shadowcasting, sub-pixel continuous visibility polygons, and multi-source RGB lightmaps capable of processing over 250,000 tiles per second.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087467.jpg",
+  "sku": "2d-dynamic-fov-symmetric-recursive-shadowcasting-engine",
+  "mpn": "2d-dynamic-fov-symmetric-recursive-shadowcasting-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/2d-dynamic-fov-symmetric-recursive-shadowcasting-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/2d-dynamic-fov-symmetric-recursive-shadowcasting-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

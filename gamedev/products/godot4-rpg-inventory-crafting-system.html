@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 RPG Inventory, Crafting Bench & Loot Addon",
-    "description": "Turnkey RPG inventory and crafting bench UI for Godot 4. Includes slot/grid inventory containers, recipe unlocking systems, station crafting requirements (forge, alchemy, workbench), rarity border shaders, drag-and-drop mechanics, item stat comparison tooltips, and ground drop physics.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087339.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 RPG Inventory, Crafting Bench & Loot Addon",
+  "description": "Turnkey RPG inventory and crafting bench UI for Godot 4. Includes slot/grid inventory containers, recipe unlocking systems, station crafting requirements (forge, alchemy, workbench), rarity border shaders, drag-and-drop mechanics, item stat comparison tooltips, and ground drop physics.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087339.jpg",
+  "sku": "godot4-rpg-inventory-crafting-system",
+  "mpn": "godot4-rpg-inventory-crafting-system",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-rpg-inventory-crafting-bench-loot-addon",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-rpg-inventory-crafting-bench-loot-addon"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

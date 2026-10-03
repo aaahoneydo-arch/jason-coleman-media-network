@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Procedural Retro & Sci-Fi Game Audio Synthesizer Engine",
-    "description": "Production-grade, headless, procedural audio synthesizer engine built entirely in pure Python standard library. Features PolyBLEP band-limited anti-aliased oscillators (Sine, Square with variable duty-cycle, Sawtooth, Triangle, White Noise, Voss-McCartney Pink Noise), ADSR envelopes with exponential/linear curves, state-variable resonant filters (LPF, HPF, BPF), full effects suite (Bitcrusher, Overdrive Distortion, Delay/Echo, Flanger, Schroeder Reverb), 8 procedural game SFX presets (Laser, Explosion, Jump, Powerup, Coin, Click, Chirp, Buzzer), standard 16-bit PCM WAV read/write, and high throughput (>6,150,000 samples/sec).",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087078.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Procedural Retro & Sci-Fi Game Audio Synthesizer Engine",
+  "description": "Production-grade, headless, procedural audio synthesizer engine built entirely in pure Python standard library. Features PolyBLEP band-limited anti-aliased oscillators (Sine, Square with variable duty-cycle, Sawtooth, Triangle, White Noise, Voss-McCartney Pink Noise), ADSR envelopes with exponential/linear curves, state-variable resonant filters (LPF, HPF, BPF), full effects suite (Bitcrusher, Overdrive Distortion, Delay/Echo, Flanger, Schroeder Reverb), 8 procedural game SFX presets (Laser, Explosion, Jump, Powerup, Coin, Click, Chirp, Buzzer), standard 16-bit PCM WAV read/write, and high throughput (>6,150,000 samples/sec).",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087078.jpg",
+  "sku": "procedural-audio-synth-engine",
+  "mpn": "procedural-audio-synth-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 39.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/procedural-retro-sci-fi-game-audio-synthesizer-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "39.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/procedural-retro-sci-fi-game-audio-synthesizer-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

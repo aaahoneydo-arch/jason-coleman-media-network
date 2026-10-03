@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Turn-Based 4X Hex Territory & Diplomacy Engine",
-    "description": "Production headless 4X strategy and territory conquest engine in pure Python. Features turn-based 4-faction empire simulation, hex grid territory borders with supply line validation, 3-resource economic loops (Ore, Energy, Biomass), automated AI build orders with distinct aggression profiles, and a Monte Carlo testing harness.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087212.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Turn-Based 4X Hex Territory & Diplomacy Engine",
+  "description": "Production headless 4X strategy and territory conquest engine in pure Python. Features turn-based 4-faction empire simulation, hex grid territory borders with supply line validation, 3-resource economic loops (Ore, Energy, Biomass), automated AI build orders with distinct aggression profiles, and a Monte Carlo testing harness.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087212.jpg",
+  "sku": "4x-hex-territory-diplomacy",
+  "mpn": "4x-hex-territory-diplomacy",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/turn-based-4x-hex-territory-diplomacy-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/turn-based-4x-hex-territory-diplomacy-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 3D Bullet Hell & Object Pooler Particle Engine",
-    "description": "Ultra high-performance 3D projectile pooling and danmaku bullet hell framework for Godot 4.2 and 4.3 LTS. Capable of maintaining 60+ FPS while rendering and simulating 5,000+ simultaneous bullets using zero-allocation pre-warmed memory ring arrays, multi-arm logarithmic spiral emitters, and swept raycast penetration collisions.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087567.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 3D Bullet Hell & Object Pooler Particle Engine",
+  "description": "Ultra high-performance 3D projectile pooling and danmaku bullet hell framework for Godot 4.2 and 4.3 LTS. Capable of maintaining 60+ FPS while rendering and simulating 5,000+ simultaneous bullets using zero-allocation pre-warmed memory ring arrays, multi-arm logarithmic spiral emitters, and swept raycast penetration collisions.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087567.jpg",
+  "sku": "godot-4-3d-bullet-hell-object-pooler-particle-engine",
+  "mpn": "godot-4-3d-bullet-hell-object-pooler-particle-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-3d-bullet-hell-object-pooler-particle-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-3d-bullet-hell-object-pooler-particle-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

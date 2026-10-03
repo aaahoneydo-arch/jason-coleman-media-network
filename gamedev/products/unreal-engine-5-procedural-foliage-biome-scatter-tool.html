@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Unreal Engine 5 Procedural Foliage & Biome Scatter Tool",
-    "description": "Production-grade procedural vegetation and biome distribution engine for Unreal Engine 5.3, 5.4, and 5.5. Features Poisson disc minimum-distance distribution sampling, slope and altitude masking, automatic Hierarchical Instanced Static Mesh (HISM) batching with Nanite & Lumen optimization, and deterministic seed reproduction.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087512.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Unreal Engine 5 Procedural Foliage & Biome Scatter Tool",
+  "description": "Production-grade procedural vegetation and biome distribution engine for Unreal Engine 5.3, 5.4, and 5.5. Features Poisson disc minimum-distance distribution sampling, slope and altitude masking, automatic Hierarchical Instanced Static Mesh (HISM) batching with Nanite & Lumen optimization, and deterministic seed reproduction.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087512.jpg",
+  "sku": "unreal-engine-5-procedural-foliage-biome-scatter-tool",
+  "mpn": "unreal-engine-5-procedural-foliage-biome-scatter-tool",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/unreal-engine-5-procedural-foliage-biome-scatter-tool",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "29.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/unreal-engine-5-procedural-foliage-biome-scatter-tool"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

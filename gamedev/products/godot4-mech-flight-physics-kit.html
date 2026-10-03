@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 3D Mech Flight & Physics Controller Kit",
-    "description": "High-performance mechanical character controller for Godot 4. Includes smooth 3rd-person camera orbit with pitch clamping, sprint and hover-thrust kinematics, jump momentum dampening, atmospheric volumetric fog, screen-space reflections, bloom glow, and includes the textured 3D mech model (RobotExpressive.glb).",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083987.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 3D Mech Flight & Physics Controller Kit",
+  "description": "High-performance mechanical character controller for Godot 4. Includes smooth 3rd-person camera orbit with pitch clamping, sprint and hover-thrust kinematics, jump momentum dampening, atmospheric volumetric fog, screen-space reflections, bloom glow, and includes the textured 3D mech model (RobotExpressive.glb).",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5083987.jpg",
+  "sku": "godot4-mech-flight-physics-kit",
+  "mpn": "godot4-mech-flight-physics-kit",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 39.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/wildlands-protocol-godot-4-3d-mech-locomotion-urban-sandbox-kit",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "39.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/wildlands-protocol-godot-4-3d-mech-locomotion-urban-sandbox-kit"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

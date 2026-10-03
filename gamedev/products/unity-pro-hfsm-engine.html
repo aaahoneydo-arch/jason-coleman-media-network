@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)",
-    "description": "Production-grade, zero-allocation Hierarchical Finite State Machine (HFSM) framework for Unity indie games. Features true hierarchical state nesting, zero-GC update ticks, live Unity Inspector diagnostic drawer, pushdown automaton state stack for interrupt states (pause, stun, menus), declarative predicate combinators (And, Or, Not), decoupled ScriptableObject event channels, and complete Character & Multi-Phase Boss AI sample controllers.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087149.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)",
+  "description": "Production-grade, zero-allocation Hierarchical Finite State Machine (HFSM) framework for Unity indie games. Features true hierarchical state nesting, zero-GC update ticks, live Unity Inspector diagnostic drawer, pushdown automaton state stack for interrupt states (pause, stun, menus), declarative predicate combinators (And, Or, Not), decoupled ScriptableObject event channels, and complete Character & Multi-Phase Boss AI sample controllers.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087149.jpg",
+  "sku": "unity-pro-hfsm-engine",
+  "mpn": "unity-pro-hfsm-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/unity-pro-hierarchical-state-machine-ai-decision-architecture-hfsm",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "29.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/unity-pro-hierarchical-state-machine-ai-decision-architecture-hfsm"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

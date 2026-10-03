@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 Modular Castle & Fortress Builder Addon",
-    "description": "Production-grade modular stone fortress and castle construction system engineered for Godot 4 RPGs, strategy games, and medieval builders. Built 100% in native GDScript featuring intelligent socket-based grid snapping, continuous curtain wall alignment with automated crenelations, terrain raycast foundation ground dropping, and procedural courtyard layout generation.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087259.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 Modular Castle & Fortress Builder Addon",
+  "description": "Production-grade modular stone fortress and castle construction system engineered for Godot 4 RPGs, strategy games, and medieval builders. Built 100% in native GDScript featuring intelligent socket-based grid snapping, continuous curtain wall alignment with automated crenelations, terrain raycast foundation ground dropping, and procedural courtyard layout generation.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087259.jpg",
+  "sku": "godot4-castle-builder",
+  "mpn": "godot4-castle-builder",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-modular-castle-fortress-builder-addon",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-modular-castle-fortress-builder-addon"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

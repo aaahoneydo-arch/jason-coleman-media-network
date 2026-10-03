@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Unity Pro Encrypted JSON Save System & State Serializer",
-    "description": "Production-grade AES-256 encrypted persistence framework and serialization pipeline for Unity 2022, 2023, and Unity 6 LTS. Features symmetric AES-256-CBC encryption, SHA-256 integrity checksum verification to thwart hex-editing and cheat tampering, atomic backup write safety, and full cross-platform persistent storage compatibility.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087503.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Unity Pro Encrypted JSON Save System & State Serializer",
+  "description": "Production-grade AES-256 encrypted persistence framework and serialization pipeline for Unity 2022, 2023, and Unity 6 LTS. Features symmetric AES-256-CBC encryption, SHA-256 integrity checksum verification to thwart hex-editing and cheat tampering, atomic backup write safety, and full cross-platform persistent storage compatibility.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087503.jpg",
+  "sku": "unity-pro-encrypted-json-save-system-state-serializer",
+  "mpn": "unity-pro-encrypted-json-save-system-state-serializer",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/unity-pro-encrypted-json-save-system-state-serializer",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/unity-pro-encrypted-json-save-system-state-serializer"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

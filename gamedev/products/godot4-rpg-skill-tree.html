@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 RPG Progression & Skill Tree Matrix Architecture",
-    "description": "Production-grade hero progression and branching talent tree framework for Godot 4 RPGs and rogue-likes. Features node-based visual skill tree graph, dynamic attribute points (Strength, Agility, Intelligence, Vitality) with stat scaling formulae, polynomial XP leveling curves, interactive Control-node UI screen with tooltips, and pre-built class archetypes (Warrior, Mage, Rogue).",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087192.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 RPG Progression & Skill Tree Matrix Architecture",
+  "description": "Production-grade hero progression and branching talent tree framework for Godot 4 RPGs and rogue-likes. Features node-based visual skill tree graph, dynamic attribute points (Strength, Agility, Intelligence, Vitality) with stat scaling formulae, polynomial XP leveling curves, interactive Control-node UI screen with tooltips, and pre-built class archetypes (Warrior, Mage, Rogue).",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087192.jpg",
+  "sku": "godot4-rpg-skill-tree",
+  "mpn": "godot4-rpg-skill-tree",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-rpg-progression-skill-tree-matrix-architecture",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-rpg-progression-skill-tree-matrix-architecture"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

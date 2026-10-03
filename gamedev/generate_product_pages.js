@@ -28,7 +28,7 @@ if (!fs.existsSync(productsDir)) {
 let sitemapUrls = [
   '  <url>',
   '    <loc>https://jasontvmarketplace.com/gamedev/</loc>',
-  '    <lastmod>2026-10-02</lastmod>',
+  '    <lastmod>2026-10-03</lastmod>',
   '    <changefreq>daily</changefreq>',
   '    <priority>1.0</priority>',
   '  </url>'
@@ -75,6 +75,71 @@ products.forEach(p => {
     </section>`;
   }
 
+  const isSoftware = (p.category === 'engine' || p.category === 'godot');
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": isSoftware ? ["Product", "SoftwareApplication"] : "Product",
+    "name": p.title,
+    "description": p.description,
+    "image": coverAbsolute,
+    "sku": p.id,
+    "mpn": p.id,
+    "brand": {
+      "@type": "Brand",
+      "name": "Jason Coleman Game Studios"
+    },
+    ...(isSoftware ? {
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Windows, macOS, Linux"
+    } : {}),
+    "offers": {
+      "@type": "Offer",
+      "price": p.price,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": p.itchUrl,
+      "seller": {
+        "@type": "Organization",
+        "name": "Jason Coleman Game Studios",
+        "url": "https://jasontvmarketplace.com/gamedev/"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0.00",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+        "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
+      }
+    }
+  };
+
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,24 +178,7 @@ products.forEach(p => {
 
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "${p.category === 'engine' || p.category === 'godot' ? 'SoftwareApplication' : 'Product'}",
-    "name": "${p.title}",
-    "description": "${p.description.replace(/"/g, '\\"')}",
-    "image": "${coverAbsolute}",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "${p.price}",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "${p.itchUrl}"
-    }
-  }
+  ${JSON.stringify(schemaData, null, 2)}
   </script>
   <style>
     .product-detail-container {
@@ -339,7 +387,7 @@ products.forEach(p => {
 
   sitemapUrls.push('  <url>');
   sitemapUrls.push(`    <loc>${canonicalUrl}</loc>`);
-  sitemapUrls.push('    <lastmod>2026-10-02</lastmod>');
+  sitemapUrls.push('    <lastmod>2026-10-03</lastmod>');
   sitemapUrls.push('    <changefreq>weekly</changefreq>');
   sitemapUrls.push('    <priority>0.8</priority>');
   sitemapUrls.push('    <image:image>');

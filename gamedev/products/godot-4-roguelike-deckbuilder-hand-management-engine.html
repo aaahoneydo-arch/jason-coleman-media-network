@@ -37,23 +37,69 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Godot 4 Roguelike Deckbuilder & Hand Management Engine",
-    "description": "Production-grade card battling and hand management architecture for Godot 4.2 and 4.3 LTS. Features Slay the Spire / Balatro style draw, discard, and exhaust piles, mathematical Bezier card hand fanning, energy mana economy, drag-and-drop targeting with arrow trajectory splines, and relic passives.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087538.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": [
+    "Product",
+    "SoftwareApplication"
+  ],
+  "name": "Godot 4 Roguelike Deckbuilder & Hand Management Engine",
+  "description": "Production-grade card battling and hand management architecture for Godot 4.2 and 4.3 LTS. Features Slay the Spire / Balatro style draw, discard, and exhaust piles, mathematical Bezier card hand fanning, energy mana economy, drag-and-drop targeting with arrow trajectory splines, and relic passives.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5087538.jpg",
+  "sku": "godot-4-roguelike-deckbuilder-hand-management-engine",
+  "mpn": "godot-4-roguelike-deckbuilder-hand-management-engine",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/godot-4-roguelike-deckbuilder-hand-management-engine",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "24.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/godot-4-roguelike-deckbuilder-hand-management-engine"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {

@@ -37,23 +37,64 @@
   <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Custom Cinematic Video Production by JasonTV (Up to 5 Minutes)",
-    "description": "Commission realistic music videos, high-fashion visuals, colossal mythical dragons, epic sci-fi mech clashes, dark fantasy sagas, military war chronicles, viral comedy skits, or custom game trailers. Up to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
-    "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5088232.jpg",
-    "brand": {
-      "@type": "Brand",
-      "name": "Jason Coleman Game Studios"
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Custom Cinematic Video Production by JasonTV (Up to 5 Minutes)",
+  "description": "Commission realistic music videos, high-fashion visuals, colossal mythical dragons, epic sci-fi mech clashes, dark fantasy sagas, military war chronicles, viral comedy skits, or custom game trailers. Up to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
+  "image": "https://jasontvmarketplace.com/gamedev/assets/covers/cover_5088232.jpg",
+  "sku": "custom-cinematic-video-production",
+  "mpn": "custom-cinematic-video-production",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jason Coleman Game Studios"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "https://jasonc101.itch.io/custom-cinematic-video-production-4-5-min-jasontv",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jason Coleman Game Studios",
+      "url": "https://jasontvmarketplace.com/gamedev/"
     },
-    "offers": {
-      "@type": "Offer",
-      "price": "49.99",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": "https://jasonc101.itch.io/custom-cinematic-video-production-4-5-min-jasontv"
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnLink": "https://jasontvmarketplace.com/gamedev/"
     }
   }
+}
   </script>
   <style>
     .product-detail-container {
