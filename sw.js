@@ -1,5 +1,5 @@
-// JasonTV Marketplace Service Worker v4 (Real Items & Top Scroll Showcase)
-const CACHE_NAME = 'jasontv-storefront-v4';
+// JasonTV Marketplace Service Worker v5 (Real Itch.io Listings & Direct Deep-Links)
+const CACHE_NAME = 'jasontv-storefront-v5';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
