@@ -1,5 +1,5 @@
-// JasonTV Marketplace Service Worker v3 (Cache-Busting & Live Storefront)
-const CACHE_NAME = 'jasontv-storefront-v3';
+// JasonTV Marketplace Service Worker v4 (Real Items & Top Scroll Showcase)
+const CACHE_NAME = 'jasontv-storefront-v4';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
