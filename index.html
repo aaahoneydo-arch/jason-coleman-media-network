@@ -1327,7 +1327,320 @@
       font-weight: 700;
       transition: all 0.2s ease;
     }
-    /* Featured Merchandise Showcase Shelf */
+        /* ===================================================
+       SPREADSHOP OFFICIAL STORE SHOWCASE STYLES
+       =================================================== */
+    .spreadshop-section {
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
+    }
+    .spreadshop-wrapper {
+      background: linear-gradient(135deg, rgba(11, 27, 44, 0.96), rgba(8, 16, 29, 0.98));
+      border: 1px solid rgba(0, 210, 211, 0.4);
+      border-radius: var(--radius);
+      padding: 2.25rem;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8), 0 0 35px rgba(0, 210, 211, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    .spreadshop-wrapper::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #00d2d3, #0984e3, #6c5ce7);
+    }
+    .spreadshop-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-bottom: 1.75rem;
+    }
+    .spreadshop-badge {
+      display: inline-block;
+      background: rgba(0, 210, 211, 0.15);
+      border: 1px solid rgba(0, 210, 211, 0.4);
+      color: #00d2d3;
+      padding: 0.35rem 0.95rem;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .spreadshop-h2 {
+      font-size: 2.1rem;
+      color: #fff;
+      margin-bottom: 0.4rem;
+      letter-spacing: -0.5px;
+    }
+    .spreadshop-desc {
+      color: #cbd5e1;
+      font-size: 0.98rem;
+      max-width: 720px;
+      line-height: 1.55;
+    }
+    .spreadshop-cta-btn {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 800;
+      padding: 0.85rem 1.6rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 20px rgba(0, 210, 211, 0.45);
+      transition: transform 0.2s, box-shadow 0.2s;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .spreadshop-cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(0, 210, 211, 0.7);
+    }
+    .spreadshop-dept-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .dept-label {
+      color: #94a3b8;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .dept-pills {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .dept-pill {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #e2e8f0;
+      padding: 0.35rem 0.85rem;
+      border-radius: 50px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .dept-pill:hover, .dept-pill.active {
+      background: rgba(0, 210, 211, 0.2);
+      border-color: #00d2d3;
+      color: #fff;
+    }
+    .spreadshop-shelf-container {
+      position: relative;
+      margin-bottom: 2rem;
+    }
+    .spreadshop-shelf {
+      display: flex;
+      gap: 1.25rem;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding: 0.5rem 0.25rem 1.25rem;
+      scrollbar-width: thin;
+      scrollbar-color: #00d2d3 #0b1526;
+    }
+    .spreadshop-shelf::-webkit-scrollbar {
+      height: 8px;
+    }
+    .spreadshop-shelf::-webkit-scrollbar-track {
+      background: #0b1526;
+      border-radius: 4px;
+    }
+    .spreadshop-shelf::-webkit-scrollbar-thumb {
+      background: #00d2d3;
+      border-radius: 4px;
+    }
+    .shelf-arrow {
+      position: absolute;
+      top: 45%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(11, 27, 44, 0.95);
+      border: 1px solid #00d2d3;
+      color: #00d2d3;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+      transition: all 0.2s;
+    }
+    .shelf-arrow:hover {
+      background: #00d2d3;
+      color: #07090e;
+      transform: translateY(-50%) scale(1.1);
+    }
+    .shelf-arrow-left { left: -16px; }
+    .shelf-arrow-right { right: -16px; }
+    .ss-card {
+      min-width: 250px;
+      max-width: 250px;
+      background: rgba(14, 22, 36, 0.92);
+      border: 1px solid rgba(0, 210, 211, 0.25);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    }
+    .ss-card:hover {
+      transform: translateY(-6px);
+      border-color: #00d2d3;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 210, 211, 0.3);
+    }
+    .ss-imgwrap {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 50% 45%, #1e293b 0%, #0a0f1d 85%);
+      padding: 0.75rem;
+    }
+    .ss-img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.6));
+      transition: transform 0.3s;
+    }
+    .ss-card:hover .ss-img {
+      transform: scale(1.08);
+    }
+    .ss-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(10, 20, 35, 0.9);
+      color: #00d2d3;
+      border: 1px solid rgba(0, 210, 211, 0.4);
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+    }
+    .ss-body {
+      padding: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .ss-category {
+      font-size: 0.74rem;
+      font-weight: 800;
+      color: #00d2d3;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.25rem;
+    }
+    .ss-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.35;
+      margin-bottom: 0.3rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 2.6em;
+    }
+    .ss-variation {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      margin-bottom: 0.75rem;
+    }
+    .ss-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.85rem;
+    }
+    .ss-colors {
+      display: flex;
+      gap: 4px;
+    }
+    .ss-colors .color-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.3);
+      display: inline-block;
+    }
+    .ss-price {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #00d2d3;
+    }
+    .ss-btn {
+      display: block;
+      text-align: center;
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      padding: 0.55rem;
+      border-radius: 6px;
+      font-weight: 800;
+      font-size: 0.85rem;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .ss-btn:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+    .ss-guarantee-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      background: rgba(7, 14, 26, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 1.1rem 1.4rem;
+    }
+    .ss-guarantee-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .ss-g-icon {
+      font-size: 1.4rem;
+    }
+    .ss-guarantee-item strong {
+      display: block;
+      font-size: 0.88rem;
+      color: #fff;
+    }
+    .ss-guarantee-item span {
+      display: block;
+      font-size: 0.78rem;
+      color: #94a3b8;
+    }
+
+    /* ===================================================
+       FOURTHWALL & VAULT DROPS SHOWCASE STYLES
+       =================================================== */
     .merch-showcase-section {
       margin-top: 3.5rem;
       margin-bottom: 4rem;
@@ -1373,7 +1686,7 @@
     }
     .merch-showcase-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 1.25rem;
     }
     .merch-showcase-card {
@@ -1398,32 +1711,19 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      padding: 0.6rem;
-    }
-    /* White garments/mugs: dark slate vignette so white items have crisp 3D edge contrast */
-    .merch-showcase-imgwrap.backdrop-white-item {
+      padding: 0.75rem;
       background: radial-gradient(circle at 50% 40%, #1e293b 0%, #0a0e17 85%);
       box-shadow: inset 0 0 35px rgba(0, 0, 0, 0.65);
     }
-    .merch-showcase-imgwrap.backdrop-white-item img {
-      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.55));
-    }
-    /* Colored garments (Black, Navy, Dark Heather): crisp light studio vignette */
-    .merch-showcase-imgwrap.backdrop-colored-item {
-      background: radial-gradient(circle at 50% 45%, #ffffff 0%, #e2e8f0 85%);
-      box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
-    }
-    .merch-showcase-imgwrap.backdrop-colored-item img {
-      filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.25));
-    }
     .merch-showcase-img {
-      width: 100%;
-      height: 100%;
+      max-width: 90%;
+      max-height: 90%;
       object-fit: contain;
+      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.55));
       transition: transform 0.3s;
     }
     .merch-showcase-card:hover .merch-showcase-img {
-      transform: scale(1.05);
+      transform: scale(1.06);
     }
     .merch-showcase-tag {
       position: absolute;
@@ -1450,11 +1750,12 @@
       font-weight: 800;
       color: #fff;
       line-height: 1.35;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.4rem;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      min-height: 2.6em;
     }
     .merch-showcase-price {
       font-size: 1.15rem;
@@ -1466,7 +1767,7 @@
       display: block;
       text-align: center;
       background: linear-gradient(135deg, #ffaa00, #ff7700);
-      color: #000;
+      color: #000 !important;
       padding: 0.55rem;
       border-radius: 6px;
       font-weight: 800;
@@ -1477,6 +1778,8 @@
     .merch-showcase-btn:hover {
       opacity: 0.92;
       transform: translateY(-1px);
+    }
+
     /* Top Announcement Bar for Spreadshop */
     .top-announcement-bar {
       background: linear-gradient(90deg, #0b1329 0%, #162a45 50%, #0b1329 100%);
@@ -1688,142 +1991,519 @@
       </div>
     </section>
 
-    <!-- ==================== FEATURED MERCHANDISE & APPAREL SHOWCASE ==================== -->
-    <section class="container merch-showcase-section" id="merchandise">
-      <div class="merch-showcase-wrapper">
-        <div class="merch-showcase-header">
-          <div>
-            <span class="merch-showcase-badge">Authentic Lifestyle Apparel &amp; Gear</span>
-            <h2 style="font-size: 2rem; color: #fff; margin-bottom: 0.4rem; letter-spacing: -0.5px;">Premium Tees, Fleece Hoodies &amp; Ceramic Mugs</h2>
-            <p style="color: var(--text-muted); font-size: 0.98rem; max-width: 650px;">Original graphic apparel celebrating mechanics, tradesmen, sarcasm, coffee lovers, dads, and pets. Crafted on heavyweight ring-spun cotton and glossy ceramics with transparent print masters and zero upfront inventory.</p>
+    
+    <!-- ==================== 1. SPREADSHOP OFFICIAL STORE: FULL VARIATIONS SHOWCASE ==================== -->
+    <section class="container spreadshop-section" id="spreadshop">
+      <div class="spreadshop-wrapper">
+        <div class="spreadshop-header">
+          <div class="spreadshop-title-group">
+            <span class="spreadshop-badge">🛍️ OFFICIAL SPREADSHOP STORE &bull; 200+ LISTINGS LIVE</span>
+            <h2 class="spreadshop-h2">Graphic Tees, Heavy Hoodies, Mugs &amp; Full Variations</h2>
+            <p class="spreadshop-desc">Shop our high-capacity print-on-demand collection with all sizes (XS to 5XL) and colorways. Choose from classic heavyweight tees, warm fleece hoodies, two-tone mugs, washed caps, and vinyl stickers produced to order and fulfilled worldwide.</p>
           </div>
-          <a href="shop/index.html" class="card-cta" style="background:linear-gradient(135deg, #ffaa00, #ff7700); color:#000; font-weight:900; padding:0.8rem 1.6rem;">Explore Complete Catalog (1,498 Designs) &rarr;</a>
+          <div class="spreadshop-header-actions">
+            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="spreadshop-cta-btn">🛍️ Open Full Spreadshop Store (200+ Items) &rarr;</a>
+          </div>
         </div>
-        
-        <div class="merch-showcase-grid">
-          <!-- Item 1: Midnight Black My Bad -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-colored-item">
-              <span class="merch-showcase-tag">Midnight Black &bull; S-4XL</span>
-              <img src="assets/merch/mockups/my-bad-black.png" alt="My Bad, Your Fault Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"My Bad, Your Fault" Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
+
+        <!-- Quick Department Variation Pills -->
+        <div class="spreadshop-dept-bar">
+          <span class="dept-label">Quick Shop:</span>
+          <div class="dept-pills">
+            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-pill active">✨ All Products (200+)</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/men" target="_blank" rel="noopener" class="dept-pill">👕 Men's (XS-5XL)</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/women" target="_blank" rel="noopener" class="dept-pill">👚 Women's Collection</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=hoodie" target="_blank" rel="noopener" class="dept-pill">🧥 Hoodies &amp; Fleeces</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/home+%26+living" target="_blank" rel="noopener" class="dept-pill">☕ Ceramic Mugs</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/accessories" target="_blank" rel="noopener" class="dept-pill">🧢 Hats &amp; Caps</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/stickers" target="_blank" rel="noopener" class="dept-pill">🏷️ Die-Cut Stickers</a>
+            <a href="https://jasons-marketplace.myspreadshop.com/kids+%26+babies" target="_blank" rel="noopener" class="dept-pill">👶 Kids &amp; Babies</a>
+          </div>
+        </div>
+
+        <!-- Interactive Horizontal Scroll Carousel for Spreadshop Variations -->
+        <div class="spreadshop-shelf-container">
+          <button class="shelf-arrow shelf-arrow-left" onclick="document.getElementById('spreadshopShelf').scrollBy({left: -380, behavior: 'smooth'})" aria-label="Scroll Left">&lsaquo;</button>
+          <div class="spreadshop-shelf" id="spreadshopShelf">
+
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">T-Shirt • XS-5XL</span>
+                <img src="assets/merch/idea-0001-mockup-transparent.png" alt=""Measure Twice. Cuss Once."" class="ss-img" loading="lazy">
               </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/my-bad-your-fault-heavyweight-t-shirt-midnight-black" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
+              <div class="ss-body">
+                <div class="ss-category">Carpentry & Trades</div>
+                <h3 class="ss-title">"Measure Twice. Cuss Once."</h3>
+                <div class="ss-variation">Heavyweight Cotton T-Shirt</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e3a8a;"></span><span class="color-dot" style="background:#64748b;"></span></div>
+                  <div class="ss-price">$24.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Measure%20Twice" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Fleece Hoodie • S-3XL</span>
+                <img src="assets/merch/idea-0029-mockup-transparent.png" alt=""Warning: Will Talk About Cars"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Automotive Culture</div>
+                <h3 class="ss-title">"Warning: Will Talk About Cars"</h3>
+                <div class="ss-variation">Unisex Pullover Fleece Hoodie</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#2563eb;"></span></div>
+                  <div class="ss-price">$49.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Warning" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Drinkware • 11/15oz</span>
+                <img src="assets/merch/idea-0097-mockup-transparent.png" alt=""Home Is Where the Cat Sits"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Cat Lovers</div>
+                <h3 class="ss-title">"Home Is Where the Cat Sits"</h3>
+                <div class="ss-variation">Two-Tone Glossy Ceramic Mug</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#ef4444;"></span><span class="color-dot" style="background:#000;"></span></div>
+                  <div class="ss-price">$16.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Home%20Is%20Where%20the%20Cat%20Sits" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Cap & T-Shirt</span>
+                <img src="assets/merch/idea-0030-mockup-transparent.png" alt=""Garage Before Marriage"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Mechanic Humor</div>
+                <h3 class="ss-title">"Garage Before Marriage"</h3>
+                <div class="ss-variation">Retro Washed Trucker Cap & Tee</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#334155;"></span><span class="color-dot" style="background:#0f172a;"></span><span class="color-dot" style="background:#94a3b8;"></span></div>
+                  <div class="ss-price">$26.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Garage%20Before%20Marriage" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">T-Shirt • XS-4XL</span>
+                <img src="assets/merch/idea-0075-mockup-transparent.png" alt=""Best Friend With Paws"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Dog Lovers</div>
+                <h3 class="ss-title">"Best Friend With Paws"</h3>
+                <div class="ss-variation">Comfort Relaxed Fit T-Shirt</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#d4d4d8;"></span><span class="color-dot" style="background:#71717a;"></span><span class="color-dot" style="background:#4b5563;"></span></div>
+                  <div class="ss-price">$24.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Best%20Friend%20With%20Paws" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Long Sleeve • S-4XL</span>
+                <img src="assets/merch/idea-0003-mockup-transparent.png" alt=""Built Different. Usually With Power Tools."" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Blue Collar Craftsman</div>
+                <h3 class="ss-title">"Built Different. Usually With Power Tools."</h3>
+                <div class="ss-variation">Heavyweight Long Sleeve Work Shirt</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#334155;"></span><span class="color-dot" style="background:#1e3a8a;"></span></div>
+                  <div class="ss-price">$29.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Built%20Different" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Hoodie • S-3XL</span>
+                <img src="assets/merch/idea-0004-mockup-transparent.png" alt=""My Retirement Plan Has a Tool Belt"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Handyman & Trades</div>
+                <h3 class="ss-title">"My Retirement Plan Has a Tool Belt"</h3>
+                <div class="ss-variation">Heavy Cotton Workwear Hoodie</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#14532d;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span></div>
+                  <div class="ss-price">$48.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Retirement" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">T-Shirt • XS-5XL</span>
+                <img src="assets/merch/idea-0006-mockup-transparent.png" alt=""If It Ain't Level, I Ain't Leaving"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Carpentry & DIY</div>
+                <h3 class="ss-title">"If It Ain't Level, I Ain't Leaving"</h3>
+                <div class="ss-variation">Classic Fit Crewneck Tee</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#0f172a;"></span></div>
+                  <div class="ss-price">$24.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Level" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Drinkware • 20oz</span>
+                <img src="assets/merch/idea-0025-mockup-transparent.png" alt=""I Brake for Project Cars"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Car Enthusiasts</div>
+                <h3 class="ss-title">"I Brake for Project Cars"</h3>
+                <div class="ss-variation">Stainless Steel Travel Tumbler</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#cbd5e1;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
+                  <div class="ss-price">$21.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Project%20Cars" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Tee & Sticker Pack</span>
+                <img src="assets/merch/idea-0027-mockup-transparent.png" alt=""My Other Account Is for Car Parts"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Automotive Lifestyle</div>
+                <h3 class="ss-title">"My Other Account Is for Car Parts"</h3>
+                <div class="ss-variation">Graphic T-Shirt & Die-Cut Sticker</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
+                  <div class="ss-price">$25.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Car%20Parts" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Zip Hoodie • S-3XL</span>
+                <img src="assets/merch/idea-0026-mockup-transparent.png" alt=""Just One More Modification"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Tuner & Garage</div>
+                <h3 class="ss-title">"Just One More Modification"</h3>
+                <div class="ss-variation">Premium Heavyweight Zip Hoodie</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#831843;"></span></div>
+                  <div class="ss-price">$52.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Modification" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
+            </div>
+            <div class="ss-card">
+              <div class="ss-imgwrap">
+                <span class="ss-badge">Mug & Workwear</span>
+                <img src="assets/merch/idea-0009-mockup-transparent.png" alt=""Powered by Coffee & Sawdust"" class="ss-img" loading="lazy">
+              </div>
+              <div class="ss-body">
+                <div class="ss-category">Woodworking & Makers</div>
+                <h3 class="ss-title">"Powered by Coffee & Sawdust"</h3>
+                <div class="ss-variation">15oz Ceramic Workshop Mug</div>
+                <div class="ss-meta">
+                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#000;"></span></div>
+                  <div class="ss-price">$17.99</div>
+                </div>
+                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Sawdust" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+              </div>
             </div>
           </div>
+          <button class="shelf-arrow shelf-arrow-right" onclick="document.getElementById('spreadshopShelf').scrollBy({left: 380, behavior: 'smooth'})" aria-label="Scroll Right">&rsaquo;</button>
+        </div>
 
-          <!-- Item 2: Midnight Black Garage -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-colored-item">
-              <span class="merch-showcase-tag">Midnight Black &bull; S-4XL</span>
-              <img src="assets/merch/mockups/garage-black.png" alt="I'd Rather Be in the Garage Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"I'd Rather Be in the Garage" Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/id-rather-be-in-the-garage-heavyweight-t-shirt-midnight-black" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
+        <!-- Spreadshop Variations Guarantee Strip -->
+        <div class="ss-guarantee-bar">
+          <div class="ss-guarantee-item">
+            <span class="ss-g-icon">📏</span>
+            <div><strong>XS to 5XL Sizing</strong><span>Inclusive fit options across all men's &amp; women's cuts</span></div>
           </div>
-
-          <!-- Item 3: Crisp White Garage -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Crisp White &bull; S-4XL</span>
-              <img src="assets/merch/mockups/garage-white.png" alt="My Garage Is My Happy Place Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"My Garage Is My Happy Place" Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/my-garage-is-my-happy-place-heavyweight-t-shirt" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
+          <div class="ss-guarantee-item">
+            <span class="ss-g-icon">🎨</span>
+            <div><strong>15+ Colorways</strong><span>Black, heather, navy, sand, white, military green &amp; more</span></div>
           </div>
-
-          <!-- Item 4: Ceramic Coffee Mug -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Glossy Ceramic &bull; 11-20oz</span>
-              <img src="assets/merch/mockups/coffee-mug.png" alt="Coffee Before Conversation Ceramic Mug" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"Coffee Before Conversation" Ceramic Mug</h3>
-                <div class="merch-showcase-price">$15.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/coffee-before-conversation-ceramic-mug" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
+          <div class="ss-guarantee-item">
+            <span class="ss-g-icon">⚡</span>
+            <div><strong>Express Creation</strong><span>Freshly printed with eco-friendly direct-to-garment inks</span></div>
           </div>
-
-          <!-- Item 5: Dad Level Hoodie -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Fleece Hoodie &bull; S-3XL</span>
-              <img src="assets/merch/mockups/dad-hoodie.png" alt="Dad Level: Legendary Premium Fleece Hoodie" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"Dad Level: Legendary" Premium Fleece Hoodie</h3>
-                <div class="merch-showcase-price">$49.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/dad-level-legendary-premium-fleece-hoodie" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
-          </div>
-
-          <!-- Item 6: Cat Allows Me -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Crisp White &bull; S-4XL</span>
-              <img src="assets/merch/mockups/cat-white.png" alt="The Cat Allows Me to Live Here Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"The Cat Allows Me to Live Here" Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/the-cat-allows-me-to-live-here-heavyweight-t-shirt" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
-          </div>
-
-          <!-- Item 7: Measure Twice Cuss Once -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Crisp White &bull; S-4XL</span>
-              <img src="assets/merch/mockups/measure-white.png" alt="Measure Twice. Cuss Once. Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"Measure Twice. Cuss Once." Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
-          </div>
-
-          <!-- Item 8: My Dog Thinks I'm Awesome -->
-          <div class="merch-showcase-card">
-            <div class="merch-showcase-imgwrap backdrop-white-item">
-              <span class="merch-showcase-tag">Crisp White &bull; S-4XL</span>
-              <img src="assets/merch/mockups/dog-white.png" alt="My Dog Thinks I'm Awesome Heavyweight T-Shirt" class="merch-showcase-img" loading="lazy">
-            </div>
-            <div class="merch-showcase-body">
-              <div>
-                <h3 class="merch-showcase-title">"My Dog Thinks I'm Awesome" Heavyweight T-Shirt</h3>
-                <div class="merch-showcase-price">$25.99</div>
-              </div>
-              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/my-dog-thinks-im-awesome-heavyweight-t-shirt" target="_blank" rel="noopener" class="merch-showcase-btn">Order Now &rarr;</a>
-            </div>
+          <div class="ss-guarantee-item">
+            <span class="ss-g-icon">🌍</span>
+            <div><strong>Tracked Shipping</strong><span>Reliable worldwide door-to-door delivery with tracking</span></div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ==================== 2. FOURTHWALL & VAULT DROPS (MIXED, MATCHED & RANDOMIZED) ==================== -->
+    <section class="container merch-showcase-section" id="merchandise">
+      <div class="merch-showcase-wrapper">
+        <div class="merch-showcase-header">
+          <div>
+            <span class="merch-showcase-badge">⚡ FOURTHWALL FLAGSHIP &bull; MIX &amp; MATCH DROPS</span>
+            <h2 style="font-size: 2rem; color: #fff; margin-bottom: 0.4rem; letter-spacing: -0.5px;">Curated Print Masters &amp; Vault Illustrations</h2>
+            <p style="color: var(--text-muted); font-size: 0.98rem; max-width: 680px;">Bespoke illustrations celebrating mechanics, tradesmen, sarcastic humor, coffee, and pets. Every card features a unique artwork cutout with zero repeated mockups.</p>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+            <button id="shuffleMerchBtn" class="card-cta" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); font-weight:800; padding:0.75rem 1.4rem; cursor:pointer;" onclick="shuffleFourthwallGrid()">🎲 Shuffle Designs</button>
+            <a href="shop/index.html" class="card-cta" style="background:linear-gradient(135deg, #ffaa00, #ff7700); color:#000; font-weight:900; padding:0.75rem 1.4rem;">Explore Catalog Hub &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="merch-showcase-grid" id="fourthwallGrid">
+
+          <!-- Card: idea-0001 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0001-mockup-transparent.png" alt="Measure Twice. Cuss Once. Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Carpentry & Trades</div>
+                <h3 class="merch-showcase-title">"Measure Twice. Cuss Once."</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0002 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0002-mockup-transparent.png" alt="I Fix What You Tried to Fix Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Handyman & Plumbing</div>
+                <h3 class="merch-showcase-title">"I Fix What You Tried to Fix"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0003 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-3XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0003-mockup-transparent.png" alt="Built Different. Usually With Power Tools. Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Blue Collar Craftsman</div>
+                <h3 class="merch-showcase-title">"Built Different. Usually With Power Tools."</h3>
+                <div class="merch-showcase-price">$26.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0004 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0004-mockup-transparent.png" alt="My Retirement Plan Has a Tool Belt Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Trades & Construction</div>
+                <h3 class="merch-showcase-title">"My Retirement Plan Has a Tool Belt"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0006 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0006-mockup-transparent.png" alt="If It Ain't Level, I Ain't Leaving Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Carpentry & Framing</div>
+                <h3 class="merch-showcase-title">"If It Ain't Level, I Ain't Leaving"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0007 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0007-mockup-transparent.png" alt="Good Work Ain't Cheap Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Quality Craftsmanship</div>
+                <h3 class="merch-showcase-title">"Good Work Ain't Cheap"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0011 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0011-mockup-transparent.png" alt="Warning: Will Talk About Cars Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Car Culture & Garage</div>
+                <h3 class="merch-showcase-title">"Warning: Will Talk About Cars"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0012 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0012-mockup-transparent.png" alt="Garage Before Marriage Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Automotive Lifestyle</div>
+                <h3 class="merch-showcase-title">"Garage Before Marriage"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0015 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0015-mockup-transparent.png" alt="My Other Account Is For Car Parts Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Car Enthusiasts</div>
+                <h3 class="merch-showcase-title">"My Other Account Is For Car Parts"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0016 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0016-mockup-transparent.png" alt="Some Assembly Required Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Engineering & Blueprint</div>
+                <h3 class="merch-showcase-title">"Some Assembly Required"</h3>
+                <div class="merch-showcase-price">$26.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0019 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0019-mockup-transparent.png" alt="Work Hard. Drive Big. Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Diesel & Heavy Hauling</div>
+                <h3 class="merch-showcase-title">"Work Hard. Drive Big."</h3>
+                <div class="merch-showcase-price">$27.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0020 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0020-mockup-transparent.png" alt="Backroad Therapy Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Country & 4x4</div>
+                <h3 class="merch-showcase-title">"Backroad Therapy"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0045 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0045-mockup-transparent.png" alt="I'd Cancel Plans For My Dog Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Dog People</div>
+                <h3 class="merch-showcase-title">"I'd Cancel Plans For My Dog"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0050 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0050-mockup-transparent.png" alt="Certified Cat Servant Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Cat Lovers</div>
+                <h3 class="merch-showcase-title">"Certified Cat Servant"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0051 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0051-mockup-transparent.png" alt="Chaos With Whiskers Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Cat Humor</div>
+                <h3 class="merch-showcase-title">"Chaos With Whiskers"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+          <!-- Card: idea-0052 -->
+          <div class="merch-showcase-card">
+            <div class="merch-showcase-imgwrap backdrop-white-item">
+              <span class="merch-showcase-tag">S-4XL Heavyweight Tee</span>
+              <img src="assets/merch/idea-0052-mockup-transparent.png" alt="Tiny Murder Mittens Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+            </div>
+            <div class="merch-showcase-body">
+              <div>
+                <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">Feline Attitude</div>
+                <h3 class="merch-showcase-title">"Tiny Murder Mittens"</h3>
+                <div class="merch-showcase-price">$25.99</div>
+              </div>
+              <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ==================== 1. YOUTUBE CINEMA & BROADCAST HUB (TOP PRIORITY) ==================== -->
 
@@ -18424,6 +19104,66 @@
       });
       const countEl = document.getElementById('vaultSearchCount');
       if (countEl) countEl.textContent = `${visible} shown`;
+    }
+  </script>
+
+
+  <script>
+    // Pool of verified distinct merchandise drops for dynamic mixing & matching
+    const MERCH_SHUFFLE_POOL = [
+      { id: "idea-0001", title: "Measure Twice. Cuss Once.", cat: "Carpentry & Trades", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0001-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt" },
+      { id: "idea-0002", title: "I Fix What You Tried to Fix", cat: "Handyman & Plumbing", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0002-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0003", title: "Built Different. Usually With Power Tools.", cat: "Blue Collar Craftsman", price: 26.99, tag: "S-3XL Heavyweight Tee", img: "assets/merch/idea-0003-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0004", title: "My Retirement Plan Has a Tool Belt", cat: "Trades & Construction", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0004-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0006", title: "If It Ain't Level, I Ain't Leaving", cat: "Carpentry & Framing", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0006-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0007", title: "Good Work Ain't Cheap", cat: "Quality Craftsmanship", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0007-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0009", title: "Powered by Coffee & Sawdust", cat: "Woodworking & DIY", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0009-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0010", title: "I Speak Fluent Hardware Store", cat: "Home Improvement", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0010-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0011", title: "Warning: Will Talk About Cars", cat: "Car Culture & Garage", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0011-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0012", title: "Garage Before Marriage", cat: "Automotive Lifestyle", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0012-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0015", title: "My Other Account Is For Car Parts", cat: "Car Enthusiasts", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0015-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0016", title: "Some Assembly Required", cat: "Engineering & Blueprint", price: 26.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0016-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0019", title: "Work Hard. Drive Big.", cat: "Diesel & Heavy Hauling", price: 27.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0019-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0020", title: "Backroad Therapy", cat: "Country & 4x4", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0020-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0021", title: "There Are Roads. Then There Are Suggestions.", cat: "Offroad & 4x4", price: 26.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0021-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0025", title: "I Brake for Project Cars", cat: "Garage & Project Cars", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0025-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0026", title: "Just One More Modification", cat: "Tuner & Performance", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0026-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0040", title: "Dirt Road Department", cat: "Country Living", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0040-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0045", title: "I'd Cancel Plans For My Dog", cat: "Dog People", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0045-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0050", title: "Certified Cat Servant", cat: "Cat Lovers", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0050-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0051", title: "Chaos With Whiskers", cat: "Cat Humor", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0051-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0052", title: "Tiny Murder Mittens", cat: "Feline Attitude", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/idea-0052-mockup-transparent.png", url: "https://jasontv-marketplace-shop.fourthwall.com" },
+      { id: "idea-0060", title: "My Bad, Your Fault", cat: "Sarcasm & Adult Humor", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/mockups/my-bad-black.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-bad-your-fault-heavyweight-t-shirt-midnight-black" },
+      { id: "idea-0061", title: "Coffee Before Conversation", cat: "Coffee & Mornings", price: 15.99, tag: "Glossy Ceramic Mug", img: "assets/merch/mockups/coffee-mug.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/coffee-before-conversation-ceramic-mug" },
+      { id: "idea-0062", title: "Dad Level: Legendary", cat: "Dad Life & Family", price: 49.99, tag: "S-3XL Fleece Hoodie", img: "assets/merch/mockups/dad-hoodie.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/dad-level-legendary-premium-fleece-hoodie" },
+      { id: "idea-0063", title: "The Cat Allows Me to Live Here", cat: "Cat Lovers", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/mockups/cat-white.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/the-cat-allows-me-to-live-here-heavyweight-t-shirt" },
+      { id: "idea-0064", title: "My Dog Thinks I'm Awesome", cat: "Dog Lovers", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/mockups/dog-white.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-dog-thinks-im-awesome-heavyweight-t-shirt" },
+      { id: "idea-0065", title: "I'd Rather Be in the Garage", cat: "Garage & Tools", price: 25.99, tag: "S-4XL Heavyweight Tee", img: "assets/merch/mockups/garage-black.png", url: "https://jasontv-marketplace-shop.fourthwall.com/products/id-rather-be-in-the-garage-heavyweight-t-shirt-midnight-black" }
+    ];
+
+    function shuffleFourthwallGrid() {
+      const grid = document.getElementById('fourthwallGrid');
+      if (!grid) return;
+      
+      // Pick 16 random distinct items from pool
+      const shuffled = [...MERCH_SHUFFLE_POOL].sort(() => 0.5 - Math.random()).slice(0, 16);
+      
+      grid.innerHTML = shuffled.map(item => `
+        <div class="merch-showcase-card">
+          <div class="merch-showcase-imgwrap">
+            <span class="merch-showcase-tag">${item.tag}</span>
+            <img src="${item.img}" alt="${item.title} Graphic T-Shirt" class="merch-showcase-img" loading="lazy">
+          </div>
+          <div class="merch-showcase-body">
+            <div>
+              <div style="font-size:0.78rem; color:#ffaa00; font-weight:700; text-transform:uppercase; margin-bottom:0.25rem;">${item.cat}</div>
+              <h3 class="merch-showcase-title">"${item.title}"</h3>
+              <div class="merch-showcase-price">$${item.price.toFixed(2)}</div>
+            </div>
+            <a href="${item.url}" target="_blank" rel="noopener" class="merch-showcase-btn">Order on Fourthwall &rarr;</a>
+          </div>
+        </div>
+      `).join('');
     }
   </script>
 

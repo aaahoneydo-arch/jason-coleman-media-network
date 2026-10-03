@@ -656,6 +656,325 @@
       .controls-top { flex-direction: column; align-items: stretch; }
       .products-grid { grid-template-columns: 1fr; }
     }
+  
+    /* Spreadshop High-Capacity POD Store Showcase */
+    .spreadshop-section {
+      max-width: 1240px;
+      margin: 2.5rem auto 3rem;
+      padding: 0 1.5rem;
+    }
+    .spreadshop-wrapper {
+      background: linear-gradient(145deg, rgba(13, 20, 36, 0.95), rgba(7, 10, 18, 0.98));
+      border: 1px solid rgba(0, 210, 211, 0.35);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65), 0 0 40px rgba(0, 210, 211, 0.12);
+      position: relative;
+      overflow: hidden;
+    }
+    .spreadshop-wrapper::before {
+      content: '';
+      position: absolute;
+      top: -120px;
+      right: -120px;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(0, 210, 211, 0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .spreadshop-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .spreadshop-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.6);
+      color: #00d2d3;
+      padding: 0.35rem 0.9rem;
+      border-radius: 50px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    .spreadshop-h2 {
+      font-size: 2.2rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+    .spreadshop-desc {
+      color: var(--text-muted);
+      font-size: 1.02rem;
+      max-width: 720px;
+      line-height: 1.6;
+    }
+    .spreadshop-cta-btn {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff;
+      font-weight: 800;
+      padding: 0.9rem 1.8rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1rem;
+      box-shadow: 0 8px 25px rgba(0, 210, 211, 0.4);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      white-space: nowrap;
+    }
+    .spreadshop-cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(0, 210, 211, 0.6);
+    }
+    /* Department Pills */
+    .spreadshop-dept-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .dept-label {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .dept-pills {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .dept-pill {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #e2e8f0;
+      padding: 0.4rem 0.95rem;
+      border-radius: 50px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .dept-pill:hover, .dept-pill.active {
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.25), rgba(9, 132, 227, 0.3));
+      border-color: #00d2d3;
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    /* Horizontal Scroll Shelf */
+    .spreadshop-shelf-container {
+      position: relative;
+      margin: 1rem 0 2rem;
+    }
+    .spreadshop-shelf {
+      display: flex;
+      gap: 1.5rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding: 1rem 0.5rem 1.5rem;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(0, 210, 211, 0.5) rgba(15, 23, 42, 0.6);
+      -webkit-overflow-scrolling: touch;
+    }
+    .spreadshop-shelf::-webkit-scrollbar {
+      height: 8px;
+    }
+    .spreadshop-shelf::-webkit-scrollbar-track {
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 4px;
+    }
+    .spreadshop-shelf::-webkit-scrollbar-thumb {
+      background: linear-gradient(90deg, #00d2d3, #0984e3);
+      border-radius: 4px;
+    }
+    .shelf-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3;
+      font-size: 1.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+      transition: all 0.2s;
+    }
+    .shelf-arrow:hover {
+      background: #00d2d3;
+      color: #000;
+      box-shadow: 0 0 25px rgba(0, 210, 211, 0.8);
+    }
+    .shelf-arrow-left { left: -18px; }
+    .shelf-arrow-right { right: -18px; }
+    /* Spreadshop Product Card */
+    .ss-card {
+      flex: 0 0 280px;
+      scroll-snap-align: start;
+      background: rgba(18, 25, 41, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s, box-shadow 0.3s;
+    }
+    .ss-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(0, 210, 211, 0.5);
+      box-shadow: 0 16px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 210, 211, 0.15);
+    }
+    .ss-imgwrap {
+      position: relative;
+      height: 220px;
+      background: radial-gradient(circle at 50% 45%, #1e293b 0%, #0a0e17 85%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      overflow: hidden;
+    }
+    .ss-img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.5));
+      transition: transform 0.3s ease;
+    }
+    .ss-card:hover .ss-img {
+      transform: scale(1.06);
+    }
+    .ss-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 210, 211, 0.2);
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3;
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      backdrop-filter: blur(4px);
+    }
+    .ss-body {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+    .ss-category {
+      font-size: 0.72rem;
+      color: var(--accent-gold);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.25rem;
+    }
+    .ss-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.35;
+      margin-bottom: 0.35rem;
+    }
+    .ss-variation {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .ss-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .ss-colors {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .ss-price {
+      font-size: 1.05rem;
+      font-weight: 900;
+      color: #00d2d3;
+      font-family: 'Outfit', sans-serif;
+    }
+    .ss-btn {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3;
+      font-weight: 800;
+      font-size: 0.85rem;
+      padding: 0.65rem 0.9rem;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: block;
+    }
+    .ss-btn:hover {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(0, 210, 211, 0.4);
+    }
+    /* Spreadshop Guarantee Strip */
+    .ss-guarantee-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .ss-guarantee-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .ss-g-icon {
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    .ss-guarantee-item strong {
+      display: block;
+      color: #fff;
+      font-size: 0.88rem;
+    }
+    .ss-guarantee-item span {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.76rem;
+    }
+
   </style>
 </head>
 <body>
@@ -703,6 +1022,272 @@
     </div>
   </section>
 
+
+  <!-- ==================== SPREADSHOP HIGH-CAPACITY VARIATION SHOWCASE ==================== -->
+  <section class="spreadshop-section" id="spreadshop">
+    <div class="spreadshop-wrapper">
+      <div class="spreadshop-header">
+        <div class="spreadshop-title-group">
+          <span class="spreadshop-badge">🛍️ OFFICIAL SPREADSHOP STORE &bull; 200+ LISTINGS LIVE</span>
+          <h2 class="spreadshop-h2">Graphic Tees, Heavy Hoodies, Mugs &amp; Full Variations</h2>
+          <p class="spreadshop-desc">Shop our high-capacity print-on-demand collection with all sizes (XS to 5XL) and colorways. Choose from classic heavyweight tees, warm fleece hoodies, two-tone mugs, washed caps, and vinyl stickers produced to order and fulfilled worldwide.</p>
+        </div>
+        <div class="spreadshop-header-actions">
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="spreadshop-cta-btn">🛍️ Open Full Spreadshop Store (200+ Items) &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Quick Department Variation Pills -->
+      <div class="spreadshop-dept-bar">
+        <span class="dept-label">Quick Variations:</span>
+        <div class="dept-pills">
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-pill active">✨ All Products (200+)</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/men" target="_blank" rel="noopener" class="dept-pill">👕 Men's (XS-5XL)</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/women" target="_blank" rel="noopener" class="dept-pill">👚 Women's Collection</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=hoodie" target="_blank" rel="noopener" class="dept-pill">🧥 Hoodies &amp; Fleeces</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/home+%26+living" target="_blank" rel="noopener" class="dept-pill">☕ Ceramic Mugs</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/accessories" target="_blank" rel="noopener" class="dept-pill">🧢 Hats &amp; Caps</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/stickers" target="_blank" rel="noopener" class="dept-pill">🏷️ Die-Cut Stickers</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/kids+%26+babies" target="_blank" rel="noopener" class="dept-pill">👶 Kids &amp; Babies</a>
+        </div>
+      </div>
+
+      <!-- Interactive Horizontal Scroll Carousel for Spreadshop Variations -->
+      <div class="spreadshop-shelf-container">
+        <button class="shelf-arrow shelf-arrow-left" onclick="document.getElementById('spreadshopShelf').scrollBy({left: -380, behavior: 'smooth'})" aria-label="Scroll Left">&lsaquo;</button>
+        <div class="spreadshop-shelf" id="spreadshopShelf">
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">T-Shirt • XS-5XL</span>
+              <img src="../assets/merch/idea-0001-mockup-transparent.png" alt="Measure Twice. Cuss Once." class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Carpentry &amp; Trades</div>
+              <h3 class="ss-title">"Measure Twice. Cuss Once."</h3>
+              <div class="ss-variation">Heavyweight Cotton T-Shirt</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e3a8a;"></span><span class="color-dot" style="background:#64748b;"></span></div>
+                <div class="ss-price">$24.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Measure%20Twice" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Fleece Hoodie • S-3XL</span>
+              <img src="../assets/merch/idea-0029-mockup-transparent.png" alt="Warning: Will Talk About Cars" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Automotive Culture</div>
+              <h3 class="ss-title">"Warning: Will Talk About Cars"</h3>
+              <div class="ss-variation">Unisex Pullover Fleece Hoodie</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#2563eb;"></span></div>
+                <div class="ss-price">$49.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Warning" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Drinkware • 11/15oz</span>
+              <img src="../assets/merch/idea-0097-mockup-transparent.png" alt="Home Is Where the Cat Sits" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Cat Lovers</div>
+              <h3 class="ss-title">"Home Is Where the Cat Sits"</h3>
+              <div class="ss-variation">Two-Tone Glossy Ceramic Mug</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#ea580c;"></span></div>
+                <div class="ss-price">$16.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Cat" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Headwear • Adjustable</span>
+              <img src="../assets/merch/idea-0021-mockup-transparent.png" alt="Real Trucks Don't Have Plugs" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Truck &amp; Diesel</div>
+              <h3 class="ss-title">"Real Trucks Don't Have Plugs"</h3>
+              <div class="ss-variation">Washed Vintage Twill Cap</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#334155;"></span><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#78350f;"></span></div>
+                <div class="ss-price">$26.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Trucks" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Long Sleeve • S-3XL</span>
+              <img src="../assets/merch/idea-0081-mockup-transparent.png" alt="Coffee Before Conversation" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Coffee &amp; Mornings</div>
+              <h3 class="ss-title">"Coffee Before Conversation"</h3>
+              <div class="ss-variation">Thermal Heavyweight Long Sleeve</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#475569;"></span></div>
+                <div class="ss-price">$32.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Coffee" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Accessories • Die-Cut</span>
+              <img src="../assets/merch/idea-0105-mockup-transparent.png" alt="My Dog Thinks I'm Awesome" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Dog Lovers</div>
+              <h3 class="ss-title">"My Dog Thinks I'm Awesome"</h3>
+              <div class="ss-variation">Waterproof Vinyl Sticker Pack</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#fbbf24;"></span></div>
+                <div class="ss-price">$6.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Dog" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Athletic • S-2XL</span>
+              <img src="../assets/merch/idea-0061-mockup-transparent.png" alt="Sarcasm: Just One of My Free Services" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Sarcasm &amp; Humor</div>
+              <h3 class="ss-title">"Sarcasm: My Free Service"</h3>
+              <div class="ss-variation">Tri-Blend Athletic Tank Top</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#94a3b8;"></span><span class="color-dot" style="background:#111;"></span></div>
+                <div class="ss-price">$23.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Sarcasm" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Fleece Hoodie • S-3XL</span>
+              <img src="../assets/merch/idea-0004-mockup-transparent.png" alt="My Retirement Plan Has a Tool Belt" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Handyman &amp; Trades</div>
+              <h3 class="ss-title">"My Retirement Plan Has a Tool Belt"</h3>
+              <div class="ss-variation">Heavy Cotton Workwear Hoodie</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#14532d;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span></div>
+                <div class="ss-price">$48.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Retirement" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">T-Shirt • XS-5XL</span>
+              <img src="../assets/merch/idea-0006-mockup-transparent.png" alt="If It Ain't Level, I Ain't Leaving" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Carpentry &amp; DIY</div>
+              <h3 class="ss-title">"If It Ain't Level, I Ain't Leaving"</h3>
+              <div class="ss-variation">Classic Fit Crewneck Tee</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#0f172a;"></span></div>
+                <div class="ss-price">$24.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Level" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Drinkware • 20oz</span>
+              <img src="../assets/merch/idea-0025-mockup-transparent.png" alt="I Brake for Project Cars" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Car Enthusiasts</div>
+              <h3 class="ss-title">"I Brake for Project Cars"</h3>
+              <div class="ss-variation">Stainless Steel Travel Tumbler</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#cbd5e1;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
+                <div class="ss-price">$21.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Project%20Cars" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Tee &amp; Sticker Pack</span>
+              <img src="../assets/merch/idea-0027-mockup-transparent.png" alt="My Other Account Is for Car Parts" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Automotive Lifestyle</div>
+              <h3 class="ss-title">"My Other Account Is for Car Parts"</h3>
+              <div class="ss-variation">Graphic T-Shirt &amp; Die-Cut Sticker</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
+                <div class="ss-price">$25.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Car%20Parts" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+          <div class="ss-card">
+            <div class="ss-imgwrap">
+              <span class="ss-badge">Zip Hoodie • S-3XL</span>
+              <img src="../assets/merch/idea-0026-mockup-transparent.png" alt="Just One More Modification" class="ss-img" loading="lazy">
+            </div>
+            <div class="ss-body">
+              <div class="ss-category">Tuner &amp; Garage</div>
+              <h3 class="ss-title">"Just One More Modification"</h3>
+              <div class="ss-variation">Premium Heavyweight Zip Hoodie</div>
+              <div class="ss-meta">
+                <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#831843;"></span></div>
+                <div class="ss-price">$52.99</div>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Modification" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Spreadshop Fulfillment & Quality Badges -->
+      <div class="ss-guarantee-strip">
+        <div class="ss-guarantee-item">
+          <span class="ss-g-icon">📏</span>
+          <div><strong>Sizes XS to 5XL</strong><span>Extended unisex, women's &amp; youth fits available</span></div>
+        </div>
+        <div class="ss-guarantee-item">
+          <span class="ss-g-icon">🎨</span>
+          <div><strong>15+ Colorways</strong><span>Black, heather, navy, sand, white, military green &amp; more</span></div>
+        </div>
+        <div class="ss-guarantee-item">
+          <span class="ss-g-icon">⚡</span>
+          <div><strong>Express Creation</strong><span>Freshly printed with eco-friendly direct-to-garment inks</span></div>
+        </div>
+        <div class="ss-guarantee-item">
+          <span class="ss-g-icon">🌍</span>
+          <div><strong>Tracked Shipping</strong><span>Reliable worldwide door-to-door delivery with tracking</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <!-- Filter & Search Controls -->
   <section class="controls-container">
     <div class="controls-box">
@@ -712,8 +1297,10 @@
           <input type="text" id="searchInput" class="search-input" placeholder="Search by keyword, hobby, or phrase (e.g. garage, coffee, dad, cat, measure)...">
         </div>
         <div class="sort-wrapper">
+          <button id="shuffleCatalogBtn" onclick="shuffleCatalog()" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.18); color:#ffaa00; font-weight:800; font-size:0.85rem; padding:0.6rem 1.1rem; border-radius:8px; cursor:pointer; display:inline-flex; align-items:center; gap:0.4rem; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,170,0,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.08)'">🎲 Shuffle Mix</button>
           <span class="sort-label">Sort:</span>
           <select id="sortSelect" class="sort-select">
+            <option value="mixed" selected>🎲 Mixed &amp; Matched (Random)</option>
             <option value="featured">Featured First</option>
             <option value="price-low">Price: Low to High</option>
             <option value="price-high">Price: High to Low</option>
@@ -722,9 +1309,9 @@
         </div>
       </div>
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="live" style="background:rgba(16, 185, 129, 0.22); border-color:#10b981; color:#34d399; font-weight:800;"><span class="dot-pulse" style="margin-right:4px;"></span> In-Stock Now (8 Live)</button>
-        <button class="filter-pill" data-cat="all">All Catalog (750)</button>
-        <button class="filter-pill" data-cat="vault" style="color:#c084fc; border-color:rgba(168, 85, 247, 0.45); font-weight:700;">✨ Design Vault (742 Drops)</button>
+        <button class="filter-pill" data-cat="live" style="background:rgba(16, 185, 129, 0.22); border-color:#10b981; color:#34d399; font-weight:800;"><span class="dot-pulse" style="margin-right:4px;"></span> In-Stock Now (11 Live)</button>
+        <button class="filter-pill active" data-cat="all">All Catalog (331)</button>
+        <button class="filter-pill" data-cat="vault" style="color:#c084fc; border-color:rgba(168, 85, 247, 0.45); font-weight:700;">✨ Design Vault (320 Drops)</button>
         <button class="filter-pill" data-cat="t-shirt" style="color:var(--accent-gold); border-color:rgba(255,170,0,0.4);">👕 Heavyweight Tees</button>
         <button class="filter-pill" data-cat="hoodie" style="color:var(--accent-cyan); border-color:rgba(0,210,211,0.4);">🧥 Fleece Hoodies</button>
         <button class="filter-pill" data-cat="mug" style="color:var(--accent-pink); border-color:rgba(254,44,85,0.4);">☕ Ceramic Mugs</button>
@@ -744,6 +1331,11 @@
         <button class="filter-pill" data-cat="bbq">BBQ &amp; Grilling</button>
         <button class="filter-pill" data-cat="fitness">Fitness &amp; Gym</button>
         <button class="filter-pill" data-cat="gaming">Gaming &amp; Tech</button>
+        <button class="filter-pill" data-cat="fantasy">Fantasy &amp; Medieval</button>
+        <button class="filter-pill" data-cat="gothic">Gothic &amp; Dark Romantic</button>
+        <button class="filter-pill" data-cat="fishing">Fishing &amp; Outdoors</button>
+        <button class="filter-pill" data-cat="camping">Camping &amp; Trail</button>
+        <button class="filter-pill" data-cat="gardening">Gardening &amp; Plants</button>
       </div>
     </div>
   </section>
@@ -818,146 +1410,303 @@
   <script>
     // Initial 8 Live In-Stock Products (Renders instantly with high-res transparent mockups)
     const INITIAL_LIVE_PRODUCTS = [
-      {
-        id: "prod-live-001",
-        saying: "My Bad, Your Fault",
-        title: "\"My Bad, Your Fault\" Heavyweight T-Shirt",
-        category: "sarcasm",
-        categoryName: "Sarcasm & Adult Humor",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Midnight Black",
-        availableColors: ["Midnight Black", "Crisp White", "Navy Blue", "Heather Grey"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "For anyone who takes absolute responsibility for nothing. Featuring custom cheeky raccoon causing morning chaos with witty vintage lettering printed on ultra-comfortable ring-spun cotton.",
-        image: "../assets/merch/mockups/my-bad-black.png",
-        isWhite: false,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-bad-your-fault-heavyweight-t-shirt-midnight-black"
-      },
-      {
-        id: "prod-live-002",
-        saying: "I'd Rather Be in the Garage",
-        title: "\"I'd Rather Be in the Garage\" Heavyweight T-Shirt",
-        category: "mechanics",
-        categoryName: "Mechanics & Garage Life",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Midnight Black",
-        availableColors: ["Midnight Black", "Crisp White", "Dark Heather", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "For mechanics, gearheads, and hands-on builders who know exactly where they belong. Featuring bespoke vintage automotive garage illustration with custom typography printed on 100% ring-spun cotton.",
-        image: "../assets/merch/mockups/garage-black.png",
-        isWhite: false,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/id-rather-be-in-the-garage-heavyweight-t-shirt-midnight-black"
-      },
-      {
-        id: "prod-live-003",
-        saying: "My Garage Is My Happy Place",
-        title: "\"My Garage Is My Happy Place\" Heavyweight T-Shirt",
-        category: "mechanics",
-        categoryName: "Mechanics & Garage Life",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Crisp White",
-        availableColors: ["Crisp White", "Midnight Black", "Dark Heather", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "For mechanics, car builders, and weekend tinkerers who find pure serenity among tools and engines. Features genuine Comfort Colors ring-spun cotton with relaxed vintage fit.",
-        image: "../assets/merch/mockups/garage-white.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-garage-is-my-happy-place-heavyweight-t-shirt"
-      },
-      {
-        id: "prod-live-004",
-        saying: "Coffee Before Conversation",
-        title: "\"Coffee Before Conversation\" Ceramic Mug",
-        category: "coffee",
-        categoryName: "Coffee & Morning Humor",
-        price: 15.99,
-        baseItem: "White Glossy Ceramic Mug",
-        color: "Crisp White Ceramic",
-        availableColors: ["Crisp White Ceramic"],
-        sizes: "11oz, 15oz, 20oz",
-        desc: "For early mornings, introverts, and anyone whose vocal cords remain locked until the first cup is finished. Features bespoke mouth padlock and keyhole coffee cup illustration.",
-        image: "../assets/merch/mockups/coffee-mug.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/coffee-before-conversation-ceramic-mug"
-      },
-      {
-        id: "prod-live-005",
-        saying: "Dad Level: Legendary",
-        title: "\"Dad Level: Legendary\" Premium Fleece Hoodie",
-        category: "dads",
-        categoryName: "Dad Life & Family",
-        price: 49.99,
-        baseItem: "Cotton Heritage M2580 Unisex Fleece Hoodie",
-        color: "Solid White",
-        availableColors: ["Solid White", "Midnight Black", "Heather Grey", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL",
-        desc: "For dads who tackle parenting like an epic raid boss. Featuring custom superhero dad carrying kids, stroller, and supplies, printed on ultra-plush 8.5 oz 3-end fleece.",
-        image: "../assets/merch/mockups/dad-hoodie.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/dad-level-legendary-premium-fleece-hoodie"
-      },
-      {
-        id: "prod-live-006",
-        saying: "The Cat Allows Me to Live Here",
-        title: "\"The Cat Allows Me to Live Here\" Heavyweight T-Shirt",
-        category: "cats",
-        categoryName: "Cat Lovers",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Crisp White",
-        availableColors: ["Crisp White", "Midnight Black", "Heather Grey", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "Every cat owner knows who holds the deed to the house. Featuring bespoke vintage editorial cat illustration with tiny butler serving on velvet cushion and custom lettering.",
-        image: "../assets/merch/mockups/cat-white.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/the-cat-allows-me-to-live-here-heavyweight-t-shirt"
-      },
-      {
-        id: "prod-live-007",
-        saying: "Measure Twice. Cuss Once.",
-        title: "\"Measure Twice. Cuss Once.\" Heavyweight T-Shirt",
-        category: "trades",
-        categoryName: "Trades & Handyman",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Crisp White",
-        availableColors: ["Crisp White", "Midnight Black", "Dark Heather", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "For carpenters, woodworkers, and DIY enthusiasts who know that precision craftsmanship is paved with colorful vocabulary. Exasperated tape measure illustration on 100% cotton.",
-        image: "../assets/merch/mockups/measure-white.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt"
-      },
-      {
-        id: "prod-live-008",
-        saying: "My Dog Thinks I'm Awesome",
-        title: "\"My Dog Thinks I'm Awesome\" Heavyweight T-Shirt",
-        category: "dogs",
-        categoryName: "Dog Lovers",
-        price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
-        color: "Crisp White",
-        availableColors: ["Crisp White", "Midnight Black", "Heather Grey", "Navy Blue"],
-        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "No matter how chaotic the day was, someone thinks you're the absolute greatest human on Earth. Featuring custom heartwarming dog owner illustration in the rain.",
-        image: "../assets/merch/mockups/dog-white.png",
-        isWhite: true,
-        isLive: true,
-        url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-dog-thinks-im-awesome-heavyweight-t-shirt"
-      }
-    ];
+    {
+        "id": "item-0125",
+        "baseId": "idea-0125",
+        "number": 125,
+        "productType": "hat",
+        "saying": "I'm Fine. Everything Else Is Questionable.",
+        "title": "\"I'm Fine. Everything Else Is Questionable.\" Washed Twill Cap",
+        "category": "sarcasm",
+        "categoryName": "Sarcasm & Adult Humor",
+        "price": 27.99,
+        "baseItem": "Champion Washed Twill Low Profile Cap",
+        "color": "Washed Black",
+        "availableColors": [
+            "Washed Black",
+            "Navy",
+            "Charcoal",
+            "Khaki"
+        ],
+        "sizes": "Adjustable Strap (One Size Fits All)",
+        "desc": "Unstructured 6-panel washed cotton twill cap featuring 'I'm Fine. Everything Else Is Questionable.' design with brass buckle closure.",
+        "image": "assets/merch/idea-0125-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/dad-level-legendary-premium-fleece-hoodie",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0007",
+        "baseId": "idea-0007",
+        "number": 7,
+        "productType": "t-shirt",
+        "saying": "Good Work Ain't Cheap",
+        "title": "\"Good Work Ain't Cheap\" Heavyweight T-Shirt",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Crisp White",
+            "Navy Blue",
+            "Heather Grey"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Classic heavyweight tee featuring 'Good Work Ain't Cheap' printed with durable, vibrant inks on ultra-comfortable 100% ring-spun cotton.",
+        "image": "assets/merch/idea-0007-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0105",
+        "baseId": "idea-0105",
+        "number": 105,
+        "productType": "hoodie",
+        "saying": "Silence Is My Favorite Conversation",
+        "title": "\"Silence Is My Favorite Conversation\" Premium Fleece Hoodie",
+        "category": "introvert",
+        "categoryName": "Introvert & Dark Humor",
+        "price": 49.99,
+        "baseItem": "Cotton Heritage M2580 Unisex Fleece Hoodie",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Charcoal Heather",
+            "Navy Blue",
+            "Solid White"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL",
+        "desc": "Ultra-plush 8.5 oz 3-end fleece hoodie featuring 'Silence Is My Favorite Conversation' with matching drawcords and front pouch pocket.",
+        "image": "assets/merch/idea-0105-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/the-cat-allows-me-to-live-here-heavyweight-t-shirt",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0026",
+        "baseId": "idea-0026",
+        "number": 26,
+        "productType": "t-shirt",
+        "saying": "Just One More Modification",
+        "title": "\"Just One More Modification\" Vintage Graphic Tee",
+        "category": "mechanics",
+        "categoryName": "Mechanics & Automotive",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Crisp White",
+        "availableColors": [
+            "Crisp White",
+            "Midnight Black",
+            "Dark Heather",
+            "Army Green"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Bespoke illustration featuring 'Just One More Modification' with custom distressed typography on premium pre-shrunk cotton.",
+        "image": "assets/merch/idea-0026-mockup-transparent.png",
+        "isWhite": true,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/my-garage-is-my-happy-place-heavyweight-t-shirt",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0025",
+        "baseId": "idea-0025",
+        "number": 25,
+        "productType": "t-shirt",
+        "saying": "I Brake for Project Cars",
+        "title": "\"I Brake for Project Cars\" Heavyweight T-Shirt",
+        "category": "mechanics",
+        "categoryName": "Mechanics & Automotive",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Crisp White",
+            "Navy Blue",
+            "Heather Grey"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Classic heavyweight tee featuring 'I Brake for Project Cars' printed with durable, vibrant inks on ultra-comfortable 100% ring-spun cotton.",
+        "image": "assets/merch/idea-0025-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/id-rather-be-in-the-garage-heavyweight-t-shirt-midnight-black",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0003",
+        "baseId": "idea-0003",
+        "number": 3,
+        "productType": "hoodie",
+        "saying": "Built Different. Usually With Power Tools.",
+        "title": "\"Built Different. Usually With Power Tools.\" Premium Fleece Hoodie",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 49.99,
+        "baseItem": "Cotton Heritage M2580 Unisex Fleece Hoodie",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Charcoal Heather",
+            "Navy Blue",
+            "Solid White"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL",
+        "desc": "Ultra-plush 8.5 oz 3-end fleece hoodie featuring 'Built Different. Usually With Power Tools.' with matching drawcords and front pouch pocket.",
+        "image": "assets/merch/idea-0003-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0004",
+        "baseId": "idea-0004",
+        "number": 4,
+        "productType": "mug",
+        "saying": "My Retirement Plan Has a Tool Belt",
+        "title": "\"My Retirement Plan Has a Tool Belt\" Glossy Ceramic Mug",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 15.95,
+        "baseItem": "White Glossy Ceramic Coffee Mug (11oz & 15oz)",
+        "color": "Crisp White Ceramic",
+        "availableColors": [
+            "Crisp White Ceramic"
+        ],
+        "sizes": "11oz, 15oz",
+        "desc": "Durable high-gloss ceramic mug featuring 'My Retirement Plan Has a Tool Belt'. Dishwasher and microwave safe with vibrant wrap-around print.",
+        "image": "assets/merch/idea-0004-mockup-transparent.png",
+        "isWhite": true,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0002",
+        "baseId": "idea-0002",
+        "number": 2,
+        "productType": "t-shirt",
+        "saying": "I Fix What You Tried to Fix",
+        "title": "\"I Fix What You Tried to Fix\" Vintage Graphic Tee",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Crisp White",
+        "availableColors": [
+            "Crisp White",
+            "Midnight Black",
+            "Dark Heather",
+            "Army Green"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Bespoke illustration featuring 'I Fix What You Tried to Fix' with custom distressed typography on premium pre-shrunk cotton.",
+        "image": "assets/merch/idea-0002-mockup-transparent.png",
+        "isWhite": true,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0001",
+        "baseId": "idea-0001",
+        "number": 1,
+        "productType": "t-shirt",
+        "saying": "Measure Twice. Cuss Once.",
+        "title": "\"Measure Twice. Cuss Once.\" Heavyweight T-Shirt",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Crisp White",
+            "Navy Blue",
+            "Heather Grey"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Classic heavyweight tee featuring 'Measure Twice. Cuss Once.' printed with durable, vibrant inks on ultra-comfortable 100% ring-spun cotton.",
+        "image": "assets/merch/idea-0001-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0085",
+        "baseId": "idea-0085",
+        "number": 85,
+        "productType": "t-shirt",
+        "saying": "I Was Normal Before the Cats",
+        "title": "\"I Was Normal Before the Cats\" Heavyweight T-Shirt",
+        "category": "cats",
+        "categoryName": "Cat Lovers",
+        "price": 25.99,
+        "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Crisp White",
+            "Navy Blue",
+            "Heather Grey"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL, 4XL",
+        "desc": "Classic heavyweight tee featuring 'I Was Normal Before the Cats' printed with durable, vibrant inks on ultra-comfortable 100% ring-spun cotton.",
+        "image": "assets/merch/idea-0085-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com/products/coffee-before-conversation-ceramic-mug",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    },
+    {
+        "id": "item-0006",
+        "baseId": "idea-0006",
+        "number": 6,
+        "productType": "t-shirt",
+        "saying": "If It Ain't Level, I Ain't Leaving",
+        "title": "\"If It Ain't Level, I Ain't Leaving\" Heavyweight Long Sleeve Tee",
+        "category": "trades",
+        "categoryName": "Trades & Handyman",
+        "price": 32.99,
+        "baseItem": "Comfort Colors 6014 Garment-Dyed Long Sleeve",
+        "color": "Midnight Black",
+        "availableColors": [
+            "Midnight Black",
+            "Crisp White",
+            "Navy Blue"
+        ],
+        "sizes": "S, M, L, XL, 2XL, 3XL",
+        "desc": "Durable heavyweight long sleeve tee featuring 'If It Ain't Level, I Ain't Leaving' with ribbed cuffs and relaxed fit.",
+        "image": "assets/merch/idea-0006-mockup-transparent.png",
+        "isWhite": false,
+        "isLive": true,
+        "url": "https://jasontv-marketplace-shop.fourthwall.com",
+        "status": "in-stock",
+        "badge": "🟢 In Stock • Ready to Ship"
+    }
+];
 
     let ALL_PRODUCTS = [...INITIAL_LIVE_PRODUCTS];
-    let currentCategory = 'live';
+    let currentCategory = 'all';
     let currentQuery = '';
     let currentSort = 'featured';
     let currentPage = 1;
@@ -1031,6 +1780,23 @@
       return pCat === cat || pName.includes(cat);
     }
 
+    
+    function shuffleCatalog() {
+      // Randomly re-order ALL_PRODUCTS with Fisher-Yates shuffle
+      for (let i = ALL_PRODUCTS.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [ALL_PRODUCTS[i], ALL_PRODUCTS[j]] = [ALL_PRODUCTS[j], ALL_PRODUCTS[i]];
+      }
+      currentSort = 'mixed';
+      if (sortSelect) sortSelect.value = 'mixed';
+      currentPage = 1;
+      renderProducts();
+      const grid = document.getElementById('productsGrid');
+      if (grid) {
+        grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
     function renderProducts() {
       let filtered = ALL_PRODUCTS.filter(p => {
         const catMatch = matchesCategory(p, currentCategory);
@@ -1050,12 +1816,15 @@
         filtered.sort((a, b) => b.price - a.price);
       } else if (currentSort === 'name') {
         filtered.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (currentSort === 'mixed') {
+        // Mixed & Matched: preserve the interleaved randomized order
+        // No alphabetical clustering
       } else {
-        // Featured: live in-stock items first, then alphabetical
+        // Featured: live in-stock items first, then preserve varied order
         filtered.sort((a, b) => {
           if (a.isLive && !b.isLive) return -1;
           if (!a.isLive && b.isLive) return 1;
-          return a.title.localeCompare(b.title);
+          return 0;
         });
       }
 
