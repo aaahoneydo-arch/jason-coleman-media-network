@@ -1,68 +1,48 @@
-// JasonTV Marketplace Service Worker
-const CACHE_NAME = 'jasontv-cache-v1';
-const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/gamedev/',
-  '/gamedev/index.html',
-  '/gamedev/style.css',
-  '/gamedev/app.js',
-  '/gamedev/products.js',
-  '/books.html',
-  '/watch.html',
-  '/discovery.css',
-  '/favicon.svg',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/manifest.json'
-];
+// JasonTV Marketplace Service Worker v3 (Cache-Busting & Live Storefront)
+const CACHE_NAME = 'jasontv-storefront-v3';
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS);
-    }).then(() => self.skipWaiting())
-  );
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.map((k) => {
-          if (k !== CACHE_NAME) return caches.delete(k);
-        })
+        keys.map((k) => caches.delete(k)) // Purge all old caches immediately
       );
     }).then(() => self.clients.claim())
   );
 });
 
 self.addEventListener('fetch', (e) => {
-  // Only handle GET requests for our origin or fonts
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
 
-  // Skip analytics or external checkout APIs
-  if (url.hostname.includes('google-analytics') || url.hostname.includes('gumroad.com') || url.hostname.includes('itch.io')) {
+  // Skip external analytics and shop checkout domains
+  if (url.hostname.includes('google-analytics') || url.hostname.includes('gumroad.com') || url.hostname.includes('itch.io') || url.hostname.includes('fourthwall.com') || url.hostname.includes('myspreadshop.com')) {
     return;
   }
 
+  // Network-first for ALL HTML pages so updates are live immediately
+  if (e.request.headers.get('accept')?.includes('text/html') || url.pathname.endsWith('.html') || url.pathname === '/') {
+    e.respondWith(
+      fetch(e.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(e.request, clone));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(e.request) || caches.match('/index.html'))
+    );
+    return;
+  }
+
+  // Stale-while-revalidate for assets
   e.respondWith(
     caches.match(e.request).then((cachedResponse) => {
-      // Network-first for HTML pages so fresh updates arrive immediately
-      if (e.request.headers.get('accept')?.includes('text/html')) {
-        return fetch(e.request)
-          .then((networkResponse) => {
-            if (networkResponse && networkResponse.status === 200) {
-              const clone = networkResponse.clone();
-              caches.open(CACHE_NAME).then((cache) => cache.put(e.request, clone));
-            }
-            return networkResponse;
-          })
-          .catch(() => cachedResponse || caches.match('/index.html'));
-      }
-
-      // Stale-while-revalidate for assets
       const fetchPromise = fetch(e.request).then((networkResponse) => {
         if (networkResponse && networkResponse.status === 200) {
           const clone = networkResponse.clone();
