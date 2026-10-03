@@ -1,0 +1,7 @@
+# Python temporary scripts and artifacts
+*.py
+__pycache__/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
