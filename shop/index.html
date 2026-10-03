@@ -470,16 +470,40 @@
       position: absolute;
       bottom: 12px;
       left: 14px;
-      background: rgba(0, 0, 0, 0.75);
-      backdrop-filter: blur(8px);
-      color: var(--accent-cyan);
-      border: 1px solid rgba(0, 210, 211, 0.3);
       font-size: 0.72rem;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.6px;
-      padding: 0.25rem 0.65rem;
+      padding: 0.28rem 0.7rem;
       border-radius: 6px;
+      backdrop-filter: blur(8px);
+    }
+    .badge-in-stock {
+      background: rgba(16, 185, 129, 0.22);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.55);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .badge-vault-drop {
+      background: rgba(168, 85, 247, 0.2);
+      color: #c084fc;
+      border: 1px solid rgba(168, 85, 247, 0.45);
+    }
+    .dot-pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #34d399;
+      box-shadow: 0 0 8px #34d399;
+      animation: pulseDot 1.5s infinite;
+      display: inline-block;
+    }
+    @keyframes pulseDot {
+      0% { opacity: 0.4; transform: scale(0.85); }
+      50% { opacity: 1; transform: scale(1.25); }
+      100% { opacity: 0.4; transform: scale(0.85); }
     }
     .product-body {
       padding: 1.5rem;
@@ -532,10 +556,19 @@
       align-items: center;
       justify-content: center;
       gap: 0.4rem;
+      border: none;
     }
     .btn-buy:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 170, 0, 0.55);
+    }
+    .btn-buy.btn-request-drop {
+      background: linear-gradient(135deg, #8b5cf6, #6366f1);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+    }
+    .btn-buy.btn-request-drop:hover {
+      box-shadow: 0 8px 25px rgba(99, 102, 241, 0.55);
     }
     .btn-policy {
       background: #141b2b;
@@ -737,8 +770,13 @@
         </div>
       </div>
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="all">All Products (1,498)</button>
-        <button class="filter-pill" data-cat="live" style="color:var(--accent-gold); border-color:rgba(255,170,0,0.5);">🔥 In-Stock Live (8)</button>
+        <button class="filter-pill active" data-cat="live" style="background:rgba(16, 185, 129, 0.22); border-color:#10b981; color:#34d399; font-weight:800;"><span class="dot-pulse" style="margin-right:4px;"></span> In-Stock Now (8 Live)</button>
+        <button class="filter-pill" data-cat="all">All Catalog (750)</button>
+        <button class="filter-pill" data-cat="vault" style="color:#c084fc; border-color:rgba(168, 85, 247, 0.45); font-weight:700;">✨ Design Vault (742 Drops)</button>
+        <button class="filter-pill" data-cat="t-shirt" style="color:var(--accent-gold); border-color:rgba(255,170,0,0.4);">👕 Heavyweight Tees</button>
+        <button class="filter-pill" data-cat="hoodie" style="color:var(--accent-cyan); border-color:rgba(0,210,211,0.4);">🧥 Fleece Hoodies</button>
+        <button class="filter-pill" data-cat="mug" style="color:var(--accent-pink); border-color:rgba(254,44,85,0.4);">☕ Ceramic Mugs</button>
+        <button class="filter-pill" data-cat="hat" style="color:#a78bfa; border-color:rgba(167,139,250,0.4);">🧢 Washed Caps</button>
         <button class="filter-pill" data-cat="mechanics">Mechanics &amp; Garages</button>
         <button class="filter-pill" data-cat="blue-collar">Trades &amp; Blue Collar</button>
         <button class="filter-pill" data-cat="welder">Welders</button>
@@ -804,21 +842,17 @@
     </div>
   </section>
 
-  <!-- Made to Order Policy Confirmation Modal -->
+  <!-- Made to Order / Fast-Track Drop Request Modal -->
   <div class="policy-modal-backdrop" id="policyModal">
     <div class="policy-modal-card">
       <button class="modal-close" id="closeModal">&times;</button>
-      <h3 id="modalProductTitle">Made-to-Order Acknowledgment</h3>
-      <p>You are proceeding to complete your order through our verified manufacturing and fulfillment partner, <strong>Fourthwall</strong>.</p>
-      <p><strong>Please note our production policy:</strong></p>
-      <ul>
-        <li><strong>Produced After Purchase:</strong> This item is crafted individually after your order is confirmed.</li>
-        <li><strong>Sizing &amp; Options:</strong> Because items are made to order, please double-check your size and color choice before checkout. We do not accept returns for change of mind or sizing mistakes.</li>
-        <li><strong>Damaged or Defective Guarantee:</strong> If your order arrives damaged or with a printing defect, email <code>aaahoneydo@gmail.com</code> with photos within 30 days for a free replacement or full refund.</li>
-      </ul>
+      <h3 id="modalProductTitle">Product Details</h3>
+      <div id="modalProductBody">
+        <p>Loading details...</p>
+      </div>
       <div class="modal-actions">
-        <a id="modalProceedBtn" href="#" target="_blank" rel="noopener" class="modal-btn-confirm">Acknowledge &amp; Open Checkout &rarr;</a>
-        <button id="modalCancelBtn" class="modal-btn-cancel">Cancel</button>
+        <a id="modalProceedBtn" href="#" target="_blank" rel="noopener" class="modal-btn-confirm">Proceed &rarr;</a>
+        <button id="modalCancelBtn" class="modal-btn-cancel">Close</button>
       </div>
     </div>
   </div>
@@ -971,7 +1005,7 @@
     ];
 
     let ALL_PRODUCTS = [...INITIAL_LIVE_PRODUCTS];
-    let currentCategory = 'all';
+    let currentCategory = 'live';
     let currentQuery = '';
     let currentSort = 'featured';
     let currentPage = 1;
@@ -986,6 +1020,7 @@
     const loadMoreCount = document.getElementById('loadMoreCount');
     const modal = document.getElementById('policyModal');
     const modalProductTitle = document.getElementById('modalProductTitle');
+    const modalProductBody = document.getElementById('modalProductBody');
     const modalProceedBtn = document.getElementById('modalProceedBtn');
     const modalCancelBtn = document.getElementById('modalCancelBtn');
     const closeModal = document.getElementById('closeModal');
@@ -1014,10 +1049,16 @@
     function matchesCategory(p, cat) {
       if (cat === 'all') return true;
       if (cat === 'live') return p.isLive === true;
+      if (cat === 'vault') return p.isLive !== true;
       
       const pCat = (p.category || '').toLowerCase();
       const pName = (p.categoryName || '').toLowerCase();
       const pSaying = (p.saying || p.title || '').toLowerCase();
+
+      if (cat === 't-shirt') return (p.productType === 't-shirt') || (p.title && p.title.toLowerCase().includes('t-shirt'));
+      if (cat === 'hoodie') return (p.productType === 'hoodie') || (p.title && p.title.toLowerCase().includes('hoodie'));
+      if (cat === 'mug') return (p.productType === 'mug') || (p.title && p.title.toLowerCase().includes('mug'));
+      if (cat === 'hat') return (p.productType === 'hat') || (p.title && (p.title.toLowerCase().includes('cap') || p.title.toLowerCase().includes('hat')));
 
       if (cat === 'mechanics') return pCat.includes('mech') || pCat.includes('garage') || pName.includes('garage');
       if (cat === 'blue-collar') return pCat.includes('blue-collar') || pCat.includes('trade') || pName.includes('trade');
@@ -1087,14 +1128,16 @@
           <div class="product-media ${p.isWhite ? 'backdrop-white-item' : 'backdrop-colored-item'}">
             <img src="${formatImageSrc(p.image)}" alt="${p.title}" loading="lazy">
             <div class="product-price-badge">$${p.price.toFixed(2)}</div>
-            <div class="product-tag-badge">${p.isLive ? '🔥 In Stock' : (p.categoryName || 'Graphic Apparel')}</div>
+            <div class="product-tag-badge ${p.isLive ? 'badge-in-stock' : 'badge-vault-drop'}">
+              ${p.isLive ? '<span class="dot-pulse"></span> IN STOCK • READY TO SHIP' : '✨ MADE-TO-ORDER DROP'}
+            </div>
           </div>
           <div class="product-body">
             <div>
               <h3 class="product-title">${p.title}</h3>
               <div class="product-specs">
-                <span>Fabric: ${p.baseItem}</span>
-                <span>&bull; Sizes: ${p.sizes}</span>
+                <span>${(p.productType === 'mug' || (p.title && p.title.includes('Mug'))) ? 'Material: ' : ((p.productType === 'hat' || (p.title && p.title.includes('Cap'))) ? 'Style: ' : 'Fabric: ')}${p.baseItem || 'Premium Cotton / Ceramic'}</span>
+                <span>&bull; Sizes: ${p.sizes || 'Standard'}</span>
               </div>
               <div class="color-swatches">
                 <span class="color-swatch-label">Colors:</span>
@@ -1103,11 +1146,11 @@
               <p class="product-desc">${p.desc}</p>
             </div>
             <div class="product-actions">
-              <button class="btn-buy" onclick="openPolicyModal('${p.title.replace(/'/g, "\\'")}', '${p.url}')">
-                ${p.isLive ? '🛍️ View &amp; Order' : '✨ Order on Fourthwall &rarr;'}
+              <button class="btn-buy ${p.isLive ? '' : 'btn-request-drop'}" onclick="openProductModal('${p.id}')">
+                ${p.isLive ? '🛍️ View &amp; Order' : '🚀 Request This Drop &rarr;'}
               </button>
-              <button class="btn-policy" onclick="openPolicyModal('${p.title.replace(/'/g, "\\'")}', '${p.url}')" title="Read made-to-order terms">
-                Policy
+              <button class="btn-policy" onclick="openProductModal('${p.id}')" title="View details & terms">
+                ${p.isLive ? 'Policy' : 'Info'}
               </button>
             </div>
           </div>
@@ -1124,9 +1167,45 @@
       }
     }
 
-    function openPolicyModal(title, url) {
-      modalProductTitle.textContent = title;
-      modalProceedBtn.href = url;
+    function openProductModal(id) {
+      const p = ALL_PRODUCTS.find(item => item.id === id);
+      if (!p) return;
+
+      modalProductTitle.textContent = p.title;
+      modalProceedBtn.href = p.url;
+
+      if (p.isLive) {
+        modalProductBody.innerHTML = `
+          <p style="color:#34d399; font-weight:800; font-size:1.05rem; margin-bottom:0.75rem;">🟢 Live In-Stock Item on Fourthwall</p>
+          <p>You are proceeding to complete your order directly through our verified manufacturing and fulfillment partner, <strong>Fourthwall</strong>.</p>
+          <ul>
+            <li><strong>Fulfillment &amp; Printing:</strong> Direct-to-garment &amp; sublimation printing with tracked shipping.</li>
+            <li><strong>Direct 1-Click Checkout:</strong> Proceeding will open the exact live product checkout page on Fourthwall for <strong>${p.title}</strong> ($${p.price.toFixed(2)}).</li>
+            <li><strong>Replacement Guarantee:</strong> 100% free replacement or refund for any defective delivery via <code>aaahoneydo@gmail.com</code>.</li>
+          </ul>
+        `;
+        modalProceedBtn.textContent = "🛍️ Open Fourthwall Checkout →";
+        modalProceedBtn.style.background = "linear-gradient(135deg, #10b981, #059669)";
+        modalProceedBtn.style.color = "#fff";
+      } else {
+        modalProductBody.innerHTML = `
+          <p style="color:#c084fc; font-weight:800; font-size:1.05rem; margin-bottom:0.75rem;">✨ Design Vault &bull; Fast-Track Release Request</p>
+          <p>This design is complete in 3000×3000px high-resolution print quality and currently queued in our vault for store publication.</p>
+          <p><strong>Want us to list this on Fourthwall next?</strong></p>
+          <ul>
+            <li>Clicking below opens an instant 1-click email request to our production team (<code>aaahoneydo@gmail.com</code>).</li>
+            <li>We prioritize listings requested by customers and will publish the item and email you the direct checkout link!</li>
+          </ul>
+          <div style="margin-top:1.25rem; padding:0.85rem 1rem; background:rgba(16, 185, 129, 0.12); border:1px solid rgba(16, 185, 129, 0.35); border-radius:10px; font-size:0.88rem;">
+            <strong style="color:#34d399;">💡 Looking for ready-to-ship gear?</strong><br>
+            Check out our <strong>In-Stock Now</strong> filter tab to browse the 8 verified designs live right now for immediate checkout!
+          </div>
+        `;
+        modalProceedBtn.textContent = "🚀 Send Fast-Track Drop Request →";
+        modalProceedBtn.style.background = "linear-gradient(135deg, #8b5cf6, #6366f1)";
+        modalProceedBtn.style.color = "#fff";
+      }
+
       modal.classList.add('active');
     }
 
@@ -1190,12 +1269,20 @@
     // Initial render with the 8 live products
     renderProducts();
 
-    // Dynamically load the full 1,498 catalog database in the background
+    // Dynamically load the full catalog database in the background
     fetch('products-catalog.json')
       .then(res => res.json())
       .then(catalog => {
         if (Array.isArray(catalog) && catalog.length > 0) {
           ALL_PRODUCTS = catalog;
+          const allPill = document.querySelector('.filter-pill[data-cat="all"]');
+          if (allPill) allPill.textContent = `All Catalog (${catalog.length.toLocaleString()})`;
+          const liveCount = catalog.filter(p => p.isLive).length;
+          const livePill = document.querySelector('.filter-pill[data-cat="live"]');
+          if (livePill) livePill.innerHTML = `<span class="dot-pulse" style="margin-right:4px;"></span> In-Stock Now (${liveCount} Live)`;
+          const vaultCount = catalog.filter(p => !p.isLive).length;
+          const vaultPill = document.querySelector('.filter-pill[data-cat="vault"]');
+          if (vaultPill) vaultPill.textContent = `✨ Design Vault (${vaultCount} Drops)`;
           renderProducts();
         }
       })
