@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="aWyFuS8Py2vO-Dna0Qu7hlJYRmI3EW6utjRSXM1NgoA" />
   <meta name="yandex-verification" content="1c8bb5ca2e4ffbfd" />
-  <title>JasonTV Marketplace | 924+ Commercial Game Engines, Dev Tools, Asset Vaults & Books by Jason Coleman</title>
-  <meta name="description" content="Official home of creator & author Jason Coleman. Explore novels 'The Shattered Crown', 'DRAEVAN: The Immortal', 'The Real Americana', original songs like 'Can't Turn It Off', indie games, WWII documentaries, and comedy shorts on YouTube and TikTok.">
-  <meta name="keywords" content="Jason Coleman, JasonTV, The Shattered Crown, Draevan, The Real Americana, Can't Turn It Off, Epic Last Stands, Jason Coleman author, YouTube JasonTV, TikTok jasontv1982">
+  <title>Jason's Marketplace | Official Dropshipping & Custom Apparel Store | Jackets, Hats, Tees, Mousepads & Gear</title>
+  <meta name="description" content="Shop Jason's Marketplace - premier direct dropshipping store for custom jackets, stitched gaming desk mats, snapback caps, heavyweight graphic tees (XS-5XL), hoodies, and drinkware. Hundreds of exclusive variations with fast tracked worldwide shipping.">
+  <meta name="keywords" content="Jason's Marketplace, dropshipping apparel, custom jackets, graphic tees, stitched gaming mousepads, snapback hats, print on demand store, Spreadshop marketplace, direct factory dropship, streetwear hoodies, custom drinkware, Jasontv marketplace">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <!-- PWA & Favicon Icons -->
@@ -24,15 +24,15 @@
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="JasonTV Marketplace | 924+ Game Engines, Dev Tools, Asset Vaults & Books">
-  <meta name="twitter:description" content="Commercial game engines, developer tools, published novels, original music, and 900+ films by Jason Coleman.">
+  <meta name="twitter:title" content="Jason's Marketplace | Official Dropshipping & Custom Apparel Store">
+  <meta name="twitter:description" content="Custom Jackets, Stitched Gaming Desk Mats, Snapback Caps, Graphic Tees (XS-5XL) & Heavyweight Hoodies direct from Jason's Marketplace.">
   <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
   
   <!-- Preload Product Vault Data for Instant Universal Search -->
   <script src="gamedev/products.js" defer></script>
   
-  <meta property="og:title" content="Jason Coleman Official Creator Network | JasonTV">
-  <meta property="og:description" content="Published Books • Original Music • Indie Game Dev • 900+ YouTube Documentaries • TikTok Comedy">
+  <meta property="og:title" content="Jason's Marketplace | Official Dropshipping & Custom Apparel Store">
+  <meta property="og:description" content="Custom Jackets, Stitched Gaming Desk Mats, Snapback Caps, Graphic Tees (XS-5XL) & Heavyweight Hoodies direct from Jason's Marketplace.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jasontvmarketplace.com/">
   <meta property="og:image" content="assets/hero-banner.jpg">
@@ -91,14 +91,28 @@
           ]
         }
       },
-      {
-        "@type": "Store",
+            {
+        "@type": "ClothingStore",
         "@id": "https://jasontvmarketplace.com/#store",
-        "name": "JasonTV Marketplace Software & Publishing Vault",
+        "name": "Jason's Marketplace",
         "url": "https://jasontvmarketplace.com/",
+        "logo": "https://jasontvmarketplace.com/assets/profile-creator.jpg",
+        "description": "Premier print-on-demand and dropshipping store for custom collegiate jackets, stitched gaming desk mats, snapbacks, and heavyweight graphic tees.",
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, PayPal, Apple Pay, Google Pay",
-        "priceRange": "$4.99 - $59.99"
+        "priceRange": "$16.99 - $69.49",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Apparel & Gaming Merchandise",
+          "itemListElement": [
+            { "@type": "OfferCatalog", "name": "Jackets & Outerwear" },
+            { "@type": "OfferCatalog", "name": "Gaming Mousepads & Desk Mats" },
+            { "@type": "OfferCatalog", "name": "Hats, Caps & Beanies" },
+            { "@type": "OfferCatalog", "name": "Heavyweight T-Shirts & Graphic Tees" },
+            { "@type": "OfferCatalog", "name": "Premium Hoodies & Fleeces" },
+            { "@type": "OfferCatalog", "name": "Mugs, Tumblers & Drinkware" }
+          ]
+        }
       },
       {
         "@type": "VideoObject",
@@ -1887,6 +1901,538 @@
       box-shadow: 0 6px 32px rgba(0, 210, 211, 0.75) !important;
     }
 
+  
+    /* ==================== SPREADSHOP MEGA SHOWCASE STYLES ==================== */
+    .spreadshop-mega-showcase {
+      margin: 3.5rem auto 4.5rem;
+      padding: 0 1.5rem;
+    }
+    .spreadshop-showcase-box {
+      background: linear-gradient(145deg, rgba(10, 16, 28, 0.98), rgba(6, 9, 16, 0.99));
+      border: 1px solid rgba(0, 210, 211, 0.35);
+      border-radius: 24px;
+      padding: 3rem 2.25rem;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.8), 0 0 50px rgba(0, 210, 211, 0.12);
+      position: relative;
+    }
+    .ss-showcase-hero-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.25rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .ss-official-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.6);
+      color: #00d2d3;
+      padding: 0.35rem 0.95rem;
+      border-radius: 50px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 0.85rem;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: #00d2d3;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #00d2d3;
+      display: inline-block;
+      animation: pulseGlow 1.8s infinite;
+    }
+    @keyframes pulseGlow {
+      0% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.3); }
+      100% { opacity: 0.4; transform: scale(0.9); }
+    }
+    .ss-main-heading {
+      font-size: 2.4rem;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.6px;
+    }
+    .ss-main-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+      line-height: 1.6;
+    }
+    .ss-header-ctas {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      min-width: 280px;
+    }
+    .ss-primary-shop-btn {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.95rem 1.6rem;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 8px 25px rgba(0, 210, 211, 0.4);
+      transition: all 0.2s;
+    }
+    .ss-primary-shop-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(0, 210, 211, 0.6);
+    }
+    .ss-secondary-shop-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #cbd5e1 !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.75rem 1.4rem;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .ss-secondary-shop-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff !important;
+    }
+
+    /* Department Navigation Bar */
+    .dept-quick-nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      padding: 0.75rem 1.25rem;
+      background: rgba(14, 21, 35, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    .dept-nav-label {
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      white-space: nowrap;
+    }
+    .dept-nav-scroll {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 0.25rem 0;
+    }
+    .dept-nav-scroll::-webkit-scrollbar { display: none; }
+    .dept-nav-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cbd5e1 !important;
+      padding: 0.5rem 1.1rem;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .dept-nav-pill:hover {
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.25), rgba(9, 132, 227, 0.3));
+      border-color: #00d2d3;
+      color: #fff !important;
+      transform: translateY(-1px);
+    }
+
+    /* Individual Department Showcase Container */
+    .dept-showcase-container {
+      margin-bottom: 4rem;
+      scroll-margin-top: 100px;
+    }
+    .dept-banner-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .dept-indicator-pill {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+    .dept-title {
+      font-size: 1.75rem;
+      color: #fff;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      line-height: 1.2;
+    }
+    .dept-tagline {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+      max-width: 720px;
+    }
+    .dept-view-all-btn {
+      color: #00d2d3 !important;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .dept-view-all-btn:hover {
+      color: #fff !important;
+      transform: translateX(3px);
+    }
+
+    /* Department Products 4-Column Grid */
+    .dept-products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .ss-product-tile {
+      background: rgba(16, 23, 37, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s, box-shadow 0.3s;
+    }
+    .ss-product-tile:hover {
+      transform: translateY(-6px);
+      border-color: rgba(0, 210, 211, 0.5);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7), 0 0 25px rgba(0, 210, 211, 0.15);
+    }
+    .ss-tile-media {
+      position: relative;
+      height: 250px;
+      background: radial-gradient(circle at 50% 45%, #1e293b 0%, #0a0e17 85%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      overflow: hidden;
+    }
+    .ss-tile-img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.55));
+      transition: transform 0.4s ease;
+    }
+    .ss-product-tile:hover .ss-tile-img {
+      transform: scale(1.08);
+    }
+    .ss-tile-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(0, 210, 211, 0.2);
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3;
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      backdrop-filter: blur(6px);
+    }
+    .ss-tile-price {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(7, 10, 18, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffaa00;
+      font-size: 0.95rem;
+      font-weight: 900;
+      font-family: 'Outfit', sans-serif;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      backdrop-filter: blur(6px);
+    }
+    .ss-tile-content {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+    .ss-tile-design {
+      font-size: 0.72rem;
+      color: var(--accent-gold);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .ss-tile-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+    .ss-tile-btn {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3 !important;
+      font-weight: 800;
+      font-size: 0.85rem;
+      padding: 0.7rem 0.9rem;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      transition: all 0.2s;
+    }
+    .ss-tile-btn:hover {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      box-shadow: 0 4px 15px rgba(0, 210, 211, 0.4);
+    }
+
+    /* Quality Guarantee Strip */
+    .ss-quality-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .ss-quality-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      background: rgba(14, 21, 35, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .quality-icon {
+      font-size: 1.8rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .ss-quality-card strong {
+      display: block;
+      color: #fff;
+      font-size: 0.92rem;
+      margin-bottom: 0.2rem;
+    }
+    .ss-quality-card p {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    /* ==================== HERO SHOPPING ACTIONS & PORTAL CARDS ==================== */
+    .hero-shop-quick-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      align-items: center;
+    }
+    .hero-shop-pill-primary {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 900;
+      font-size: 0.98rem;
+      padding: 0.85rem 1.6rem;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 25px rgba(0, 210, 211, 0.5);
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(0, 210, 211, 0.75);
+    }
+    .hero-shop-pill-fourthwall {
+      background: linear-gradient(135deg, #ffaa00, #ff7700);
+      color: #000 !important;
+      font-weight: 900;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.4rem;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 25px rgba(255, 170, 0, 0.4);
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill-fourthwall:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(255, 170, 0, 0.6);
+    }
+    .hero-shop-pill {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e2e8f0 !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.8rem 1.25rem;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill:hover {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: #00d2d3;
+      color: #fff !important;
+      transform: translateY(-2px);
+    }
+
+    .hero-portals-header {
+      margin: 1.5rem 0 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 1.5rem;
+    }
+    .portal-hdr-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .portal-hdr-title {
+      font-size: 1.35rem;
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .hero-portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin: 1.25rem 0 2rem;
+      text-align: left;
+    }
+    .hero-portal-card {
+      background: rgba(14, 20, 32, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 1rem;
+      display: flex;
+      gap: 1.25rem;
+      align-items: center;
+      text-decoration: none;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .hero-portal-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 16px 35px rgba(0, 0, 0, 0.6);
+    }
+    .portal-spreadshop:hover { border-color: rgba(0, 210, 211, 0.7); box-shadow: 0 0 30px rgba(0, 210, 211, 0.2); }
+    .portal-fourthwall:hover { border-color: rgba(255, 170, 0, 0.7); box-shadow: 0 0 30px rgba(255, 170, 0, 0.2); }
+    .portal-itch:hover { border-color: rgba(250, 92, 92, 0.7); box-shadow: 0 0 30px rgba(250, 92, 92, 0.2); }
+    .portal-video:hover { border-color: rgba(255, 118, 117, 0.7); box-shadow: 0 0 30px rgba(255, 118, 117, 0.2); }
+    .portal-books:hover { border-color: rgba(168, 85, 247, 0.7); box-shadow: 0 0 30px rgba(168, 85, 247, 0.2); }
+    .portal-theater:hover { border-color: rgba(255, 59, 48, 0.7); box-shadow: 0 0 30px rgba(255, 59, 48, 0.2); }
+
+    .portal-img-wrap {
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
+      overflow: hidden;
+      flex-shrink: 0;
+      position: relative;
+      background: #090d16;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .portal-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+    .hero-portal-card:hover .portal-img {
+      transform: scale(1.08);
+    }
+    .portal-badge {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      font-size: 0.6rem;
+      font-weight: 900;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .portal-body {
+      flex: 1;
+      min-width: 0;
+    }
+    .portal-cat {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.2rem;
+    }
+    .portal-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.3;
+      margin-bottom: 0.3rem;
+    }
+    .portal-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
+    }
+    .portal-action-link {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
   </style>
   <!-- Gumroad In-Page Checkout Overlay -->
   <script src="https://gumroad.com/js/gumroad.js"></script>
@@ -1908,7 +2454,7 @@
 
   <header>
     <div class="nav-inner">
-      <a href="index.html" class="brand">JASONTV <span>MARKETPLACE</span></a>
+      <a href="index.html" class="brand">JASON'S <span>MARKETPLACE</span></a>
       <ul class="nav-menu">
         <li><a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="nav-spreadshop-highlight">🛍️ Spreadshop (200+)</a></li>
         <li><a href="shop/index.html" style="color:var(--accent-gold); font-weight:800;">👕 Merch Hub</a></li>
@@ -1942,23 +2488,125 @@
       <div class="hero-banner-wrapper">
         <img src="assets/hero-banner.webp" alt="Jason Coleman Creative Hub Cinematic Banner" class="hero-banner-img" width="1376" height="768" fetchpriority="high" decoding="async">
         <div class="hero-overlay">
-          <span class="badge">Author &bull; Game Dev &bull; Music Producer &bull; Creator</span>
-          <h1>JasonTV: Unfiltered Stories, Game Engines & Original Music</h1>
-          <p class="lead">Welcome to the creative universe of Jason Coleman. Stream 900+ videos across WWII history, classic TV, and gaming movies, download 924+ commercial game engines, dev tools, and asset packs, developer CLI tools, Godot 4 frameworks, and 4K asset vaults on itch.io, listen to original JasonTV anthems, and explore published books including <em>DRAEVAN: The Immortal</em> and <em>The Shattered Crown</em>.</p>
+          <span class="badge" style="background: rgba(0, 210, 211, 0.2); border-color: rgba(0, 210, 211, 0.5); color: #00d2d3;">🏷️ OFFICIAL DROPSHIPPING &amp; APPAREL STORE &bull; DIRECT FACTORY FULFILLMENT</span>
+          <h1>Jason's Marketplace: Custom Jackets, Hats, Stitched Desk Mats &amp; Heavyweight Apparel</h1>
+          <p class="lead">Explore over 2,000 live variations across our official dropshipping stores. High-performance stitched gaming desk mats, collegiate outerwear, classic snapbacks, heavyweight graphic tees (XS–5XL), and custom drinkware freshly produced to order with fast worldwide tracked shipping.</p>
         </div>
       </div>
       
       <div class="hero-content">
-        <div class="hero-actions">
-          <a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="btn-large track-click btn-spreadshop-hero" data-target="hero_spreadshop_store">🛍️ Shop Official Spreadshop: Graphic Tees, Hoodies &amp; Mugs (200+ Live Designs) &rarr;</a>
-          <a href="shop/index.html" class="btn-large track-click" style="background:linear-gradient(135deg, #ffaa00, #ff7700);color:#000;font-weight:900;" data-target="hero_merch_store">👕 Merch Hub &amp; Lookbook</a>
-          <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="btn-large track-click" style="background:linear-gradient(135deg, #fa5c5c, #d63031);color:#fff;" data-target="hero_itch_store">⚡ Shop 924+ Commercial Products on itch.io</a>
-          <a href="custom-videos.html" class="btn-large track-click" style="background:linear-gradient(135deg, #00d2d3, #00a8a8);color:#000;font-weight:900;" data-target="hero_custom_videos">🎬 Custom 4-5 Min Videos ($49.99 / 2 for $59.99)</a>
-          <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore Author Books (9)</a>
-          <a href="#music" class="btn-large music track-click" data-target="hero_music">🎵 Original Music &amp; Songs</a>
-          <a href="https://www.youtube.com/channel/UC5EY2rDVHdIOskfZcwR8t3Q?sub_confirmation=1" target="_blank" rel="noopener" class="btn-large yt track-click" data-target="hero_youtube">▶ Stream JasonTV on YouTube</a>
-          <a href="https://www.tiktok.com/@jasontv1982" target="_blank" rel="noopener" class="btn-large tt track-click" data-target="hero_tiktok">♬ Daily Comedy on TikTok</a>
+        
+        <!-- Primary Shopping Quick-Action Buttons -->
+        <div class="hero-shop-quick-actions">
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="hero-shop-pill-primary track-click" data-target="hero_shop_all">
+            🛍️ Shop All Spreadshop (2,000+ Variations) &rarr;
+          </a>
+          <a href="#dept-jackets" class="hero-shop-pill track-click" data-target="hero_shop_jackets">
+            🧥 Jackets &amp; Outerwear
+          </a>
+          <a href="#dept-mousepads" class="hero-shop-pill track-click" data-target="hero_shop_mousepads">
+            🖱️ Gaming Mousepads &amp; Desk Mats
+          </a>
+          <a href="#dept-hats" class="hero-shop-pill track-click" data-target="hero_shop_hats">
+            🧢 Hats, Caps &amp; Beanies
+          </a>
+          <a href="#dept-shirts" class="hero-shop-pill track-click" data-target="hero_shop_shirts">
+            👕 Graphic Tees (XS-5XL)
+          </a>
+          <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="hero-shop-pill-fourthwall track-click" data-target="hero_fourthwall">
+            🔥 Fourthwall Store Drops
+          </a>
         </div>
+
+        <!-- Section Navigation Divider -->
+        <div class="hero-portals-header">
+          <span class="portal-hdr-tag">STORE &amp; NETWORK PORTALS</span>
+          <h3 class="portal-hdr-title">Explore All Departments, Connected Stores &amp; Media Vaults</h3>
+        </div>
+
+        <!-- Visual Portal Cards: Replaces Text-Only Buttons with Rich Image Cards -->
+        <div class="hero-portal-grid">
+          
+          <a href="#spreadshop" class="hero-portal-card portal-spreadshop track-click" data-target="hero_portal_spreadshop">
+            <div class="portal-img-wrap">
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3198A1339PA4765PT32X46Y56D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=400&height=400&appearanceId=54" alt="Spreadshop Physical Products" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#00d2d3; color:#000;">FEATURED</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#00d2d3;">Official Dropship Store</div>
+              <h3 class="portal-title">Spreadshop: Jackets, Hats, Shirts &amp; Mousepads</h3>
+              <p class="portal-desc">Over 2,000 product variations in stock with sizes XS to 5XL, real physical mockups &amp; 15+ colors.</p>
+              <span class="portal-action-link" style="color:#00d2d3;">Shop Collection &rarr;</span>
+            </div>
+          </a>
+
+          <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="hero-portal-card portal-fourthwall track-click" data-target="hero_portal_fourthwall">
+            <div class="portal-img-wrap">
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T111A2PA397PT17X20Y22D1059074785W20000H10522/views/1/Measure%20Twice.%20Cuss%20Once..png?width=400&height=400&appearanceId=2" alt="Fourthwall Custom Dropship" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#ffaa00; color:#000;">DROPSHIP</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#ffaa00;">Fourthwall Store</div>
+              <h3 class="portal-title">Fourthwall: Custom Apparel &amp; Premium Merch</h3>
+              <p class="portal-desc">Official community store featuring custom apparel, accessories, and collector merchandise drops.</p>
+              <span class="portal-action-link" style="color:#ffaa00;">Visit Fourthwall &rarr;</span>
+            </div>
+          </a>
+
+          <a href="custom-videos.html" class="hero-portal-card portal-video track-click" data-target="hero_portal_custom_videos">
+            <div class="portal-img-wrap">
+              <img src="assets/cinematic-thumb.webp" alt="Custom 4K Video Production" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#ff7675; color:#fff;">COMMISSION</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#ff7675;">Production Studio</div>
+              <h3 class="portal-title">Custom 4-5 Min Videos ($49.99 / 2 for $59.99)</h3>
+              <p class="portal-desc">Commission custom 4K sci-fi, war, fantasy, or comedy stories with voiceover &amp; scriptwriting in 48-72 hrs.</p>
+              <span class="portal-action-link" style="color:#ff7675;">Commission Video &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#itch-vault" class="hero-portal-card portal-itch track-click" data-target="hero_portal_itch">
+            <div class="portal-img-wrap">
+              <img src="gamedev/assets/covers/soitswarthen.jpg" alt="Commercial Game Engines" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#fa5c5c; color:#fff;">924+ VAULT</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#fa5c5c;">itch.io Store</div>
+              <h3 class="portal-title">924+ Commercial Game Engines &amp; Dev Tools</h3>
+              <p class="portal-desc">Godot 4 frameworks, RTS engines, combat mechanics &amp; 4K asset packs with 100% royalty-free rights.</p>
+              <span class="portal-action-link" style="color:#fa5c5c;">Browse Game Engines &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#books" class="hero-portal-card portal-books track-click" data-target="hero_portal_books">
+            <div class="portal-img-wrap">
+              <img src="assets/books/shattered_crown.jpg" alt="Published Author Books" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#a855f7; color:#fff;">9 TITLES</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#c084fc;">Published Author Works</div>
+              <h3 class="portal-title">Amazon Books: Novels, Memoirs &amp; Sci-Fi</h3>
+              <p class="portal-desc">Explore <em>The Shattered Crown</em>, <em>DRAEVAN: The Immortal</em>, <em>The Real Americana</em>, and sci-fi series.</p>
+              <span class="portal-action-link" style="color:#c084fc;">Explore 9 Books &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#theater" class="hero-portal-card portal-theater track-click" data-target="hero_portal_theater">
+            <div class="portal-img-wrap">
+              <img src="https://i.ytimg.com/vi/bgiFp3Ee28o/mqdefault.jpg" alt="YouTube Theater" class="portal-img" loading="lazy">
+              <span class="portal-badge" style="background:#ff3b30; color:#fff;">900+ VIDEOS</span>
+            </div>
+            <div class="portal-body">
+              <div class="portal-cat" style="color:#ff3b30;">YouTube Cinema</div>
+              <h3 class="portal-title">JasonTV Theater: WWII, Cinema Sagas &amp; Docs</h3>
+              <p class="portal-desc">Stream full documentaries, mechanized sci-fi battles, and police encounters on the embedded 4K player.</p>
+              <span class="portal-action-link" style="color:#ff3b30;">Stream Free &rarr;</span>
+            </div>
+          </a>
+
+        </div>
+
 
         <!-- Universal Instant Search Across 924+ Products, 9 Books & Videos -->
         <div class="hero-search-container">
@@ -1993,256 +2641,1142 @@
 
     
     <!-- ==================== 1. SPREADSHOP OFFICIAL STORE: FULL VARIATIONS SHOWCASE ==================== -->
-    <section class="container spreadshop-section" id="spreadshop">
-      <div class="spreadshop-wrapper">
-        <div class="spreadshop-header">
-          <div class="spreadshop-title-group">
-            <span class="spreadshop-badge">🛍️ OFFICIAL SPREADSHOP STORE &bull; 200+ LISTINGS LIVE</span>
-            <h2 class="spreadshop-h2">Graphic Tees, Heavy Hoodies, Mugs &amp; Full Variations</h2>
-            <p class="spreadshop-desc">Shop our high-capacity print-on-demand collection with all sizes (XS to 5XL) and colorways. Choose from classic heavyweight tees, warm fleece hoodies, two-tone mugs, washed caps, and vinyl stickers produced to order and fulfilled worldwide.</p>
+    
+    <!-- ==================== SPREADSHOP MULTI-DEPARTMENT PHYSICAL PRODUCT SHOWCASE ==================== -->
+    <section class="container spreadshop-mega-showcase" id="spreadshop">
+      <div class="spreadshop-showcase-box">
+        
+        <!-- Header -->
+        <div class="ss-showcase-hero-header">
+          <div>
+            <div class="ss-official-badge">
+              <span class="pulse-dot"></span> OFFICIAL SPREADSHOP STORE &bull; HUNDREDS OF ITEMS LIVE
+            </div>
+            <h2 class="ss-main-heading">
+              Jackets, Hats, Mousepads, Heavy Hoodies &amp; Full Apparel Line
+            </h2>
+            <p class="ss-main-desc">
+              Browse our complete print-on-demand product catalog featuring real garments, accessories, and gear produced freshly to order. From Under Armour quarter-zips and college sweat jackets to stitched gaming desk mats, retro trucker caps, heavyweight tees (XS-5XL), and insulated travel tumblers.
+            </p>
           </div>
-          <div class="spreadshop-header-actions">
-            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="spreadshop-cta-btn">🛍️ Open Full Spreadshop Store (200+ Items) &rarr;</a>
+          <div class="ss-header-ctas">
+            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="ss-primary-shop-btn">
+              🛍️ Open Full Spreadshop Store (200+ Variations) &rarr;
+            </a>
+            <a href="shop/index.html" class="ss-secondary-shop-btn">
+              ⚡ Explore Catalog Hub
+            </a>
           </div>
         </div>
 
-        <!-- Quick Department Variation Pills -->
-        <div class="spreadshop-dept-bar">
-          <span class="dept-label">Quick Shop:</span>
-          <div class="dept-pills">
-            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-pill active">✨ All Products (200+)</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/men" target="_blank" rel="noopener" class="dept-pill">👕 Men's (XS-5XL)</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/women" target="_blank" rel="noopener" class="dept-pill">👚 Women's Collection</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=hoodie" target="_blank" rel="noopener" class="dept-pill">🧥 Hoodies &amp; Fleeces</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/home+%26+living" target="_blank" rel="noopener" class="dept-pill">☕ Ceramic Mugs</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/accessories" target="_blank" rel="noopener" class="dept-pill">🧢 Hats &amp; Caps</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/stickers" target="_blank" rel="noopener" class="dept-pill">🏷️ Die-Cut Stickers</a>
-            <a href="https://jasons-marketplace.myspreadshop.com/kids+%26+babies" target="_blank" rel="noopener" class="dept-pill">👶 Kids &amp; Babies</a>
+        <!-- Sticky Department Nav Bar -->
+        <div class="dept-quick-nav">
+          <span class="dept-nav-label">Jump to Dept:</span>
+          <div class="dept-nav-scroll">
+<a href="#dept-jackets" class="dept-nav-pill">🧥 Jackets & Outerwear</a>
+<a href="#dept-mousepads" class="dept-nav-pill">🖱️ Gaming Mousepads & Desk Mats</a>
+<a href="#dept-hats" class="dept-nav-pill">🧢 Hats, Caps & Beanies</a>
+<a href="#dept-shirts" class="dept-nav-pill">👕 Heavyweight T-Shirts & Graphic Tees</a>
+<a href="#dept-hoodies" class="dept-nav-pill">🧥 Premium Hoodies & Fleeces</a>
+<a href="#dept-drinkware" class="dept-nav-pill">☕ Mugs, Tumblers & Drinkware</a>
           </div>
         </div>
 
-        <!-- Interactive Horizontal Scroll Carousel for Spreadshop Variations -->
-        <div class="spreadshop-shelf-container">
-          <button class="shelf-arrow shelf-arrow-left" onclick="document.getElementById('spreadshopShelf').scrollBy({left: -380, behavior: 'smooth'})" aria-label="Scroll Left">&lsaquo;</button>
-          <div class="spreadshop-shelf" id="spreadshopShelf">
+        <!-- All 6 Department Grid Blocks -->
+        <div class="dept-all-blocks">
 
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">T-Shirt • XS-5XL</span>
-                <img src="assets/merch/idea-0001-mockup-transparent.png" alt=""Measure Twice. Cuss Once."" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Carpentry & Trades</div>
-                <h3 class="ss-title">"Measure Twice. Cuss Once."</h3>
-                <div class="ss-variation">Heavyweight Cotton T-Shirt</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e3a8a;"></span><span class="color-dot" style="background:#64748b;"></span></div>
-                  <div class="ss-price">$24.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Measure%20Twice" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Fleece Hoodie • S-3XL</span>
-                <img src="assets/merch/idea-0029-mockup-transparent.png" alt=""Warning: Will Talk About Cars"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Automotive Culture</div>
-                <h3 class="ss-title">"Warning: Will Talk About Cars"</h3>
-                <div class="ss-variation">Unisex Pullover Fleece Hoodie</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#2563eb;"></span></div>
-                  <div class="ss-price">$49.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Warning" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Drinkware • 11/15oz</span>
-                <img src="assets/merch/idea-0097-mockup-transparent.png" alt=""Home Is Where the Cat Sits"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Cat Lovers</div>
-                <h3 class="ss-title">"Home Is Where the Cat Sits"</h3>
-                <div class="ss-variation">Two-Tone Glossy Ceramic Mug</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#ef4444;"></span><span class="color-dot" style="background:#000;"></span></div>
-                  <div class="ss-price">$16.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Home%20Is%20Where%20the%20Cat%20Sits" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Cap & T-Shirt</span>
-                <img src="assets/merch/idea-0030-mockup-transparent.png" alt=""Garage Before Marriage"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Mechanic Humor</div>
-                <h3 class="ss-title">"Garage Before Marriage"</h3>
-                <div class="ss-variation">Retro Washed Trucker Cap & Tee</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#334155;"></span><span class="color-dot" style="background:#0f172a;"></span><span class="color-dot" style="background:#94a3b8;"></span></div>
-                  <div class="ss-price">$26.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Garage%20Before%20Marriage" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">T-Shirt • XS-4XL</span>
-                <img src="assets/merch/idea-0075-mockup-transparent.png" alt=""Best Friend With Paws"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Dog Lovers</div>
-                <h3 class="ss-title">"Best Friend With Paws"</h3>
-                <div class="ss-variation">Comfort Relaxed Fit T-Shirt</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#d4d4d8;"></span><span class="color-dot" style="background:#71717a;"></span><span class="color-dot" style="background:#4b5563;"></span></div>
-                  <div class="ss-price">$24.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Best%20Friend%20With%20Paws" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Long Sleeve • S-4XL</span>
-                <img src="assets/merch/idea-0003-mockup-transparent.png" alt=""Built Different. Usually With Power Tools."" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Blue Collar Craftsman</div>
-                <h3 class="ss-title">"Built Different. Usually With Power Tools."</h3>
-                <div class="ss-variation">Heavyweight Long Sleeve Work Shirt</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#334155;"></span><span class="color-dot" style="background:#1e3a8a;"></span></div>
-                  <div class="ss-price">$29.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Built%20Different" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Hoodie • S-3XL</span>
-                <img src="assets/merch/idea-0004-mockup-transparent.png" alt=""My Retirement Plan Has a Tool Belt"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Handyman & Trades</div>
-                <h3 class="ss-title">"My Retirement Plan Has a Tool Belt"</h3>
-                <div class="ss-variation">Heavy Cotton Workwear Hoodie</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#14532d;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span></div>
-                  <div class="ss-price">$48.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Retirement" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">T-Shirt • XS-5XL</span>
-                <img src="assets/merch/idea-0006-mockup-transparent.png" alt=""If It Ain't Level, I Ain't Leaving"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Carpentry & DIY</div>
-                <h3 class="ss-title">"If It Ain't Level, I Ain't Leaving"</h3>
-                <div class="ss-variation">Classic Fit Crewneck Tee</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#0f172a;"></span></div>
-                  <div class="ss-price">$24.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Level" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Drinkware • 20oz</span>
-                <img src="assets/merch/idea-0025-mockup-transparent.png" alt=""I Brake for Project Cars"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Car Enthusiasts</div>
-                <h3 class="ss-title">"I Brake for Project Cars"</h3>
-                <div class="ss-variation">Stainless Steel Travel Tumbler</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#cbd5e1;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
-                  <div class="ss-price">$21.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Project%20Cars" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Tee & Sticker Pack</span>
-                <img src="assets/merch/idea-0027-mockup-transparent.png" alt=""My Other Account Is for Car Parts"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Automotive Lifestyle</div>
-                <h3 class="ss-title">"My Other Account Is for Car Parts"</h3>
-                <div class="ss-variation">Graphic T-Shirt & Die-Cut Sticker</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#475569;"></span><span class="color-dot" style="background:#dc2626;"></span></div>
-                  <div class="ss-price">$25.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Car%20Parts" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Zip Hoodie • S-3XL</span>
-                <img src="assets/merch/idea-0026-mockup-transparent.png" alt=""Just One More Modification"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Tuner & Garage</div>
-                <h3 class="ss-title">"Just One More Modification"</h3>
-                <div class="ss-variation">Premium Heavyweight Zip Hoodie</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#1e293b;"></span><span class="color-dot" style="background:#111;"></span><span class="color-dot" style="background:#831843;"></span></div>
-                  <div class="ss-price">$52.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Modification" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
-            <div class="ss-card">
-              <div class="ss-imgwrap">
-                <span class="ss-badge">Mug & Workwear</span>
-                <img src="assets/merch/idea-0009-mockup-transparent.png" alt=""Powered by Coffee & Sawdust"" class="ss-img" loading="lazy">
-              </div>
-              <div class="ss-body">
-                <div class="ss-category">Woodworking & Makers</div>
-                <h3 class="ss-title">"Powered by Coffee & Sawdust"</h3>
-                <div class="ss-variation">15oz Ceramic Workshop Mug</div>
-                <div class="ss-meta">
-                  <div class="ss-colors"><span class="color-dot" style="background:#fff;"></span><span class="color-dot" style="background:#000;"></span></div>
-                  <div class="ss-price">$17.99</div>
-                </div>
-                <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Sawdust" target="_blank" rel="noopener" class="ss-btn">🛍️ Shop on Spreadshop &rarr;</a>
-              </div>
-            </div>
+      <!-- Department: Jackets & Outerwear -->
+      <div class="dept-showcase-container" id="dept-jackets">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">🧥 OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Jackets & Outerwear</h3>
+            <p class="dept-tagline">Under Armour Quarter-Zips, College Sweat Jackets, Soft Shell & Champion Packables</p>
           </div>
-          <button class="shelf-arrow shelf-arrow-right" onclick="document.getElementById('spreadshopShelf').scrollBy({left: 380, behavior: 'smooth'})" aria-label="Scroll Right">&rsaquo;</button>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
         </div>
+        <div class="dept-products-grid">
 
-        <!-- Spreadshop Variations Guarantee Strip -->
-        <div class="ss-guarantee-bar">
-          <div class="ss-guarantee-item">
-            <span class="ss-g-icon">📏</span>
-            <div><strong>XS to 5XL Sizing</strong><span>Inclusive fit options across all men's &amp; women's cuts</span></div>
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Outerwear • S-3XL</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3198A1339PA4765PT32X46Y56D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=54" alt=""Measure Twice. Cuss Once." Unisex College Sweat Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="54.49">54.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Unisex College Sweat Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3198&appearance=54" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
           </div>
-          <div class="ss-guarantee-item">
-            <span class="ss-g-icon">🎨</span>
-            <div><strong>15+ Colorways</strong><span>Black, heather, navy, sand, white, military green &amp; more</span></div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Outerwear • Water Resistant</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2488A121PA4551PT32X52Y59D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=121" alt=""Measure Twice. Cuss Once." Men's Soft Shell Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="50.49">50.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Men's Weather-Resistant Soft Shell Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2488&appearance=121" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
           </div>
-          <div class="ss-guarantee-item">
-            <span class="ss-g-icon">⚡</span>
-            <div><strong>Express Creation</strong><span>Freshly printed with eco-friendly direct-to-garment inks</span></div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Under Armour • Performance</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3016A1240PA4889PT32X17Y25D1059074785W6769H3561/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=54" alt=""Measure Twice. Cuss Once." Under Armour Men's Command Quarter Zip 2.0" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="69.49">69.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Under Armour Command Quarter Zip 2.0</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3016&appearance=54" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
           </div>
-          <div class="ss-guarantee-item">
-            <span class="ss-g-icon">🌍</span>
-            <div><strong>Tracked Shipping</strong><span>Reliable worldwide door-to-door delivery with tracking</span></div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Champion • Windproof</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3325A1PA4817PT32X45Y5D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Champion Packable Wind Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="47.49">47.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Champion Packable Lightweight Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3325&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Outerwear • XS-2XL</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2487A121PA4549PT32X38Y54D1059074699W20000H11541/views/2/Best%20Friend%20With%20Paws.png?width=1000&height=1000&appearanceId=121" alt=""Best Friend With Paws" Women’s Soft Shell Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="50.49">50.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Best Friend With Paws</span>
+                <h4 class="ss-tile-title" itemprop="name">Women's Fitted Soft Shell Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/best+friend+with+paws-A32537c81d0ef5147?sellable=rjus2s6o2zpj-2487&appearance=121" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Automotive • College Jacket</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/DPT3198A165DPV2D29007337866235X0Y21W1800H1511/views/2/Just%20One%20More%20Modification.png?width=1000&height=1000&appearanceId=54" alt=""Just One More Modification" Unisex College Sweat Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="54.49">54.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Just One More Modification</span>
+                <h4 class="ss-tile-title" itemprop="name">Snap-Button College Bomber Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/all?searchTerm=Just%20One%20More%20Modification" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Athletic Warmup • S-3XL</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3429A1029PA4884PT32X45Y52D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=54" alt=""Measure Twice. Cuss Once." Augusta Sportswear 2.0 Medalist Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="52.99">52.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Augusta Sportswear 2.0 Medalist Warm-Up Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3429&appearance=54" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Lightweight Shell • Water Repellent</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3323A942PA4809PT32X41Y25D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=942" alt=""Measure Twice. Cuss Once." Unisex Lightweight Windbreaker Jacket" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="46.49">46.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Unisex Lightweight Windbreaker Jacket</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3323&appearance=942" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Department: Gaming Mousepads & Desk Mats -->
+      <div class="dept-showcase-container" id="dept-mousepads">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">🖱️ OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Gaming Mousepads & Desk Mats</h3>
+            <p class="dept-tagline">Heavy-Duty Workbench Pads, Precision Stitched Gaming Desk Mats & Non-Slip Cloth Pads</p>
+          </div>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
+        </div>
+        <div class="dept-products-grid">
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Gaming Desk Mat • Precision Surface</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3924A1PA5122PT10X149Y113D1059074785W17139H9017/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." XL Gaming Mousepad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Large Extended Gaming Desk Mat</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Automotive Desk Mat</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/DPT3924A1DTV1R2D29007677665116X1Y0W4057H3170/views/1/I%20Brake%20for%20Project%20Cars.png?width=1000&height=1000&appearanceId=1" alt=""I Brake for Project Cars" Gaming Mousepad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">I Brake for Project Cars</span>
+                <h4 class="ss-tile-title" itemprop="name">Stitched-Edge Gaming Mousepad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/i+brake+for+project+cars-A32537c87bcf2d85e?sellable=rjus33vb4eam-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Desk Pad • Non-Slip Base</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T993A1PA2168PT10X61Y18D1059074802W12332H17126/views/1/Warning%3A%20Will%20Talk%20About%20Cars.png?width=1000&height=1000&appearanceId=1" alt=""Warning: Will Talk About Cars" Horizontal Mouse Pad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="16.99">16.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Warning: Will Talk About Cars</span>
+                <h4 class="ss-tile-title" itemprop="name">Standard Anti-Slip Workbench Mouse Pad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/warning+will+talk+about+cars-A32537c8c1d6446fc?sellable=rjus3ci6wyyk-993&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Cat Lovers • High Density Foam</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3924A1PA5122PT10X140Y63D1059074786W19050H19050/views/1/Home%20Is%20Where%20the%20Cat%20Sits.png?width=1000&height=1000&appearanceId=1" alt=""Home Is Where the Cat Sits" Gaming Mousepad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Home Is Where the Cat Sits</span>
+                <h4 class="ss-tile-title" itemprop="name">Premium Gaming Mousepad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/home+is+where+the+cat+sits-A32537c839fdc8aea?sellable=rjus2vr44mi2-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Shop Desk • Smooth Tracking</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T993A1PA2168PT10X27Y9D1059074736W19050H19050/views/1/Garage%20Before%20Marriage.png?width=1000&height=1000&appearanceId=1" alt=""Garage Before Marriage" Horizontal Mouse Pad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="16.99">16.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Garage Before Marriage</span>
+                <h4 class="ss-tile-title" itemprop="name">Durable Cloth Surface Mouse Pad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/garage+before+marriage-A32537c82dc006326?sellable=rjus2u8rqk2u-993&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Tradesmen Desk • Non-Fray Edges</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3924A1PA5122PT10X149Y110D1059074737W17145H9798/views/1/If%20It%20Ain%E2%80%99t%20Level%2C%20I%20Ain%E2%80%99t%20Leaving.png?width=1000&height=1000&appearanceId=1" alt=""If It Ain’t Level, I Ain’t Leaving" Gaming Mousepad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">If It Ain’t Level, I Ain’t Leaving</span>
+                <h4 class="ss-tile-title" itemprop="name">Pro Precision Gaming Mousepad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/if+it+aint+level+i+aint+leaving-A32537c841c61f5a9?sellable=rjus2wpnxokp-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Dog Lovers • Waterproof Coat</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3924A1PA5122PT10X149Y109D1059074699W17145H9893/views/1/Best%20Friend%20With%20Paws.png?width=1000&height=1000&appearanceId=1" alt=""Best Friend With Paws" Gaming Mousepad" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Best Friend With Paws</span>
+                <h4 class="ss-tile-title" itemprop="name">Extended Anti-Skid Gaming Desk Mat</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/best+friend+with+paws-A32537c81d0ef5147?sellable=rjus2s6o2zpj-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Gearhead • Anti-Slip Rubber</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/DPT3924A1DTV1R2D29007673151864X2Y0W4700H2864/views/1/My%20Other%20Account%20Is%20for%20Car%20Parts.png?width=1000&height=1000&appearanceId=1" alt=""My Other Account Is for Car Parts" Gaming Desk Mat" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">My Other Account Is for Car Parts</span>
+                <h4 class="ss-tile-title" itemprop="name">Precision Speed Gaming Mousepad</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/my+other+account+is+for+car+parts-A32537c8a3372cf94?sellable=rjus38q90cd0-3924&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Department: Hats, Caps & Beanies -->
+      <div class="dept-showcase-container" id="dept-hats">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">🧢 OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Hats, Caps & Beanies</h3>
+            <p class="dept-tagline">Classic Snapbacks, Mesh Trucker Hats, Vintage Washed Rope Caps & Warm Cuffed Beanies</p>
+          </div>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
+        </div>
+        <div class="dept-products-grid">
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Snapback • Contrast Underbill</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T803A1PA1648PT32X15Y0D1059074785W9668H5087/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Snapback Baseball Cap" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="22.49">22.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Classic Structured Snapback Cap</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-803&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Trucker Hat • Mesh Back</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1040A587PA5326PT32X3Y0D1059074785W11808H6212/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=70" alt=""Measure Twice. Cuss Once." Vintage Mesh Trucker Hat" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Breathable 5-Panel Mesh Trucker Hat</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1040&appearance=70" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Retro Rope Cap • Brass Clasp</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2950A1PA4640PT32X14Y0D1059074785W9519H5008/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=216" alt=""Measure Twice. Cuss Once." Vintage Washed Rope Cap" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="20.49">20.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Unstructured Vintage Washed Rope Cap</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2950&appearance=216" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Winter Beanie • Thermal Knit</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2417A178PA4486PT32X8Y0D1059074785W6054H3185/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=178" alt=""Measure Twice. Cuss Once." Warm Knit Patch Beanie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="18.99">18.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Cuffed Ribbed Knit Winter Patch Beanie</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2417&appearance=178" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Flexfit • Fitted Comfort</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2900A1221PA4593PT32X8Y0D1059074785W9501H4998/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1221" alt=""Measure Twice. Cuss Once." Flexfit Melange Baseball Cap" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.49">19.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Flexfit Stretch-Fit Melange Cap</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2900&appearance=1221" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Eco Trucker • Adjustable</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3287A10PA4984PT32X17Y0D1059074785W9127H4802/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=669" alt=""Measure Twice. Cuss Once." Eco-Friendly Trucker Cap" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="18.99">18.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Recycled Fabric Curved Bill Trucker</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-3287&appearance=669" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Organic Cotton • Relaxed Fit</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1588A1PA5321PT32X3Y0D1059074785W11434H6016/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." 100% Organic Baseball Cap" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="20.99">20.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">100% Certified Organic Cotton Dad Hat</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1588&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Bucket Hat • 360 Sun Protection</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1462A1PA5322PT32X7Y0D1059074785W9603H5052/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Heavyweight Cotton Bucket Hat" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="20.99">20.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Classic Outdoor Festival Bucket Hat</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1462&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Department: Heavyweight T-Shirts & Graphic Tees -->
+      <div class="dept-showcase-container" id="dept-shirts">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">👕 OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Heavyweight T-Shirts & Graphic Tees</h3>
+            <p class="dept-tagline">Bella+Canvas 3001, Heavyweight Cotton, Spiral Tie-Dye, Retro Ringer & Thermal Long Sleeves (XS-5XL)</p>
+          </div>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
+        </div>
+        <div class="dept-products-grid">
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Long Sleeve • Ribbed Cuffs</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T23A1PA3989PT17X51Y15D1059074785W20857H10973/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Men's Heavyweight Long Sleeve" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="27.49">27.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Heavyweight 100% Cotton Long Sleeve</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-23&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Retro Ringer • Contrast Rib</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T121A70PA4057PT17X41Y31D1059074785W16678H8774/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=70" alt=""Measure Twice. Cuss Once." Men's Retro Ringer T-Shirt" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="27.99">27.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Vintage Contrast Collar & Sleeve Ringer Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-121&appearance=70" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Bella + Canvas • Retail Fit</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T175A1PA4927PT17X47Y34D1059074785W19142H10071/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Bella + Canvas Unisex Jersey Tee" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="26.49">26.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Super-Soft Ring-Spun Bella + Canvas 3001 Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-175&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">T-Shirt • 25+ Colors • XS-5XL</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T210A1PA4301PT17X55Y32D1059074785W22181H11670/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Men's Classic Heavyweight Tee" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="23.49">23.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Heavyweight Classic Fit 100% Cotton Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-210&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Tie-Dye • Vibrant Spiral</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T491A1123PA4308PT17X54Y32D1059074785W22054H11603/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1122" alt=""Measure Twice. Cuss Once." Unisex Hand-Dyed Tie Dye Tee" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="26.99">26.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Authentic Spiral Swirl Tie-Dye Cotton Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-491&appearance=1122" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Stanley/Stella • Eco Organic</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T635A1PA4957PT17X46Y33D1059074785W18755H9867/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Stanley/Stella Organic Cotton Tee" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="23.99">23.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">European Organic Combed Cotton Crafter Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-635&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Tall Fit • LT to 4XLT</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T650A1PA4005PT17X82Y36D1059074785W23450H12338/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Men's Tall Fit T-Shirt" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="26.49">26.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Extended Length Heavy Cotton Tall Tee</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-650&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Women's Cut • Soft V-Neck</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T348A1PA4286PT17X41Y11D1059074785W16760H8818/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Women's Fitted V-Neck Tee" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="26.49">26.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Flattering Lightweight Combed Cotton V-Neck</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-348&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Department: Premium Hoodies & Fleeces -->
+      <div class="dept-showcase-container" id="dept-hoodies">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">🧥 OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Premium Hoodies & Fleeces</h3>
+            <p class="dept-tagline">Champion Powerblend, Stanley/Stella 350 GSM Organic, Full Zip & Contrast Fleece Hoodies</p>
+          </div>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
+        </div>
+        <div class="dept-products-grid">
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Premium Fleece • 15+ Colors</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T20A1PA5227PT17X54Y10D1059074785W22012H11581/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Men's Premium Heavy Fleece Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="45.99">45.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Plush Brushed Interior Heavy Pullover Hoodie</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-20&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Full Zip Hoodie • Double Pouch</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T93A1PA5094PT17X95Y70D1059074785W20000H10522/views/2/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Unisex Organic Full Zip Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="47.49">47.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Heavy Metal Zipper Organic Cotton Zip Hoodie</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-93&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Champion Powerblend • Athletic</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1962A1PA4365PT17X60Y30D1059074785W23450H12338/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Champion Powerblend Fleece Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="49.49">49.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Authentic Champion Powerblend Warmth</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1962&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Stanley/Stella • 350 GSM Heavy</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2091A1PA4902PT17X47Y30D1059074785W19093H10045/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Stanley/Stella CRUISER Organic Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="45.99">45.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Sustainable 350 GSM Organic Cotton Hoodie</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2091&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Contrast Colorway • Pouch</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1007A289PA4906PT17X53Y30D1059074785W21348H11232/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=341" alt=""Measure Twice. Cuss Once." Unisex Two-Tone Contrast Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="41.99">41.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Contrast Hood Lining & Flat Drawstrings</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1007&appearance=341" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Crewneck Sweatshirt • S-3XL</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T512A1PA4049PT17X50Y15D1059074785W20144H10598/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Unisex Classic Crewneck Sweatshirt" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="37.99">37.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Cozy Heavy Cotton/Poly Ribbed Crewneck</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-512&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Gildan Heavyweight • Work Hoodie</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1359A1PA4217PT17X58Y30D1059074785W23386H12304/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Heavyweight Hoodie by Gildan" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="39.49">39.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Hardworking Heavy Blend Cotton/Poly Fleece</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1359&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Women's Fit • Soft Touch</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T444A1PA4131PT17X48Y10D1059074785W19415H10215/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Women's Slim Fit Premium Hoodie" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="45.99">45.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Contoured Silhouette Brushed Cotton Fleece</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-444&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Department: Mugs, Tumblers & Drinkware -->
+      <div class="dept-showcase-container" id="dept-drinkware">
+        <div class="dept-banner-header">
+          <div class="dept-header-left">
+            <span class="dept-indicator-pill">☕ OFFICIAL SPREADSHOP DEPARTMENT</span>
+            <h3 class="dept-title">Mugs, Tumblers & Drinkware</h3>
+            <p class="dept-tagline">Two-Tone Contrast Mugs, 40oz Insulated Travel Tumblers, Campfire Enamel Mugs & Stainless Bottles</p>
+          </div>
+          <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="dept-view-all-btn">
+            View All in Shop &rarr;
+          </a>
+        </div>
+        <div class="dept-products-grid">
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Two-Tone Ceramic • Dishwasher Safe</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T268A544PA5007PT10X0Y26D1059074785W6019H3167/views/3/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=70" alt=""Measure Twice. Cuss Once." Two-Tone Contrast Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="17.49">17.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Vibrant Colored Handle & Rim Ceramic Mug</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-268&appearance=70" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">40oz Tumbler • All-Day Cold</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T2915A1PA4602PT10X41Y9D1059074785W17139H9017/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." 40 oz Insulated Travel Tumbler" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="24.49">24.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Double-Wall Vacuum Insulated 40oz Tumbler with Handle</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-2915&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Campfire Enamel • Lightweight</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1313A1PA3933PT10X0Y14D1059074785W6006H3160/views/3/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Vintage Enamel Camper Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Rugged Campfire Enamel Steel Mug</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1313&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Stainless Steel • Leakproof Lid</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1453A1PA3849PT10X0Y30D1059074785W6756H3555/views/3/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=37" alt=""Measure Twice. Cuss Once." 17 oz Stainless Steel Bottle" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="23.49">23.49</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Vacuum Insulated Stainless Steel Thermal Flask</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1453&appearance=37" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Commuter Mug • Cupholder Friendly</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T773A1PA1607PT10X0Y13D1059074785W7497H3945/views/3/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." 14 oz Commuter Travel Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="21.99">21.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Insulated Stainless Travel Mug with Comfort Grip Handle</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-773&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Panoramic Print • High Gloss</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1052A544PA4901PT10X25Y0D1059074785W15964H8399/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=70" alt=""Measure Twice. Cuss Once." Panoramic Wrap Coffee Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="17.99">17.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Full Edge-to-Edge Sublimation Ceramic Mug</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1052&appearance=70" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">15oz Jumbo Mug • Microwave Safe</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T1470A1PA3891PT10X0Y26D1059074785W6322H3326/views/3/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Jumbo 15 oz Ceramic Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="19.99">19.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Heavy Duty 15 oz Shop Morning Mug</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-1470&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="ss-product-tile" itemscope itemtype="https://schema.org/Product">
+            <div class="ss-tile-media">
+              <span class="ss-tile-badge">Classic Ceramic • 11oz</span>
+              <img src="https://image.spreadshirtmedia.com/image-server/v1/products/T31A1PA5005PT10X0Y26D1059074785W6015H3165/views/1/Measure%20Twice.%20Cuss%20Once..png?width=1000&height=1000&appearanceId=1" alt=""Measure Twice. Cuss Once." Classic 11 oz Ceramic Coffee Mug" itemprop="image" loading="lazy" decoding="async" class="ss-tile-img">
+              <div class="ss-tile-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="16.99">16.99</span>
+                <link itemprop="availability" href="https://schema.org/InStock">
+              </div>
+            </div>
+            <div class="ss-tile-content">
+              <div>
+                <span class="ss-tile-design">Measure Twice. Cuss Once.</span>
+                <h4 class="ss-tile-title" itemprop="name">Standard Ceramic Daily Coffee & Tea Mug</h4>
+              </div>
+              <a href="https://jasons-marketplace.myspreadshop.com/measure+twice+cuss+once-A32537c8131388f8b?sellable=rjus2qycqu8b-31&appearance=1" target="_blank" rel="noopener" class="ss-tile-btn">
+                🛍️ Buy on Spreadshop &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <!-- Sizing & Quality Guarantee Strip -->
+        <div class="ss-quality-strip">
+          <div class="ss-quality-card">
+            <span class="quality-icon">📏</span>
+            <div>
+              <strong>Sizes XS to 5XL</strong>
+              <p>Extended unisex, women's, and tall fits across tees, hoodies, and jackets.</p>
+            </div>
+          </div>
+          <div class="ss-quality-card">
+            <span class="quality-icon">🎨</span>
+            <div>
+              <strong>15+ Real Colorways</strong>
+              <p>Heather grey, midnight black, navy, sand, vintage wash, olive, and tie-dye.</p>
+            </div>
+          </div>
+          <div class="ss-quality-card">
+            <span class="quality-icon">⚡</span>
+            <div>
+              <strong>Premium Direct-To-Garment</strong>
+              <p>Sharp, fade-resistant, eco-friendly printing and heat-sublimated drinkware.</p>
+            </div>
+          </div>
+          <div class="ss-quality-card">
+            <span class="quality-icon">🌍</span>
+            <div>
+              <strong>Tracked Worldwide Delivery</strong>
+              <p>Reliable door-to-door courier dispatch with real-time tracking.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
+
 
     <!-- ==================== 2. FOURTHWALL & VAULT DROPS (MIXED, MATCHED & RANDOMIZED) ==================== -->
     <section class="container merch-showcase-section" id="merchandise">
@@ -18505,6 +20039,35 @@
           </a>
         </div>
 
+        
+        <!-- Visual Production Previews -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-bottom: 2rem;">
+          <div style="background: rgba(18, 25, 41, 0.7); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; overflow: hidden;">
+            <img src="assets/cinematic-thumb.webp" alt="Sci-Fi & Mech Clashes" style="width: 100%; height: 160px; object-fit: cover;" loading="lazy">
+            <div style="padding: 1rem;">
+              <span style="font-size: 0.72rem; color: #ffaa00; font-weight: 800; text-transform: uppercase;">Genre Example</span>
+              <h4 style="color: #fff; font-size: 1rem; margin: 0.25rem 0 0.35rem;">Sci-Fi Armored Warfare</h4>
+              <p style="color: var(--text-muted); font-size: 0.82rem;">Epic mechanized mech duels, orbital battles, and futuristic cybernetic clashes.</p>
+            </div>
+          </div>
+          <div style="background: rgba(18, 25, 41, 0.7); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; overflow: hidden;">
+            <img src="https://i.ytimg.com/vi/bgiFp3Ee28o/mqdefault.jpg" alt="Dark Fantasy & Lore" style="width: 100%; height: 160px; object-fit: cover;" loading="lazy">
+            <div style="padding: 1rem;">
+              <span style="font-size: 0.72rem; color: #c084fc; font-weight: 800; text-transform: uppercase;">Genre Example</span>
+              <h4 style="color: #fff; font-size: 1rem; margin: 0.25rem 0 0.35rem;">Dark Fantasy &amp; Mythology</h4>
+              <p style="color: var(--text-muted); font-size: 0.82rem;">Angels vs demons, vampire dynasties, gothic chronicles &amp; legendary monster lore.</p>
+            </div>
+          </div>
+          <div style="background: rgba(18, 25, 41, 0.7); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; overflow: hidden;">
+            <img src="https://i.ytimg.com/vi/GolTRk6S45w/mqdefault.jpg" alt="Real Stories & Documentary" style="width: 100%; height: 160px; object-fit: cover;" loading="lazy">
+            <div style="padding: 1rem;">
+              <span style="font-size: 0.72rem; color: #34d399; font-weight: 800; text-transform: uppercase;">Genre Example</span>
+              <h4 style="color: #fff; font-size: 1rem; margin: 0.25rem 0 0.35rem;">Police &amp; Channel Promos</h4>
+              <p style="color: var(--text-muted); font-size: 0.82rem;">Custom commentary, engaging YouTube channel intros, or personal dramatic scripts.</p>
+            </div>
+          </div>
+        </div>
+
         <!-- 2 Pricing Packages Grid -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem; margin-bottom: 2rem;">
           <!-- Tier 1 -->
@@ -19068,6 +20631,538 @@
       color: #fff;
       border-color: #fa5c5c;
     }
+  
+    /* ==================== SPREADSHOP MEGA SHOWCASE STYLES ==================== */
+    .spreadshop-mega-showcase {
+      margin: 3.5rem auto 4.5rem;
+      padding: 0 1.5rem;
+    }
+    .spreadshop-showcase-box {
+      background: linear-gradient(145deg, rgba(10, 16, 28, 0.98), rgba(6, 9, 16, 0.99));
+      border: 1px solid rgba(0, 210, 211, 0.35);
+      border-radius: 24px;
+      padding: 3rem 2.25rem;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.8), 0 0 50px rgba(0, 210, 211, 0.12);
+      position: relative;
+    }
+    .ss-showcase-hero-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.25rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .ss-official-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.6);
+      color: #00d2d3;
+      padding: 0.35rem 0.95rem;
+      border-radius: 50px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 0.85rem;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: #00d2d3;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #00d2d3;
+      display: inline-block;
+      animation: pulseGlow 1.8s infinite;
+    }
+    @keyframes pulseGlow {
+      0% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.3); }
+      100% { opacity: 0.4; transform: scale(0.9); }
+    }
+    .ss-main-heading {
+      font-size: 2.4rem;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.6px;
+    }
+    .ss-main-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+      line-height: 1.6;
+    }
+    .ss-header-ctas {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      min-width: 280px;
+    }
+    .ss-primary-shop-btn {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.95rem 1.6rem;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 8px 25px rgba(0, 210, 211, 0.4);
+      transition: all 0.2s;
+    }
+    .ss-primary-shop-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(0, 210, 211, 0.6);
+    }
+    .ss-secondary-shop-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #cbd5e1 !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.75rem 1.4rem;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .ss-secondary-shop-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff !important;
+    }
+
+    /* Department Navigation Bar */
+    .dept-quick-nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      padding: 0.75rem 1.25rem;
+      background: rgba(14, 21, 35, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+    }
+    .dept-nav-label {
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      white-space: nowrap;
+    }
+    .dept-nav-scroll {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 0.25rem 0;
+    }
+    .dept-nav-scroll::-webkit-scrollbar { display: none; }
+    .dept-nav-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cbd5e1 !important;
+      padding: 0.5rem 1.1rem;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .dept-nav-pill:hover {
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.25), rgba(9, 132, 227, 0.3));
+      border-color: #00d2d3;
+      color: #fff !important;
+      transform: translateY(-1px);
+    }
+
+    /* Individual Department Showcase Container */
+    .dept-showcase-container {
+      margin-bottom: 4rem;
+      scroll-margin-top: 100px;
+    }
+    .dept-banner-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .dept-indicator-pill {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+    .dept-title {
+      font-size: 1.75rem;
+      color: #fff;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      line-height: 1.2;
+    }
+    .dept-tagline {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+      max-width: 720px;
+    }
+    .dept-view-all-btn {
+      color: #00d2d3 !important;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .dept-view-all-btn:hover {
+      color: #fff !important;
+      transform: translateX(3px);
+    }
+
+    /* Department Products 4-Column Grid */
+    .dept-products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .ss-product-tile {
+      background: rgba(16, 23, 37, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s, box-shadow 0.3s;
+    }
+    .ss-product-tile:hover {
+      transform: translateY(-6px);
+      border-color: rgba(0, 210, 211, 0.5);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7), 0 0 25px rgba(0, 210, 211, 0.15);
+    }
+    .ss-tile-media {
+      position: relative;
+      height: 250px;
+      background: radial-gradient(circle at 50% 45%, #1e293b 0%, #0a0e17 85%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      overflow: hidden;
+    }
+    .ss-tile-img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.55));
+      transition: transform 0.4s ease;
+    }
+    .ss-product-tile:hover .ss-tile-img {
+      transform: scale(1.08);
+    }
+    .ss-tile-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(0, 210, 211, 0.2);
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3;
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      backdrop-filter: blur(6px);
+    }
+    .ss-tile-price {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(7, 10, 18, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffaa00;
+      font-size: 0.95rem;
+      font-weight: 900;
+      font-family: 'Outfit', sans-serif;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      backdrop-filter: blur(6px);
+    }
+    .ss-tile-content {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+    .ss-tile-design {
+      font-size: 0.72rem;
+      color: var(--accent-gold);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .ss-tile-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+    .ss-tile-btn {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(0, 210, 211, 0.2), rgba(9, 132, 227, 0.25));
+      border: 1px solid rgba(0, 210, 211, 0.5);
+      color: #00d2d3 !important;
+      font-weight: 800;
+      font-size: 0.85rem;
+      padding: 0.7rem 0.9rem;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      transition: all 0.2s;
+    }
+    .ss-tile-btn:hover {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      box-shadow: 0 4px 15px rgba(0, 210, 211, 0.4);
+    }
+
+    /* Quality Guarantee Strip */
+    .ss-quality-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .ss-quality-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      background: rgba(14, 21, 35, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .quality-icon {
+      font-size: 1.8rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .ss-quality-card strong {
+      display: block;
+      color: #fff;
+      font-size: 0.92rem;
+      margin-bottom: 0.2rem;
+    }
+    .ss-quality-card p {
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    /* ==================== HERO SHOPPING ACTIONS & PORTAL CARDS ==================== */
+    .hero-shop-quick-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      align-items: center;
+    }
+    .hero-shop-pill-primary {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 900;
+      font-size: 0.98rem;
+      padding: 0.85rem 1.6rem;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 25px rgba(0, 210, 211, 0.5);
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(0, 210, 211, 0.75);
+    }
+    .hero-shop-pill-fourthwall {
+      background: linear-gradient(135deg, #ffaa00, #ff7700);
+      color: #000 !important;
+      font-weight: 900;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.4rem;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 6px 25px rgba(255, 170, 0, 0.4);
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill-fourthwall:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(255, 170, 0, 0.6);
+    }
+    .hero-shop-pill {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e2e8f0 !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.8rem 1.25rem;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-shop-pill:hover {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: #00d2d3;
+      color: #fff !important;
+      transform: translateY(-2px);
+    }
+
+    .hero-portals-header {
+      margin: 1.5rem 0 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 1.5rem;
+    }
+    .portal-hdr-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .portal-hdr-title {
+      font-size: 1.35rem;
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .hero-portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin: 1.25rem 0 2rem;
+      text-align: left;
+    }
+    .hero-portal-card {
+      background: rgba(14, 20, 32, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 1rem;
+      display: flex;
+      gap: 1.25rem;
+      align-items: center;
+      text-decoration: none;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .hero-portal-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 16px 35px rgba(0, 0, 0, 0.6);
+    }
+    .portal-spreadshop:hover { border-color: rgba(0, 210, 211, 0.7); box-shadow: 0 0 30px rgba(0, 210, 211, 0.2); }
+    .portal-fourthwall:hover { border-color: rgba(255, 170, 0, 0.7); box-shadow: 0 0 30px rgba(255, 170, 0, 0.2); }
+    .portal-itch:hover { border-color: rgba(250, 92, 92, 0.7); box-shadow: 0 0 30px rgba(250, 92, 92, 0.2); }
+    .portal-video:hover { border-color: rgba(255, 118, 117, 0.7); box-shadow: 0 0 30px rgba(255, 118, 117, 0.2); }
+    .portal-books:hover { border-color: rgba(168, 85, 247, 0.7); box-shadow: 0 0 30px rgba(168, 85, 247, 0.2); }
+    .portal-theater:hover { border-color: rgba(255, 59, 48, 0.7); box-shadow: 0 0 30px rgba(255, 59, 48, 0.2); }
+
+    .portal-img-wrap {
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
+      overflow: hidden;
+      flex-shrink: 0;
+      position: relative;
+      background: #090d16;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .portal-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+    .hero-portal-card:hover .portal-img {
+      transform: scale(1.08);
+    }
+    .portal-badge {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      font-size: 0.6rem;
+      font-weight: 900;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .portal-body {
+      flex: 1;
+      min-width: 0;
+    }
+    .portal-cat {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.2rem;
+    }
+    .portal-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.3;
+      margin-bottom: 0.3rem;
+    }
+    .portal-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
+    }
+    .portal-action-link {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
   </style>
   <script>
     let currentVaultCat = 'all';
