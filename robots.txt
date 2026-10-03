@@ -24,5 +24,6 @@ User-agent: facebookexternalhit
 Allow: /
 
 Sitemap: https://jasontvmarketplace.com/sitemap.xml
+Sitemap: https://jasontvmarketplace.com/sitemap-merch.xml
 Sitemap: https://jasontvmarketplace.com/video-sitemap.xml
 Sitemap: https://jasontvmarketplace.com/gamedev/sitemap.xml

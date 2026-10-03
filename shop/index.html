@@ -390,21 +390,70 @@
       border-color: rgba(255, 170, 0, 0.5);
       box-shadow: 0 20px 45px rgba(0, 0, 0, 0.65), 0 0 25px rgba(255, 170, 0, 0.15);
     }
+    /* Smart Contrast Studio Backdrops */
     .product-media {
       position: relative;
-      height: 280px;
-      background: #090d16;
+      height: 290px;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem;
+    }
+    /* White garments/mugs: dark studio vignette with rim lighting so white pops with 3D depth */
+    .backdrop-white-item {
+      background: radial-gradient(circle at 50% 40%, #1e293b 0%, #0a0e17 85%);
+      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.65);
+    }
+    /* Dark garments (Black, Navy, Dark Heather): crisp light studio vignette */
+    .backdrop-colored-item {
+      background: radial-gradient(circle at 50% 45%, #ffffff 0%, #e2e8f0 85%);
+      box-shadow: inset 0 0 35px rgba(0, 0, 0, 0.1);
     }
     .product-media img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      transition: transform 0.4s ease;
+      object-fit: contain;
+      transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .backdrop-white-item img {
+      filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.5));
+    }
+    .backdrop-colored-item img {
+      filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.25));
     }
     .product-card:hover .product-media img {
       transform: scale(1.05);
     }
+    
+    /* Garment Color Swatches */
+    .color-swatches {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .color-swatch-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-right: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .color-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: inline-block;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .color-dot.white { background: #f8fafc; border-color: rgba(255, 255, 255, 0.6); }
+    .color-dot.black { background: #0f141d; border-color: rgba(255, 255, 255, 0.25); }
+    .color-dot.navy { background: #1c2b42; border-color: rgba(255, 255, 255, 0.3); }
+    .color-dot.grey { background: #94a3b8; border-color: rgba(255, 255, 255, 0.3); }
+    .color-dot.charcoal { background: #334155; border-color: rgba(255, 255, 255, 0.3); }
     .product-price-badge {
       position: absolute;
       top: 14px;
@@ -688,12 +737,23 @@
         </div>
       </div>
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="all">All Products (5)</button>
+        <button class="filter-pill active" data-cat="all">All Products (1,498)</button>
+        <button class="filter-pill" data-cat="live" style="color:var(--accent-gold); border-color:rgba(255,170,0,0.5);">🔥 In-Stock Live (8)</button>
         <button class="filter-pill" data-cat="mechanics">Mechanics &amp; Garages</button>
-        <button class="filter-pill" data-cat="coffee">Coffee &amp; Humor</button>
-        <button class="filter-pill" data-cat="dads">Dad Life</button>
+        <button class="filter-pill" data-cat="blue-collar">Trades &amp; Blue Collar</button>
+        <button class="filter-pill" data-cat="welder">Welders</button>
+        <button class="filter-pill" data-cat="carpenter">Carpentry &amp; DIY</button>
+        <button class="filter-pill" data-cat="electrician">Electricians</button>
+        <button class="filter-pill" data-cat="plumber">Plumbers</button>
+        <button class="filter-pill" data-cat="trucker">Truckers &amp; Haulers</button>
+        <button class="filter-pill" data-cat="sarcasm">Sarcasm &amp; Humor</button>
+        <button class="filter-pill" data-cat="coffee">Coffee &amp; Mornings</button>
+        <button class="filter-pill" data-cat="dads">Dad Life &amp; Family</button>
         <button class="filter-pill" data-cat="cats">Cat Lovers</button>
-        <button class="filter-pill" data-cat="trades">Trades &amp; DIY</button>
+        <button class="filter-pill" data-cat="dogs">Dog Lovers</button>
+        <button class="filter-pill" data-cat="bbq">BBQ &amp; Grilling</button>
+        <button class="filter-pill" data-cat="fitness">Fitness &amp; Gym</button>
+        <button class="filter-pill" data-cat="gaming">Gaming &amp; Tech</button>
       </div>
     </div>
   </section>
@@ -702,6 +762,11 @@
   <section class="products-container">
     <div class="products-grid" id="productsGrid">
       <!-- Injected via JavaScript -->
+    </div>
+    <div class="load-more-container" id="loadMoreContainer" style="display:none; text-align:center; margin-top:3.5rem;">
+      <button id="loadMoreBtn" style="background:linear-gradient(135deg, #ffaa00, #ff7700); color:#000; font-family:'Outfit', sans-serif; font-weight:900; font-size:1.05rem; padding:0.95rem 2.8rem; border-radius:50px; border:none; cursor:pointer; box-shadow:0 8px 25px rgba(255, 170, 0, 0.4); transition:transform 0.2s, box-shadow 0.2s;">
+        Load More Designs (<span id="loadMoreCount">0</span> Remaining)
+      </button>
     </div>
   </section>
 
@@ -765,99 +830,225 @@
   </footer>
 
   <script>
-    // Product Catalog Database
-    const PRODUCTS = [
+    // Initial 8 Live In-Stock Products (Renders instantly with high-res transparent mockups)
+    const INITIAL_LIVE_PRODUCTS = [
       {
-        id: "prod-001",
+        id: "prod-live-001",
+        saying: "My Bad, Your Fault",
+        title: "\"My Bad, Your Fault\" Heavyweight T-Shirt",
+        category: "sarcasm",
+        categoryName: "Sarcasm & Adult Humor",
+        price: 25.99,
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Midnight Black",
+        availableColors: ["Midnight Black", "Crisp White", "Navy Blue", "Heather Grey"],
+        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
+        desc: "For anyone who takes absolute responsibility for nothing. Featuring custom cheeky raccoon causing morning chaos with witty vintage lettering printed on ultra-comfortable ring-spun cotton.",
+        image: "../assets/merch/mockups/my-bad-black.png",
+        isWhite: false,
+        isLive: true,
+        url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-bad-your-fault-heavyweight-t-shirt-midnight-black"
+      },
+      {
+        id: "prod-live-002",
+        saying: "I'd Rather Be in the Garage",
+        title: "\"I'd Rather Be in the Garage\" Heavyweight T-Shirt",
+        category: "mechanics",
+        categoryName: "Mechanics & Garage Life",
+        price: 25.99,
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Midnight Black",
+        availableColors: ["Midnight Black", "Crisp White", "Dark Heather", "Navy Blue"],
+        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
+        desc: "For mechanics, gearheads, and hands-on builders who know exactly where they belong. Featuring bespoke vintage automotive garage illustration with custom typography printed on 100% ring-spun cotton.",
+        image: "../assets/merch/mockups/garage-black.png",
+        isWhite: false,
+        isLive: true,
+        url: "https://jasontv-marketplace-shop.fourthwall.com/products/id-rather-be-in-the-garage-heavyweight-t-shirt-midnight-black"
+      },
+      {
+        id: "prod-live-003",
+        saying: "My Garage Is My Happy Place",
         title: "\"My Garage Is My Happy Place\" Heavyweight T-Shirt",
         category: "mechanics",
-        categoryName: "Mechanics & Garages",
+        categoryName: "Mechanics & Garage Life",
         price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Tee",
-        color: "Clean White",
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Crisp White",
+        availableColors: ["Crisp White", "Midnight Black", "Dark Heather", "Navy Blue"],
         sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
-        desc: "For mechanics, gearheads, and car buffs who find peace under the hood. Featuring bespoke vintage-styled garage illustration with engine bay embrace and custom lettering.",
-        image: "https://imgproxy.fourthwall.dev/Pz3zUFAx2GaFRgek3FbEtjwb--dtrNOvgvGN-2c_dVg/w:1920/sm:1/enc/X1XBGrUiFCWF5Bpr/P0bkIuBlfxqh_rc2/mRyHUTC438ub5JuM/iz_x0Xh7F3QQGkvQ/3BsCwG614HsdfjI6/42BvCqplhi3C7AO9/P00R70qD7-vBHWBu/Zk5cKJs-BNpq1kvf/HL_Gzc7mGK4IT8Fo/RASmhxCnkCkjBoXQ/ITsX6018CG1VeWP4/_C7yFzAhhRNC5TMJ/h-KYF9e5NUVMc5z-/8HD_sGMoASQTLgbz/0axcErb7XVA.jpg",
+        desc: "For mechanics, car builders, and weekend tinkerers who find pure serenity among tools and engines. Features genuine Comfort Colors ring-spun cotton with relaxed vintage fit.",
+        image: "../assets/merch/mockups/garage-white.png",
+        isWhite: true,
+        isLive: true,
         url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-garage-is-my-happy-place-heavyweight-t-shirt"
       },
       {
-        id: "prod-002",
+        id: "prod-live-004",
+        saying: "Coffee Before Conversation",
         title: "\"Coffee Before Conversation\" Ceramic Mug",
         category: "coffee",
         categoryName: "Coffee & Morning Humor",
         price: 15.99,
         baseItem: "White Glossy Ceramic Mug",
         color: "Crisp White Ceramic",
+        availableColors: ["Crisp White Ceramic"],
         sizes: "11oz, 15oz, 20oz",
         desc: "For early mornings, introverts, and anyone whose vocal cords remain locked until the first cup is finished. Features bespoke mouth padlock and keyhole coffee cup illustration.",
-        image: "https://imgproxy.fourthwall.dev/RJX-Veqo6pAx5oy5ZuM5nNCJA4BeaxB3E0ii7mUAWbU/w:1920/sm:1/enc/0WNkUaUuv-oM1jQE/W9MQvUBpfaePVr7D/5q6jduchJscim0TF/x_m44sQFk4ELXwXA/-bEfWA_oQjblpnpF/9Su-MrRmX3whZr2V/7KQEnONSyW3hm9MP/SsQ5_qmHADvBTj1f/SRezUAvmVtGs3YFs/uNnCrlmGT3_jZiga/9h8JlpqMRLDxsh89/cQmmPMrYdp4nQokq/m8jO5LYGZHaUkScW/OLS7dfGqkhDNi77j/UPQlXXggYkw.jpg",
+        image: "../assets/merch/mockups/coffee-mug.png",
+        isWhite: true,
+        isLive: true,
         url: "https://jasontv-marketplace-shop.fourthwall.com/products/coffee-before-conversation-ceramic-mug"
       },
       {
-        id: "prod-003",
+        id: "prod-live-005",
+        saying: "Dad Level: Legendary",
         title: "\"Dad Level: Legendary\" Premium Fleece Hoodie",
         category: "dads",
-        categoryName: "Dad Life",
+        categoryName: "Dad Life & Family",
         price: 49.99,
         baseItem: "Cotton Heritage M2580 Unisex Fleece Hoodie",
         color: "Solid White",
+        availableColors: ["Solid White", "Midnight Black", "Heather Grey", "Navy Blue"],
         sizes: "S, M, L, XL, 2XL, 3XL",
         desc: "For dads who tackle parenting like an epic raid boss. Featuring custom superhero dad carrying kids, stroller, and supplies, printed on ultra-plush 8.5 oz 3-end fleece.",
-        image: "https://imgproxy.fourthwall.dev/IcmEJpoe2RcMANXQjIKe-HHsFAOTEfwRsPZ9ptfNzis/w:1920/sm:1/enc/RbOj4qCQ3KmAVCcJ/lhr0i9f_SmS2STxX/wRtc6ZFg1QLESJiB/UvxxdeyIczXmiQtq/3GZY3gOycVFHhXcm/LZZKIjl9fmCi9PPY/dZcFlqPDBjvtgcIJ/COu6X5OBeNxCYv3P/u-3RjEXCpEE21YiP/BhaZOLN953to98Ml/vdAuc78WMSq5Zh4l/inReiroQ8Xc83x6H/F73bEIUSB70CnLUD/ZXiF4hGfd-ITz1Pk/3NO0Mo1DcHE.jpg",
+        image: "../assets/merch/mockups/dad-hoodie.png",
+        isWhite: true,
+        isLive: true,
         url: "https://jasontv-marketplace-shop.fourthwall.com/products/dad-level-legendary-premium-fleece-hoodie"
       },
       {
-        id: "prod-004",
+        id: "prod-live-006",
+        saying: "The Cat Allows Me to Live Here",
         title: "\"The Cat Allows Me to Live Here\" Heavyweight T-Shirt",
         category: "cats",
         categoryName: "Cat Lovers",
         price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Tee",
-        color: "Clean White",
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Crisp White",
+        availableColors: ["Crisp White", "Midnight Black", "Heather Grey", "Navy Blue"],
         sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
         desc: "Every cat owner knows who holds the deed to the house. Featuring bespoke vintage editorial cat illustration with tiny butler serving on velvet cushion and custom lettering.",
-        image: "https://imgproxy.fourthwall.dev/3DshfwFB1RqTaifGLaFEzGMhUu4cdSwV7aDCepkfJ8s/w:1920/sm:1/enc/M6L94_gmAEC5Og2I/j0uLQgxGTmSpqkjn/0ciybNxytQ7AgLOD/b4DldVfGkvhR-kXJ/IBLOp7WTKL_9L0Br/S4P8Ez2CIn4TwqIZ/yuG9yCtwqZSFqlnc/TrcwK5Y1EbnZ3rxJ/LUlRsLls3LTmejo8/d0pYRR7KkjiZUBnc/1ACByLF3su2T2OIq/pibPB9dYR_AyhUZX/RBDMNrqo2-H45LKD/h4FTAg0JKQJG-vIl/79dL7qZLupg.jpg",
+        image: "../assets/merch/mockups/cat-white.png",
+        isWhite: true,
+        isLive: true,
         url: "https://jasontv-marketplace-shop.fourthwall.com/products/the-cat-allows-me-to-live-here-heavyweight-t-shirt"
       },
       {
-        id: "prod-005",
+        id: "prod-live-007",
+        saying: "Measure Twice. Cuss Once.",
         title: "\"Measure Twice. Cuss Once.\" Heavyweight T-Shirt",
         category: "trades",
-        categoryName: "Trades & DIY",
+        categoryName: "Trades & Handyman",
         price: 25.99,
-        baseItem: "Comfort Colors 1717 Heavyweight Tee",
-        color: "Clean White",
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Crisp White",
+        availableColors: ["Crisp White", "Midnight Black", "Dark Heather", "Navy Blue"],
         sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
         desc: "For carpenters, woodworkers, and DIY enthusiasts who know that precision craftsmanship is paved with colorful vocabulary. Exasperated tape measure illustration on 100% cotton.",
-        image: "https://imgproxy.fourthwall.dev/0DNnykUmg8g16EEKcqrBfW9aj3dSt4tKV_YFr8MyAEA/w:1920/sm:1/enc/cg9QsyWqXFjorbPZ/dpjXL6-5N5JbqnnV/uym5cOpDuwjtU_R4/vO-JfARN87nOHpUe/0tIz4pmmUA1OD3cA/hGz4qTiCEb4PWJ_h/LllIqJQ2poYURulI/eZkwRf8XGOOGmFMJ/eHvtgsTHKXVSV6O1/NbIM5P-1PpRcMmU4/toFGOiX2DJYHcKWR/jLfMMATOiXCnyDWh/VmyfsQEwfFkcso3m/Kp406JsWDoDlgCuh/QBvhGyVuIzI.jpg",
+        image: "../assets/merch/mockups/measure-white.png",
+        isWhite: true,
+        isLive: true,
         url: "https://jasontv-marketplace-shop.fourthwall.com/products/measure-twice-cuss-once-heavyweight-t-shirt"
+      },
+      {
+        id: "prod-live-008",
+        saying: "My Dog Thinks I'm Awesome",
+        title: "\"My Dog Thinks I'm Awesome\" Heavyweight T-Shirt",
+        category: "dogs",
+        categoryName: "Dog Lovers",
+        price: 25.99,
+        baseItem: "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
+        color: "Crisp White",
+        availableColors: ["Crisp White", "Midnight Black", "Heather Grey", "Navy Blue"],
+        sizes: "S, M, L, XL, 2XL, 3XL, 4XL",
+        desc: "No matter how chaotic the day was, someone thinks you're the absolute greatest human on Earth. Featuring custom heartwarming dog owner illustration in the rain.",
+        image: "../assets/merch/mockups/dog-white.png",
+        isWhite: true,
+        isLive: true,
+        url: "https://jasontv-marketplace-shop.fourthwall.com/products/my-dog-thinks-im-awesome-heavyweight-t-shirt"
       }
     ];
 
+    let ALL_PRODUCTS = [...INITIAL_LIVE_PRODUCTS];
     let currentCategory = 'all';
     let currentQuery = '';
     let currentSort = 'featured';
+    let currentPage = 1;
+    const PAGE_SIZE = 24;
 
     const grid = document.getElementById('productsGrid');
     const searchInput = document.getElementById('searchInput');
     const sortSelect = document.getElementById('sortSelect');
     const pills = document.querySelectorAll('.filter-pill');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const loadMoreCount = document.getElementById('loadMoreCount');
     const modal = document.getElementById('policyModal');
     const modalProductTitle = document.getElementById('modalProductTitle');
     const modalProceedBtn = document.getElementById('modalProceedBtn');
     const modalCancelBtn = document.getElementById('modalCancelBtn');
     const closeModal = document.getElementById('closeModal');
 
+    function getColorClass(c) {
+      const lower = (c || '').toLowerCase();
+      if (lower.includes('white')) return 'white';
+      if (lower.includes('black')) return 'black';
+      if (lower.includes('navy') || lower.includes('blue')) return 'navy';
+      if (lower.includes('charcoal') || lower.includes('dark heather')) return 'charcoal';
+      if (lower.includes('grey') || lower.includes('gray')) return 'grey';
+      return 'white';
+    }
+
+    function renderColorDots(colors) {
+      if (!Array.isArray(colors) || colors.length === 0) return '';
+      return colors.map(c => `<span class="color-dot ${getColorClass(c)}" title="${c}"></span>`).join('');
+    }
+
+    function formatImageSrc(src) {
+      if (!src) return '../assets/merch/mockups/garage-black.png';
+      if (src.startsWith('assets/')) return '../' + src;
+      return src;
+    }
+
+    function matchesCategory(p, cat) {
+      if (cat === 'all') return true;
+      if (cat === 'live') return p.isLive === true;
+      
+      const pCat = (p.category || '').toLowerCase();
+      const pName = (p.categoryName || '').toLowerCase();
+      const pSaying = (p.saying || p.title || '').toLowerCase();
+
+      if (cat === 'mechanics') return pCat.includes('mech') || pCat.includes('garage') || pName.includes('garage');
+      if (cat === 'blue-collar') return pCat.includes('blue-collar') || pCat.includes('trade') || pName.includes('trade');
+      if (cat === 'welder') return pCat.includes('weld') || pName.includes('weld') || pSaying.includes('weld');
+      if (cat === 'carpenter') return pCat.includes('carpent') || pCat.includes('wood') || pSaying.includes('wood') || pSaying.includes('saw') || pSaying.includes('measure');
+      if (cat === 'electrician') return pCat.includes('electr') || pSaying.includes('wire') || pSaying.includes('spark') || pSaying.includes('volt');
+      if (cat === 'plumber') return pCat.includes('plumb') || pSaying.includes('pipe') || pSaying.includes('wrench');
+      if (cat === 'trucker') return pCat.includes('truck') || pSaying.includes('truck') || pSaying.includes('miles') || pSaying.includes('diesel');
+      if (cat === 'sarcasm') return pCat.includes('sarcasm') || pCat.includes('humor') || pName.includes('humor') || pSaying.includes('fault');
+      if (cat === 'coffee') return pCat.includes('coffee') || pName.includes('coffee') || pSaying.includes('coffee');
+      if (cat === 'dads') return pCat.includes('dad') || pName.includes('dad') || pSaying.includes('dad');
+      if (cat === 'cats') return pCat.includes('cat') || pName.includes('cat') || pSaying.includes('cat');
+      if (cat === 'dogs') return pCat.includes('dog') || pName.includes('dog') || pSaying.includes('dog');
+      if (cat === 'bbq') return pCat.includes('bbq') || pCat.includes('grill') || pSaying.includes('bbq') || pSaying.includes('smoke');
+      if (cat === 'fitness') return pCat.includes('fitness') || pCat.includes('gym') || pSaying.includes('lift') || pSaying.includes('workout');
+      if (cat === 'gaming') return pCat.includes('game') || pCat.includes('gaming') || pSaying.includes('game') || pSaying.includes('respawn');
+
+      return pCat === cat || pName.includes(cat);
+    }
+
     function renderProducts() {
-      let filtered = PRODUCTS.filter(p => {
-        const matchesCat = currentCategory === 'all' || p.category === currentCategory;
+      let filtered = ALL_PRODUCTS.filter(p => {
+        const catMatch = matchesCategory(p, currentCategory);
         const q = currentQuery.toLowerCase().trim();
         const matchesQuery = !q || 
           p.title.toLowerCase().includes(q) || 
-          p.desc.toLowerCase().includes(q) || 
-          p.categoryName.toLowerCase().includes(q) ||
-          p.baseItem.toLowerCase().includes(q);
-        return matchesCat && matchesQuery;
+          (p.desc && p.desc.toLowerCase().includes(q)) || 
+          (p.categoryName && p.categoryName.toLowerCase().includes(q)) ||
+          (p.saying && p.saying.toLowerCase().includes(q)) ||
+          (p.baseItem && p.baseItem.toLowerCase().includes(q));
+        return catMatch && matchesQuery;
       });
 
       if (currentSort === 'price-low') {
@@ -866,6 +1057,13 @@
         filtered.sort((a, b) => b.price - a.price);
       } else if (currentSort === 'name') {
         filtered.sort((a, b) => a.title.localeCompare(b.title));
+      } else {
+        // Featured: live in-stock items first, then alphabetical
+        filtered.sort((a, b) => {
+          if (a.isLive && !b.isLive) return -1;
+          if (!a.isLive && b.isLive) return 1;
+          return a.title.localeCompare(b.title);
+        });
       }
 
       if (filtered.length === 0) {
@@ -876,37 +1074,54 @@
             <p>Try clearing your search query or switching categories.</p>
           </div>
         `;
+        loadMoreContainer.style.display = 'none';
         return;
       }
 
-      grid.innerHTML = filtered.map(p => `
+      const totalMatches = filtered.length;
+      const visibleCount = Math.min(totalMatches, currentPage * PAGE_SIZE);
+      const visibleItems = filtered.slice(0, visibleCount);
+
+      grid.innerHTML = visibleItems.map(p => `
         <article class="product-card" id="${p.id}">
-          <div class="product-media">
-            <img src="${p.image}" alt="${p.title}" loading="lazy">
+          <div class="product-media ${p.isWhite ? 'backdrop-white-item' : 'backdrop-colored-item'}">
+            <img src="${formatImageSrc(p.image)}" alt="${p.title}" loading="lazy">
             <div class="product-price-badge">$${p.price.toFixed(2)}</div>
-            <div class="product-tag-badge">${p.categoryName}</div>
+            <div class="product-tag-badge">${p.isLive ? '🔥 In Stock' : (p.categoryName || 'Graphic Apparel')}</div>
           </div>
           <div class="product-body">
             <div>
               <h3 class="product-title">${p.title}</h3>
               <div class="product-specs">
-                <span>Fabric/Type: ${p.baseItem}</span>
-                <span>&bull; Color: ${p.color}</span>
+                <span>Fabric: ${p.baseItem}</span>
                 <span>&bull; Sizes: ${p.sizes}</span>
+              </div>
+              <div class="color-swatches">
+                <span class="color-swatch-label">Colors:</span>
+                ${renderColorDots(p.availableColors || [p.color || 'Crisp White'])}
               </div>
               <p class="product-desc">${p.desc}</p>
             </div>
             <div class="product-actions">
-              <button class="btn-buy" onclick="openPolicyModal('${p.title}', '${p.url}')">
-                🛍️ View &amp; Order
+              <button class="btn-buy" onclick="openPolicyModal('${p.title.replace(/'/g, "\\'")}', '${p.url}')">
+                ${p.isLive ? '🛍️ View &amp; Order' : '✨ Order on Fourthwall &rarr;'}
               </button>
-              <button class="btn-policy" onclick="openPolicyModal('${p.title}', '${p.url}')" title="Read made-to-order terms">
+              <button class="btn-policy" onclick="openPolicyModal('${p.title.replace(/'/g, "\\'")}', '${p.url}')" title="Read made-to-order terms">
                 Policy
               </button>
             </div>
           </div>
         </article>
       `).join('');
+
+      // Handle Load More
+      if (visibleCount < totalMatches) {
+        const remaining = totalMatches - visibleCount;
+        loadMoreCount.textContent = remaining;
+        loadMoreContainer.style.display = 'block';
+      } else {
+        loadMoreContainer.style.display = 'none';
+      }
     }
 
     function openPolicyModal(title, url) {
@@ -922,13 +1137,27 @@
       if (e.target === modal) modal.classList.remove('active');
     });
 
+    loadMoreBtn.addEventListener('click', () => {
+      currentPage++;
+      renderProducts();
+    });
+
     searchInput.addEventListener('input', (e) => {
-      currentQuery = e.target.value;
+      currentQuery = e.target.value.trim();
+      if (currentQuery && currentCategory !== 'all') {
+        currentCategory = 'all';
+        pills.forEach(p => {
+          if (p.dataset.cat === 'all') p.classList.add('active');
+          else p.classList.remove('active');
+        });
+      }
+      currentPage = 1;
       renderProducts();
     });
 
     sortSelect.addEventListener('change', (e) => {
       currentSort = e.target.value;
+      currentPage = 1;
       renderProducts();
     });
 
@@ -937,12 +1166,40 @@
         pills.forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
         currentCategory = pill.dataset.cat;
+        currentPage = 1;
         renderProducts();
       });
     });
 
-    // Initial render
+    // Read URL query parameters for direct category or search links
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialCat = urlParams.get('cat');
+    const initialQuery = urlParams.get('q');
+    if (initialCat) {
+      currentCategory = initialCat;
+      pills.forEach(p => {
+        if (p.dataset.cat === initialCat) p.classList.add('active');
+        else p.classList.remove('active');
+      });
+    }
+    if (initialQuery) {
+      currentQuery = initialQuery;
+      searchInput.value = initialQuery;
+    }
+
+    // Initial render with the 8 live products
     renderProducts();
+
+    // Dynamically load the full 1,498 catalog database in the background
+    fetch('products-catalog.json')
+      .then(res => res.json())
+      .then(catalog => {
+        if (Array.isArray(catalog) && catalog.length > 0) {
+          ALL_PRODUCTS = catalog;
+          renderProducts();
+        }
+      })
+      .catch(err => console.log('Loaded baseline merchandise catalog:', err));
   </script>
 </body>
 </html>
