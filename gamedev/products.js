@@ -1,5 +1,5 @@
 // JasonTV Marketplace Master Products Catalog (Combined)
-// Total Items: 924
+// Total Items: 946
 const PRODUCTS = [
     {
         "id": "ancient-nordic-glaciers-tundra-flora-mountain-biome-4k-texture-vault",
@@ -1760,14 +1760,14 @@ const PRODUCTS = [
     {
         "id": "i-got-this",
         "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-        "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+        "subtitle": "67.1 km\u00c2\u00b2 deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
         "category": "godot",
         "price": 39.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
             "Godot 4",
-            "67kmÂ² Terrain",
+            "67km\u00c2\u00b2 Terrain",
             "Base Building"
         ],
         "cover": "assets/covers/igotthis.jpg",
@@ -3148,7 +3148,7 @@ const PRODUCTS = [
             "1 Full Custom Video (Up to 5 Minutes) for $49.99",
             "Dual Video Package (Two Videos Up to 5 Mins Each) for $59.99 (Save $40)",
             "Any Genre: Realistic Music Videos, Dragons, Fantasy, Sci-Fi, Military, Game Trailers, Comedy & More",
-            "Official Production Sample: Can’t Turn It Off (Official Music Video)",
+            "Official Production Sample: Can\u2019t Turn It Off (Official Music Video)",
             "16:9 Landscape (YouTube) or 9:16 Vertical (TikTok/Shorts)",
             "Custom AI Visual Production & Scene Art Direction",
             "Character Voiceover & Dynamic Audio Mix",
@@ -25922,9 +25922,485 @@ const PRODUCTS = [
             "Vertical 2:3 High-DPI Fine Art Prints",
             "100% Royalty-Free Commercial License"
         ]
+    },
+    {
+        "id": "the-last-bastion",
+        "title": "The Last Bastion \u2014 Tower Defense + Python Source",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDkyOTAzLnBuZw==/105x83%23/lM%2BlzD.png",
+        "itchUrl": "https://jasonc101.itch.io/the-last-bastion",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "The Last Bastion \u2014 Tower Defense + Python Source - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "rpg-foundation-pack-python-rpg-starter",
+        "title": "RPG Foundation Pack - Python RPG Starter",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDkwMDk4LnBuZw==/105x83%23/w57YDo.png",
+        "itchUrl": "https://jasonc101.itch.io/rpg-foundation-pack-python-rpg-starter",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "RPG Foundation Pack - Python RPG Starter - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "tilecrafter-seamless-texture-studio",
+        "title": "TileCrafter - Seamless Texture Studio",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NjAzLnBuZw==/105x83%23/%2FHPumS.png",
+        "itchUrl": "https://jasonc101.itch.io/tilecrafter-seamless-texture-studio",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "TileCrafter - Seamless Texture Studio - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "godot-input-rebind-desktop-starter",
+        "title": "Godot Input Rebind - Desktop Starter",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTk1LnBuZw==/105x83%23/XzZAVY.png",
+        "itchUrl": "https://jasonc101.itch.io/godot-input-rebind-desktop-starter",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Godot Input Rebind - Desktop Starter - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "the-clockmakers-last-lock-printable-mystery",
+        "title": "The Clockmaker's Last Lock - Printable Mystery",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTgwLnBuZw==/105x83%23b/3udWmE.png",
+        "itchUrl": "https://jasonc101.itch.io/the-clockmakers-last-lock-printable-mystery",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "The Clockmaker's Last Lock - Printable Mystery - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "starfall-route-solo-courier-rpg",
+        "title": "Starfall Route - Solo Courier RPG",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTY2LnBuZw==/105x83%23b/sUcHHU.png",
+        "itchUrl": "https://jasonc101.itch.io/starfall-route-solo-courier-rpg",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Starfall Route - Solo Courier RPG - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "streamframe-local-obs-overlay-kit",
+        "title": "StreamFrame - Local OBS Overlay Kit",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "tool",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTUxLnBuZw==/105x83%23/mEyndY.png",
+        "itchUrl": "https://jasonc101.itch.io/streamframe-local-obs-overlay-kit",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "StreamFrame - Local OBS Overlay Kit - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "cozy-homestead-farming-ui-icons",
+        "title": "Cozy Homestead - Farming UI & Icons",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTQxLnBuZw==/105x83%23/fFrj3I.png",
+        "itchUrl": "https://jasonc101.itch.io/cozy-homestead-farming-ui-icons",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Cozy Homestead - Farming UI & Icons - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "atlas-workbench-sprite-packer",
+        "title": "Atlas Workbench - Sprite Packer",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "tool",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTI2LnBuZw==/105x83%23/K7WA8s.png",
+        "itchUrl": "https://jasonc101.itch.io/atlas-workbench-sprite-packer",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Atlas Workbench - Sprite Packer - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "palette-bench-pixel-art-processor",
+        "title": "Palette Bench - Pixel Art Processor",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NTA5LnBuZw==/105x83%23/KGrT79.png",
+        "itchUrl": "https://jasonc101.itch.io/palette-bench-pixel-art-processor",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Palette Bench - Pixel Art Processor - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "curve-foundry-progression-designer",
+        "title": "Curve Foundry - Progression Designer",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDk2LnBuZw==/105x83%23/uxsZ1k.png",
+        "itchUrl": "https://jasonc101.itch.io/curve-foundry-progression-designer",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Curve Foundry - Progression Designer - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "the-hollow-marches-dark-fantasy-encounters",
+        "title": "The Hollow Marches - Dark Fantasy Encounters",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDkzLnBuZw==/105x83%23b/247zeS.png",
+        "itchUrl": "https://jasonc101.itch.io/the-hollow-marches-dark-fantasy-encounters",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "The Hollow Marches - Dark Fantasy Encounters - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "sprite-motion-animation-previewer",
+        "title": "Sprite Motion - Animation Previewer",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDc4LnBuZw==/105x83%23/O7bjiK.png",
+        "itchUrl": "https://jasonc101.itch.io/sprite-motion-animation-previewer",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Sprite Motion - Animation Previewer - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "loot-table-studio-offline-editor",
+        "title": "Loot Table Studio - Offline Editor",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "tool",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDY5LnBuZw==/105x83%23/xWxaET.png",
+        "itchUrl": "https://jasonc101.itch.io/loot-table-studio-offline-editor",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Loot Table Studio - Offline Editor - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "godot-save-settings-starter",
+        "title": "Godot Save & Settings Starter",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDUxLnBuZw==/105x83%23/F8gyT8.png",
+        "itchUrl": "https://jasonc101.itch.io/godot-save-settings-starter",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Godot Save & Settings Starter - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "orbital-command-sci-fi-hud-kit",
+        "title": "Orbital Command - Sci-Fi HUD Kit",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "tool",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDM4LnBuZw==/105x83%23/vC2LvS.png",
+        "itchUrl": "https://jasonc101.itch.io/orbital-command-sci-fi-hud-kit",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Orbital Command - Sci-Fi HUD Kit - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "ashen-arcana-dark-fantasy-card-ui-kit",
+        "title": "Ashen Arcana - Dark Fantasy Card UI Kit",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "tool",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5NDIxLnBuZw==/105x83%23/TidsRq.png",
+        "itchUrl": "https://jasonc101.itch.io/ashen-arcana-dark-fantasy-card-ui-kit",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Ashen Arcana - Dark Fantasy Card UI Kit - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "branchline-dialogue-studio",
+        "title": "Branchline - Dialogue Studio",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg5MzIxLnBuZw==/105x83%23/IVPe0i.png",
+        "itchUrl": "https://jasonc101.itch.io/branchline-dialogue-studio",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "Branchline - Dialogue Studio - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "hextactics-headless-grid-a-pathfinding-combat-engine",
+        "title": "HexTactics: Headless Grid, A* Pathfinding & Combat Engine",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDg0NDg3LmpwZw==/105x83%23/oAGr0t.jpg",
+        "itchUrl": "https://jasonc101.itch.io/hextactics-headless-grid-a-pathfinding-combat-engine",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "HexTactics: Headless Grid, A* Pathfinding & Combat Engine - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
+    },
+    {
+        "id": "the-master-commercial-game-developer-super-vault-complete-800-packages-included",
+        "title": "The Master Commercial Game Developer Super-Vault | Complete 800 Packages Included",
+        "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
+        "category": "engine",
+        "price": 14.99,
+        "rating": 5,
+        "reviews": 12,
+        "badges": [
+            "Commercial License",
+            "100% Rights",
+            "Godot 4 / Source"
+        ],
+        "cover": "https://img.itch.zone/aW1nLzMwNDgyMjQyLmpwZw==/105x83%23/5N%2Fw0u.jpg",
+        "itchUrl": "https://jasonc101.itch.io/the-master-commercial-game-developer-super-vault-complete-800-packages-included",
+        "gumroadUrl": "https://honeydo5.gumroad.com/",
+        "description": "The Master Commercial Game Developer Super-Vault | Complete 800 Packages Included - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "specs": [
+            "Full Source Code & Architecture Included",
+            "Clean Modular Scripts & Extensive Documentation",
+            "Ready to Export to PC, Mac, Linux & Web",
+            "Perpetual Commercial Royalty-Free License"
+        ]
     }
 ];
-
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = PRODUCTS;
-}
