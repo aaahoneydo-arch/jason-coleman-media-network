@@ -345,7 +345,7 @@
     "title": "\"I Fix What You Tried to Fix\" Glossy Ceramic Mug",
     "category": "blue-collar",
     "categoryName": "Trades & Blue Collar",
-    "price": 15.99,
+    "price": 15.95,
     "baseItem": "White Glossy Ceramic Coffee Mug (11oz & 15oz)",
     "color": "Crisp White Ceramic",
     "availableColors": [
@@ -355,10 +355,10 @@
     "desc": "Durable ceramic mug with high-gloss finish. Microwave and dishwasher safe, featuring high-contrast \"I Fix What You Tried to Fix\" illustration.",
     "image": "assets/merch/idea-0002-mockup-transparent.png",
     "isWhite": true,
-    "isLive": false,
-    "url": "mailto:aaahoneydo@gmail.com?subject=Print%20Request%20for%20Fourthwall:%20\"I Fix What You Tried to Fix\" Glossy Ceramic Mug&body=Hello%20JasonTV,%0A%0AI%20saw%20this%20design%20in%20the%20JasonTV%20Marketplace%20catalog:%0A\"I Fix What You Tried to Fix\" Glossy Ceramic Mug%0A%0APlease%20list%20this%20item%20on%20the%20Fourthwall%20store%20so%20I%20can%20complete%20my%20order!%0A%0AThank%20you!",
-    "status": "catalog-drop",
-    "badge": "✨ Made-to-Order Drop"
+    "isLive": true,
+    "url": "https://jasontv-marketplace-shop.fourthwall.com/products/i-fix-what-you-tried-to-fix-ceramic-coffee-mug",
+    "status": "in-stock",
+    "badge": "🟢 In Stock • Ready to Ship"
   },
   {
     "id": "idea-0002-hat",
@@ -394,7 +394,7 @@
     "title": "\"Built Different. Usually With Power Tools.\" Heavyweight T-Shirt",
     "category": "blue-collar",
     "categoryName": "Trades & Blue Collar",
-    "price": 27.99,
+    "price": 25.99,
     "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
     "color": "Crisp White",
     "availableColors": [
@@ -407,10 +407,10 @@
     "desc": "Use a miniature narrative with one focal subject and one surprising consequence. The illustration should deliver the punchline without a caption. Printed on 100% ring-spun cotton with a relaxed vintage fit.",
     "image": "assets/merch/idea-0003-mockup-transparent.png",
     "isWhite": true,
-    "isLive": false,
-    "url": "mailto:aaahoneydo@gmail.com?subject=Print%20Request%20for%20Fourthwall:%20\"Built Different. Usually With Power Tools.\" Heavyweight T-Shirt&body=Hello%20JasonTV,%0A%0AI%20saw%20this%20design%20in%20the%20JasonTV%20Marketplace%20catalog:%0A\"Built Different. Usually With Power Tools.\" Heavyweight T-Shirt%0A%0APlease%20list%20this%20item%20on%20the%20Fourthwall%20store%20so%20I%20can%20complete%20my%20order!%0A%0AThank%20you!",
-    "status": "catalog-drop",
-    "badge": "✨ Made-to-Order Drop"
+    "isLive": true,
+    "url": "https://jasontv-marketplace-shop.fourthwall.com/products/built-different-usually-with-power-tools-heavyweight-t-shirt",
+    "status": "in-stock",
+    "badge": "🟢 In Stock • Ready to Ship"
   },
   {
     "id": "idea-0003-hoodie",
