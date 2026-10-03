@@ -1477,6 +1477,111 @@
     .merch-showcase-btn:hover {
       opacity: 0.92;
       transform: translateY(-1px);
+    /* Top Announcement Bar for Spreadshop */
+    .top-announcement-bar {
+      background: linear-gradient(90deg, #0b1329 0%, #162a45 50%, #0b1329 100%);
+      border-bottom: 1px solid rgba(0, 210, 211, 0.4);
+      padding: 0.65rem 1.25rem;
+      position: sticky;
+      top: 0;
+      z-index: 110;
+      font-size: 0.88rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    .announcement-inner {
+      max-width: 1240px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .announcement-tag {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #07090e;
+      font-weight: 900;
+      font-size: 0.76rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .announcement-text {
+      color: #e2e8f0;
+      flex: 1;
+      min-width: 280px;
+      font-size: 0.88rem;
+    }
+    .announcement-text strong {
+      color: #00d2d3;
+    }
+    .announcement-actions {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .announcement-btn-primary {
+      background: linear-gradient(135deg, #00d2d3, #0984e3);
+      color: #fff !important;
+      font-weight: 800;
+      padding: 0.4rem 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.82rem;
+      box-shadow: 0 0 15px rgba(0, 210, 211, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .announcement-btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 0 25px rgba(0, 210, 211, 0.7);
+    }
+    .announcement-btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #cbd5e1 !important;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-weight: 700;
+      padding: 0.4rem 0.85rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.82rem;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+    .announcement-btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff !important;
+    }
+    .nav-spreadshop-highlight {
+      color: #00d2d3 !important;
+      font-weight: 800 !important;
+      background: rgba(0, 210, 211, 0.12);
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid rgba(0, 210, 211, 0.35);
+      transition: all 0.2s;
+    }
+    .nav-spreadshop-highlight:hover {
+      background: rgba(0, 210, 211, 0.25);
+      color: #fff !important;
+    }
+    .btn-spreadshop-hero {
+      background: linear-gradient(135deg, #00d2d3, #0984e3) !important;
+      color: #fff !important;
+      box-shadow: 0 4px 25px rgba(0, 210, 211, 0.5) !important;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .btn-spreadshop-hero:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 32px rgba(0, 210, 211, 0.75) !important;
     }
 
   </style>
@@ -1485,11 +1590,25 @@
 </head>
 <body>
 
+  <!-- Top Announcement Bar: Spreadshop Store Feature -->
+  <aside class="top-announcement-bar" id="spreadshop-announcement" aria-label="Official Merchandise Announcement">
+    <div class="announcement-inner">
+      <span class="announcement-tag">🛍️ OFFICIAL MERCH SHOP</span>
+      <span class="announcement-text">Our official <strong>Spreadshop Store</strong> is live with 200+ apparel designs, heavyweight hoodies, graphic tees &amp; drinkware across all sizes &amp; color variations!</span>
+      <div class="announcement-actions">
+        <a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="announcement-btn-primary track-click" data-target="top_spreadshop_btn">🛍️ Shop Spreadshop Collection &rarr;</a>
+        <a href="https://jasontv-marketplace-shop.fourthwall.com" target="_blank" rel="noopener" class="announcement-btn-secondary track-click" data-target="top_fourthwall_btn">Fourthwall Shop</a>
+        <a href="shop/index.html" class="announcement-btn-secondary track-click" data-target="top_catalog_hub_btn">Catalog Hub</a>
+      </div>
+    </div>
+  </aside>
+
   <header>
     <div class="nav-inner">
       <a href="index.html" class="brand">JASONTV <span>MARKETPLACE</span></a>
       <ul class="nav-menu">
-        <li><a href="shop/index.html" style="color:var(--accent-gold); font-weight:800;">👕 Merch Store</a></li>
+        <li><a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="nav-spreadshop-highlight">🛍️ Spreadshop (200+)</a></li>
+        <li><a href="shop/index.html" style="color:var(--accent-gold); font-weight:800;">👕 Merch Hub</a></li>
         <li><a href="#theater" style="color:var(--accent-red); font-weight:800;">▶ YouTube (900+)</a></li>
         <li><a href="#itch-vault" style="color:#fa5c5c; font-weight:800;">🛒 itch.io Vault (924+)</a></li>
         <li><a href="#music" style="color:var(--accent-cyan); font-weight:800;">🎵 Original Music</a></li>
@@ -1500,8 +1619,8 @@
         <li><a href="#analytics">Live Stats</a></li>
       </ul>
       <div class="nav-btns">
-        <a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:#336b48;color:#fff;font-weight:800;" data-target="spreadshop_store_nav">Spreadshop: Shirts, Hoodies &amp; Mugs</a>
-        <a href="shop/index.html" class="nav-btn track-click" style="background:linear-gradient(135deg, #ffaa00, #ff7700);color:#000;font-weight:900;" data-target="merch_store_nav">👕 Merch Store (1,498 Items)</a>
+        <a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:linear-gradient(135deg, #00d2d3, #0984e3);color:#fff;font-weight:900;box-shadow:0 0 15px rgba(0,210,211,0.4);" data-target="spreadshop_store_nav">🛍️ Spreadshop (200+)</a>
+        <a href="shop/index.html" class="nav-btn track-click" style="background:linear-gradient(135deg, #ffaa00, #ff7700);color:#000;font-weight:900;" data-target="merch_store_nav">👕 Merch Hub</a>
         <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:#fa5c5c;color:#fff;font-weight:800;" data-target="itch_store_nav">itch.io Store (924 Live)</a>
         <a href="https://honeydo5.gumroad.com/" target="_blank" rel="noopener" class="nav-btn track-click" style="background:#ff90e8;color:#000;font-weight:800;" data-target="gumroad_store_nav">Gumroad Store</a>
         <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener" class="nav-btn btn-amz track-click" data-target="amazon_store_nav">Amazon Store</a>
@@ -1528,7 +1647,8 @@
       
       <div class="hero-content">
         <div class="hero-actions">
-          <a href="shop/index.html" class="btn-large track-click" style="background:linear-gradient(135deg, #ffaa00, #ff7700);color:#000;font-weight:900;" data-target="hero_merch_store">👕 Shop Apparel &amp; Lifestyle Gear (1,498 Items)</a>
+          <a href="https://jasons-marketplace.myspreadshop.com/" target="_blank" rel="noopener" class="btn-large track-click btn-spreadshop-hero" data-target="hero_spreadshop_store">🛍️ Shop Official Spreadshop: Graphic Tees, Hoodies &amp; Mugs (200+ Live Designs) &rarr;</a>
+          <a href="shop/index.html" class="btn-large track-click" style="background:linear-gradient(135deg, #ffaa00, #ff7700);color:#000;font-weight:900;" data-target="hero_merch_store">👕 Merch Hub &amp; Lookbook</a>
           <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener" class="btn-large track-click" style="background:linear-gradient(135deg, #fa5c5c, #d63031);color:#fff;" data-target="hero_itch_store">⚡ Shop 924+ Commercial Products on itch.io</a>
           <a href="custom-videos.html" class="btn-large track-click" style="background:linear-gradient(135deg, #00d2d3, #00a8a8);color:#000;font-weight:900;" data-target="hero_custom_videos">🎬 Custom 4-5 Min Videos ($49.99 / 2 for $59.99)</a>
           <a href="#books" class="btn-large amz track-click" data-target="hero_books">📚 Explore Author Books (9)</a>
