@@ -798,7 +798,7 @@
     "title": "\"Good Work Ain't Cheap\" Heavyweight T-Shirt",
     "category": "blue-collar",
     "categoryName": "Trades & Blue Collar",
-    "price": 27.99,
+    "price": 25.99,
     "baseItem": "Comfort Colors 1717 Heavyweight Garment-Dyed Tee",
     "color": "Crisp White",
     "availableColors": [
@@ -811,10 +811,10 @@
     "desc": "Use an expressive original character caught in a specific small mishap that reveals the joke; purposeful posture and one telling prop. Interpret THIS saying specifically: identify its implied action, tension or joke and depict that through a concrete scene relevant to Blue-collar / handyman / trades. Printed on 100% ring-spun cotton with a relaxed vintage fit.",
     "image": "assets/merch/idea-0007-mockup-transparent.png",
     "isWhite": true,
-    "isLive": false,
-    "url": "mailto:aaahoneydo@gmail.com?subject=Print%20Request%20for%20Fourthwall:%20\"Good Work Ain't Cheap\" Heavyweight T-Shirt&body=Hello%20JasonTV,%0A%0AI%20saw%20this%20design%20in%20the%20JasonTV%20Marketplace%20catalog:%0A\"Good Work Ain't Cheap\" Heavyweight T-Shirt%0A%0APlease%20list%20this%20item%20on%20the%20Fourthwall%20store%20so%20I%20can%20complete%20my%20order!%0A%0AThank%20you!",
-    "status": "catalog-drop",
-    "badge": "✨ Made-to-Order Drop"
+    "isLive": true,
+    "url": "https://jasontv-marketplace-shop.fourthwall.com/products/good-work-aint-cheap-heavyweight-t-shirt",
+    "status": "in-stock",
+    "badge": "🟢 In Stock • Ready to Ship"
   },
   {
     "id": "idea-0007-hoodie",
@@ -837,10 +837,10 @@
     "desc": "Ultra-plush 8.5 oz 3-end fleece hoodie with matching drawcords and front pouch pocket. Use an expressive original character caught in a specific small mishap that reveals the joke; purposeful posture and one telling prop. Interpret THIS saying specifically: identify its implied action, tension or joke and depict that through a concrete scene relevant to Blue-collar / handyman / trades.",
     "image": "assets/merch/idea-0007-mockup-transparent.png",
     "isWhite": true,
-    "isLive": false,
-    "url": "mailto:aaahoneydo@gmail.com?subject=Print%20Request%20for%20Fourthwall:%20\"Good Work Ain't Cheap\" Premium Fleece Hoodie&body=Hello%20JasonTV,%0A%0AI%20saw%20this%20design%20in%20the%20JasonTV%20Marketplace%20catalog:%0A\"Good Work Ain't Cheap\" Premium Fleece Hoodie%0A%0APlease%20list%20this%20item%20on%20the%20Fourthwall%20store%20so%20I%20can%20complete%20my%20order!%0A%0AThank%20you!",
-    "status": "catalog-drop",
-    "badge": "✨ Made-to-Order Drop"
+    "isLive": true,
+    "url": "https://jasontv-marketplace-shop.fourthwall.com/products/good-work-aint-cheap-premium-fleece-hoodie",
+    "status": "in-stock",
+    "badge": "🟢 In Stock • Ready to Ship"
   },
   {
     "id": "idea-0007-mug",
