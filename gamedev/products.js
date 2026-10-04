@@ -3127,36 +3127,7 @@ const PRODUCTS = [
             "223/223 Automated Pytest Suite Passing"
         ]
     },
-    {
-        "id": "custom-cinematic-video-production",
-        "title": "Custom Cinematic Video Production by JasonTV (Up to 5 Minutes)",
-        "subtitle": "Order a custom cinematic video (up to 5 minutes) produced by JasonTV for $49.99, or get 2 videos for $59.99. Scriptwriting, voiceover, sound design & 4K visuals.",
-        "category": "tools",
-        "price": 49.99,
-        "rating": 5,
-        "reviews": 47,
-        "badges": [
-            "Video Commission",
-            "Up to 5 Mins 4K",
-            "2 Videos for $59.99 Option"
-        ],
-        "cover": "assets/covers/custom_video_production.jpg",
-        "itchUrl": "https://jasonc101.itch.io/custom-cinematic-video-production-4-5-min-jasontv",
-        "gumroadUrl": "https://honeydo5.gumroad.com/",
-        "description": "Commission realistic music videos, high-fashion visuals, colossal mythical dragons, epic sci-fi mech clashes, dark fantasy sagas, military war chronicles, viral comedy skits, or custom game trailers. Up to 5 minutes of custom scriptwriting, voiceover, sound design, and 4K visuals produced directly by JasonTV. Delivered straight to your email within 48-72 hours. All sales are custom digital commissions and strictly non-refundable.",
-        "specs": [
-            "1 Full Custom Video (Up to 5 Minutes) for $49.99",
-            "Dual Video Package (Two Videos Up to 5 Mins Each) for $59.99 (Save $40)",
-            "Any Genre: Realistic Music Videos, Dragons, Fantasy, Sci-Fi, Military, Game Trailers, Comedy & More",
-            "Official Production Sample: Can\u2019t Turn It Off (Official Music Video)",
-            "16:9 Landscape (YouTube) or 9:16 Vertical (TikTok/Shorts)",
-            "Custom AI Visual Production & Scene Art Direction",
-            "Character Voiceover & Dynamic Audio Mix",
-            "Direct Email Delivery to Your Active Email Address",
-            "100% Royalty-Free Commercial & Monetization Rights",
-            "Non-Refundable Custom Digital Commission Policy"
-        ]
-    },
+    
     {
         "id": "flow-field-pathfinding-engine",
         "title": "High-Throughput Flow Field & Crowd Pathfinding Engine",
