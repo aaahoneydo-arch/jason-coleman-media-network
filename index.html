@@ -6034,14 +6034,22 @@
             </p>
           </div>
 
-          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
-            <button type="button" onclick="shuffleStorefrontCatalog()" id="shuffleCatalogBtn" class="hero-shop-pill track-click" data-target="shuffle_catalog" style="cursor: pointer; background: rgba(0, 210, 211, 0.2); border: 1px solid rgba(0, 210, 211, 0.6); color: #00d2d3; font-weight: 800; padding: 0.55rem 1rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem;">
-              <span>🔀</span> Shuffle Items
-            </button>
-            <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="hero-shop-pill-primary track-click" data-target="grand_shop_all" style="font-size: 0.88rem; padding: 0.55rem 1.1rem;">
-              🛍️ Visit Spreadshop Store &rarr;
-            </a>
+          <!-- Dual-Sided Action Bar with Shuffle on Both Sides -->
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; width: 100%; justify-content: space-between; margin-top: 0.5rem;">
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+              <button type="button" onclick="shuffleStorefrontCatalog()" id="shuffleCatalogBtn" class="hero-shop-pill track-click shuffle-catalog-btn" data-target="shuffle_catalog_left" style="cursor: pointer; background: rgba(0, 210, 211, 0.2); border: 1.5px solid rgba(0, 210, 211, 0.7); color: #00d2d3; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; box-shadow: 0 0 15px rgba(0, 210, 211, 0.25); transition: all 0.2s;">
+                <span>🔀</span> Shuffle Items
+              </button>
+              <a href="https://jasons-marketplace.myspreadshop.com/all" target="_blank" rel="noopener" class="hero-shop-pill-primary track-click" data-target="grand_shop_all" style="font-size: 0.88rem; padding: 0.55rem 1.1rem;">
+                🛍️ Visit Spreadshop Store &rarr;
+              </a>
+            </div>
 
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+              <button type="button" onclick="shuffleStorefrontCatalog()" class="hero-shop-pill track-click shuffle-catalog-btn" data-target="shuffle_catalog_right" style="cursor: pointer; background: linear-gradient(135deg, rgba(0, 210, 211, 0.25) 0%, rgba(59, 130, 246, 0.25) 100%); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; box-shadow: 0 0 20px rgba(0, 210, 211, 0.35); transition: all 0.2s;">
+                <span>🔀</span> Shuffle Items
+              </button>
+            </div>
           </div>
         </div>
 
@@ -6070,13 +6078,20 @@
               <button type="button" class="catalog-chip" data-filter="Mouse Pads & Mats" onclick="setCatalogFilter('Mouse Pads & Mats', this)">🖱️ Mats</button>
               <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Shop (4,122)</button>
               <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Store (50)</button>
+              <button type="button" class="catalog-chip shuffle-catalog-btn" onclick="shuffleStorefrontCatalog()" style="background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; margin-left: 0.25rem;"><span>🔀</span> Shuffle</button>
             </div>
           </div>
 
-          <!-- Counter Bar -->
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; font-size: 0.78rem; color: #64748b; padding-top: 0.4rem; border-top: 1px solid rgba(255,255,255,0.05);">
-            <div>Showing <strong id="catalogCountDisplay" style="color: #00d2d3;">4,172</strong> items in diverse random order &bull; Scroll on right side &darr;</div>
-            <div style="color: #94a3b8; font-size: 0.74rem;">Direct links to exact store items</div>
+          <!-- Counter Bar with Dual-Sided Quick Shuffle Pills -->
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; font-size: 0.78rem; color: #64748b; padding-top: 0.4rem; border-top: 1px solid rgba(255,255,255,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn" style="cursor: pointer; background: rgba(0, 210, 211, 0.15); border: 1px solid rgba(0, 210, 211, 0.5); color: #00d2d3; font-weight: 700; padding: 2px 9px; border-radius: 6px; font-size: 0.72rem; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s;"><span>🔀</span> Shuffle</button>
+              <span>Showing <strong id="catalogCountDisplay" style="color: #00d2d3;">4,172</strong> items in diverse random order &bull; Scroll on right side &darr;</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="color: #94a3b8; font-size: 0.74rem;">Direct links to exact store items</span>
+              <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn" style="cursor: pointer; background: rgba(0, 210, 211, 0.15); border: 1px solid rgba(0, 210, 211, 0.5); color: #00d2d3; font-weight: 700; padding: 2px 9px; border-radius: 6px; font-size: 0.72rem; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s;"><span>🔀</span> Shuffle</button>
+            </div>
           </div>
         </div>
 
@@ -6179,6 +6194,19 @@
       <div class="real-prod-media"><span class="real-prod-store-badge badge-store">Jason's Store</span><span class="real-prod-price-badge">$25.99</span><span class="real-prod-cat-badge">Graphic Tees</span><img src="https://imgproxy.fourthwall.dev/dydu6wszYUN6CVqug9RnbgZyjs0L519M_rCqc3GjuaM/w:720/sm:1/enc/PAkNS2FNevZwEPuw/E_e1V1e0r_q-dPSQ/LzEt1rNGAz9AQmkN/iHVrLamat7BOUugv/VFT9sr5LJcV4viXf/TQd8xdkEjNohN2ku/ol0Aofw5lOg0bS0b/y1N-ApQZV_bvC5Q1/_Qc-IGZ_gWRiTvtn/jS5JBq-Fxf5-3_7w/5lDwjmKBHe0T6HkA/qiqPqozuIS1HsGFz/1gk4Txb66Jwc5Hyz/zSsAxZxW9dR8_qRF/bEYxFFyEpbs.jpg" alt="Fuck Around and Find Out - Industrial T-Shirt" loading="lazy" decoding="async" class="real-prod-img"></div>
       <div class="real-prod-details"><h4 class="real-prod-title" title="Fuck Around and Find Out - Industrial T-Shirt">Fuck Around and Find Out - Industrial T-Shirt</h4><div class="real-prod-spec">Comfort Colors 1717 • 100% ring-spun cotton • Relaxed fit • Printed to order</div><div class="real-prod-meta"><span class="real-prod-status">● Live in Store</span><span class="real-prod-direct-tag">Exact Product Page</span></div><a href="https://shop.jasontvmarketplace.com/products/fuck-around-and-find-out-industrial-t-shirt" target="_blank" rel="noopener" class="real-prod-cta btn-fourthwall">Buy on Jason's Store →</a></div>
     </article>
+    <div class="instream-shuffle-card" style="grid-column: 1 / -1; margin: 1.25rem 0; padding: 1rem 1.35rem; background: linear-gradient(90deg, rgba(0,210,211,0.15) 0%, rgba(14,22,38,0.95) 50%, rgba(0,210,211,0.15) 100%); border: 1.5px dashed rgba(0,210,211,0.45); border-radius: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.85rem; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+      <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_instream_left" style="cursor: pointer; background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; transition: all 0.2s;">
+        <span>🔀</span> Shuffle Items
+      </button>
+      <div style="text-align: center; flex: 1; min-width: 220px;">
+        <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; font-weight: 800; color: #ffaa00; text-transform: uppercase; letter-spacing: 0.5px;"><span>🎲</span> Mix It Up Anytime</div>
+        <div style="font-size: 0.95rem; font-weight: 800; color: #f1f5f9; margin: 2px 0;">Looking for fresh artwork or styles?</div>
+        <div style="font-size: 0.78rem; color: #94a3b8;">Click shuffle on either side to randomize all 4,172 items instantly!</div>
+      </div>
+      <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_instream_right" style="cursor: pointer; background: #00d2d3; border: 1.5px solid #00d2d3; color: #080d18; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; box-shadow: 0 0 16px rgba(0,210,211,0.45); transition: all 0.2s;">
+        <span>🔀</span> Shuffle Items
+      </button>
+    </div>
     <article class="real-prod-card" data-id="fw_e968ec96-1a65-4fc0-927d-9999a9ae93d9" data-category="Graphic Tees" data-store="Fourthwall" data-title="Only Naughty on Days Ending in Y - Retro Badge T-Shirt">
       <div class="real-prod-media"><span class="real-prod-store-badge badge-store">Jason's Store</span><span class="real-prod-price-badge">$25.99</span><span class="real-prod-cat-badge">Graphic Tees</span><img src="https://imgproxy.fourthwall.dev/7e20Nmbwdcl7Yc45OmeGd179kk5W-LhM4qkMc_H6gEs/w:720/sm:1/enc/MWB_wSZcWsxkvrbo/vP2rElbv1mOPTrNE/g5apWOi6sTkHuWGA/OHoU-8uyZ_HlnZ5y/pt9xNhhD_mEgDmpk/6GJuCwVJ2I8myL8r/_JYW5AuDgdOwG7zx/92No5iPDnDFhYVBr/zqvgyK4QObyN8wZ8/cFKYnfJ0Rr8GjA3b/Wzk35omfCkfV0hHy/HVwWTwHexTvoLLtv/obb6HuGOpZCJpgcv/jRCJUIXGyhLnB4wp/LWRZtdHtVR0.jpg" alt="Only Naughty on Days Ending in Y - Retro Badge T-Shirt" loading="lazy" decoding="async" class="real-prod-img"></div>
       <div class="real-prod-details"><h4 class="real-prod-title" title="Only Naughty on Days Ending in Y - Retro Badge T-Shirt">Only Naughty on Days Ending in Y - Retro Badge T-Shirt</h4><div class="real-prod-spec">Comfort Colors 1717 • 100% ring-spun cotton • Relaxed fit • Printed to order</div><div class="real-prod-meta"><span class="real-prod-status">● Live in Store</span><span class="real-prod-direct-tag">Exact Product Page</span></div><a href="https://shop.jasontvmarketplace.com/products/only-naughty-on-days-ending-in-y-retro-badge-t-shirt" target="_blank" rel="noopener" class="real-prod-cta btn-fourthwall">Buy on Jason's Store →</a></div>
@@ -6275,12 +6303,28 @@
       <div class="real-prod-media"><span class="real-prod-store-badge badge-shop">Jason's Shop</span><span class="real-prod-price-badge">$79.49</span><span class="real-prod-cat-badge">Apparel & Merch</span><img src="https://image.spreadshirtmedia.com/image-server/v1/products/T3014A1240PA4895PT32X66Y28D1059080570W15926H15926/views/2/Not%20My%20Judgemental%20Glasses%20-%20Friendly%20Glasses.png?width=2000&height=2000&appearanceId=165" alt="Not My Judgemental Glasses - Friendly Glasses - Under Armour Men's Command Full Zip 2.0" loading="lazy" decoding="async" class="real-prod-img"></div>
       <div class="real-prod-details"><h4 class="real-prod-title" title="Not My Judgemental Glasses - Friendly Glasses - Under Armour Men's Command Full Zip 2.0">Not My Judgemental Glasses - Friendly Glasses - Under Armour Men's Command Full Zip 2.0</h4><div class="real-prod-spec">Official Spreadshirt premium merchandise • Produced & dispatched to order</div><div class="real-prod-meta"><span class="real-prod-status">● Live in Store</span><span class="real-prod-direct-tag">Exact Product Page</span></div><a href="https://jasons-marketplace.myspreadshop.com/not+my+judgemental+glasses+friendly+glasses-A325717c25cc03e3f?sellable=rk4rwqua8kzj-3014&appearance=165" target="_blank" rel="noopener" class="real-prod-cta btn-spreadshop">Buy on Jason's Shop →</a></div>
     </article>
-    <div id="catalogScrollSentinel" style="grid-column: 1 / -1; text-align: center; padding: 1.5rem 1rem;">
+    <div id="catalogScrollSentinel" style="grid-column: 1 / -1; display: flex; justify-content: center; align-items: center; gap: 0.85rem; flex-wrap: wrap; padding: 1.5rem 1rem;">
+      <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sentinel_left" style="background: rgba(0, 210, 211, 0.2); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.7rem 1.35rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; transition: all 0.2s;">
+        <span>🔀</span> Shuffle Items
+      </button>
       <button type="button" id="catalogLoadMoreBtn" onclick="loadMoreStorefrontItems()" style="background: rgba(0, 210, 211, 0.15); border: 1px solid rgba(0, 210, 211, 0.4); color: #00d2d3; font-weight: 800; padding: 0.75rem 2rem; border-radius: 8px; cursor: pointer; font-size: 0.95rem; transition: all 0.2s;">
         ↓ Scroll Down or Click to Load Next 48 Items (<span id="catalogRemainingCount">4124</span> remaining)
       </button>
+      <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sentinel_right" style="background: #00d2d3; border: 1.5px solid #00d2d3; color: #080d18; font-weight: 800; padding: 0.7rem 1.35rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; box-shadow: 0 0 16px rgba(0,210,211,0.45); transition: all 0.2s;">
+        <span>🔀</span> Shuffle Items
+      </button>
     </div>
           </div>
+        </div>
+
+        <!-- Floating Sticky Quick-Shuffle Action Bar on Both Sides -->
+        <div class="floating-catalog-shuffler" style="position: sticky; bottom: 16px; z-index: 40; pointer-events: none; display: flex; justify-content: space-between; align-items: center; padding: 0 0.75rem; margin-top: -62px; margin-bottom: 14px;">
+          <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sticky_left" style="pointer-events: auto; background: rgba(8, 13, 24, 0.94); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 30px; box-shadow: 0 10px 28px rgba(0,0,0,0.75), 0 0 18px rgba(0, 210, 211, 0.4); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; transition: all 0.2s;">
+            <span>🔀</span> Shuffle Items
+          </button>
+          <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sticky_right" style="pointer-events: auto; background: linear-gradient(135deg, #00d2d3 0%, #00b4d8 100%); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1.5px solid #00f0ff; color: #080d18; font-weight: 900; padding: 0.55rem 1.25rem; border-radius: 30px; box-shadow: 0 10px 28px rgba(0,0,0,0.75), 0 0 24px rgba(0, 210, 211, 0.6); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; transition: all 0.2s;">
+            <span>🎲</span> Quick Shuffle
+          </button>
         </div>
 
       </div>
@@ -26186,6 +26230,22 @@
       '</article>';
     }
 
+    function createInstreamShuffleBanner(batchNum) {
+      return '<div class="instream-shuffle-card" style="grid-column: 1 / -1; margin: 1.25rem 0; padding: 1rem 1.35rem; background: linear-gradient(90deg, rgba(0,210,211,0.15) 0%, rgba(14,22,38,0.95) 50%, rgba(0,210,211,0.15) 100%); border: 1.5px dashed rgba(0,210,211,0.45); border-radius: 12px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.85rem; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">' +
+        '<button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_instream_left" style="cursor: pointer; background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; transition: all 0.2s;">' +
+          '<span>🔀</span> Shuffle Items' +
+        '</button>' +
+        '<div style="text-align: center; flex: 1; min-width: 220px;">' +
+          '<div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; font-weight: 800; color: #ffaa00; text-transform: uppercase; letter-spacing: 0.5px;"><span>🎲</span> Mix It Up Anytime</div>' +
+          '<div style="font-size: 0.95rem; font-weight: 800; color: #f1f5f9; margin: 2px 0;">Looking for fresh artwork or styles?</div>' +
+          '<div style="font-size: 0.78rem; color: #94a3b8;">Click shuffle on either side to randomize all 4,172 items instantly!</div>' +
+        '</div>' +
+        '<button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_instream_right" style="cursor: pointer; background: #00d2d3; border: 1.5px solid #00d2d3; color: #080d18; font-weight: 800; padding: 0.55rem 1.15rem; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; box-shadow: 0 0 16px rgba(0,210,211,0.45); transition: all 0.2s;">' +
+          '<span>🔀</span> Shuffle Items' +
+        '</button>' +
+      '</div>';
+    }
+
     function renderRealCatalog() {
       const grid = document.getElementById('realCatalogGrid');
       const countDisplay = document.getElementById('catalogCountDisplay');
@@ -26200,14 +26260,26 @@
       }
 
       const visibleItems = currentFilteredList.slice(0, currentDisplayedCount);
-      const cardsHtml = visibleItems.map(createCardElement).join('\n');
+      let cardsHtml = '';
+      for (let i = 0; i < visibleItems.length; i++) {
+        if (i > 0 && i % 24 === 0) {
+          cardsHtml += createInstreamShuffleBanner(Math.floor(i / 24)) + '\n';
+        }
+        cardsHtml += createCardElement(visibleItems[i]) + '\n';
+      }
 
       const remaining = Math.max(0, totalMatches - currentDisplayedCount);
       let sentinelHtml = '';
       if (remaining > 0) {
-        sentinelHtml = '<div id="catalogScrollSentinel" style="grid-column: 1 / -1; text-align: center; padding: 1.5rem 1rem;">' +
+        sentinelHtml = '<div id="catalogScrollSentinel" style="grid-column: 1 / -1; display: flex; justify-content: center; align-items: center; gap: 0.85rem; flex-wrap: wrap; padding: 1.5rem 1rem;">' +
+          '<button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sentinel_left" style="background: rgba(0, 210, 211, 0.2); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; padding: 0.7rem 1.35rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; transition: all 0.2s;">' +
+            '<span>🔀</span> Shuffle Items' +
+          '</button>' +
           '<button type="button" id="catalogLoadMoreBtn" onclick="loadMoreStorefrontItems()" style="background: rgba(0, 210, 211, 0.15); border: 1px solid rgba(0, 210, 211, 0.4); color: #00d2d3; font-weight: 800; padding: 0.75rem 2rem; border-radius: 8px; cursor: pointer; font-size: 0.95rem; transition: all 0.2s;">' +
             '↓ Scroll Down or Click to Load Next 48 Items (' + remaining.toLocaleString() + ' remaining)' +
+          '</button>' +
+          '<button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn track-click" data-target="shuffle_sentinel_right" style="background: #00d2d3; border: 1.5px solid #00d2d3; color: #080d18; font-weight: 800; padding: 0.7rem 1.35rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; box-shadow: 0 0 16px rgba(0,210,211,0.45); transition: all 0.2s;">' +
+            '<span>🔀</span> Shuffle Items' +
           '</button>' +
         '</div>';
       }
@@ -26278,17 +26350,19 @@
         scrollWindow.scrollTo({ top: 0, behavior: 'smooth' });
       }
 
-      const btn = document.getElementById('shuffleCatalogBtn');
-      if (btn) {
-        btn.style.transform = 'scale(0.92)';
+      // Animate ALL shuffle buttons across the entire section simultaneously
+      const allShuffleBtns = document.querySelectorAll('.shuffle-catalog-btn');
+      allShuffleBtns.forEach(btn => {
+        btn.style.transform = 'scale(0.93)';
         btn.style.boxShadow = '0 0 25px #00d2d3';
+        const origHTML = btn.innerHTML;
         btn.innerHTML = '<span>🎲</span> Shuffled!';
         setTimeout(() => {
           btn.style.transform = '';
           btn.style.boxShadow = '';
-          btn.innerHTML = '<span>🔀</span> Shuffle Items';
-        }, 400);
-      }
+          btn.innerHTML = origHTML;
+        }, 450);
+      });
     }
 
     function setCatalogFilter(filter, btn) {
