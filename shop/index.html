@@ -3889,7 +3889,7 @@
     renderProducts();
 
     // Background sync check for catalog updates
-    fetch('../real_products_catalog.json')
+    fetch('../real_products_catalog.json?v=2026-10-05-introvert', { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data) && data.length > 0) {
