@@ -76,9 +76,7 @@ products.forEach(p => {
   }
 
   const isSoftware = (p.category === 'engine' || p.category === 'godot');
-  const cleanSku = (p.id && p.id.length > 28)
-    ? ('GDEV-' + (numId || p.id.replace(/[^a-zA-Z0-9]/g, '').slice(0, 16)).toUpperCase())
-    : (p.id || 'GDEV-APP');
+  const cleanSku = 'GDEV-' + (numId ? String(numId).padStart(4, '0') : (p.id ? p.id.replace(/[^a-zA-Z0-9]/g, '').slice(0, 10).toUpperCase() : 'APP'));
 
   const schemaData = {
     "@context": "https://schema.org",
