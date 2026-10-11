@@ -26,7 +26,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jasontvmarketplace.com/">
   <meta property="og:title" content="Jason's Marketplace | Official Creator Apparel & Merchandise Store">
-  <meta property="og:description" content="Shop 4,100+ custom graphic tees (XS-5XL), streetwear hoodies, stitched gaming desk mats, snapback caps, and drinkware with direct checkout!">
+  <meta property="og:description" content="Shop 40,000+ custom graphic tees (XS-5XL), streetwear hoodies, stitched gaming desk mats, snapback caps, and drinkware with direct checkout!">
   <meta property="og:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -36,7 +36,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://jasontvmarketplace.com/">
   <meta name="twitter:title" content="Jason's Marketplace | Official Creator Apparel & Merchandise Store">
-  <meta name="twitter:description" content="Shop 4,100+ custom graphic tees (XS-5XL), streetwear hoodies, stitched gaming desk mats, snapback caps, and drinkware with direct checkout!">
+  <meta name="twitter:description" content="Shop 40,000+ custom graphic tees (XS-5XL), streetwear hoodies, stitched gaming desk mats, snapback caps, and drinkware with direct checkout!">
   <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
 
   <!-- Preload Product Vault Data for Instant Universal Search -->
@@ -6081,7 +6081,7 @@
             <div style="flex: 1; min-width: 260px; max-width: 450px;">
               <div class="hero-search-bar" style="background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(0, 210, 211, 0.35); padding: 0.4rem 0.85rem;">
                 <span class="search-icon" style="font-size: 0.85rem;">🔍</span>
-                <input type="text" id="realCatalogSearch" oninput="filterRealCatalog()" placeholder="Search 4,100+ real shirts, hoodies, hats, mugs..." autocomplete="off" style="font-size: 0.88rem;">
+                <input type="text" id="realCatalogSearch" oninput="filterRealCatalog()" placeholder="Search 40,000+ real shirts, hoodies, hats, mugs..." autocomplete="off" style="font-size: 0.88rem;">
                 <button id="clearRealCatalogSearch" onclick="clearRealCatalogSearch()" class="clear-search-btn" style="display:none;" aria-label="Clear Filter">&times;</button>
               </div>
             </div>
@@ -6089,15 +6089,17 @@
             <!-- Category Filter Chips -->
             <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center;" id="catalogFilterChips">
               <span style="font-size: 0.74rem; font-weight: 800; color: #ffaa00; text-transform: uppercase; margin-right: 0.15rem;">FILTER:</span>
-              <button type="button" class="catalog-chip active" data-filter="all" onclick="setCatalogFilter('all', this)">All (4,172)</button>
+              <button type="button" class="catalog-chip active" data-filter="all" onclick="setCatalogFilter('all', this)">All (40,370)</button>
               <button type="button" class="catalog-chip" data-filter="T-Shirts" onclick="setCatalogFilter('T-Shirts', this)">👕 Tees</button>
               <button type="button" class="catalog-chip" data-filter="Hoodies" onclick="setCatalogFilter('Hoodies', this)">🧶 Hoodies</button>
               <button type="button" class="catalog-chip" data-filter="Sweatshirts" onclick="setCatalogFilter('Sweatshirts', this)">🧥 Sweats</button>
               <button type="button" class="catalog-chip" data-filter="Hats & Caps" onclick="setCatalogFilter('Hats & Caps', this)">🧢 Hats</button>
               <button type="button" class="catalog-chip" data-filter="Mugs & Drinkware" onclick="setCatalogFilter('Mugs & Drinkware', this)">☕ Mugs</button>
               <button type="button" class="catalog-chip" data-filter="Mouse Pads & Mats" onclick="setCatalogFilter('Mouse Pads & Mats', this)">🖱️ Mats</button>
-              <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Shop (4,122)</button>
-              <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Store (50)</button>
+              <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Spreadshop (24,959)</button>
+              <button type="button" class="catalog-chip" data-filter="Vault" onclick="setCatalogFilter('all', this)">🎨 Vault (9,300)</button>
+              <button type="button" class="catalog-chip" data-filter="Redbubble" onclick="setCatalogFilter('all', this)">🔴 Redbubble/TeePublic (6,066)</button>
+              <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Fourthwall (40)</button>
               <button type="button" class="catalog-chip shuffle-catalog-btn" onclick="shuffleStorefrontCatalog()" style="background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; margin-left: 0.25rem;"><span>🔀</span> Shuffle</button>
             </div>
           </div>
@@ -6106,7 +6108,7 @@
           <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; font-size: 0.78rem; color: #64748b; padding-top: 0.4rem; border-top: 1px solid rgba(255,255,255,0.05);">
             <div style="display: flex; align-items: center; gap: 8px;">
               <button type="button" onclick="shuffleStorefrontCatalog()" class="shuffle-catalog-btn" style="cursor: pointer; background: rgba(0, 210, 211, 0.15); border: 1px solid rgba(0, 210, 211, 0.5); color: #00d2d3; font-weight: 700; padding: 2px 9px; border-radius: 6px; font-size: 0.72rem; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s;"><span>🔀</span> Shuffle</button>
-              <span>Showing <strong id="catalogCountDisplay" style="color: #00d2d3;">4,172</strong> items in diverse random order &bull; Scroll on right side &darr;</span>
+              <span>Showing <strong id="catalogCountDisplay" style="color: #00d2d3;">40,370</strong> items in diverse random order &bull; Scroll on right side &darr;</span>
             </div>
             <div style="display: flex; align-items: center; gap: 8px;">
               <span style="color: #94a3b8; font-size: 0.74rem;">Direct links to exact store items</span>
@@ -26503,8 +26505,8 @@
         });
       }
 
-      // Background sync check for all 4,172 products
-      fetch('real_products_catalog.json?v=2026-10-06-all4172', { cache: 'no-store' })
+      // Background sync check for all 40,370 products
+      fetch('real_products_catalog.json?v=2026-10-10-all40370', { cache: 'no-store' })
         .then(res => res.json())
         .then(data => {
           if (Array.isArray(data) && data.length > 0) {
