@@ -5986,6 +5986,38 @@
 </style>
   <!-- Gumroad In-Page Checkout Overlay -->
   <script src="https://gumroad.com/js/gumroad.js"></script>
+
+  <!-- Google Merchant Widget & Google Customer Reviews Badge -->
+  <script id="merchantWidgetScript" src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
+  <script>
+    window.addEventListener("load", function() {
+      var el = document.getElementById("merchantWidgetScript");
+      if (el) {
+        el.addEventListener("load", function () {
+          if (window.merchantwidget && window.merchantwidget.start) {
+            window.merchantwidget.start({
+              merchant_id: 5871199587,
+              position: "BOTTOM_RIGHT",
+              region: "US"
+            });
+          }
+        });
+      }
+    });
+  </script>
+  <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
+  <script>
+    window.renderBadge = function() {
+      var ratingBadgeContainer = document.createElement("div");
+      document.body.appendChild(ratingBadgeContainer);
+      window.gapi.load('ratingbadge', function() {
+        window.gapi.ratingbadge.render(ratingBadgeContainer, {
+          "merchant_id": 5871199587,
+          "position": "BOTTOM_RIGHT"
+        });
+      });
+    };
+  </script>
 </head>
 <body>
 

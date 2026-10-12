@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Confirmation | JasonTV Marketplace</title>
+  <meta name="description" content="Thank you for your order at JasonTV Marketplace. Your order is confirmed and being crafted.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://jasontvmarketplace.com/order-confirmation.html">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  
+  <!-- Google Customer Reviews Badge Integration -->
+  <script id="merchantWidgetScript" src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
+  <script>
+    window.addEventListener("load", function() {
+      var el = document.getElementById("merchantWidgetScript");
+      if (el) {
+        el.addEventListener("load", function () {
+          if (window.merchantwidget && window.merchantwidget.start) {
+            window.merchantwidget.start({
+              merchant_id: 5871199587,
+              position: "BOTTOM_RIGHT",
+              region: "US"
+            });
+          }
+        });
+      }
+    });
+  </script>
+
+  <!-- Google Customer Reviews Opt-In Integration (Required for GCR) -->
+  <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+  <script>
+    window.renderOptIn = function() {
+      window.gapi.load('surveyoptin', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const orderId = urlParams.get('order_id') || 'JTV-' + Math.floor(100000 + Math.random() * 900000);
+        const customerEmail = urlParams.get('email') || '';
+        const countryCode = urlParams.get('country') || 'US';
+
+        const deliveryDate = new Date();
+        deliveryDate.setDate(deliveryDate.getDate() + 5);
+        const yyyy = deliveryDate.getFullYear();
+        const mm = String(deliveryDate.getMonth() + 1).padStart(2, '0');
+        const dd = String(deliveryDate.getDate()).padStart(2, '0');
+        const estDeliveryDate = urlParams.get('delivery_date') || (yyyy + '-' + mm + '-' + dd);
+
+        window.gapi.surveyoptin.render({
+          // REQUIRED FIELDS
+          "merchant_id": 5871199587,
+          "order_id": orderId,
+          "email": customerEmail,
+          "delivery_country": countryCode,
+          "estimated_delivery_date": estDeliveryDate,
+          // OPTIONAL FIELDS
+          "opt_in_style": "CENTER_DIALOG"
+        });
+      });
+    };
+  </script>
+</head>
+<body style="background:#111;color:#eee;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;margin:0;padding:40px 20px;">
+  <div style="max-width:800px;margin:0 auto;background:#181818;border:1px solid #2a2a2a;border-radius:16px;padding:36px;box-shadow:0 8px 32px rgba(0,0,0,0.5);">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+      <span style="background:#d5fa42;color:#000;font-weight:900;padding:6px 12px;border-radius:6px;font-size:14px;letter-spacing:1px;">JASONTV</span>
+      <span style="color:#d5fa42;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1px;">Verified Order Confirmation</span>
+    </div>
+    <h1 style="color:#fff;font-size:32px;margin:0 0 16px 0;letter-spacing:-0.5px;">THANK YOU FOR YOUR ORDER!</h1>
+    <p style="font-size:16px;line-height:1.6;color:#ccc;margin-bottom:24px;">Your order has been officially received and dispatched to our high-precision printing partners. You will receive an email tracking confirmation as soon as your package ships.</p>
+    
+    <div style="background:#222;border:1px solid #333;border-radius:12px;padding:24px;margin-bottom:28px;">
+      <h3 style="margin-top:0;color:#fff;font-size:18px;">What to Expect:</h3>
+      <ul style="color:#bbb;line-height:1.8;padding-left:20px;margin-bottom:0;">
+        <li><strong>Custom Production:</strong> Made to order with premium inks and durable streetwear garments (2-3 business days).</li>
+        <li><strong>Domestic Delivery:</strong> 3-5 business days delivery window.</li>
+        <li><strong>Google Customer Reviews:</strong> Google will offer a quick 1-click rating survey to verify your customer experience.</li>
+      </ul>
+    </div>
+
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <a href="/" style="background:#d5fa42;color:#000;text-decoration:none;font-weight:700;padding:12px 24px;border-radius:8px;display:inline-block;">Return to Storefront ↗</a>
+      <a href="/shop/" style="background:#2a2a2a;color:#fff;text-decoration:none;font-weight:600;padding:12px 24px;border-radius:8px;display:inline-block;">Browse All Catalog ↗</a>
+    </div>
+  </div>
+</body>
+</html>
