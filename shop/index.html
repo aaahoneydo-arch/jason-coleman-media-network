@@ -3519,7 +3519,7 @@
       <div class="controls-top">
         <div class="search-input-wrapper">
           <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" class="search-input" placeholder="Search 4,100+ listings by title, hobby, saying, or fabric (e.g. garage, level, dad, cat, hoodie)...">
+          <input type="text" id="searchInput" class="search-input" placeholder="Search 57,000+ creator listings by title, hobby, saying, or fabric (e.g. garage, level, dad, cat, hoodie)...">
         </div>
         <div class="sort-wrapper">
           <span class="sort-label">Sort:</span>
@@ -3537,9 +3537,9 @@
       </div>
 
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="all">✨ All Products (4,172)</button>
-        <button class="filter-pill" data-cat="fourthwall" style="color:#ffaa00; border-color:rgba(255,170,0,0.5); font-weight:800;">🔥 Jason's Store (50 Fourthwall)</button>
-        <button class="filter-pill" data-cat="spreadshop" style="color:#00d2d3; border-color:rgba(0,210,211,0.5); font-weight:800;">🛍️ Jason's Shop (4,122 Spreadshop)</button>
+        <button class="filter-pill active" data-cat="all">✨ All Products (57,243)</button>
+        <button class="filter-pill" data-cat="fourthwall" style="color:#ffaa00; border-color:rgba(255,170,0,0.5); font-weight:800;">🔥 Jason's Store (Fourthwall)</button>
+        <button class="filter-pill" data-cat="spreadshop" style="color:#00d2d3; border-color:rgba(0,210,211,0.5); font-weight:800;">🛍️ Jason's Shop (Spreadshop)</button>
         <button class="filter-pill" data-cat="graphic tees">👕 Graphic Tees</button>
         <button class="filter-pill" data-cat="hoodies & fleeces">🧥 Hoodies &amp; Fleeces</button>
         <button class="filter-pill" data-cat="sweatshirts">👔 Crewneck Sweatshirts</button>
@@ -3558,7 +3558,7 @@
       </div>
 
       <div style="display:flex; justify-content:space-between; align-items:center; margin-top:1rem; padding-top:0.75rem; border-top:1px solid rgba(255,255,255,0.06); font-size:0.85rem; color:var(--text-muted);">
-        <span>Showing <strong id="visibleCountDisplay" style="color:#fff;">36</strong> of <strong id="totalCountDisplay" style="color:#fff;">4,172</strong> verified physical listings</span>
+        <span>Showing <strong id="visibleCountDisplay" style="color:#fff;">36</strong> of <strong id="totalCountDisplay" style="color:#fff;">57,243</strong> verified physical listings</span>
         <span style="color:#10b981; font-weight:700;">🟢 Direct Product Page Links &bull; Tracked Shipping</span>
       </div>
     </div>
@@ -3914,8 +3914,8 @@
     // Initial render
     renderProducts();
 
-    // Background sync check for catalog updates (all 4,172 products)
-    fetch('../real_products_catalog.json?v=2026-10-06-all4172', { cache: 'no-store' })
+    // Background sync check for catalog updates
+    fetch('products-catalog.json?v=2026-10-13-live', { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data) && data.length > 0) {
@@ -3923,17 +3923,7 @@
           renderProducts();
         }
       })
-      .catch(() => {
-        fetch('products-catalog.json?v=2026-10-06-all4172')
-          .then(res => res.json())
-          .then(data => {
-            if (Array.isArray(data) && data.length > 0) {
-              ALL_PRODUCTS = data;
-              renderProducts();
-            }
-          })
-          .catch(err => console.log('Loaded embedded catalog:', err));
-      });
+      .catch(err => console.log('Loaded embedded catalog:', err));
   </script>
 </body>
 </html>
