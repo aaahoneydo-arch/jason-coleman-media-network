@@ -6041,6 +6041,7 @@
       </div>
 
       <ul class="nav-menu" style="display:flex; align-items:center; gap:1.25rem; list-style:none; margin:0; padding:0;">
+        <li><a href="shop/index.html" style="font-size:0.95rem; font-weight:900; color:#ffaa00; background:rgba(255,170,0,0.15); padding:0.3rem 0.75rem; border-radius:6px; border:1px solid rgba(255,170,0,0.4); text-decoration:none;">🛒 Full Shop (80k+)</a></li>
         <li><a href="#storefront-catalog" style="font-size:0.95rem; font-weight:800; color:#00d2d3;">🛍️ Apparel &amp; Merch</a></li>
         <li><a href="#urbanclothes" style="font-size:0.95rem; font-weight:800; color:#38bdf8;">✨ Urban Clothes Market</a></li>
         
@@ -6128,17 +6129,26 @@
             <!-- Category Filter Chips -->
             <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center;" id="catalogFilterChips">
               <span style="font-size: 0.74rem; font-weight: 800; color: #ffaa00; text-transform: uppercase; margin-right: 0.15rem;">FILTER:</span>
-              <button type="button" class="catalog-chip active" data-filter="all" onclick="setCatalogFilter('all', this)">All (40,370)</button>
-              <button type="button" class="catalog-chip" data-filter="T-Shirts" onclick="setCatalogFilter('T-Shirts', this)">👕 Tees</button>
+              <button type="button" class="catalog-chip active" data-filter="all" onclick="setCatalogFilter('all', this)">✨ All (40,370)</button>
+              <button type="button" class="catalog-chip" data-filter="T-Shirts" onclick="setCatalogFilter('T-Shirts', this)">👕 Graphic Tees</button>
               <button type="button" class="catalog-chip" data-filter="Hoodies" onclick="setCatalogFilter('Hoodies', this)">🧶 Hoodies</button>
               <button type="button" class="catalog-chip" data-filter="Sweatshirts" onclick="setCatalogFilter('Sweatshirts', this)">🧥 Sweats</button>
-              <button type="button" class="catalog-chip" data-filter="Hats & Caps" onclick="setCatalogFilter('Hats & Caps', this)">🧢 Hats</button>
-              <button type="button" class="catalog-chip" data-filter="Mugs & Drinkware" onclick="setCatalogFilter('Mugs & Drinkware', this)">☕ Mugs</button>
-              <button type="button" class="catalog-chip" data-filter="Mouse Pads & Mats" onclick="setCatalogFilter('Mouse Pads & Mats', this)">🖱️ Mats</button>
-              <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Spreadshop (24,959)</button>
-              <button type="button" class="catalog-chip" data-filter="Vault" onclick="setCatalogFilter('all', this)">🎨 Vault (9,300)</button>
-              <button type="button" class="catalog-chip" data-filter="Redbubble" onclick="setCatalogFilter('all', this)">🔴 Redbubble/TeePublic (6,066)</button>
-              <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Fourthwall (40)</button>
+              <button type="button" class="catalog-chip" data-filter="Wall Art" onclick="setCatalogFilter('Wall Art', this)">🖼️ Wall Art</button>
+              <button type="button" class="catalog-chip" data-filter="Hats & Caps" onclick="setCatalogFilter('Hats & Caps', this)">🧢 Hats & Beanies</button>
+              <button type="button" class="catalog-chip" data-filter="Mugs & Drinkware" onclick="setCatalogFilter('Mugs & Drinkware', this)">☕ Mugs & Drinkware</button>
+              <button type="button" class="catalog-chip" data-filter="Tech & Mats" onclick="setCatalogFilter('Tech & Mats', this)">📱 Cases & Desk Mats</button>
+              <button type="button" class="catalog-chip" data-filter="Stickers & Magnets" onclick="setCatalogFilter('Stickers & Magnets', this)">✨ Stickers & Magnets</button>
+              <button type="button" class="catalog-chip" data-filter="Home & Living" onclick="setCatalogFilter('Home & Living', this)">🛋️ Home & Pillows</button>
+              <button type="button" class="catalog-chip" data-filter="Bags & Totes" onclick="setCatalogFilter('Bags & Totes', this)">🎒 Bags & Backpacks</button>
+              <button type="button" class="catalog-chip" data-filter="Kids & Baby" onclick="setCatalogFilter('Kids & Baby', this)">👶 Kids & Baby</button>
+              <button type="button" class="catalog-chip" data-filter="Jackets & Outerwear" onclick="setCatalogFilter('Jackets & Outerwear', this)">🧥 Jackets</button>
+              <button type="button" class="catalog-chip" data-filter="Shorts & Joggers" onclick="setCatalogFilter('Shorts & Joggers', this)">🩳 Shorts & Joggers</button>
+              <button type="button" class="catalog-chip" data-filter="Pet Gear" onclick="setCatalogFilter('Pet Gear', this)">🐾 Pet Gear</button>
+              <button type="button" class="catalog-chip" data-filter="Stationery" onclick="setCatalogFilter('Stationery', this)">📓 Stationery</button>
+              <button type="button" class="catalog-chip" data-filter="Accessories" onclick="setCatalogFilter('Accessories', this)">🔑 Accessories</button>
+              <button type="button" class="catalog-chip" data-filter="Threadless" onclick="setCatalogFilter('Threadless', this)">🎨 Threadless</button>
+              <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Spreadshop</button>
+              <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Fourthwall Archive</button>
               <button type="button" class="catalog-chip shuffle-catalog-btn" onclick="shuffleStorefrontCatalog()" style="background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; margin-left: 0.25rem;"><span>🔀</span> Shuffle</button>
             </div>
           </div>
@@ -26320,14 +26330,25 @@
       const title = (p.title || '').toLowerCase();
       const store = (p.store || '').toLowerCase();
 
+      if (f === 'threadless') return store.includes('threadless');
       if (f === 'fourthwall') return store.includes('fourthwall');
       if (f === 'spreadshop') return store.includes('spreadshop');
-      if (f === 't-shirts') return cat.includes('tee') || cat.includes('t-shirt') || title.includes('t-shirt') || title.includes('tee');
+      if (f === 't-shirts') return cat.includes('tee') || cat.includes('t-shirt') || cat.includes('polo') || cat.includes('tank') || title.includes('t-shirt') || title.includes('tee') || title.includes('tank');
       if (f === 'hoodies') return cat.includes('hoodie') || title.includes('hoodie');
       if (f === 'sweatshirts') return cat.includes('sweat') || title.includes('sweatshirt') || title.includes('crewneck');
-      if (f === 'hats & caps') return cat.includes('hat') || cat.includes('cap') || title.includes('cap') || title.includes('hat') || title.includes('beanie');
-      if (f === 'mugs & drinkware') return cat.includes('mug') || cat.includes('drink') || cat.includes('bottle') || title.includes('mug');
-      if (f === 'mouse pads & mats') return cat.includes('pad') || cat.includes('mat') || title.includes('mousepad') || title.includes('mouse pad');
+      if (f === 'wall art') return cat.includes('art') || cat.includes('poster') || cat.includes('print') || title.includes('poster') || title.includes('canvas') || title.includes('print') || title.includes('tapestry') || cat.includes('metal');
+      if (f === 'hats & caps') return cat.includes('hat') || cat.includes('cap') || cat.includes('beanie') || title.includes('cap') || title.includes('hat') || title.includes('beanie');
+      if (f === 'mugs & drinkware') return cat.includes('mug') || cat.includes('drink') || cat.includes('bottle') || cat.includes('tumbler') || title.includes('mug') || title.includes('bottle') || title.includes('tumbler');
+      if (f === 'tech & mats') return cat.includes('pad') || cat.includes('mat') || cat.includes('case') || cat.includes('sleeve') || title.includes('mousepad') || title.includes('mouse pad') || title.includes('case') || title.includes('sleeve') || title.includes('desk mat');
+      if (f === 'stickers & magnets') return cat.includes('sticker') || cat.includes('magnet') || cat.includes('button') || cat.includes('pin') || title.includes('sticker') || title.includes('magnet') || title.includes('button') || title.includes('pin');
+      if (f === 'home & living') return cat.includes('home') || cat.includes('pillow') || cat.includes('blanket') || cat.includes('apron') || cat.includes('clock') || title.includes('pillow') || title.includes('blanket') || title.includes('apron') || title.includes('curtain');
+      if (f === 'bags & totes') return cat.includes('bag') || cat.includes('tote') || cat.includes('backpack') || cat.includes('pouch') || title.includes('backpack') || title.includes('tote') || title.includes('bag') || title.includes('fanny');
+      if (f === 'kids & baby') return cat.includes('kid') || cat.includes('baby') || cat.includes('toddler') || cat.includes('infant') || title.includes('kid') || title.includes('baby') || title.includes('toddler') || title.includes('bodysuit') || title.includes('youth');
+      if (f === 'jackets & outerwear') return cat.includes('jacket') || cat.includes('windbreaker') || title.includes('jacket') || title.includes('windbreaker') || title.includes('soft shell') || title.includes('pullover');
+      if (f === 'shorts & joggers') return cat.includes('short') || cat.includes('jogger') || title.includes('short') || title.includes('jogger');
+      if (f === 'pet gear') return cat.includes('pet') || cat.includes('dog') || title.includes('pet') || title.includes('dog') || title.includes('cat');
+      if (f === 'stationery') return cat.includes('note') || cat.includes('journal') || title.includes('notebook') || title.includes('journal');
+      if (f === 'accessories') return cat.includes('keychain') || cat.includes('sock') || cat.includes('accessory') || title.includes('keychain') || title.includes('socks') || title.includes('bandana');
       return cat.includes(f) || title.includes(f) || store.includes(f);
     }
 

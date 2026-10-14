@@ -3537,28 +3537,36 @@
       </div>
 
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="all">✨ All Products (57,243)</button>
-        <button class="filter-pill" data-cat="fourthwall" style="color:#ffaa00; border-color:rgba(255,170,0,0.5); font-weight:800;">🔥 Jason's Store (Fourthwall)</button>
-        <button class="filter-pill" data-cat="spreadshop" style="color:#00d2d3; border-color:rgba(0,210,211,0.5); font-weight:800;">🛍️ Jason's Shop (Spreadshop)</button>
-        <button class="filter-pill" data-cat="graphic tees">👕 Graphic Tees</button>
-        <button class="filter-pill" data-cat="hoodies & fleeces">🧥 Hoodies &amp; Fleeces</button>
-        <button class="filter-pill" data-cat="sweatshirts">👔 Crewneck Sweatshirts</button>
-        <button class="filter-pill" data-cat="mugs & drinkware">☕ Ceramic Mugs &amp; Drinkware</button>
-        <button class="filter-pill" data-cat="hats & caps">🧢 Hats &amp; Caps</button>
-        <button class="filter-pill" data-cat="water bottles">💧 Water Bottles</button>
-        <button class="filter-pill" data-cat="mouse pads & mats">🖱️ Desk Mouse Pads</button>
-        <button class="filter-pill" data-cat="bags & totes">🛍️ Canvas Totes</button>
+        <button class="filter-pill active" data-cat="all">✨ All Products (80,233+)</button>
+        <button class="filter-pill" data-cat="threadless" style="color:#d5fa42; border-color:rgba(213,250,66,0.5); font-weight:800;">🎨 Threadless Creator Shop</button>
+        <button class="filter-pill" data-cat="spreadshop" style="color:#00d2d3; border-color:rgba(0,210,211,0.5); font-weight:800;">🛍️ Spreadshop Marketplace</button>
+        <button class="filter-pill" data-cat="fourthwall" style="color:#ffaa00; border-color:rgba(255,170,0,0.5); font-weight:800;">🔥 Fourthwall Archive</button>
+        <button class="filter-pill" data-cat="graphic tees">👕 Graphic Tees &amp; Tops</button>
+        <button class="filter-pill" data-cat="hoodies & fleeces">🧥 Hoodies &amp; Sweatshirts</button>
+        <button class="filter-pill" data-cat="wall art">🖼️ Wall Art &amp; Canvas</button>
+        <button class="filter-pill" data-cat="mugs & drinkware">☕ Mugs &amp; Drinkware</button>
+        <button class="filter-pill" data-cat="phone cases & tech">📱 Phone Cases &amp; Desk Mats</button>
+        <button class="filter-pill" data-cat="stickers & magnets">✨ Stickers &amp; Magnets</button>
+        <button class="filter-pill" data-cat="home & living">🛋️ Home &amp; Pillows</button>
+        <button class="filter-pill" data-cat="hats & caps">🧢 Hats &amp; Beanies</button>
+        <button class="filter-pill" data-cat="bags & totes">🎒 Bags &amp; Backpacks</button>
+        <button class="filter-pill" data-cat="kids & baby">👶 Kids &amp; Baby</button>
+        <button class="filter-pill" data-cat="jackets & outerwear">🧥 Jackets &amp; Outerwear</button>
+        <button class="filter-pill" data-cat="shorts & joggers">🩳 Shorts &amp; Joggers</button>
+        <button class="filter-pill" data-cat="pet gear">🐾 Pet Gear</button>
+        <button class="filter-pill" data-cat="stationery & notebooks">📓 Stationery &amp; Journals</button>
+        <button class="filter-pill" data-cat="accessories">🔑 Accessories &amp; Keychains</button>
         <button class="filter-pill" data-cat="trades">🔨 Trades &amp; Handyman</button>
         <button class="filter-pill" data-cat="mechanics">🔧 Mechanics &amp; Garage</button>
-        <button class="filter-pill" data-cat="carpentry">📐 Measure Twice / Woodworking</button>
-        <button class="filter-pill" data-cat="cats">🐱 Cat People</button>
+        <button class="filter-pill" data-cat="carpentry">📐 Woodworking &amp; Level</button>
+        <button class="filter-pill" data-cat="cats">🐱 Cat Lovers</button>
         <button class="filter-pill" data-cat="dogs">🐶 Dog Lovers</button>
         <button class="filter-pill" data-cat="dads">👑 Dad Life</button>
         <button class="filter-pill" data-cat="humor">😂 Sarcasm &amp; Humor</button>
       </div>
 
       <div style="display:flex; justify-content:space-between; align-items:center; margin-top:1rem; padding-top:0.75rem; border-top:1px solid rgba(255,255,255,0.06); font-size:0.85rem; color:var(--text-muted);">
-        <span>Showing <strong id="visibleCountDisplay" style="color:#fff;">36</strong> of <strong id="totalCountDisplay" style="color:#fff;">57,243</strong> verified physical listings</span>
+        <span>Showing <strong id="visibleCountDisplay" style="color:#fff;">36</strong> of <strong id="totalCountDisplay" style="color:#fff;">80,233</strong> verified physical listings</span>
         <span style="color:#10b981; font-weight:700;">🟢 Direct Product Page Links &bull; Tracked Shipping</span>
       </div>
     </div>
@@ -3661,18 +3669,26 @@
       if (cat === 'all') return true;
       if (cat === 'fourthwall') return p.store === 'Fourthwall';
       if (cat === 'spreadshop') return p.store === 'Spreadshop';
+      if (cat === 'threadless') return p.store === 'Threadless' || (p.url && p.url.includes('threadless.com'));
 
       const pCat = (p.cat || '').toLowerCase();
       const pTitle = (p.title || '').toLowerCase();
 
-      if (cat === 'graphic tees') return pCat.includes('tees') || pCat.includes('shirt') || pTitle.includes('t-shirt') || pTitle.includes('tee');
-      if (cat === 'hoodies & fleeces') return pCat.includes('hoodie') || pCat.includes('fleece') || pTitle.includes('hoodie');
-      if (cat === 'sweatshirts') return pCat.includes('sweatshirt') || pTitle.includes('sweatshirt');
-      if (cat === 'mugs & drinkware') return pCat.includes('mug') || pCat.includes('drink') || pTitle.includes('mug') || pTitle.includes('tumbler');
-      if (cat === 'hats & caps') return pCat.includes('hat') || pCat.includes('cap') || pTitle.includes('hat') || pTitle.includes('cap');
-      if (cat === 'water bottles') return pCat.includes('bottle') || pTitle.includes('bottle');
-      if (cat === 'mouse pads & mats') return pCat.includes('mouse') || pCat.includes('pad') || pCat.includes('mat') || pTitle.includes('mouse');
-      if (cat === 'bags & totes') return pCat.includes('bag') || pCat.includes('tote') || pTitle.includes('tote') || pTitle.includes('bag');
+      if (cat === 'graphic tees') return pCat.includes('tees') || pCat.includes('shirt') || pTitle.includes('t-shirt') || pTitle.includes('tee') || pTitle.includes('tank') || pTitle.includes('jersey') || pTitle.includes('polo') || pTitle.includes('v-neck');
+      if (cat === 'hoodies & fleeces') return pCat.includes('hoodie') || pCat.includes('fleece') || pCat.includes('sweatshirt') || pTitle.includes('hoodie') || pTitle.includes('sweatshirt') || pTitle.includes('pullover');
+      if (cat === 'wall art') return pCat.includes('art') || pCat.includes('poster') || pCat.includes('canvas') || pCat.includes('tapestry') || pTitle.includes('art print') || pTitle.includes('canvas') || pTitle.includes('poster') || pTitle.includes('tapestry') || pTitle.includes('wall art');
+      if (cat === 'mugs & drinkware') return pCat.includes('mug') || pCat.includes('drink') || pCat.includes('bottle') || pCat.includes('tumbler') || pTitle.includes('mug') || pTitle.includes('tumbler') || pTitle.includes('water bottle');
+      if (cat === 'phone cases & tech') return pCat.includes('phone') || pCat.includes('case') || pCat.includes('tech') || pCat.includes('laptop') || pCat.includes('mouse') || pCat.includes('mat') || pTitle.includes('case') || pTitle.includes('laptop sleeve') || pTitle.includes('desk mat') || pTitle.includes('mousepad') || pTitle.includes('mouse pad');
+      if (cat === 'stickers & magnets') return pCat.includes('sticker') || pCat.includes('pin') || pCat.includes('magnet') || pCat.includes('button') || pTitle.includes('sticker') || pTitle.includes('magnet') || pTitle.includes('pin') || pTitle.includes('badge');
+      if (cat === 'home & living') return pCat.includes('home') || pCat.includes('pillow') || pCat.includes('blanket') || pTitle.includes('pillow') || pTitle.includes('blanket') || pTitle.includes('curtain') || pTitle.includes('clock') || pTitle.includes('apron');
+      if (cat === 'hats & caps') return pCat.includes('hat') || pCat.includes('cap') || pCat.includes('beanie') || pTitle.includes('hat') || pTitle.includes('cap') || pTitle.includes('beanie') || pTitle.includes('snapback');
+      if (cat === 'bags & totes') return pCat.includes('bag') || pCat.includes('tote') || pCat.includes('backpack') || pTitle.includes('tote') || pTitle.includes('bag') || pTitle.includes('backpack') || pTitle.includes('pouch');
+      if (cat === 'kids & baby') return pCat.includes('kid') || pCat.includes('baby') || pTitle.includes('kid') || pTitle.includes('baby') || pTitle.includes('toddler') || pTitle.includes('youth') || pTitle.includes('onesie') || pTitle.includes('bodysuit');
+      if (cat === 'jackets & outerwear') return pCat.includes('jacket') || pTitle.includes('jacket') || pTitle.includes('windbreaker') || pTitle.includes('coat') || pTitle.includes('zip');
+      if (cat === 'shorts & joggers') return pCat.includes('short') || pCat.includes('jogger') || pTitle.includes('short') || pTitle.includes('jogger');
+      if (cat === 'pet gear') return pCat.includes('pet') || pCat.includes('dog') || pTitle.includes('bandana') || pTitle.includes('pet') || pTitle.includes('dog');
+      if (cat === 'stationery & notebooks') return pCat.includes('stationery') || pCat.includes('notebook') || pTitle.includes('notebook') || pTitle.includes('journal');
+      if (cat === 'accessories') return pCat.includes('accessory') || pTitle.includes('keychain') || pTitle.includes('jet tag') || pTitle.includes('socks');
 
       if (cat === 'trades') return pTitle.includes('level') || pTitle.includes('tool') || pTitle.includes('measure') || pTitle.includes('fix') || pTitle.includes('work');
       if (cat === 'mechanics') return pTitle.includes('car') || pTitle.includes('brake') || pTitle.includes('garage') || pTitle.includes('modification') || pTitle.includes('tool');
