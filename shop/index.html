@@ -3537,9 +3537,10 @@
       </div>
 
       <div class="filter-pills" id="categoryPills">
-        <button class="filter-pill active" data-cat="all">✨ All Products (80,233+)</button>
+        <button class="filter-pill active" data-cat="all">✨ All Products (82,214+)</button>
         <button class="filter-pill" data-cat="threadless" style="color:#d5fa42; border-color:rgba(213,250,66,0.5); font-weight:800;">🎨 Threadless Creator Shop</button>
         <button class="filter-pill" data-cat="spreadshop" style="color:#00d2d3; border-color:rgba(0,210,211,0.5); font-weight:800;">🛍️ Spreadshop Marketplace</button>
+        <button class="filter-pill" data-cat="zazzle" style="color:#ff6b81; border-color:rgba(255,107,129,0.5); font-weight:800;">✨ Zazzle Official Store</button>
         <button class="filter-pill" data-cat="fourthwall" style="color:#ffaa00; border-color:rgba(255,170,0,0.5); font-weight:800;">🔥 Fourthwall Archive</button>
         <button class="filter-pill" data-cat="graphic tees">👕 Graphic Tees &amp; Tops</button>
         <button class="filter-pill" data-cat="hoodies & fleeces">🧥 Hoodies &amp; Sweatshirts</button>
@@ -3669,6 +3670,7 @@
       if (cat === 'all') return true;
       if (cat === 'fourthwall') return p.store === 'Fourthwall';
       if (cat === 'spreadshop') return p.store === 'Spreadshop';
+      if (cat === 'zazzle') return p.store === 'Zazzle' || (p.url && p.url.includes('zazzle.com'));
       if (cat === 'threadless') return p.store === 'Threadless' || (p.url && p.url.includes('threadless.com'));
 
       const pCat = (p.cat || '').toLowerCase();
@@ -3931,7 +3933,7 @@
     renderProducts();
 
     // Background sync check for catalog updates
-    fetch('products-catalog.json?v=2026-10-13-live', { cache: 'no-store' })
+    fetch('products-catalog.json?v=2026-10-15-live', { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data) && data.length > 0) {
