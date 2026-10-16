@@ -5,3 +5,7 @@ __pycache__/
 *.bak
 .DS_Store
 Thumbs.db
+
+# Oversized merchant feeds (Google Merchant Center accepts .xml.gz directly)
+jasontv-merchant-feed.xml
+google-merchant-feed.xml
