@@ -6146,7 +6146,6 @@
               <button type="button" class="catalog-chip" data-filter="Pet Gear" onclick="setCatalogFilter('Pet Gear', this)">🐾 Pet Gear</button>
               <button type="button" class="catalog-chip" data-filter="Stationery" onclick="setCatalogFilter('Stationery', this)">📓 Stationery</button>
               <button type="button" class="catalog-chip" data-filter="Accessories" onclick="setCatalogFilter('Accessories', this)">🔑 Accessories</button>
-              <button type="button" class="catalog-chip" data-filter="Threadless" onclick="setCatalogFilter('Threadless', this)">🎨 Threadless</button>
               <button type="button" class="catalog-chip" data-filter="Spreadshop" onclick="setCatalogFilter('Spreadshop', this)">🛍️ Spreadshop</button>
               <button type="button" class="catalog-chip" data-filter="Fourthwall" onclick="setCatalogFilter('Fourthwall', this)">🔥 Fourthwall Archive</button>
               <button type="button" class="catalog-chip shuffle-catalog-btn" onclick="shuffleStorefrontCatalog()" style="background: rgba(0, 210, 211, 0.22); border: 1.5px solid #00d2d3; color: #00d2d3; font-weight: 800; margin-left: 0.25rem;"><span>🔀</span> Shuffle</button>
@@ -26330,7 +26329,6 @@
       const title = (p.title || '').toLowerCase();
       const store = (p.store || '').toLowerCase();
 
-      if (f === 'threadless') return store.includes('threadless');
       if (f === 'fourthwall') return store.includes('fourthwall');
       if (f === 'spreadshop') return store.includes('spreadshop');
       if (f === 't-shirts') return cat.includes('tee') || cat.includes('t-shirt') || cat.includes('polo') || cat.includes('tank') || title.includes('t-shirt') || title.includes('tee') || title.includes('tank');
@@ -26565,8 +26563,8 @@
         });
       }
 
-      // Background sync check for all 40,370 products
-      fetch('real_products_catalog.json?v=2026-10-10-all40370', { cache: 'no-store' })
+      // Background sync check for all 40,530 products
+      fetch('real_products_catalog.json?v=2026-10-19-nothreadless', { cache: 'no-store' })
         .then(res => res.json())
         .then(data => {
           if (Array.isArray(data) && data.length > 0) {
