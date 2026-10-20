@@ -26564,7 +26564,7 @@
       }
 
       // Background sync check for all 40,530 products
-      fetch('real_products_catalog.json?v=2026-10-19-nothreadless', { cache: 'no-store' })
+      fetch('real_products_catalog.json?v=2026-10-20-clean', { cache: 'no-store' })
         .then(res => res.json())
         .then(data => {
           if (Array.isArray(data) && data.length > 0) {
