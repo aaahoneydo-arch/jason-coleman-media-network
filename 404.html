@@ -42,8 +42,48 @@
   <link rel="canonical" href="https://jasontvmarketplace.com/404.html">
 </head>
 <body>
-  <h1>404</h1>
-  <p>The page or asset you are looking for has moved or does not exist. Redirecting you to <strong>JasonTV Marketplace</strong> in 3 seconds...</p>
-  <a href="https://jasontvmarketplace.com/" class="btn">Return to Marketplace Home &rarr;</a>
+  <div style="max-width:600px;text-align:center;padding:40px 20px;">
+    <h1 style="font-size:2.5rem;color:#d5fa42;margin-bottom:10px;">Looking for a Product?</h1>
+    <p style="font-size:1.1rem;color:#cbd5e1;line-height:1.6;" id="msg">The requested listing has been updated in our multi-channel catalog. Redirecting to our live store...</p>
+    <div style="margin-top:25px;">
+      <a href="/" class="btn" style="background:#d5fa42;color:#111;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;">Explore Live Marketplace &rarr;</a>
+    </div>
+  </div>
+  <script>
+    (function() {
+      const pth = window.location.pathname;
+      if (!pth.includes('/products/')) return;
+      const slug = pth.replace(/^.*\/products\//, '').replace(/\/$/, '').trim();
+      const msg = document.getElementById('msg');
+      if (slug) {
+        // 1-to-1 direct mapping: 100% of legacy Spreadshop slugs end with the supplier ID
+        const spreadshopMatch = slug.match(/([a-z0-9]+-\d+)$/i);
+        if (spreadshopMatch) {
+          const target = '/products/spreadshop-' + spreadshopMatch[1] + '/';
+          msg.innerHTML = 'Listing found! Forwarding to updated product page <strong>' + spreadshopMatch[1] + '</strong>...';
+          window.location.replace(target);
+          return;
+        }
+
+        // Numeric partner mapping (Printify, Zazzle, Redbubble, TeePublic)
+        const numMatch = slug.match(/(\d{6,})$/);
+        if (numMatch) {
+          msg.innerHTML = 'Locating product <strong>' + numMatch[1] + '</strong>...';
+          const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-|flow-gen-\d+-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
+          window.location.replace('/?q=' + encodeURIComponent(cleanQuery));
+          return;
+        }
+
+        // Fallback for deprecated synthetic mockups: search catalog for design
+        msg.innerHTML = 'Searching catalog for <strong>' + slug + '</strong>...';
+        const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-|flow-gen-\d+-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
+        setTimeout(function() {
+          window.location.replace('/?q=' + encodeURIComponent(cleanQuery));
+        }, 1200);
+      } else {
+        window.location.replace('/');
+      }
+    })();
+  </script>
 </body>
 </html>
