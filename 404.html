@@ -56,13 +56,26 @@
       const slug = pth.replace(/^.*\/products\//, '').replace(/\/$/, '').trim();
       const msg = document.getElementById('msg');
       if (slug) {
-        // 1-to-1 direct mapping: 100% of legacy Spreadshop slugs end with the supplier ID
-        const spreadshopMatch = slug.match(/([a-z0-9]+-\d+)$/i);
-        if (spreadshopMatch) {
-          const target = '/products/spreadshop-' + spreadshopMatch[1] + '/';
-          msg.innerHTML = 'Listing found! Forwarding to updated product page <strong>' + spreadshopMatch[1] + '</strong>...';
-          window.location.replace(target);
+        // Guard against redirect loops: If the URL is already in canonical format (/products/spreadshop-*), do not re-redirect
+        if (slug.startsWith('spreadshop-')) {
+          msg.innerHTML = 'This product listing is currently unavailable. Redirecting to our live catalog search...';
+          const cleanQuery = slug.replace(/^spreadshop-/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
+          setTimeout(function() {
+            window.location.replace('/?q=' + encodeURIComponent(cleanQuery));
+          }, 1000);
           return;
+        }
+
+        // 1-to-1 direct mapping for legacy non-canonical Spreadshop URLs:
+        // Legacy URLs were formatted as: <design-slug>-<product-type>-<id> (e.g. atomic-orbit-neon-14-oz--rkjv3907r3cp-773)
+        const spreadshopMatch = slug.match(/(?:--|-)([a-z0-9]+-\d+)$/i);
+        if (spreadshopMatch && spreadshopMatch[1]) {
+          const target = '/products/spreadshop-' + spreadshopMatch[1] + '/';
+          if (target !== window.location.pathname) {
+            msg.innerHTML = 'Legacy listing detected. Forwarding to active product page <strong>' + spreadshopMatch[1] + '</strong>...';
+            window.location.replace(target);
+            return;
+          }
         }
 
         // Numeric partner mapping (Printify, Zazzle, Redbubble, TeePublic)
