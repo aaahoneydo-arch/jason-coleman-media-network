@@ -43,10 +43,12 @@
 </head>
 <body>
   <div style="max-width:600px;text-align:center;padding:40px 20px;">
-    <h1 style="font-size:2.5rem;color:#d5fa42;margin-bottom:10px;">Looking for a Product?</h1>
+    <h1 style="font-size:2.5rem;color:#d5fa42;margin-bottom:10px;">Looking for a Product or Book?</h1>
     <p style="font-size:1.1rem;color:#cbd5e1;line-height:1.6;" id="msg">The requested listing has been updated in our multi-channel catalog. Redirecting to our live store...</p>
-    <div style="margin-top:25px;">
+    <div style="margin-top:25px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
       <a href="/" class="btn" style="background:#d5fa42;color:#111;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;">Explore Live Marketplace &rarr;</a>
+      <a href="/books.html" class="btn" style="background:#ff9900;color:#111;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;">📚 Browse All 18 Amazon Books &rarr;</a>
+      <a href="/guides/" class="btn" style="background:#00d2d3;color:#111;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;">🎁 15 Gift Guides &rarr;</a>
     </div>
   </div>
   <script>
@@ -56,7 +58,6 @@
       const slug = pth.replace(/^.*\/products\//, '').replace(/\/$/, '').trim();
       const msg = document.getElementById('msg');
       if (slug) {
-        // Guard against redirect loops: If the URL is already in canonical format (/products/spreadshop-*), do not re-redirect
         if (slug.startsWith('spreadshop-')) {
           msg.innerHTML = 'This product listing is currently unavailable. Redirecting to our live catalog search...';
           const cleanQuery = slug.replace(/^spreadshop-/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
@@ -66,8 +67,6 @@
           return;
         }
 
-        // 1-to-1 direct mapping for legacy non-canonical Spreadshop URLs:
-        // Legacy URLs were formatted as: <design-slug>-<product-type>-<id> (e.g. atomic-orbit-neon-14-oz--rkjv3907r3cp-773)
         const spreadshopMatch = slug.match(/(?:--|-)([a-z0-9]+-\d+)$/i);
         if (spreadshopMatch && spreadshopMatch[1]) {
           const target = '/products/spreadshop-' + spreadshopMatch[1] + '/';
@@ -78,18 +77,16 @@
           }
         }
 
-        // Numeric partner mapping (Printify, Zazzle, Redbubble, TeePublic)
         const numMatch = slug.match(/(\d{6,})$/);
         if (numMatch) {
           msg.innerHTML = 'Locating product <strong>' + numMatch[1] + '</strong>...';
-          const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-|flow-gen-\d+-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
+          const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
           window.location.replace('/?q=' + encodeURIComponent(cleanQuery));
           return;
         }
 
-        // Fallback for deprecated synthetic mockups: search catalog for design
         msg.innerHTML = 'Searching catalog for <strong>' + slug + '</strong>...';
-        const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-|flow-gen-\d+-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
+        const cleanQuery = slug.replace(/^(ibx-|sprd_|ucm-|printify-|zazzle-)/, '').replace(/[^a-zA-Z0-9]+/g, ' ').trim();
         setTimeout(function() {
           window.location.replace('/?q=' + encodeURIComponent(cleanQuery));
         }, 1200);

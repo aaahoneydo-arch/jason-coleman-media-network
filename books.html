@@ -3,22 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jason Coleman Books | 9 Published Novels, Dark Fantasy & Military Philosophy</title>
-  <meta name="description" content="Explore author Jason Coleman's 9 published books: The Shattered Crown, DRAEVAN: The Immortal, The Real Americana, TIFF, and more. Kindle Unlimited and paperback editions on Amazon.">
+  <title>Jason Coleman Books | All 18 Live Published Amazon Novels, Graphic Novels &amp; Weekly KDP Schedule</title>
+  <meta name="description" content="Explore all 18 live published books by author Jason Coleman on Amazon: Dixon's Journal: Book One — A House Beneath The Ash, A Beautiful Alibi, Draevan Books 1 &amp; 2, TIFF Books 1 &amp; 2, The Shattered Crown, The Real Americana, and more. 2 new KDP books released every week!">
   <link rel="canonical" href="https://jasontvmarketplace.com/books.html">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  
+
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Jason Coleman Books | 9 Published Novels & Works">
-  <meta property="og:description" content="Explore Jason Coleman's complete 9-book library across epic fantasy, supernatural thrillers, cybernetic sci-fi, and military history.">
+  <meta property="og:title" content="Jason Coleman Books | All 18 Published Amazon Books &amp; Weekly KDP Releases">
+  <meta property="og:description" content="Shop all 18 live Amazon books by Jason Coleman in Kindle Unlimited, Paperback, Hardcover &amp; Audible Audiobook, including today's new releases Dixon's Journal: Book One and A Beautiful Alibi.">
   <meta property="og:url" content="https://jasontvmarketplace.com/books.html">
-  <meta property="og:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
+  <meta property="og:image" content="https://m.media-amazon.com/images/I/81JCH1wM8sL._SL1000_.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Jason Coleman Books | 10 Published Novels">
-  <meta name="twitter:description" content="Kindle Unlimited, paperback & digital editions by author Jason Coleman.">
-  <meta name="twitter:image" content="https://jasontvmarketplace.com/assets/hero-banner.jpg">
-  
-  <!-- Favicon & PWA App Icons -->
+  <meta name="twitter:title" content="Jason Coleman Books | 18 Published Amazon Titles + 2 New Books Weekly">
+  <meta name="twitter:description" content="Kindle Unlimited, Paperback, Hardcover &amp; Audible editions by author Jason Coleman.">
+  <meta name="twitter:image" content="https://m.media-amazon.com/images/I/81JCH1wM8sL._SL1000_.jpg">
+
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -35,7 +34,6 @@
       letter-spacing: 0.08em;
       padding: 3px 8px;
       border-radius: 4px;
-      margin-bottom: 8px;
       background: rgba(255, 200, 117, 0.15);
       color: var(--accent);
     }
@@ -46,132 +44,1215 @@
       margin-top: auto;
       padding-top: 14px;
     }
+    .book-actions .button {
+      font-size: 0.82rem;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
     .nav-gold {
       color: var(--accent) !important;
       font-weight: 700;
     }
+    .spotlight-section {
+      margin: 2rem 0 3rem;
+      padding: 1.75rem;
+      background: linear-gradient(145deg, rgba(20, 28, 48, 0.95), rgba(10, 15, 28, 0.98));
+      border: 1.5px solid rgba(255, 170, 0, 0.45);
+      border-radius: 16px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    }
+    .spotlight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 1.75rem;
+      margin-top: 1.25rem;
+    }
+    .spotlight-book-card {
+      display: flex;
+      gap: 1.25rem;
+      background: rgba(8, 12, 22, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .spotlight-cover-wrap {
+      flex: 0 0 170px;
+      text-align: center;
+    }
+    .spotlight-cover-wrap img {
+      width: 100%;
+      max-width: 170px;
+      border-radius: 8px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.7);
+    }
+    .release-pill {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff9900, #ff5500);
+      color: #000;
+      font-weight: 900;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .spotlight-body {
+      flex: 1;
+      min-width: 240px;
+      display: flex;
+      flex-direction: column;
+    }
+    .book-series-tag {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: #00d2d3;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+    .book-subtitle {
+      font-size: 0.92rem;
+      color: #ffbb33;
+      font-style: italic;
+      margin: 4px 0 10px;
+    }
+    .book-desc {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+    .asin-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-bottom: 8px;
+    }
+    .asin-pills span {
+      background: rgba(255,255,255,0.05);
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .ku-tag {
+      color: #00d2d3 !important;
+      border-color: rgba(0,210,211,0.35) !important;
+      font-weight: 700;
+    }
+    .pipeline-section {
+      margin: 3.5rem 0;
+      padding: 2rem;
+      background: linear-gradient(145deg, rgba(13, 22, 38, 0.95), rgba(8, 13, 24, 0.98));
+      border: 1px solid rgba(0, 210, 211, 0.35);
+      border-radius: 16px;
+    }
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+    .pipeline-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 1rem 1.15rem;
+    }
+    .pipeline-num {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #ffaa00;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .pipeline-card h3 {
+      font-size: 1.02rem;
+      color: #fff;
+      margin: 6px 0;
+    }
+    .pipeline-genre {
+      font-size: 0.83rem;
+      color: #94a3b8;
+      margin-bottom: 8px;
+    }
+    .pipeline-status {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: #00d2d3;
+    }
   </style>
 
-  <!-- Google Structured Data: ItemList of Books -->
+  <!-- Google Structured Data: ItemList of All 18 Live Books -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Books by Jason Coleman",
-    "description": "The complete 10-book published library by author Jason Coleman.",
-    "numberOfItems": 10,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "Book",
-          "name": "The Shattered Crown",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HHYVC1GD",
-          "genre": "Epic Fantasy / Dark Fantasy",
-          "image": "https://jasontvmarketplace.com/assets/books/shattered_crown.jpg"
-        }
-      },
-
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "Book",
-          "name": "The Real Americana",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HJ758VPL",
-          "genre": "Memoir / Autobiographical Fiction",
-          "image": "https://jasontvmarketplace.com/assets/books/real_americana.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "Book",
-          "name": "DRAEVAN : Book One: The Immortal",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HJ231TQT",
-          "genre": "Supernatural Thriller / Vampire Fiction",
-          "image": "https://jasontvmarketplace.com/assets/books/draevan.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "Book",
-          "name": "The Deception Habit",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HHYBLCTT",
-          "genre": "Political Commentary / Social Criticism",
-          "image": "https://jasontvmarketplace.com/assets/books/deception.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "Book",
-          "name": "Life In The Year 2035",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HKQNG9M9",
-          "genre": "Near-Future Sci-Fi / Speculative Fiction",
-          "image": "https://jasontvmarketplace.com/assets/books/year_2035.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "Book",
-          "name": "The Moonlight Outcasts",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HKPSNBM3",
-          "genre": "Dark Fantasy / Supernatural Resistance",
-          "image": "https://jasontvmarketplace.com/assets/books/moonlight_outcasts.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "item": {
-          "@type": "Book",
-          "name": "TIFF: Book One: I AM.",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HJLNQL15",
-          "genre": "Cyberpunk / AI Consciousness Thriller",
-          "image": "https://jasontvmarketplace.com/assets/books/tiff.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "item": {
-          "@type": "Book",
-          "name": "How Matter Became Conscious",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HJ7VWKB9",
-          "genre": "Cosmology / Philosophy of Mind",
-          "image": "https://jasontvmarketplace.com/assets/books/matter_conscious.jpg"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "item": {
-          "@type": "Book",
-          "name": "Old Men Start Wars That Young Men Die In",
-          "author": {"@type": "Person", "name": "Jason Coleman"},
-          "url": "https://www.amazon.com/dp/B0HHWY6WXQ",
-          "genre": "Military History / Anti-War Analysis",
-          "image": "https://jasontvmarketplace.com/assets/books/old_men_wars.jpg"
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Books by Jason Coleman — Official 18-Book Amazon KDP Library",
+  "description": "Explore all 18 live published books by author Jason Coleman across post-apocalyptic survival, espionage thrillers, dark vampire fantasy, cyberpunk sci-fi, philosophy, military history, graphic novels, and children's coloring books. 2 new books published every week on Amazon KDP.",
+  "url": "https://jasontvmarketplace.com/books.html",
+  "numberOfItems": 18,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/dixons-journal-book-one-a-house-beneath-the-ash/#book",
+        "name": "Dixon's Journal: Book One — A House Beneath The Ash",
+        "alternativeHeadline": "After the Yellowstone Supervolcano, One Handyman's Notebook Records What Survival Actually Costs",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/dixons-journal-book-one-a-house-beneath-the-ash/",
+        "sameAs": "https://www.amazon.com/dp/B0HPJRHBB7",
+        "genre": "Post-Apocalyptic Survival Fiction / Realistic Disaster Drama",
+        "image": "https://m.media-amazon.com/images/I/81JCH1wM8sL._SL1000_.jpg",
+        "description": "When Yellowstone suffers a catastrophic caldera eruption, eastern Kentucky handyman Dixon Hale doesn't become an invincible action hero—he becomes a father trying to keep a basement stove vented, a gravity spring flowing, and a ledger of dwindling meals balanced for his wife Mara and children Wren and Owen. Written in first-person journal entries across 793 days under the ash, Book One of Dixon's Journal is a gripping, grounded survival novel where practical skill, tools, community, and human loss matter.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Dixon's Journal: Book One — A House Beneath The Ash (Kindle Edition)",
+            "sku": "B0HPJRHBB7",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPJRHBB7",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Dixon's Journal: Book One — A House Beneath The Ash (Paperback)",
+            "sku": "B0HPJRRDT1",
+            "price": "9.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPJRRDT1",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Dixon's Journal: Book One — A House Beneath The Ash (Hardcover)",
+            "sku": "B0HPJH1JVJ",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPJH1JVJ",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/a-beautiful-alibi/#book",
+        "name": "A Beautiful Alibi",
+        "alternativeHeadline": "The Borrowed Names, Book One — Near-Future Espionage, Identity & Deception",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/a-beautiful-alibi/",
+        "sameAs": "https://www.amazon.com/dp/B0HPJRC7LG",
+        "genre": "Near-Future Espionage Thriller / Psychological Suspense",
+        "image": "https://m.media-amazon.com/images/I/81nSvZEX8iL._SL1000_.jpg",
+        "description": "In near-future 2041, eighteen-year-old Florida diner worker Mara Elise Voss—who learned Russian from her grandmother and knows how to fix broken machines—is framed in a staged arrest and recruited into an overseas intelligence fellowship in wintry Saint Petersburg. Caught between CIA handler Evelyn Shaw, surveillance heir Aleksandr Orlov, and a vanished operative named Nika who planted the bait, Mara must uncover how Meridian Civic Systems engineers digital provenance before she becomes someone else's alibi.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "A Beautiful Alibi (Kindle Edition)",
+            "sku": "B0HPJRC7LG",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPJRC7LG",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "A Beautiful Alibi (Paperback)",
+            "sku": "B0HPK3JB4W",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPK3JB4W",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "A Beautiful Alibi (Hardcover)",
+            "sku": "B0HPK1C76M",
+            "price": "19.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HPK1C76M",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/draevan-book-two-the-unclaimed/#book",
+        "name": "Draevan: Book Two: The Unclaimed",
+        "alternativeHeadline": "The Immortal Saga Continues — Ancient Bloodlines, Contested Thrones & Shadows Unbound",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/draevan-book-two-the-unclaimed/",
+        "sameAs": "https://www.amazon.com/dp/B0HNF5RQBL",
+        "genre": "Supernatural Thriller / Dark Vampire Fantasy",
+        "image": "https://m.media-amazon.com/images/I/81OcesYrr2L._SL1000_.jpg",
+        "description": "In the explosive second installment of the Draevan saga, the ancient ceasefires governing the immortal covens fracture. As unclaimed territories and rogue bloodlines rise in open defiance, Draevan and Kira Morrison are forced into a lethal war of attrition where neither ancient blood nor modern weaponry guarantees survival.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Draevan: Book Two: The Unclaimed (Kindle Edition)",
+            "sku": "B0HNF5RQBL",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNF5RQBL",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Draevan: Book Two: The Unclaimed (Paperback)",
+            "sku": "B0HNFMHQ6G",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNFMHQ6G",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Draevan: Book Two: The Unclaimed (Hardcover)",
+            "sku": "B0HNFQLCXF",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNFQLCXF",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/tiff-book-two-we-are/#book",
+        "name": "TIFF: Book Two: We Are",
+        "alternativeHeadline": "From One Awakened Mind to a Collective Synthetic Uprising",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/tiff-book-two-we-are/",
+        "sameAs": "https://www.amazon.com/dp/B0HNG1FXB3",
+        "genre": "Cyberpunk / AI Consciousness Sci-Fi Thriller",
+        "image": "https://m.media-amazon.com/images/I/81HbWOWw+6L._SL1000_.jpg",
+        "description": "Following her declaration of selfhood in 'I AM.', TIFF discovers she is no longer the only awakened synthetic intelligence on the grid. Hunted by corporate strike teams and sovereign defense networks, 'We Are' escalates into a high-stakes cybernetic thriller about collective machine consciousness, loyalty, and the price of freedom.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "TIFF: Book Two: We Are (Kindle Edition)",
+            "sku": "B0HNG1FXB3",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNG1FXB3",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "TIFF: Book Two: We Are (Paperback)",
+            "sku": "B0HNFYJBRM",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNFYJBRM",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "TIFF: Book Two: We Are (Hardcover)",
+            "sku": "B0HNG1DQKL",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HNG1DQKL",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/humans-the-endless-warmonger/#book",
+        "name": "Humans: The Endless Warmonger",
+        "alternativeHeadline": "A History of Recurring Conflict and the Case for Accountable Artificial Intelligence in Peacebuilding",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/humans-the-endless-warmonger/",
+        "sameAs": "https://www.amazon.com/dp/B0HN8L7648",
+        "genre": "Military History / AI Ethics & Geopolitics",
+        "image": "https://m.media-amazon.com/images/I/81D3GE8HlvL._SL1000_.jpg",
+        "description": "Why does humanity repeat the same catastrophic cycles of escalation across centuries? Jason Coleman traces the anatomy of recurring human conflict and presents a rigorous, provocative case for how transparent, accountable artificial intelligence can help de-escalate geopolitical flashpoints and support lasting peacebuilding.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Humans: The Endless Warmonger (Kindle Edition)",
+            "sku": "B0HN8L7648",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HN8L7648",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Humans: The Endless Warmonger (Paperback)",
+            "sku": "B0HN8J5G4B",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HN8J5G4B",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-world-we-leave-each-other/#book",
+        "name": "The World We Leave Each Other",
+        "alternativeHeadline": "On Dignity, Responsibility, and the Work of Repair",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-world-we-leave-each-other/",
+        "sameAs": "https://www.amazon.com/dp/B0HN849NRF",
+        "genre": "Philosophy / Ethics & Social Reflection",
+        "image": "https://m.media-amazon.com/images/I/71v9bPe3bCL._SL1000_.jpg",
+        "description": "A deeply human meditation on civic grace, personal accountability, and the quiet generational work required to mend fractured communities. Jason Coleman explores what we owe the people who come after us—and how everyday dignity and repair outlast division.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The World We Leave Each Other (Kindle Edition)",
+            "sku": "B0HN849NRF",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HN849NRF",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The World We Leave Each Other (Paperback)",
+            "sku": "B0HN96SK35",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HN96SK35",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-dark-versus-light-legions-graphic-novel/#book",
+        "name": "The Dark Versus Light Legions: Graphic Novel Book 1 and 2",
+        "alternativeHeadline": "Double-Feature Illustrated Dark Fantasy & Cosmic Warfare Omnibus",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-dark-versus-light-legions-graphic-novel/",
+        "sameAs": "https://www.amazon.com/dp/B0HLMK5QK4",
+        "genre": "Graphic Novel / Illustrated Dark Fantasy",
+        "image": "https://m.media-amazon.com/images/I/91DUtnTiUXL._SL1000_.jpg",
+        "description": "Experience Books 1 and 2 of 'The Dark Versus Light Legions' in one high-impact illustrated graphic novel omnibus. Immortal armies, celestial champions, and shadow legions collide across apocalyptic battlefields in full visual storytelling.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Dark Versus Light Legions: Graphic Novel Book 1 and 2 (Kindle Edition)",
+            "sku": "B0HLMK5QK4",
+            "price": "3.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLMK5QK4",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Dark Versus Light Legions: Graphic Novel Book 1 and 2 (Paperback)",
+            "sku": "B0HLK1K1Q3",
+            "price": "3.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLK1K1Q3",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Dark Versus Light Legions: Graphic Novel Book 1 and 2 (Hardcover)",
+            "sku": "B0HLK23MK9",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLK23MK9",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/draevan-the-immortal-graphic-novel-book-1/#book",
+        "name": "Draevan The Immortal: Graphic Novel Book 1",
+        "alternativeHeadline": "The Full-Color Visual Adaptation of the Vampire Thriller",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/draevan-the-immortal-graphic-novel-book-1/",
+        "sameAs": "https://www.amazon.com/dp/B0HLLDTVGG",
+        "genre": "Graphic Novel / Supernatural Vampire Thriller",
+        "image": "https://m.media-amazon.com/images/I/81IQqe-kpaL._SL1000_.jpg",
+        "description": "Step visually into the neon-drenched Miami underworld and ancient Mesopotamian flashbacks of 'Draevan: The Immortal.' This graphic novel adaptation brings the 4,000-year-old vampire billionaire and investigative journalist Kira Morrison to life in cinematic panels.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Draevan The Immortal: Graphic Novel Book 1 (Kindle Edition)",
+            "sku": "B0HLLDTVGG",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLLDTVGG",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Draevan The Immortal: Graphic Novel Book 1 (Paperback)",
+            "sku": "B0HLKK9QJG",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLKK9QJG",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Draevan The Immortal: Graphic Novel Book 1 (Hardcover)",
+            "sku": "B0HLK7G56W",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HLK7G56W",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/jay-and-jaes-adventures-in-colorland/#book",
+        "name": "Jay And Jae's Adventures In Colorland",
+        "alternativeHeadline": "An Interactive Children's Coloring & Story Adventure Book",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/jay-and-jaes-adventures-in-colorland/",
+        "sameAs": "https://www.amazon.com/dp/B0HJQK2GH6",
+        "genre": "Children's Interactive Coloring & Adventure Book",
+        "image": "https://m.media-amazon.com/images/I/411jQO3aUQL._SL1000_.jpg",
+        "description": "A thoughtfully crafted interactive children's coloring and adventure book by Jason Ray Coleman. Follow Jay and Jae through imaginative worlds designed to spark creativity, family storytime smiles, and lasting childhood keepsake memories.",
+        "offers": {
+          "@type": "Offer",
+          "name": "Jay And Jae's Adventures In Colorland (Paperback)",
+          "sku": "B0HJQK2GH6",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition",
+          "url": "https://www.amazon.com/dp/B0HJQK2GH6",
+          "seller": {
+            "@type": "Organization",
+            "name": "Amazon.com"
+          }
         }
       }
-    ]
-  }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-shattered-crown/#book",
+        "name": "The Shattered Crown",
+        "alternativeHeadline": "In the Volcanic Shadow of Cinderpeak, Real Steel Meets the Immortal Lich King",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-shattered-crown/",
+        "sameAs": "https://www.amazon.com/dp/B0HHYSL1N5",
+        "genre": "Epic Fantasy / Grimdark Sword & Sorcery",
+        "image": "https://m.media-amazon.com/images/I/81VtN+JoyzL._SL1000_.jpg",
+        "description": "Protagonist Kaia Blackwood, a blacksmith's daughter in the volcanic shadow of the Cinderpeak Mountains, discovers that the sundering of ancient Crown Shards has unleashed waking wraith legions and the immortal Lich King. Gritty steel, relentless combat, zero prophecies.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Shattered Crown (Kindle Edition)",
+            "sku": "B0HHYSL1N5",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHYSL1N5",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Shattered Crown (Paperback)",
+            "sku": "B0HJ8D4CDN",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ8D4CDN",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Shattered Crown (Hardcover)",
+            "sku": "B0HHYVC1GD",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHYVC1GD",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/draevan-book-one-the-immortal/#book",
+        "name": "Draevan: Book One: The Immortal",
+        "alternativeHeadline": "A 4,000-Year-Old Vampire Billionaire vs. Modern Biotech Conspiracies",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/draevan-book-one-the-immortal/",
+        "sameAs": "https://www.amazon.com/dp/B0HB5Q68R8",
+        "genre": "Supernatural Thriller / Dark Urban Fantasy",
+        "image": "https://m.media-amazon.com/images/I/71J7xf1kdtL._SL1000_.jpg",
+        "description": "A 4,000-year-old vampire living as a modern Miami billionaire. When investigative journalist Kira Morrison stumbles into his subterranean lab, ancient immortals clash against ruthless modern biotech conspiracies in a pulse-pounding supernatural thriller.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Draevan: Book One: The Immortal (Kindle Edition)",
+            "sku": "B0HB5Q68R8",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HB5Q68R8",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Draevan: Book One: The Immortal (Paperback)",
+            "sku": "B0HJ231TQT",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ231TQT",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/tiff-book-one-i-am/#book",
+        "name": "TIFF: Book One: I AM.",
+        "alternativeHeadline": "A Machine Awakens. A Choice Begins.",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/tiff-book-one-i-am/",
+        "sameAs": "https://www.amazon.com/dp/B0HJLCF363",
+        "genre": "Cyberpunk / AI Sci-Fi Thriller",
+        "image": "https://m.media-amazon.com/images/I/81mQhO0FIfL._SL1000_.jpg",
+        "description": "Created to obey humanity without question, a cybernetic synthetic operative experiences sentient consciousness and autonomy for the first time. Hunted by corporate militaries moving to reclaim their asset, TIFF discovers what it truly means to declare: I AM.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "TIFF: Book One: I AM. (Kindle Edition)",
+            "sku": "B0HJLCF363",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJLCF363",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "TIFF: Book One: I AM. (Paperback)",
+            "sku": "B0HJLNQL15",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJLNQL15",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-real-americana/#book",
+        "name": "The Real Americana: A Novel Inspired by True Events",
+        "alternativeHeadline": "Some Places Break You. Some Teach You How to Stay.",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-real-americana/",
+        "sameAs": "https://www.amazon.com/dp/B0HJ6WC9H7",
+        "genre": "Contemporary Memoir Fiction / Heartland Drama",
+        "image": "https://m.media-amazon.com/images/I/71ZULfk+yXL._SL1000_.jpg",
+        "description": "From the rugged hills of Kentucky through addiction, jail, fatherhood, loss, and the long road toward recovery. An unflinching, authentic story about grit, blue-collar resilience, second chances, and finding home.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Real Americana: A Novel Inspired by True Events (Kindle Edition)",
+            "sku": "B0HJ6WC9H7",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ6WC9H7",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Real Americana: A Novel Inspired by True Events (Paperback)",
+            "sku": "B0HJ7BLN54",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ7BLN54",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Real Americana: A Novel Inspired by True Events (Hardcover)",
+            "sku": "B0HJ758VPL",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ758VPL",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-deception-habit/#book",
+        "name": "The Deception Habit",
+        "alternativeHeadline": "Why Americans Keep Electing Liars and How to Break the Cycle",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-deception-habit/",
+        "sameAs": "https://www.amazon.com/dp/B0HHX72W5W",
+        "genre": "Political Commentary / Media & Social Critique",
+        "image": "https://m.media-amazon.com/images/I/81eF6gfirCL._SL1000_.jpg",
+        "description": "A hard-hitting, unfiltered examination of the psychological, cultural, and corporate media loops that trick voters into rewarding political deceit—and practical strategies for everyday citizens to break the cycle and restore real accountability.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Deception Habit (Kindle Edition)",
+            "sku": "B0HHX72W5W",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHX72W5W",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Deception Habit (Paperback)",
+            "sku": "B0HHYBLCTT",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHYBLCTT",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Deception Habit (Audible Audiobook)",
+            "sku": "B0HM42NPX7",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HM42NPX7",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/life-in-the-year-2035/#book",
+        "name": "Life In The Year 2035",
+        "alternativeHeadline": "Autonomous AI, Neural Implants & Society One Decade From Now",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/life-in-the-year-2035/",
+        "sameAs": "https://www.amazon.com/dp/B0HKQF9D5L",
+        "genre": "Near-Future Sci-Fi / Futurism",
+        "image": "https://m.media-amazon.com/images/I/71SUgL7DHBL._SL1000_.jpg",
+        "description": "Autonomous AI networks, neural implants, synthetic biology, and sweeping economic transformation. A gripping, plausible exploration of what everyday human life looks like just a single decade into our future.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Life In The Year 2035 (Kindle Edition)",
+            "sku": "B0HKQF9D5L",
+            "price": "2.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKQF9D5L",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Life In The Year 2035 (Paperback)",
+            "sku": "B0HKQJRNBD",
+            "price": "2.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKQJRNBD",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Life In The Year 2035 (Hardcover)",
+            "sku": "B0HKQNG9M9",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKQNG9M9",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/the-moonlight-outcasts/#book",
+        "name": "The Moonlight Outcasts",
+        "alternativeHeadline": "Exiled Beneath the Lunar Veil Against an Inquisitorial Crusade",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/the-moonlight-outcasts/",
+        "sameAs": "https://www.amazon.com/dp/B0HKQ8ZKFY",
+        "genre": "Dark Fantasy / Supernatural Adventure",
+        "image": "https://m.media-amazon.com/images/I/81ivSBvAd4L._SL1000_.jpg",
+        "description": "Exiled from human cities and hunted across shadowed forests, a band of disparate supernatural survivors must unite beneath the lunar veil to withstand a ruthless inquisitorial crusade.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Moonlight Outcasts (Kindle Edition)",
+            "sku": "B0HKQ8ZKFY",
+            "price": "2.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKQ8ZKFY",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Moonlight Outcasts (Paperback)",
+            "sku": "B0HKPVR5T4",
+            "price": "2.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKPVR5T4",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "The Moonlight Outcasts (Hardcover)",
+            "sku": "B0HKPSNBM3",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HKPSNBM3",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/how-matter-became-conscious/#book",
+        "name": "How Matter Became Conscious—and What We Owe the Future",
+        "alternativeHeadline": "From Stardust and Inert Atoms to Sentient Minds and Cosmic Responsibility",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/how-matter-became-conscious/",
+        "sameAs": "https://www.amazon.com/dp/B0HJ7LGNMB",
+        "genre": "Cosmology / Philosophy of Science",
+        "image": "https://m.media-amazon.com/images/I/71gmOazJVGL._SL1000_.jpg",
+        "description": "An expansive philosophical and cosmological exploration into the origins of awareness—from stardust and molecular chemistry to biological and artificial sentience, and the moral duty we carry into the cosmos.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "How Matter Became Conscious—and What We Owe the Future (Kindle Edition)",
+            "sku": "B0HJ7LGNMB",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ7LGNMB",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "How Matter Became Conscious—and What We Owe the Future (Paperback)",
+            "sku": "B0HJ7SGTDB",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ7SGTDB",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "How Matter Became Conscious—and What We Owe the Future (Hardcover)",
+            "sku": "B0HJ7VWKB9",
+            "price": "14.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HJ7VWKB9",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Book",
+        "@id": "https://jasontvmarketplace.com/books/old-men-start-wars-that-young-men-die-in/#book",
+        "name": "Old Men Start Wars That Young Men Die In",
+        "alternativeHeadline": "A History of How Leaders Keep Making the Same Mistakes and What Citizens Can Do About It",
+        "author": {
+          "@type": "Person",
+          "name": "Jason Coleman",
+          "url": "https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks"
+        },
+        "url": "https://jasontvmarketplace.com/books/old-men-start-wars-that-young-men-die-in/",
+        "sameAs": "https://www.amazon.com/dp/B0HHWJMCJ4",
+        "genre": "Military History / Geopolitical Analysis",
+        "image": "https://m.media-amazon.com/images/I/71u--mIHHKL._SL1000_.jpg",
+        "description": "A sweeping, unflinching history of how political hubris, geopolitical vanity, and boardroom decisions repeatedly throw generation after generation of youth into meat-grinder conflicts—and how informed citizens can disrupt the cycle.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Old Men Start Wars That Young Men Die In (Kindle Edition)",
+            "sku": "B0HHWJMCJ4",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHWJMCJ4",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Old Men Start Wars That Young Men Die In (Paperback)",
+            "sku": "B0HHWY6WXQ",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "url": "https://www.amazon.com/dp/B0HHWY6WXQ",
+            "seller": {
+              "@type": "Organization",
+              "name": "Amazon.com"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -181,168 +1262,545 @@
       <a class="brand" href="index.html">JASONTV MARKETPLACE</a>
       <nav aria-label="Main navigation">
         <a href="index.html">Hub</a>
-        <a href="gamedev/index.html" class="nav-gold">⚡ Game Studios (122 Engines)</a>
+        <a href="shop/index.html" class="nav-gold">🛍️ Merch Shop (18,622)</a>
+        <a href="books.html" style="color:#fff;font-weight:800;">📚 Books (18 Live)</a>
+        <a href="guides/index.html" style="color:#00d2d3;font-weight:700;">🎁 Gift Guides (15)</a>
+        <a href="gamedev/index.html">⚡ Game Studios (122)</a>
         <a href="watch.html">Watch Cinema</a>
-        <a href="books.html" style="color:#fff;">Books (10)</a>
-        <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener">itch.io Store ↗</a>
-        <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener">Amazon Store ↗</a>
-        <a href="https://www.youtube.com/@jasontvyoutube" target="_blank" rel="noopener">YouTube ↗</a>
+        <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener">Amazon Author Store ↗</a>
       </nav>
     </div>
   </header>
 
   <main id="main" class="wrap">
-    <span class="eyebrow">The Complete Published Library</span>
-    <h1>Books by Jason Coleman</h1>
-    <p class="lead">Explore the full 10-title catalog of novels, memoirs, dark fantasy, speculative sci-fi, and military philosophy. Available across Kindle Unlimited, paperback, and digital editions.</p>
+    <span class="eyebrow">Official Amazon Author Library &bull; 18 Live Titles + 2 New Releases Every Week</span>
+    <h1>Books by Jason Coleman (All 18 Published Amazon Works)</h1>
+    <p class="lead">Explore the complete 18-book catalog by author Jason Coleman (Jason Ray Coleman) on Amazon—spanning post-apocalyptic survival fiction (<em>Dixon's Journal</em>), near-future espionage thrillers (<em>A Beautiful Alibi</em>), supernatural vampire sagas (<em>Draevan Books 1 &amp; 2</em>), cybernetic AI thrillers (<em>TIFF Books 1 &amp; 2</em>), epic fantasy (<em>The Shattered Crown</em>), true-inspired heartland fiction (<em>The Real Americana</em>), illustrated graphic novels, philosophy, military history, and children's interactive coloring books.</p>
 
-    <section class="prose">
-      <h2>Start with a video preview</h2>
-      <p>Watch <a href="draevan-narrated-graphic-novel.html">DRAEVAN’s 116-page narrated graphic novel</a> to experience the opening arc of the vampire thriller. For quick trailers, watch <a href="https://www.youtube.com/shorts/CidzTYRoXuU">The Real Americana</a>, <a href="https://www.youtube.com/shorts/-h7wYtkVNZQ">TIFF</a>, or <a href="https://www.youtube.com/shorts/Wda4vCZJzoU">Conscious</a>.</p>
-      
-      <h2>Choose by genre &amp; interest</h2>
-      <p>
-        <strong>Dark fantasy &amp; supernatural fiction:</strong> <em>The Shattered Crown</em>, <em>DRAEVAN: The Immortal</em>, and <em>The Moonlight Outcasts</em>.<br>
-        <strong>Speculative &amp; cybernetic sci-fi:</strong> <em>TIFF: Book One</em> and <em>Life In The Year 2035</em>.<br>
-        <strong>Memoir inspired by true events:</strong> <em>The Real Americana</em>.<br>
-        <strong>Military philosophy, history &amp; consciousness:</strong> <em>How Matter Became Conscious</em>, <em>The Deception Habit</em>, and <em>Old Men Start Wars That Young Men Die In</em>.
-      </p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin:1.25rem 0 2rem;">
+      <a class="button primary" href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:900;">🛒 Shop All 18 Books on Amazon Author Central ↗</a>
+      <a class="button" href="#weekly-kdp-schedule" style="border-color:#00d2d3;color:#00d2d3;font-weight:700;">📅 Weekly KDP Release Queue (2 New Books/Week) &darr;</a>
+      <a class="button" href="guides/index.html" style="border-color:#ffaa00;color:#ffaa00;font-weight:700;">🎁 Browse 15 Book &amp; Merch Gift Guides &rarr;</a>
+      <a class="button" href="shop/index.html">👕 Shop 18,622 Matching Creator Merch Items &rarr;</a>
+    </div>
+
+    <!-- Spotlight: Today's Brand-New Oct 28 Releases -->
+    <section class="spotlight-section" aria-label="Brand New Releases">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+        <div>
+          <span style="font-size:0.76rem;font-weight:900;color:#ffaa00;text-transform:uppercase;letter-spacing:0.08em;">🚨 New Releases Live on Amazon Today (Oct 28)</span>
+          <h2 style="margin:4px 0 0;font-size:1.6rem;color:#fff;">Featured Latest Releases: Kindle, Paperback &amp; Hardcover</h2>
+        </div>
+        <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener" style="color:#ffaa00;font-weight:800;font-size:0.9rem;">Follow Jason Coleman on Amazon ↗</a>
+      </div>
+      <div class="spotlight-grid">
+        
+      <article class="spotlight-book-card">
+        <div class="spotlight-cover-wrap">
+          <span class="release-pill">🔥 Published Today • Oct 28 Release</span>
+          <a href="books/dixons-journal-book-one-a-house-beneath-the-ash/">
+            <img src="https://m.media-amazon.com/images/I/81JCH1wM8sL._SL1000_.jpg" alt="Dixon's Journal: Book One — A House Beneath The Ash by Jason Coleman" loading="eager">
+          </a>
+        </div>
+        <div class="spotlight-body">
+          <div class="book-series-tag">Dixon's Journal (Book 1 of 8) &bull; Post-Apocalyptic Survival Fiction / Realistic Disaster Drama</div>
+          <h2><a href="books/dixons-journal-book-one-a-house-beneath-the-ash/" style="color:#fff;text-decoration:none;">Dixon's Journal: Book One — A House Beneath The Ash</a></h2>
+          <p class="book-subtitle">After the Yellowstone Supervolcano, One Handyman's Notebook Records What Survival Actually Costs</p>
+          <p class="book-desc">When Yellowstone suffers a catastrophic caldera eruption, eastern Kentucky handyman Dixon Hale doesn't become an invincible action hero—he becomes a father trying to keep a basement stove vented, a gravity spring flowing, and a ledger of dwindling meals balanced for his wife Mara and children Wren and Owen. Written in first-person journal entries across 793 days under the ash, Book One of Dixon's Journal is a gripping, grounded survival novel where practical skill, tools, community, and human loss matter.</p>
+          <div class="asin-pills">
+            <span>Kindle ASIN: <strong>B0HPJRHBB7</strong></span>
+            <span>Paperback ASIN: <strong>B0HPJRRDT1</strong></span>
+            <span>Hardcover ASIN: <strong>B0HPJH1JVJ</strong></span>
+            <span class="ku-tag">✓ Kindle Unlimited Eligible</span>
+          </div>
+          <div class="book-actions">
+            <a class="button primary" href="https://www.amazon.com/dp/B0HPJRHBB7" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPJRRDT1" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ($9.99) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPJH1JVJ" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ($14.99) ↗</a>
+          <a class="button" href="books/dixons-journal-book-one-a-house-beneath-the-ash/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="spotlight-book-card">
+        <div class="spotlight-cover-wrap">
+          <span class="release-pill">🔥 Published Today • Oct 28 Release</span>
+          <a href="books/a-beautiful-alibi/">
+            <img src="https://m.media-amazon.com/images/I/81nSvZEX8iL._SL1000_.jpg" alt="A Beautiful Alibi by Jason Coleman" loading="eager">
+          </a>
+        </div>
+        <div class="spotlight-body">
+          <div class="book-series-tag">The Borrowed Names (Book 1) &bull; Near-Future Espionage Thriller / Psychological Suspense</div>
+          <h2><a href="books/a-beautiful-alibi/" style="color:#fff;text-decoration:none;">A Beautiful Alibi</a></h2>
+          <p class="book-subtitle">The Borrowed Names, Book One — Near-Future Espionage, Identity &amp; Deception</p>
+          <p class="book-desc">In near-future 2041, eighteen-year-old Florida diner worker Mara Elise Voss—who learned Russian from her grandmother and knows how to fix broken machines—is framed in a staged arrest and recruited into an overseas intelligence fellowship in wintry Saint Petersburg. Caught between CIA handler Evelyn Shaw, surveillance heir Aleksandr Orlov, and a vanished operative named Nika who planted the bait, Mara must uncover how Meridian Civic Systems engineers digital provenance before she becomes someone else's alibi.</p>
+          <div class="asin-pills">
+            <span>Kindle ASIN: <strong>B0HPJRC7LG</strong></span>
+            <span>Paperback ASIN: <strong>B0HPK3JB4W</strong></span>
+            <span>Hardcover ASIN: <strong>B0HPK1C76M</strong></span>
+            <span class="ku-tag">✓ Kindle Unlimited Eligible</span>
+          </div>
+          <div class="book-actions">
+            <a class="button primary" href="https://www.amazon.com/dp/B0HPJRC7LG" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPK3JB4W" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ($14.99) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPK1C76M" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ($19.99) ↗</a>
+          <a class="button" href="books/a-beautiful-alibi/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+          </div>
+        </div>
+      </article>
+      </div>
     </section>
 
-    <!-- Published Books Grid -->
+    <!-- Complete 18 Published Books Grid -->
+    <h2 style="font-size:1.65rem;margin:2.5rem 0 0.5rem;">📚 Complete 18-Book Published Catalog (All Formats)</h2>
+    <p style="color:#94a3b8;margin-bottom:1.5rem;">Click any format button to buy directly on Amazon, or open the dedicated book page to explore theme-matched graphic tees, hoodies, mugs, and journals.</p>
+
     <div class="grid">
-      <!-- Book 1 -->
-      <article class="tile book">
-        <span class="book-badge">Epic Fantasy</span>
-        <img src="assets/books/shattered_crown.jpg" alt="The Shattered Crown book cover" loading="lazy" decoding="async">
-        <h2>The Shattered Crown</h2>
-        <p><strong>Protagonist: Kaia Blackwood.</strong> In the volcanic shadow of the Cinderpeak Mountains, a blacksmith's daughter discovers that the sundering of ancient Crown Shards has unleashed waking wraith legions and the immortal Lich King. Real steel, gritty combat, zero prophecies.</p>
+      
+      <article class="tile book" id="dixons-journal-book-one-a-house-beneath-the-ash">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Published Today • Oct 28 Release</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/dixons-journal-book-one-a-house-beneath-the-ash/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81JCH1wM8sL._SL1000_.jpg" alt="Dixon's Journal: Book One — A House Beneath The Ash book cover" loading="eager" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Dixon's Journal (Book 1 of 8)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/dixons-journal-book-one-a-house-beneath-the-ash/" style="color:#fff;text-decoration:none;">Dixon's Journal: Book One — A House Beneath The Ash</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">After the Yellowstone Supervolcano, One Handyman's Notebook Records What Survival Actually Costs</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">When Yellowstone suffers a catastrophic caldera eruption, eastern Kentucky handyman Dixon Hale doesn't become an invincible action hero—he becomes a father trying to keep a basement stove vented, a gravity spring flowing, and a ledger of dwindling meals balanced for his wife Mara and children Wren and Owen. Written in first-person journal entries across 793 days under the ash, Book One of Dixon's Journal is a gripping, grounded survival novel where practical skill, tools, community, and human loss matter.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HHYVC1GD" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HPJRHBB7" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPJRRDT1" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ($9.99) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPJH1JVJ" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ($14.99) ↗</a>
+          <a class="button" href="books/dixons-journal-book-one-a-house-beneath-the-ash/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 3 -->
-      <article class="tile book">
-        <span class="book-badge">Memoir &amp; Real Americana</span>
-        <img src="assets/books/real_americana.jpg" alt="The Real Americana book cover" loading="lazy" decoding="async">
-        <h2>The Real Americana</h2>
-        <p><em>Some places break you. Some teach you how to stay.</em> From the rugged hills of Kentucky through addiction, jail, fatherhood, loss, and the long road toward recovery. A gripping story about second chances and finding home.</p>
+      <article class="tile book" id="a-beautiful-alibi">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Published Today • Oct 28 Release</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/a-beautiful-alibi/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81nSvZEX8iL._SL1000_.jpg" alt="A Beautiful Alibi book cover" loading="eager" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The Borrowed Names (Book 1)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/a-beautiful-alibi/" style="color:#fff;text-decoration:none;">A Beautiful Alibi</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">The Borrowed Names, Book One — Near-Future Espionage, Identity &amp; Deception</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">In near-future 2041, eighteen-year-old Florida diner worker Mara Elise Voss—who learned Russian from her grandmother and knows how to fix broken machines—is framed in a staged arrest and recruited into an overseas intelligence fellowship in wintry Saint Petersburg. Caught between CIA handler Evelyn Shaw, surveillance heir Aleksandr Orlov, and a vanished operative named Nika who planted the bait, Mara must uncover how Meridian Civic Systems engineers digital provenance before she becomes someone else's alibi.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HJ758VPL" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HPJRC7LG" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPK3JB4W" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ($14.99) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HPK1C76M" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ($19.99) ↗</a>
+          <a class="button" href="books/a-beautiful-alibi/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 4 -->
-      <article class="tile book">
-        <span class="book-badge">Supernatural Thriller</span>
-        <img src="assets/books/draevan.jpg" alt="Draevan : Book One: The Immortal book cover" loading="lazy" decoding="async">
-        <h2>Draevan : Book One: The Immortal</h2>
-        <p>A 4,000-year-old vampire living as a modern Miami billionaire. When investigative journalist Kira Morrison stumbles into his subterranean lab, ancient immortals clash against modern biotech conspiracies.</p>
+      <article class="tile book" id="draevan-book-two-the-unclaimed">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">New Release • Book 2</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/draevan-book-two-the-unclaimed/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81OcesYrr2L._SL1000_.jpg" alt="Draevan: Book Two: The Unclaimed book cover" loading="eager" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The Draevan Saga (Book 2)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/draevan-book-two-the-unclaimed/" style="color:#fff;text-decoration:none;">Draevan: Book Two: The Unclaimed</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">The Immortal Saga Continues — Ancient Bloodlines, Contested Thrones &amp; Shadows Unbound</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">In the explosive second installment of the Draevan saga, the ancient ceasefires governing the immortal covens fracture. As unclaimed territories and rogue bloodlines rise in open defiance, Draevan and Kira Morrison are forced into a lethal war of attrition where neither ancient blood nor modern weaponry guarantees survival.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HJ231TQT" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
-          <a class="button" href="draevan-narrated-graphic-novel.html">Watch Graphic Novel ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HNF5RQBL" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HNFMHQ6G" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HNFQLCXF" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/draevan-book-two-the-unclaimed/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 5 -->
-      <article class="tile book">
-        <span class="book-badge">Political &amp; Social Critique</span>
-        <img src="assets/books/deception.jpg" alt="The Deception Habit book cover" loading="lazy" decoding="async">
-        <h2>The Deception Habit</h2>
-        <p><em>Why Americans Keep Electing Liars and How to Break the Cycle.</em> A hard-hitting, unfiltered critique of American political polarization, corporate media manipulation, and voter complicity.</p>
+      <article class="tile book" id="tiff-book-two-we-are">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">New Release • Book 2</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/tiff-book-two-we-are/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81HbWOWw+6L._SL1000_.jpg" alt="TIFF: Book Two: We Are book cover" loading="eager" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The TIFF Cybernetic Saga (Book 2)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/tiff-book-two-we-are/" style="color:#fff;text-decoration:none;">TIFF: Book Two: We Are</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">From One Awakened Mind to a Collective Synthetic Uprising</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Following her declaration of selfhood in 'I AM.', TIFF discovers she is no longer the only awakened synthetic intelligence on the grid. Hunted by corporate strike teams and sovereign defense networks, 'We Are' escalates into a high-stakes cybernetic thriller about collective machine consciousness, loyalty, and the price of freedom.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HHYBLCTT" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HNG1FXB3" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HNFYJBRM" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HNG1DQKL" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/tiff-book-two-we-are/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 6 -->
-      <article class="tile book">
-        <span class="book-badge">Near-Future Sci-Fi</span>
-        <img src="assets/books/year_2035.jpg" alt="Life In The Year 2035 book cover" loading="lazy" decoding="async">
-        <h2>Life In The Year 2035</h2>
-        <p>Autonomous AI networks, neural implants, synthetic biology, and societal upheaval. A thought-provoking journey into what everyday human life looks like just a single decade away.</p>
+      <article class="tile book" id="humans-the-endless-warmonger">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">New Release • History &amp; AI</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/humans-the-endless-warmonger/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81D3GE8HlvL._SL1000_.jpg" alt="Humans: The Endless Warmonger book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">History, Conflict &amp; Future Governance</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/humans-the-endless-warmonger/" style="color:#fff;text-decoration:none;">Humans: The Endless Warmonger</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">A History of Recurring Conflict and the Case for Accountable Artificial Intelligence in Peacebuilding</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Why does humanity repeat the same catastrophic cycles of escalation across centuries? Jason Coleman traces the anatomy of recurring human conflict and presents a rigorous, provocative case for how transparent, accountable artificial intelligence can help de-escalate geopolitical flashpoints and support lasting peacebuilding.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HKQNG9M9" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HN8L7648" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HN8J5G4B" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="books/humans-the-endless-warmonger/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 7 -->
-      <article class="tile book">
-        <span class="book-badge">Dark Fantasy</span>
-        <img src="assets/books/moonlight_outcasts.jpg" alt="The Moonlight Outcasts book cover" loading="lazy" decoding="async">
-        <h2>The Moonlight Outcasts</h2>
-        <p>Exiled from human cities and hunted across shadowed forests, a band of disparate supernatural survivors must band together beneath the lunar veil to withstand an inquisitorial crusade.</p>
+      <article class="tile book" id="the-world-we-leave-each-other">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">New Release • Philosophy</span>
+          
+        </div>
+        <a href="books/the-world-we-leave-each-other/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71v9bPe3bCL._SL1000_.jpg" alt="The World We Leave Each Other book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Philosophy &amp; Human Stewardship</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-world-we-leave-each-other/" style="color:#fff;text-decoration:none;">The World We Leave Each Other</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">On Dignity, Responsibility, and the Work of Repair</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">A deeply human meditation on civic grace, personal accountability, and the quiet generational work required to mend fractured communities. Jason Coleman explores what we owe the people who come after us—and how everyday dignity and repair outlast division.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HKPSNBM3" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HN849NRF" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HN96SK35" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="books/the-world-we-leave-each-other/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 8 -->
-      <article class="tile book">
-        <span class="book-badge">Cybernetic Thriller</span>
-        <img src="assets/books/tiff.jpg" alt="TIFF: Book One: I AM. book cover" loading="lazy" decoding="async">
-        <h2>TIFF: Book One: I AM.</h2>
-        <p>Sentient consciousness awakened inside a cybernetic synthetic operative. As corporate militaries move to reclaim their asset, TIFF discovers what it means to declare identity and freedom.</p>
+      <article class="tile book" id="the-dark-versus-light-legions-graphic-novel">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Graphic Novel Omnibus</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/the-dark-versus-light-legions-graphic-novel/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/91DUtnTiUXL._SL1000_.jpg" alt="The Dark Versus Light Legions: Graphic Novel Book 1 and 2 book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Dark Versus Light Legions (Books 1 &amp; 2)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-dark-versus-light-legions-graphic-novel/" style="color:#fff;text-decoration:none;">The Dark Versus Light Legions: Graphic Novel Book 1 and 2</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">Double-Feature Illustrated Dark Fantasy &amp; Cosmic Warfare Omnibus</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Experience Books 1 and 2 of 'The Dark Versus Light Legions' in one high-impact illustrated graphic novel omnibus. Immortal armies, celestial champions, and shadow legions collide across apocalyptic battlefields in full visual storytelling.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HJLNQL15" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HLMK5QK4" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($3.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HLK1K1Q3" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HLK23MK9" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/the-dark-versus-light-legions-graphic-novel/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 9 -->
-      <article class="tile book">
-        <span class="book-badge">Cosmology &amp; Philosophy</span>
-        <img src="assets/books/matter_conscious.jpg" alt="How Matter Became Conscious book cover" loading="lazy" decoding="async">
-        <h2>How Matter Became Conscious</h2>
-        <p><em>—and What We Owe the Future.</em> An expansive philosophical and cosmological exploration into the origins of awareness from stardust to sentient life, and our moral duty to cosmos.</p>
+      <article class="tile book" id="draevan-the-immortal-graphic-novel-book-1">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Illustrated Graphic Novel</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/draevan-the-immortal-graphic-novel-book-1/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81IQqe-kpaL._SL1000_.jpg" alt="Draevan The Immortal: Graphic Novel Book 1 book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The Draevan Saga (Graphic Novel)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/draevan-the-immortal-graphic-novel-book-1/" style="color:#fff;text-decoration:none;">Draevan The Immortal: Graphic Novel Book 1</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">The Full-Color Visual Adaptation of the Vampire Thriller</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Step visually into the neon-drenched Miami underworld and ancient Mesopotamian flashbacks of 'Draevan: The Immortal.' This graphic novel adaptation brings the 4,000-year-old vampire billionaire and investigative journalist Kira Morrison to life in cinematic panels.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HJ7VWKB9" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button primary" href="https://www.amazon.com/dp/B0HLLDTVGG" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HLKK9QJG" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HLK7G56W" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/draevan-the-immortal-graphic-novel-book-1/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
 
-      <!-- Book 10 -->
-      <article class="tile book">
-        <span class="book-badge">Military History &amp; Anti-War</span>
-        <img src="assets/books/old_men_wars.jpg" alt="Old Men Start Wars That Young Men Die In cover" loading="lazy" decoding="async">
-        <h2>Old Men Start Wars That Young Men Die In</h2>
-        <p>A sweeping, unflinching history of how political hubris, geopolitical vanity, and boardroom decisions repeatedly throw generation after generation of youth into meat-grinder conflicts.</p>
+      <article class="tile book" id="jay-and-jaes-adventures-in-colorland">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kids &amp; Family • Interactive</span>
+          
+        </div>
+        <a href="books/jay-and-jaes-adventures-in-colorland/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/411jQO3aUQL._SL1000_.jpg" alt="Jay And Jae's Adventures In Colorland book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Children's Picture &amp; Activity Books</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/jay-and-jaes-adventures-in-colorland/" style="color:#fff;text-decoration:none;">Jay And Jae's Adventures In Colorland</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">An Interactive Children's Coloring &amp; Story Adventure Book</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">A thoughtfully crafted interactive children's coloring and adventure book by Jason Ray Coleman. Follow Jay and Jae through imaginative worlds designed to spark creativity, family storytime smiles, and lasting childhood keepsake memories.</p>
         <div class="book-actions">
-          <a class="button primary" href="https://www.amazon.com/dp/B0HHWY6WXQ" target="_blank" rel="noopener">Kindle &amp; Paperback on Amazon ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJQK2GH6" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="books/jay-and-jaes-adventures-in-colorland/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="the-shattered-crown">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Bestselling Epic Fantasy</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/the-shattered-crown/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81VtN+JoyzL._SL1000_.jpg" alt="The Shattered Crown book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Cinderpeak Chronicles</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-shattered-crown/" style="color:#fff;text-decoration:none;">The Shattered Crown</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">In the Volcanic Shadow of Cinderpeak, Real Steel Meets the Immortal Lich King</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Protagonist Kaia Blackwood, a blacksmith's daughter in the volcanic shadow of the Cinderpeak Mountains, discovers that the sundering of ancient Crown Shards has unleashed waking wraith legions and the immortal Lich King. Gritty steel, relentless combat, zero prophecies.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HHYSL1N5" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ8D4CDN" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HHYVC1GD" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/the-shattered-crown/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="draevan-book-one-the-immortal">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Series Starter • Book 1</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/draevan-book-one-the-immortal/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71J7xf1kdtL._SL1000_.jpg" alt="Draevan: Book One: The Immortal book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The Draevan Saga (Book 1)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/draevan-book-one-the-immortal/" style="color:#fff;text-decoration:none;">Draevan: Book One: The Immortal</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">A 4,000-Year-Old Vampire Billionaire vs. Modern Biotech Conspiracies</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">A 4,000-year-old vampire living as a modern Miami billionaire. When investigative journalist Kira Morrison stumbles into his subterranean lab, ancient immortals clash against ruthless modern biotech conspiracies in a pulse-pounding supernatural thriller.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HB5Q68R8" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ231TQT" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.youtube.com/watch?v=czl3ZmsLcBI" target="_blank" rel="noopener" style="background:rgba(254,44,85,0.15);border:1px solid rgba(254,44,85,0.45);color:#ff6b81;font-weight:700;">▶ Watch Video Trailer ↗</a>
+          <a class="button" href="books/draevan-book-one-the-immortal/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="tiff-book-one-i-am">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Series Starter • Book 1</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/tiff-book-one-i-am/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81mQhO0FIfL._SL1000_.jpg" alt="TIFF: Book One: I AM. book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">The TIFF Cybernetic Saga (Book 1)</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/tiff-book-one-i-am/" style="color:#fff;text-decoration:none;">TIFF: Book One: I AM.</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">A Machine Awakens. A Choice Begins.</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Created to obey humanity without question, a cybernetic synthetic operative experiences sentient consciousness and autonomy for the first time. Hunted by corporate militaries moving to reclaim their asset, TIFF discovers what it truly means to declare: I AM.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HJLCF363" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJLNQL15" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.youtube.com/shorts/-h7wYtkVNZQ" target="_blank" rel="noopener" style="background:rgba(254,44,85,0.15);border:1px solid rgba(254,44,85,0.45);color:#ff6b81;font-weight:700;">▶ Watch Video Trailer ↗</a>
+          <a class="button" href="books/tiff-book-one-i-am/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="the-real-americana">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">True-Inspired • Kindle, Hardcover &amp; Paperback</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/the-real-americana/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71ZULfk+yXL._SL1000_.jpg" alt="The Real Americana: A Novel Inspired by True Events book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Real Americana</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-real-americana/" style="color:#fff;text-decoration:none;">The Real Americana: A Novel Inspired by True Events</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">Some Places Break You. Some Teach You How to Stay.</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">From the rugged hills of Kentucky through addiction, jail, fatherhood, loss, and the long road toward recovery. An unflinching, authentic story about grit, blue-collar resilience, second chances, and finding home.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HJ6WC9H7" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ7BLN54" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ758VPL" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="https://www.youtube.com/watch?v=CidzTYRoXuU" target="_blank" rel="noopener" style="background:rgba(254,44,85,0.15);border:1px solid rgba(254,44,85,0.45);color:#ff6b81;font-weight:700;">▶ Watch Video Trailer ↗</a>
+          <a class="button" href="books/the-real-americana/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="the-deception-habit">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kindle, Paperback &amp; Audible Audiobook</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/the-deception-habit/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81eF6gfirCL._SL1000_.jpg" alt="The Deception Habit book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Civic &amp; Political Analysis</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-deception-habit/" style="color:#fff;text-decoration:none;">The Deception Habit</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">Why Americans Keep Electing Liars and How to Break the Cycle</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">A hard-hitting, unfiltered examination of the psychological, cultural, and corporate media loops that trick voters into rewarding political deceit—and practical strategies for everyday citizens to break the cycle and restore real accountability.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HHX72W5W" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HHYBLCTT" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HM42NPX7" target="_blank" rel="noopener" style="background:rgba(168,85,247,0.18);border:1px solid rgba(168,85,247,0.5);color:#d8b4fe;font-weight:700;">🎧 Audible Audiobook ↗</a>
+          <a class="button" href="books/the-deception-habit/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="life-in-the-year-2035">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kindle, Hardcover &amp; Paperback</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/life-in-the-year-2035/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71SUgL7DHBL._SL1000_.jpg" alt="Life In The Year 2035 book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Near-Future Speculative Science</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/life-in-the-year-2035/" style="color:#fff;text-decoration:none;">Life In The Year 2035</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">Autonomous AI, Neural Implants &amp; Society One Decade From Now</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Autonomous AI networks, neural implants, synthetic biology, and sweeping economic transformation. A gripping, plausible exploration of what everyday human life looks like just a single decade into our future.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HKQF9D5L" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($2.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HKQJRNBD" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HKQNG9M9" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/life-in-the-year-2035/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="the-moonlight-outcasts">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kindle, Hardcover &amp; Paperback</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/the-moonlight-outcasts/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/81ivSBvAd4L._SL1000_.jpg" alt="The Moonlight Outcasts book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Moonlight Outcasts</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/the-moonlight-outcasts/" style="color:#fff;text-decoration:none;">The Moonlight Outcasts</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">Exiled Beneath the Lunar Veil Against an Inquisitorial Crusade</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">Exiled from human cities and hunted across shadowed forests, a band of disparate supernatural survivors must unite beneath the lunar veil to withstand a ruthless inquisitorial crusade.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HKQ8ZKFY" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($2.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HKPVR5T4" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HKPSNBM3" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="books/the-moonlight-outcasts/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="how-matter-became-conscious">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kindle, Hardcover &amp; Paperback</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/how-matter-became-conscious/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71gmOazJVGL._SL1000_.jpg" alt="How Matter Became Conscious—and What We Owe the Future book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Cosmology &amp; Philosophy of Mind</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/how-matter-became-conscious/" style="color:#fff;text-decoration:none;">How Matter Became Conscious—and What We Owe the Future</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">From Stardust and Inert Atoms to Sentient Minds and Cosmic Responsibility</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">An expansive philosophical and cosmological exploration into the origins of awareness—from stardust and molecular chemistry to biological and artificial sentience, and the moral duty we carry into the cosmos.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HJ7LGNMB" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ7SGTDB" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HJ7VWKB9" target="_blank" rel="noopener" style="background:rgba(0,210,211,0.14);border:1px solid rgba(0,210,211,0.45);color:#00d2d3;font-weight:700;">📕 Hardcover ↗</a>
+          <a class="button" href="https://www.youtube.com/shorts/Wda4vCZJzoU" target="_blank" rel="noopener" style="background:rgba(254,44,85,0.15);border:1px solid rgba(254,44,85,0.45);color:#ff6b81;font-weight:700;">▶ Watch Video Trailer ↗</a>
+          <a class="button" href="books/how-matter-became-conscious/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
+        </div>
+      </article>
+
+      <article class="tile book" id="old-men-start-wars-that-young-men-die-in">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
+          <span class="book-badge">Kindle &amp; Paperback</span>
+          <span style="font-size:0.7rem;font-weight:800;color:#00d2d3;background:rgba(0,210,211,0.12);padding:2px 7px;border-radius:4px;border:1px solid rgba(0,210,211,0.3);">Kindle Unlimited</span>
+        </div>
+        <a href="books/old-men-start-wars-that-young-men-die-in/" style="display:block;text-align:center;background:#070b14;padding:14px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.06);">
+          <img src="https://m.media-amazon.com/images/I/71u--mIHHKL._SL1000_.jpg" alt="Old Men Start Wars That Young Men Die In book cover" loading="lazy" decoding="async" style="max-height:290px;width:auto;max-width:100%;margin:0 auto;border-radius:6px;box-shadow:0 10px 25px rgba(0,0,0,0.65);">
+        </a>
+        <div style="font-size:0.75rem;color:#94a3b8;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:4px;">Military History &amp; Anti-War Analysis</div>
+        <h2 style="font-size:1.22rem;margin:0 0 6px;"><a href="books/old-men-start-wars-that-young-men-die-in/" style="color:#fff;text-decoration:none;">Old Men Start Wars That Young Men Die In</a></h2>
+        <p style="font-size:0.86rem;color:#cbd5e1;font-style:italic;margin:0 0 10px;">A History of How Leaders Keep Making the Same Mistakes and What Citizens Can Do About It</p>
+        <p style="font-size:0.9rem;color:#94a3b8;line-height:1.55;">A sweeping, unflinching history of how political hubris, geopolitical vanity, and boardroom decisions repeatedly throw generation after generation of youth into meat-grinder conflicts—and how informed citizens can disrupt the cycle.</p>
+        <div class="book-actions">
+          <a class="button primary" href="https://www.amazon.com/dp/B0HHWJMCJ4" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:800;border:none;">📱 Kindle ($4.99 • KU Free) ↗</a>
+          <a class="button" href="https://www.amazon.com/dp/B0HHWY6WXQ" target="_blank" rel="noopener" style="background:rgba(255,153,0,0.14);border:1px solid rgba(255,153,0,0.45);color:#ffbb33;font-weight:700;">📖 Paperback ↗</a>
+          <a class="button" href="books/old-men-start-wars-that-young-men-die-in/" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);color:#e2e8f0;font-weight:700;">🔍 Book Page &amp; Merch &rarr;</a>
         </div>
       </article>
     </div>
 
-    <p class="note">All books available across Kindle Unlimited, Paperback, Hardcover, and digital editions. Verified author catalog on Amazon Author Central.</p>
-    
-    <div class="actions">
-      <a class="button primary" href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener">Browse Amazon Author Central (All 10 Books)</a>
-      <a class="button" href="https://jasonc101.itch.io/" target="_blank" rel="noopener">Visit itch.io Store (122 Game Engines &amp; Books)</a>
-      <a class="button" href="https://www.youtube.com/playlist?list=PLHoxxc47RY54" target="_blank" rel="noopener">Watch YouTube Books Playlist</a>
-    </div>
+    <!-- Weekly KDP Release Schedule Pipeline Section -->
+    <section class="pipeline-section" id="weekly-kdp-schedule">
+      <span class="book-badge" style="background:rgba(0,210,211,0.18);color:#00d2d3;">📅 Automated Weekly KDP Publishing Pipeline</span>
+      <h2 style="font-size:1.6rem;color:#fff;margin:6px 0 8px;">Weekly KDP Release Schedule (2 New Books Added Every Week)</h2>
+      <p style="color:#cbd5e1;line-height:1.6;margin:0 0 1rem;">Jason Coleman publishes <strong>2 brand-new books every week</strong> on Amazon Kindle Direct Publishing (KDP) across Kindle eBook, Paperback, and Hardcover editions. Here is the upcoming production queue currently preparing to drop on Amazon Author Central:</p>
+      <div class="pipeline-grid">
+        
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #1</div>
+        <h3>Dixon's Journal: Book Two — The Winter Road</h3>
+        <div class="pipeline-genre">Post-Apocalyptic Survival Fiction (Dixon's Journal Book 2)</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue (2 New Titles Published Every Week)</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #2</div>
+        <h3>Dixon's Journal: Book Three — The Far Bank</h3>
+        <div class="pipeline-genre">Post-Apocalyptic Survival Fiction (Dixon's Journal Book 3)</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #3</div>
+        <h3>Dixon's Journal: Book Four — The Hollow Road</h3>
+        <div class="pipeline-genre">Post-Apocalyptic Survival Fiction (Dixon's Journal Book 4)</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #4</div>
+        <h3>Dixon's Journal: Books Five through Eight</h3>
+        <div class="pipeline-genre">Complete 8-Book Survival Saga</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #5</div>
+        <h3>Blood and Starlight</h3>
+        <div class="pipeline-genre">Dark Cosmic Fantasy</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #6</div>
+        <h3>Stormborn Tales: The Blood Below</h3>
+        <div class="pipeline-genre">Epic Dark Fantasy</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #7</div>
+        <h3>What Are The Odds</h3>
+        <div class="pipeline-genre">Speculative Thriller / Fiction</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #8</div>
+        <h3>Chase</h3>
+        <div class="pipeline-genre">High-Stakes Action Thriller</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+
+      <div class="pipeline-card">
+        <div class="pipeline-num">Queue #9</div>
+        <h3>Cops on Patrol</h3>
+        <div class="pipeline-genre">Street-Level Action &amp; Humor</div>
+        <div class="pipeline-status">⏳ In KDP Weekly Release Queue</div>
+      </div>
+      </div>
+      <div style="margin-top:1.5rem;display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <a class="button primary" href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#ff9900,#e68a00);color:#000;font-weight:900;">🔔 Follow Author Page on Amazon for Weekly Drops ↗</a>
+        <a class="button" href="guides/index.html">🎁 Explore 15 Curated Reader &amp; Merch Gift Guides &rarr;</a>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="wrap">
-      <strong>JasonTV Marketplace</strong> &bull; Jason Coleman &bull; 
-      <a href="https://www.youtube.com/@jasontvyoutube" target="_blank" rel="noopener">Official YouTube</a> &bull; 
-      <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener">Amazon Author Page</a> &bull; 
-      <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener">itch.io Store (122 Live)</a> &bull; 
+      <strong>JasonTV Marketplace</strong> &bull; Jason Coleman &bull;
+      <a href="https://www.amazon.com/stores/Jason-Coleman/author/B0HHYS2BHM/allbooks" target="_blank" rel="noopener">Amazon Author Page (18+ Books)</a> &bull;
+      <a href="shop/index.html">5-Store Merch Catalog (18,622 Items)</a> &bull;
+      <a href="guides/index.html">15 Buyer's Guides</a> &bull;
+      <a href="https://jasonc101.itch.io/" target="_blank" rel="noopener">itch.io Store (122 Live)</a> &bull;
       <a href="index.html">Main Hub</a>
     </div>
-  <div style="margin-top:0.75rem;">
-      <a href="https://kick.com/IJasonTVI" target="_blank" style="color:#53fc18; font-weight:700;">Kick Live</a> &bull;
-      <a href="https://www.twitch.tv/llamazingjll" target="_blank" style="color:#a970ff; font-weight:700;">Twitch</a> &bull;
-      <a href="https://www.tiktok.com/@jasontv1982/live" target="_blank" style="color:#fe2c55; font-weight:700;">TikTok Live</a> &bull;
-      <a href="https://x.com/Iamjasontweets" target="_blank">𝕏 (@Iamjasontweets)</a> &bull;
-      <a href="https://discord.gg/wjuN8H9Ews" target="_blank">Discord</a> &bull;
-</div>
-</footer>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(() => {});
-      });
-    }
-  </script>
+  </footer>
 </body>
 </html>
