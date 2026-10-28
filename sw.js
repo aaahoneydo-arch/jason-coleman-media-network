@@ -1,5 +1,5 @@
 // JasonTV Marketplace Service Worker v5 (Real Itch.io Listings & Direct Deep-Links)
-const CACHE_NAME = 'jasontv-storefront-v5';
+const CACHE_NAME = 'jasontv-storefront-v6';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -20,7 +20,7 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
   // Skip external analytics and shop checkout domains
-  if (url.hostname.includes('google-analytics') || url.hostname.includes('gumroad.com') || url.hostname.includes('itch.io') || url.hostname.includes('fourthwall.com') || url.hostname.includes('myspreadshop.com')) {
+  if (url.hostname.includes('google-analytics') || url.hostname.includes('gumroad.com') || url.hostname.includes('itch.io') || url.hostname.includes('myspreadshop.com') || url.hostname.includes('printify.me') || url.hostname.includes('zazzle.com') || url.hostname.includes('redbubble.com') || url.hostname.includes('teepublic.com')) {
     return;
   }
 
