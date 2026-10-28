@@ -1,5 +1,5 @@
-// JasonTV Marketplace Service Worker v5 (Real Itch.io Listings & Direct Deep-Links)
-const CACHE_NAME = 'jasontv-storefront-v6';
+// JasonTV Marketplace Service Worker v8 (Network-First Live Storefront & Catalog Sync)
+const CACHE_NAME = 'jasontv-storefront-v8';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -24,8 +24,14 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Network-first for ALL HTML pages so updates are live immediately
-  if (e.request.headers.get('accept')?.includes('text/html') || url.pathname.endsWith('.html') || url.pathname === '/') {
+  // Network-first for ALL HTML, JSON catalogs, and JS files so price/inventory updates are live immediately
+  if (
+    e.request.headers.get('accept')?.includes('text/html') ||
+    url.pathname.endsWith('.html') ||
+    url.pathname.endsWith('.json') ||
+    url.pathname.endsWith('.js') ||
+    url.pathname === '/'
+  ) {
     e.respondWith(
       fetch(e.request)
         .then((networkResponse) => {
@@ -40,7 +46,7 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Stale-while-revalidate for assets
+  // Stale-while-revalidate for static image/font assets
   e.respondWith(
     caches.match(e.request).then((cachedResponse) => {
       const fetchPromise = fetch(e.request).then((networkResponse) => {
