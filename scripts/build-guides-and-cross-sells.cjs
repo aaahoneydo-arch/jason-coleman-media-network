@@ -940,7 +940,9 @@ ${xmlItems.join('\n')}
 function main() {
   generateGuidesPages();
   updateShopIndexHtml();
-  updateAllPdps();
+  if (process.argv.includes('--all-pdps')) {
+    updateAllPdps();
+  }
   updateContentArticles();
   updateSitemapsAndFeeds();
 }

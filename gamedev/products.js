@@ -1,12 +1,12 @@
 // JasonTV Marketplace Master Products Catalog (Combined)
-// Total Items: 946
+// Total Items: 945
 const PRODUCTS = [
     {
         "id": "ancient-nordic-glaciers-tundra-flora-mountain-biome-4k-texture-vault",
         "title": "Ancient Nordic Glaciers, Tundra Flora & Mountain Biome 4K Texture Vault",
         "subtitle": "Sub-zero glacial blue ice, weathered oak bark, snow-crusted stone, and alpine flora textures for mountain biomes.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -33,7 +33,7 @@ const PRODUCTS = [
         "title": "Eldritch Spell Sigils, Runic Circles & Arcane Decals Vector Asset Pack",
         "subtitle": "Geometric summoning pentagrams, arcane warding runes, and vector decal graphics for magic casting VFX.",
         "category": "art",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -60,7 +60,7 @@ const PRODUCTS = [
         "title": "Armored Warmachines, Mecha Exosuits & Heavy Ordnance Concept Art Vault",
         "subtitle": "Walking bipedal tanks, heavy siege cannons, weaponized exosuits, and hard-surface industrial sci-fi concept art.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -87,7 +87,7 @@ const PRODUCTS = [
         "title": "High-Fantasy Medieval Strongholds & Marketplace Environment 4K Pack",
         "subtitle": "Fortress keeps, bustling trade bazaars, timber taverns, and high-resolution environmental concept art for medieval fantasy worlds.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -114,7 +114,7 @@ const PRODUCTS = [
         "title": "Alchemical Elixirs, Toxic Phials & Arcane Ingredients 4K Icon Vault",
         "subtitle": "Crystal potion bottles, toxic venoms, alchemical ingredients, and transparent alpha-masked icons for crafting systems.",
         "category": "art",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -141,7 +141,7 @@ const PRODUCTS = [
         "title": "Deep Space Nebulae & Alien Planetary Skyboxes 4K Panoramic Pack",
         "subtitle": "High-dynamic-range panoramic cosmic vistas, stellar starfields, radiant nebulae, and alien gas giant horizons.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -168,7 +168,7 @@ const PRODUCTS = [
         "title": "Sci-Fi Cyberpunk Megacity & Neon Spire Overlooks 4K Concept Art Vault",
         "subtitle": "Holographic billboards, rain-slick alleys, neon spires, and expansive matte paintings for futuristic sci-fi game environments.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -195,7 +195,7 @@ const PRODUCTS = [
         "title": "Ancient Relics, Marrow Rings & Enchanted Talismans 4K RPG Icon Pack",
         "subtitle": "Glowing amulets, marrow rings, iron loot chests, and high-definition square item icons for fantasy RPG inventories.",
         "category": "art",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -222,7 +222,7 @@ const PRODUCTS = [
         "title": "Cosmic Horrors, Abyssal Fiends & Swamp Beasts VTT Monster Token Vault",
         "subtitle": "Arch-liches, abyssal colossi, swamp horrors, and pre-bordered circular VTT monster tokens for Roll20, Foundry, and fantasy RPGs.",
         "category": "art",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -249,7 +249,7 @@ const PRODUCTS = [
         "title": "Dark Gothic Crypts, Catacombs & Dungeon Ruins 4K Texture Vault",
         "subtitle": "Aged ivory bone, stone sarcophagi, gothic cobblestones, and weathered ruin textures for PBR fantasy dungeons.",
         "category": "art",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -276,7 +276,7 @@ const PRODUCTS = [
         "title": "Chiptune 8-Bit Synth & Sound Effect Generator Studio CLI",
         "subtitle": "Procedural retro audio synthesizer generating square, triangle, and noise waveforms for laser, coin, explosion, and jump SFX.",
         "category": "tool",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -303,7 +303,7 @@ const PRODUCTS = [
         "title": "Level Design Heatmap & Player Movement Analytics Logger CLI",
         "subtitle": "Ingests coordinate telemetry logs, performs 2D Gaussian kernel density estimation, and renders high-res PNG map overlays.",
         "category": "tool",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -330,7 +330,7 @@ const PRODUCTS = [
         "title": "Game Localization & Multi-Language String Translation Manager CLI",
         "subtitle": "Missing translation key linter, string formatting argument validator, and bi-directional PO/CSV/JSON converter.",
         "category": "tool",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -357,7 +357,7 @@ const PRODUCTS = [
         "title": "Tilemap Rule-Tile Matrix & Collision Boundary Exporter CLI",
         "subtitle": "16 and 47-neighborhood bitmask auto-tile matrices, polygon vector boundary tracing, and multi-engine JSON atlas exporter.",
         "category": "tool",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -384,7 +384,7 @@ const PRODUCTS = [
         "title": "Shorts & Reel Automation: Video Subtitle & Beat Sync CLI",
         "subtitle": "BPM audio sync, kinetic word chunking, ASS style subtitle renderer, and automated 9:16 vertical video layout CLI.",
         "category": "tool",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -411,7 +411,7 @@ const PRODUCTS = [
         "title": "Pixel Art Upscaler & Palette Quantizer Tool CLI",
         "subtitle": "Nearest-neighbor integer scaling, edge-preserving upscaling, and retro palette color reduction CLI.",
         "category": "tool",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -438,7 +438,7 @@ const PRODUCTS = [
         "title": "Procedural Fantasy Name, Lore & Item Description Generator CLI",
         "subtitle": "Markov chain & grammar expansion generator for RPG weapons, locations, factions, and backstory.",
         "category": "tool",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -465,7 +465,7 @@ const PRODUCTS = [
         "title": "Game Audio Batch Master: Normalizer, Looper & Wav Converter CLI",
         "subtitle": "Peak & RMS Audio Normalization, zero-crossing loop point finder, and metadata tagging CLI.",
         "category": "tool",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -492,7 +492,7 @@ const PRODUCTS = [
         "title": "VTT Token Forge: Circular Bevel Border & Mask Generator CLI",
         "subtitle": "Automated virtual tabletop circular token generator with metallic borders and alpha masking for Foundry & Roll20.",
         "category": "tool",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -519,7 +519,7 @@ const PRODUCTS = [
         "title": "SpriteSheet Pro: Automated Slicer, Packer & JSON Exporter CLI",
         "subtitle": "Automated sprite slicing, MaxRects bin packing, extrude padding, and multi-format JSON atlas exporter.",
         "category": "tool",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -546,7 +546,7 @@ const PRODUCTS = [
         "title": "Godot 4 Procedural Cave & Cellular Automata Map Builder",
         "subtitle": "Cellular automata, flood-fill connectivity validation, island pruning, and TileMapLayer exporter for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -574,7 +574,7 @@ const PRODUCTS = [
         "title": "Godot 4 3D Bullet Hell & Object Pooler Particle Engine",
         "subtitle": "5,000+ concurrent projectiles, zero garbage collection allocation, spiral emitters, and sweep collision for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -602,7 +602,7 @@ const PRODUCTS = [
         "title": "Godot 4 Pro UI Theme & Responsive HUD Component Library",
         "subtitle": "Glassmorphic theme, styled buttons, radial health bars, modal dialogs, and 4K responsive scaling for Godot 4.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -630,7 +630,7 @@ const PRODUCTS = [
         "title": "Godot 4 Top-Down Space Sim & Newtonian Flight Controller",
         "subtitle": "RigidBody2D physics, inertia dampening, vector RCS thrusters, and orbital mechanics for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -658,7 +658,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Weather, Rain & Storm Particle VFX Pack",
         "subtitle": "GPU-accelerated rain, snow, lightning flashes, wind turbulence, and mist particles for Godot 4.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -686,7 +686,7 @@ const PRODUCTS = [
         "title": "Godot 4 Behavior Tree & Smart NPC AI Blackboard System",
         "subtitle": "Selectors, sequences, decorators, and centralized blackboard memory for intelligent NPCs in Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -714,7 +714,7 @@ const PRODUCTS = [
         "title": "Godot 4 Roguelike Deckbuilder & Hand Management Engine",
         "subtitle": "Slay the Spire style draw/discard pile mechanics, curved hand fan layout, and energy system for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -742,7 +742,7 @@ const PRODUCTS = [
         "title": "Godot 4 Infinite 2D Parallax World & Auto-Tile Generator",
         "subtitle": "Seamless multi-layer Parallax2D scrolling, procedural chunk streaming, and auto-tiling for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -770,7 +770,7 @@ const PRODUCTS = [
         "title": "Godot 4 Turn-Based Tactical Hex Grid Combat System",
         "subtitle": "Axial coordinate math, Dijkstra AP pathfinding, turn queue initiative, and hex highlights for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -798,7 +798,7 @@ const PRODUCTS = [
         "title": "Godot 4 3D Platformer & Fluid Character Controller Kit",
         "subtitle": "Kinematic 3D platformer with coyote time, jump buffering, variable gravity, and camera spring arm for Godot 4.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -826,7 +826,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Modular Weapon Customization & Ballistics",
         "subtitle": "Tarkov-grade modular firearm attachment sockets, realistic gravity/drag ballistics simulation, and procedural spring recoil for Unreal Engine 5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -854,7 +854,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Branching Quest & Objective State Graph",
         "subtitle": "Production node-based quest state machine, objective prerequisites, timeline triggers, and save-state persistence for Unreal Engine 5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -882,7 +882,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Celestial Day-Night & Dynamic Weather System",
         "subtitle": "Physically grounded astronomical solar/lunar ephemeris, volumetric cloud states, and dynamic rain wetness shaders for Unreal Engine 5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -910,7 +910,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Procedural Foliage & Biome Scatter Tool",
         "subtitle": "High-performance Poisson disc & Simplex noise procedural foliage spawner and Hierarchical Instanced Static Mesh (HISM) optimizer for Unreal Engine 5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -938,7 +938,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Pro Locomotion & Parkour Vaulting Controller",
         "subtitle": "Production AAA fluid kinematic locomotion, procedural obstacle trace detection, hurdle vaulting, and ledge mantle system for Unreal Engine 5.3, 5.4, and 5.5.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -966,7 +966,7 @@ const PRODUCTS = [
         "title": "Unity Pro Encrypted JSON Save System & State Serializer",
         "subtitle": "Production-ready AES-256 encrypted persistence pipeline, SHA-256 anti-tamper checksums, and atomic file backup safety for Unity 2022/2023/6.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -994,7 +994,7 @@ const PRODUCTS = [
         "title": "Unity Pro Adaptive Audio Manager & Music Stems Engine",
         "subtitle": "Production-ready dynamic audio manager with crossfading vertical music stems, 3D audio pooling, volume mixers, and procedural pitch modulation for Unity 2022/2023/6.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -1022,7 +1022,7 @@ const PRODUCTS = [
         "title": "Unity Pro 2D Top-Down Shooter & Weapon System",
         "subtitle": "Production-ready 2D top-down action controller, dual-stick aim, modular projectile & hitscan weapon architecture, bullet recoil, and dash roll for Unity 2022/2023/6.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -1050,7 +1050,7 @@ const PRODUCTS = [
         "title": "Unity Pro Inventory & Dynamic Loot Grid System",
         "subtitle": "Diablo and Tarkov-style multi-cell rotatable inventory grid, stackable items, rarity tier matrices, and dynamic loot drop tables for Unity 2022/2023/6.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -1078,7 +1078,7 @@ const PRODUCTS = [
         "title": "Unity Pro A* Pathfinding & Grid NavMesh Engine",
         "subtitle": "High-performance C# A* pathfinding, grid navigation, smooth waypoint steering, and dynamic obstacle carving for Unity 2022/2023/6.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -1106,7 +1106,7 @@ const PRODUCTS = [
         "title": "2D Dynamic FOV & Symmetric Recursive Shadowcasting Engine",
         "subtitle": "Pure-Python 2D field-of-view & symmetric recursive shadowcasting with precise visibility polygons and multi-source lightmaps. 217 tests passing.",
         "category": "engine",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -1134,7 +1134,7 @@ const PRODUCTS = [
         "title": "Deterministic Rollback Netcode & Frame Resimulation Engine",
         "subtitle": "Headless GGPO-style rollback netcode in pure Python 3.10+ stdlib. 351 automated tests passing.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -1162,7 +1162,7 @@ const PRODUCTS = [
         "title": "Autonomous Steering Behaviors & Boids Swarm Simulation Engine",
         "subtitle": "Headless 2D steering-behaviors & boids flocking swarm simulation engine in pure Python. 276 tests passing.",
         "category": "engine",
-        "price": 29.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -1189,7 +1189,7 @@ const PRODUCTS = [
         "title": "CardSim: Headless Combat & Monte Carlo Balancing Engine",
         "subtitle": "Simulate 10,000 deckbuilder battles in 70ms: win-rate distributions, synergy matrix & TTK curves in TypeScript.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -1216,7 +1216,7 @@ const PRODUCTS = [
         "title": "Automated Video Montage & Shorts Production Pipeline CLI",
         "subtitle": "Multi-track NLE video timeline, auto audio mixing, B-roll splicing & batch 9:16 Shorts/Reels rendering.",
         "category": "tool",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -1244,7 +1244,7 @@ const PRODUCTS = [
         "title": "Godot 4 Modular Castle & Fortress Builder Addon",
         "subtitle": "Procedural stone walls, bastion towers, crenelated battlements, gatehouses & terrain snapping.",
         "category": "engine",
-        "price": 19.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -1272,7 +1272,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Sky, Minimap & Living World Framework",
         "subtitle": "24h celestial day/night cycle, circular radar minimap with blips, interactive atlas & living biome ambience.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -1300,7 +1300,7 @@ const PRODUCTS = [
         "title": "Godot 4 Quest Journal & Dynamic Event Matrix",
         "subtitle": "Branching quest objectives, world event triggers, danger population scaling & field journal UI.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -1328,7 +1328,7 @@ const PRODUCTS = [
         "title": "Godot 4 Companion Pet AI & Summoning System",
         "subtitle": "Autonomous following companion AI, 4 tactical combat stances, familiar abilities & summon bar HUD.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -1356,7 +1356,7 @@ const PRODUCTS = [
         "title": "RTS Economy, Tech Tree & Building Production Matrix",
         "subtitle": "Worker resource gathering, 4-tier technology prerequisite trees, building queues & camp logistics.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -1384,7 +1384,7 @@ const PRODUCTS = [
         "title": "Godot 4 Horde Survivors Auto-Shooter Architecture",
         "subtitle": "Complete Vampire Survivors / Brotato template with auto-weapons, enemy wave spawner & upgrade UI.",
         "category": "engine",
-        "price": 19.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -1412,7 +1412,7 @@ const PRODUCTS = [
         "title": "Turn-Based 4X Hex Territory & Diplomacy Engine",
         "subtitle": "Axial/cube hex grid math, territory influence borders, bilateral diplomatic treaties & fog of war.",
         "category": "engine",
-        "price": 24.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -1440,7 +1440,7 @@ const PRODUCTS = [
         "title": "RTS Tactical Multi-Unit Formations & Fluid Pathfinding System",
         "subtitle": "5 dynamic squad formations, Reynolds steering behaviors, spatial hash avoidance & group movement.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -1468,7 +1468,7 @@ const PRODUCTS = [
         "title": "Godot 4 RPG Progression & Skill Tree Matrix Architecture",
         "subtitle": "Branching talent trees, attribute scaling, XP curves & hero progression system for Godot 4 RPGs.",
         "category": "engine",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -1496,7 +1496,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Pro Action Camera & SpringArm System",
         "subtitle": "Dynamic Speed FOV, shoulder swap, camera trauma shake (Trauma^2) & target lock-on for UE5 action games.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 11,
         "badges": [
@@ -1524,7 +1524,7 @@ const PRODUCTS = [
         "title": "Unity Pro Procedural 2D & 3D Dungeon Delve Generator Architecture",
         "subtitle": "Deterministic BSP rooms & Cellular Automata cave generator for Unity with 2D tilemap & 3D prefab spawners.",
         "category": "engine",
-        "price": 29.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -1552,7 +1552,7 @@ const PRODUCTS = [
         "title": "Unreal Engine 5 Python Editor Automation Suite (15+ Pro Tools)",
         "subtitle": "15+ production Python automation tools for Unreal Engine 5 to automate LODs, naming, material instances & cleanup.",
         "category": "tool",
-        "price": 24.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -1580,7 +1580,7 @@ const PRODUCTS = [
         "title": "Unity Pro Hierarchical State Machine & AI Decision Architecture (HFSM)",
         "subtitle": "Zero-GC Hierarchical State Machine & AI decision framework for Unity with custom inspector, player & boss AI controllers.",
         "category": "engine",
-        "price": 29.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -1608,7 +1608,7 @@ const PRODUCTS = [
         "title": "Procedural Retro & Sci-Fi Game Audio Synthesizer Engine",
         "subtitle": "Headless procedural audio synthesis engine in pure Python stdlib with PolyBLEP, ADSR, filters, effects & 194 tests.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 8,
         "badges": [
@@ -1636,7 +1636,7 @@ const PRODUCTS = [
         "title": "Dialogue & Quest Narrative Engine",
         "subtitle": "Branching dialogue graph, state variable management & multi-stage quest engine in pure Python stdlib. 181 unit tests.",
         "category": "engine",
-        "price": 34.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 11,
         "badges": [
@@ -1664,7 +1664,7 @@ const PRODUCTS = [
         "title": "2D Rigid-Body Physics & Collision Engine",
         "subtitle": "Headless, deterministic 2D rigid-body physics simulation engine in pure Python stdlib with SAT, GJK & 207 tests.",
         "category": "engine",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -1692,7 +1692,7 @@ const PRODUCTS = [
         "title": "Procedural Dungeon Engine: Roguelike Map Generator",
         "subtitle": "Production Python Roguelike generator with 4 generation algorithms, MST pathfinding & 111 unit tests.",
         "category": "engine",
-        "price": 44.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -1716,7 +1716,7 @@ const PRODUCTS = [
         "title": "So It's War Then: 4-Faction RTS & Grand Strategy Engine",
         "subtitle": "Complete production-grade real-time strategy & empire warfare engine with 4 distinct factions.",
         "category": "engine",
-        "price": 49.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -1739,7 +1739,7 @@ const PRODUCTS = [
         "title": "Necros: Godot 4 Dark Fantasy Turn-Based RPG & Combat Framework",
         "subtitle": "Turn-based tactical combat framework for Godot 4 with necromancy abilities and grid pathfinding.",
         "category": "godot",
-        "price": 39.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -1760,14 +1760,14 @@ const PRODUCTS = [
     {
         "id": "i-got-this",
         "title": "I Got This: Godot 4 Open-World 3D Survival & Building Framework",
-        "subtitle": "67.1 km\u00c2\u00b2 deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
+        "subtitle": "67.1 kmÂ² deterministic terrain streaming engine, 13-piece modular building system & resource gathering.",
         "category": "godot",
-        "price": 39.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
             "Godot 4",
-            "67km\u00c2\u00b2 Terrain",
+            "67kmÂ² Terrain",
             "Base Building"
         ],
         "cover": "assets/covers/igotthis.jpg",
@@ -1785,7 +1785,7 @@ const PRODUCTS = [
         "title": "Tactical Grid Combat Engine: Turn-Based Strategy Framework",
         "subtitle": "127 automated unit tests passing in 0.14s. A* pathfinding, line-of-sight & overwatch reaction fire.",
         "category": "engine",
-        "price": 39.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -1808,7 +1808,7 @@ const PRODUCTS = [
         "title": "MechZilla: Tactical Turn-Based Mech Combat & Commander Framework",
         "subtitle": "Heavy tactical mech warfare framework for Godot 4 with component damage & heat management.",
         "category": "godot",
-        "price": 39.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -1831,7 +1831,7 @@ const PRODUCTS = [
         "title": "Soldiers' Last Stand: Modular Squad & Horde Survival Engine",
         "subtitle": "Scalable squad combat & swarm AI engine designed for last-stand, horde survival, and tower defense games.",
         "category": "engine",
-        "price": 34.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -1854,7 +1854,7 @@ const PRODUCTS = [
         "title": "Cyberpunk Warlords: Grand Strategy & Auto-Battle RPG Engine",
         "subtitle": "22/22 Pytest verified. Fog-of-war overworld, faction diplomacy, town sieges & auto-battle arenas.",
         "category": "engine",
-        "price": 34.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -1877,7 +1877,7 @@ const PRODUCTS = [
         "title": "CardSim: Headless Card Battler & Monte Carlo Balancing Engine",
         "subtitle": "Automate card game balance with high-speed headless simulations & win-rate analytics.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -1900,7 +1900,7 @@ const PRODUCTS = [
         "title": "HexTactics: Headless Grid, A* Pathfinding & Combat Engine",
         "subtitle": "Mathematical axial hex-grid coordinate engine with line-of-sight algorithms and turn order queues.",
         "category": "engine",
-        "price": 34.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -1923,7 +1923,7 @@ const PRODUCTS = [
         "title": "Warfront: 8,000+ Sci-Fi & Alien RTS 2D/3D Isometric Sprite Vault",
         "subtitle": "Massive 354 MB asset library containing over 8,000 isometric vehicle, building, and unit sprites.",
         "category": "assets",
-        "price": 29.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -1946,7 +1946,7 @@ const PRODUCTS = [
         "title": "Relics of the Abyss: 650+ Dark Fantasy RPG Assets & Textures Vault",
         "subtitle": "588 MB museum-grade collection: ancient relics, occult runes, undead monsters & seamless surfaces.",
         "category": "assets",
-        "price": 24.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -1969,7 +1969,7 @@ const PRODUCTS = [
         "title": "Wildlands Protocol: Godot 4 3D Mech Locomotion & Urban Sandbox Kit",
         "subtitle": "3D battle mech action starter kit for Godot 4: 6-DOF locomotion, boost thrusters & procedural cities.",
         "category": "godot",
-        "price": 39.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 11,
         "badges": [
@@ -1992,7 +1992,7 @@ const PRODUCTS = [
         "title": "VoidRogue: Production TypeScript Roguelike Deckbuilder Engine",
         "subtitle": "Modular turn-based card combat architecture with relics, deck synergies, and procedural map generation.",
         "category": "engine",
-        "price": 24.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -2015,7 +2015,7 @@ const PRODUCTS = [
         "title": "NecroBestiary: Dark Fantasy Undead & Bosses 2D Sprite Pack",
         "subtitle": "Handcrafted 2D sprite pack featuring skeletons, wraiths, liches, bone dragons, and abyssal horrors.",
         "category": "assets",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -2038,7 +2038,7 @@ const PRODUCTS = [
         "title": "MechDominion: Cybernetic Titans & Mecha Bosses 2D Sprite Pack",
         "subtitle": "Futuristic mechs, walking war machines, automated drones, and cybernetic siege boss sprites.",
         "category": "assets",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -2061,7 +2061,7 @@ const PRODUCTS = [
         "title": "Slay The Void: Cosmic Sci-Fi & Dark RPG Card Art Pack",
         "subtitle": "Over 200 illustrated cosmic horror and cybernetic sci-fi card illustrations for deckbuilder games.",
         "category": "assets",
-        "price": 19.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -2084,7 +2084,7 @@ const PRODUCTS = [
         "title": "GrimRealm: RPG Terrains & Environment Textures (79 Pack)",
         "subtitle": "79 seamless 2K and 4K tiling dark fantasy landscape and architectural surface textures.",
         "category": "assets",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -2107,7 +2107,7 @@ const PRODUCTS = [
         "title": "WE GOT THIS!: Narrative Fallout Shelter Survival Game",
         "subtitle": "Standalone commercial game build. 28-day narrative arc, 4 acts, 6 endings, and 18 achievements.",
         "category": "game",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -2130,7 +2130,7 @@ const PRODUCTS = [
         "title": "GlyphCore Icons Pro: 200+ Clean Modern Vector UI Icons",
         "subtitle": "200+ precision-crafted SVG vector icons tailored for game menus, HUDs, action bars & apps.",
         "category": "assets",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -2153,7 +2153,7 @@ const PRODUCTS = [
         "title": "Multiplayer State Sync & Deterministic Netcode Engine",
         "subtitle": "Production-grade headless netcode: client prediction, server reconciliation, entity interpolation & snapshot deltas.",
         "category": "engine",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2177,7 +2177,7 @@ const PRODUCTS = [
         "title": "Inventory, Crafting & Loot Matrix Engine",
         "subtitle": "Headless grid+slot inventory, multi-station crafting pipeline, weighted loot tables & gear sockets. 175 unit tests.",
         "category": "engine",
-        "price": 44.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -2201,7 +2201,7 @@ const PRODUCTS = [
         "title": "Behavior Tree & GOAP AI Decision Architecture",
         "subtitle": "Headless AI decision engine with composite/decorator trees, GOAP A* planning & blackboard state. 114 tests passing.",
         "category": "engine",
-        "price": 44.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -2225,7 +2225,7 @@ const PRODUCTS = [
         "title": "Card Battler: Headless Deck Combat & Balance Simulator",
         "subtitle": "Simulate 1,000 deck-vs-deck battles in under 3 seconds. Status stacking, energy economy & JSON balance telemetry.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -2249,7 +2249,7 @@ const PRODUCTS = [
         "title": "Godot 4 Modular Castle & Fortress Building System",
         "subtitle": "Runtime 3D grid building system: socket snapping, collision generation, structural integrity & JSON serialization.",
         "category": "godot",
-        "price": 29.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -2273,7 +2273,7 @@ const PRODUCTS = [
         "title": "Godot 4 ARPG Tactical Combat & Defense Framework",
         "subtitle": "Hitboxes, hurtboxes, poise damage, hitstun, status ailments (burn, poison, bleed) & floating combat numbers.",
         "category": "godot",
-        "price": 39.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -2297,7 +2297,7 @@ const PRODUCTS = [
         "title": "Godot 4 Procedural 3D Dungeon Delve & Terrain Engine",
         "subtitle": "3D procedural dungeon generator and dynamic mountain terrain sculpting with seeded layout and stair connections.",
         "category": "godot",
-        "price": 44.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -2321,7 +2321,7 @@ const PRODUCTS = [
         "title": "Godot 4 Autonomous Companion & Pet AI Summoning System",
         "subtitle": "Autonomous follow, leash distances, combat target selection, skill timers & minion summon HUD bar.",
         "category": "godot",
-        "price": 34.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2345,7 +2345,7 @@ const PRODUCTS = [
         "title": "Godot 4 RPG Character Progression & Talent Tree Matrix",
         "subtitle": "Configurable level-scaling formulas, branching talent trees, attribute points & ready-to-use skill menu UI.",
         "category": "godot",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -2369,7 +2369,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dynamic Living World, Celestial Sky & Minimap Radar",
         "subtitle": "Day/night celestial orbital cycles with sun/moon lighting curves, dynamic sky shader & 2D/3D radar minimap.",
         "category": "godot",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -2393,7 +2393,7 @@ const PRODUCTS = [
         "title": "Godot 4 RPG Inventory, Crafting Bench & Loot Addon",
         "subtitle": "Turnkey grid inventory, crafting workbench recipes, item rarity tiers, drag-and-drop & stat tooltips.",
         "category": "godot",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -2419,7 +2419,7 @@ const PRODUCTS = [
         "title": "Godot 4 Quest Log, Field Journal & Dynamic Event Tracker",
         "subtitle": "Multi-stage objective tracking, branching quest states, field journal entry unlocking & dynamic world encounters.",
         "category": "godot",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -2443,7 +2443,7 @@ const PRODUCTS = [
         "title": "Automated Video Montage & YouTube Media Pipeline Engine",
         "subtitle": "Python batch video automation: clip splicing, voice synthesis ducking, 20min+ montage rendering & overlays.",
         "category": "engine",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -2467,7 +2467,7 @@ const PRODUCTS = [
         "title": "Modern Japandi Interiors & Executive Spa Design Lookbook (4K)",
         "subtitle": "Curated collection of 4K ultra-wide architectural renders: luxury spa bathrooms, executive offices & minimalist living rooms.",
         "category": "assets",
-        "price": 39.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -2490,7 +2490,7 @@ const PRODUCTS = [
         "title": "Cyberpunk Streamer Lounges & Battlestations (4K UHD)",
         "subtitle": "9 ultra-high resolution 4K neon battlestations, streamer rooms & futuristic interior environments.",
         "category": "assets",
-        "price": 19.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -2515,7 +2515,7 @@ const PRODUCTS = [
         "title": "Dark Gothic Eldritch Tarot Deck (20 Illustrated Cards)",
         "subtitle": "20 illustrated occult tarot cards with intricate filigree borders, arcane symbols & gold-foil aesthetic.",
         "category": "assets",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -2540,7 +2540,7 @@ const PRODUCTS = [
         "title": "Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)",
         "subtitle": "24 circular Virtual Tabletop tokens for D&D, Pathfinder, and tactical RPG monster encounters.",
         "category": "assets",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -2564,7 +2564,7 @@ const PRODUCTS = [
         "title": "Godot 4 3D Mech Flight & Physics Controller Kit",
         "subtitle": "3D character controller, orbital spring-arm camera, hover thrusters, volumetric fog & textured 3D mech mesh.",
         "category": "godot",
-        "price": 39.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -2588,7 +2588,7 @@ const PRODUCTS = [
         "title": "Horde Wave Survival & Enemy Spawner Matrix",
         "subtitle": "Modular encounter tiers, elastic wave budgets, anchor positioning, elite champion affixes & corpse decay physics.",
         "category": "godot",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2612,7 +2612,7 @@ const PRODUCTS = [
         "title": "Turn-Based 4X Hex Territory & Diplomacy Engine",
         "subtitle": "Headless 4-faction empire state machine: hex borders, supply lines, economic nodes & automated AI build orders.",
         "category": "engine",
-        "price": 24.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -2636,7 +2636,7 @@ const PRODUCTS = [
         "title": "Video Automation & YouTube Shorts Media Pipeline CLI",
         "subtitle": "Turnkey Python CLI: batch clip splicing, voice synthesis ducking, vertical 9:16 Shorts & 16:9 4K longform rendering.",
         "category": "engine",
-        "price": 24.99,
+        "price": 5.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -2660,7 +2660,7 @@ const PRODUCTS = [
         "title": "Godot 4 Dark Fantasy RPG Dialogue & Branching Choice System",
         "subtitle": "Node-based conversation graph, dynamic battle banter triggers, reputation condition checks & lore journal unlocks.",
         "category": "godot",
-        "price": 34.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 14,
         "badges": [
@@ -2684,7 +2684,7 @@ const PRODUCTS = [
         "title": "So It's War Then: 4-Faction RTS Core Simulation Engine",
         "subtitle": "Deterministic headless RTS framework with 4 asymmetric factions, tactical bot AI & match telemetry.",
         "category": "engine",
-        "price": 49.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -2708,7 +2708,7 @@ const PRODUCTS = [
         "title": "RTS Multi-Unit Formation & Spatial Pathfinding Engine",
         "subtitle": "Spatial hash grid partitioning, boids crowd flocking & tactical squad formation geometry.",
         "category": "engine",
-        "price": 34.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -2717,7 +2717,7 @@ const PRODUCTS = [
             "Squad Formations"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/rts-multi-unit-formation-pathfinding-system",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Drop-in spatial navigation and formation engine engineered for large unit counts in RTS and squad games. Includes 2D spatial grid partitioning, collision avoidance, crowd flocking, and dynamic formation adapting (Wedge, Box, Line, Column).",
         "specs": [
@@ -2732,7 +2732,7 @@ const PRODUCTS = [
         "title": "RTS Dynamic Economy, Tech Tree & Base Construction Matrix",
         "subtitle": "Worker harvesting logistics, 21-phase branching tech trees & grid-aligned building placement.",
         "category": "engine",
-        "price": 29.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 17,
         "badges": [
@@ -2741,7 +2741,7 @@ const PRODUCTS = [
             "Base Building"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/rts-economy-techtree-building-matrix",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Turnkey economic and technological foundation for real-time strategy games. Handles worker harvesting loops, drop-off warehouses, 21-phase tech dependencies, and grid-aligned construction collision checks with power grid validation.",
         "specs": [
@@ -2756,7 +2756,7 @@ const PRODUCTS = [
         "title": "Warfront RTS: 2D Building & Unit High-Res Sprite Sheet Vault",
         "subtitle": "13 master high-res sprite sheets covering 4 factions, base buildings, terrain tiles & UI frames.",
         "category": "assets",
-        "price": 39.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -2765,7 +2765,7 @@ const PRODUCTS = [
             "Terrain & UI"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/warfront-rts-2d-building-unit-asset-vault",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Complete production art vault for 2D top-down RTS, Tower Defense, and tactical games. Features master sprite sheets for Human, Robot, Alien, and Zurgz rosters, faction buildings, hero structures, seamless terrain tiles, weathered tarmac, and UI command frames.",
         "specs": [
@@ -2780,7 +2780,7 @@ const PRODUCTS = [
         "title": "Necro Dominion: Undead Legion Conquest Framework",
         "subtitle": "Godot 4 minion horde AI, corpse harvesting, soul reanimation & dark grimoire spells suite.",
         "category": "godot",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -2805,7 +2805,7 @@ const PRODUCTS = [
         "title": "Master 4K Interiors & Architectural Lookbook Vol. 2",
         "subtitle": "150 ultra-high definition 4K photorealistic interior design, luxury spa, villa & minimalist room assets.",
         "category": "assets",
-        "price": 39.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -2828,7 +2828,7 @@ const PRODUCTS = [
         "title": "Sci-Fi Starship Bridges & Cyberpunk City Vistas Pack",
         "subtitle": "168 widescreen cinematic sci-fi command bridges, rainy neon megacities & orbital spaceports.",
         "category": "assets",
-        "price": 34.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -2851,7 +2851,7 @@ const PRODUCTS = [
         "title": "Alchemical Potions, Grimoires & VTT Tokens Pack",
         "subtitle": "110 square 1:1 fantasy alchemy flasks, ancient spellbooks, astrolabes & VTT tokens.",
         "category": "assets",
-        "price": 29.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -2874,7 +2874,7 @@ const PRODUCTS = [
         "title": "Fine Art: Japanese Ukiyo-e & Dutch Golden Age Botanicals",
         "subtitle": "39 museum-grade high-resolution portrait art prints, Edo woodblock prints & chiaroscuro oil still lifes.",
         "category": "assets",
-        "price": 24.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -2897,7 +2897,7 @@ const PRODUCTS = [
         "title": "Titan 4K Master Studio Asset Vault (467 High-Res Assets)",
         "subtitle": "The entire master archive: 467 4K visual assets sorted into widescreen environments, square tokens & art prints.",
         "category": "assets",
-        "price": 79.99,
+        "price": 14.99,
         "rating": 5,
         "reviews": 51,
         "badges": [
@@ -2920,7 +2920,7 @@ const PRODUCTS = [
         "title": "High-Performance ECS & Spatial Partitioning Engine",
         "subtitle": "Sparse-set Entity Component System with Generational IDs, Quadtree & BVH Spatial Partitioning.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2944,7 +2944,7 @@ const PRODUCTS = [
         "title": "NextGen 4K Commercial Asset Collection Vol. 2 (364 Assets)",
         "subtitle": "364 commercial-grade visual assets: environments, character concepts, game props & architectural designs.",
         "category": "assets",
-        "price": 69.99,
+        "price": 12.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -2967,7 +2967,7 @@ const PRODUCTS = [
         "title": "Godot 4 Horde Survivors & Auto-Shooter Engine Template",
         "subtitle": "Complete Vampire Survivors / Brotato-style horde survival template with auto-aim, scaling waves & upgrade modal.",
         "category": "godot",
-        "price": 19.99,
+        "price": 6.99,
         "rating": 5,
         "reviews": 16,
         "badges": [
@@ -2991,7 +2991,7 @@ const PRODUCTS = [
         "title": "Godot 4 Pro Shaders & Visual FX Pack (12 Shaders)",
         "subtitle": "12 production-ready CanvasItem & screen shaders with interactive showroom: CRT, Forcefield, Dissolve & Water.",
         "category": "godot",
-        "price": 19.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -3015,7 +3015,7 @@ const PRODUCTS = [
         "title": "Dark Gothic Tarot & Oracle Deck (20 High-Res Cards)",
         "subtitle": "20 major arcana dark fantasy tarot illustrations for tabletop RPGs, card battlers & collectors.",
         "category": "assets",
-        "price": 19.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -3038,7 +3038,7 @@ const PRODUCTS = [
         "title": "Cyberpunk Streamer Lounges & Battlestations (4K UHD)",
         "subtitle": "9 ultra-high resolution 4K neon battlestations, streamer rooms & futuristic interior environments.",
         "category": "assets",
-        "price": 19.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 15,
         "badges": [
@@ -3061,7 +3061,7 @@ const PRODUCTS = [
         "title": "Eldritch & Abyssal VTT Tokens Pack (24 Circular Cutouts)",
         "subtitle": "24 circular Virtual Tabletop tokens for D&D, Pathfinder, and tactical RPG monster encounters.",
         "category": "assets",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -3084,7 +3084,7 @@ const PRODUCTS = [
         "title": "Master RPG Square Icons & PBR Tokens (40 High-Res Icons)",
         "subtitle": "40 detailed square icons for RPG inventories: mystical runes, elixirs, enchanted relics & weapons.",
         "category": "assets",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -3107,7 +3107,7 @@ const PRODUCTS = [
         "title": "Procedural 3D/2D Terrain & Biome Generation Engine",
         "subtitle": "Production Python terrain engine with Perlin/Simplex noise, hydraulic erosion, 12 Whittaker biomes, 3D caves & OBJ export.",
         "category": "engine",
-        "price": 49.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3127,13 +3127,12 @@ const PRODUCTS = [
             "223/223 Automated Pytest Suite Passing"
         ]
     },
-    
     {
         "id": "flow-field-pathfinding-engine",
         "title": "High-Throughput Flow Field & Crowd Pathfinding Engine",
         "subtitle": "Pure Python flow field pathfinding with 127K+ agent evals/sec for 25,000 concurrent agents, spatial-hash avoidance, binary .flow serialization, and 312 tests.",
         "category": "engine",
-        "price": 39.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -3164,7 +3163,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3195,7 +3194,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3226,7 +3225,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3257,7 +3256,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3288,7 +3287,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3319,7 +3318,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -3350,7 +3349,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3381,7 +3380,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -3412,7 +3411,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -3443,7 +3442,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3474,7 +3473,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -3505,7 +3504,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3536,7 +3535,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -3567,7 +3566,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3598,7 +3597,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -3629,7 +3628,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -3660,7 +3659,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -3691,7 +3690,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3722,7 +3721,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3753,7 +3752,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -3784,7 +3783,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -3815,7 +3814,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -3846,7 +3845,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -3877,7 +3876,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -3908,7 +3907,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -3939,7 +3938,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -3970,7 +3969,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -4000,7 +3999,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -4031,7 +4030,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -4062,7 +4061,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -4093,7 +4092,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -4124,7 +4123,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4155,7 +4154,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4186,7 +4185,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -4217,7 +4216,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -4249,7 +4248,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -4280,7 +4279,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -4311,7 +4310,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -4343,7 +4342,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -4374,7 +4373,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -4405,7 +4404,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -4436,7 +4435,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -4467,7 +4466,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -4498,7 +4497,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -4529,7 +4528,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -4560,7 +4559,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -4591,7 +4590,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -4622,7 +4621,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -4653,7 +4652,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -4684,7 +4683,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -4715,7 +4714,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -4746,7 +4745,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -4777,7 +4776,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -4808,7 +4807,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -4839,7 +4838,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -4870,7 +4869,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -4901,7 +4900,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -4932,7 +4931,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -4963,7 +4962,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -4994,7 +4993,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -5025,7 +5024,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -5056,7 +5055,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -5087,7 +5086,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -5118,7 +5117,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -5149,7 +5148,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -5180,7 +5179,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5211,7 +5210,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -5242,7 +5241,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -5273,7 +5272,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -5304,7 +5303,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -5335,7 +5334,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -5366,7 +5365,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -5397,7 +5396,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -5428,7 +5427,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -5459,7 +5458,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -5490,7 +5489,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -5521,7 +5520,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -5552,7 +5551,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5583,7 +5582,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -5614,7 +5613,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -5645,7 +5644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -5674,7 +5673,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -5703,7 +5702,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -5732,7 +5731,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -5761,7 +5760,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -5790,7 +5789,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -5819,7 +5818,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -5848,7 +5847,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -5877,7 +5876,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -5906,7 +5905,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -5935,7 +5934,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -5964,7 +5963,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -5993,7 +5992,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -6022,7 +6021,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -6051,7 +6050,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -6080,7 +6079,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6109,7 +6108,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -6138,7 +6137,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6167,7 +6166,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -6196,7 +6195,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -6225,7 +6224,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6255,7 +6254,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -6285,7 +6284,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -6315,7 +6314,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -6345,7 +6344,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6375,7 +6374,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -6405,7 +6404,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -6435,7 +6434,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -6465,7 +6464,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -6495,7 +6494,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6525,7 +6524,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -6555,7 +6554,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -6585,7 +6584,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -6615,7 +6614,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -6645,7 +6644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -6675,7 +6674,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -6705,7 +6704,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -6735,7 +6734,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -6765,7 +6764,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -6795,7 +6794,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pygame Templates with automated tests.",
         "category": "engine",
         "category_orig": "Pygame Templates",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -6825,7 +6824,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -6853,7 +6852,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -6881,7 +6880,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -6909,7 +6908,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -6937,7 +6936,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -6965,7 +6964,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -6993,7 +6992,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -7021,7 +7020,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -7049,7 +7048,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -7077,7 +7076,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -7105,7 +7104,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7133,7 +7132,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -7161,7 +7160,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7189,7 +7188,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7217,7 +7216,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -7245,7 +7244,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -7273,7 +7272,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -7301,7 +7300,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7329,7 +7328,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -7357,7 +7356,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -7385,7 +7384,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -7413,7 +7412,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -7441,7 +7440,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -7469,7 +7468,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -7497,7 +7496,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7525,7 +7524,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -7553,7 +7552,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7581,7 +7580,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -7609,7 +7608,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -7637,7 +7636,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -7665,7 +7664,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7693,7 +7692,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7721,7 +7720,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -7749,7 +7748,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -7777,7 +7776,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -7805,7 +7804,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -7833,7 +7832,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -7861,7 +7860,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -7889,7 +7888,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7917,7 +7916,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7945,7 +7944,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -7973,7 +7972,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -8001,7 +8000,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -8029,7 +8028,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -8057,7 +8056,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -8085,7 +8084,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -8113,7 +8112,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -8141,7 +8140,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -8169,7 +8168,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -8197,7 +8196,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -8225,7 +8224,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -8253,7 +8252,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -8281,7 +8280,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8309,7 +8308,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -8337,7 +8336,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -8365,7 +8364,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -8393,7 +8392,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -8421,7 +8420,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -8449,7 +8448,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -8477,7 +8476,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -8505,7 +8504,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -8533,7 +8532,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -8561,7 +8560,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -8589,7 +8588,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8617,7 +8616,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -8645,7 +8644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -8673,7 +8672,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -8701,7 +8700,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -8729,7 +8728,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -8757,7 +8756,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -8785,7 +8784,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -8813,7 +8812,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -8841,7 +8840,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -8869,7 +8868,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -8897,7 +8896,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -8925,7 +8924,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -8953,7 +8952,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -8981,7 +8980,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -9009,7 +9008,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -9037,7 +9036,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -9065,7 +9064,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -9093,7 +9092,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -9121,7 +9120,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -9149,7 +9148,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -9177,7 +9176,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -9205,7 +9204,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -9233,7 +9232,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9261,7 +9260,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -9289,7 +9288,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -9317,7 +9316,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -9345,7 +9344,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -9373,7 +9372,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -9401,7 +9400,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -9429,7 +9428,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -9457,7 +9456,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -9485,7 +9484,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9513,7 +9512,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9541,7 +9540,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -9569,7 +9568,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -9597,7 +9596,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Art Assets with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Art Assets",
-        "price": 19.99,
+        "price": 7.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -9625,7 +9624,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -9653,7 +9652,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -9681,7 +9680,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -9709,7 +9708,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -9737,7 +9736,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -9765,7 +9764,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -9793,7 +9792,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -9821,7 +9820,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -9849,7 +9848,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -9877,7 +9876,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -9905,7 +9904,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -9933,7 +9932,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -9961,7 +9960,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -9989,7 +9988,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -10017,7 +10016,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -10045,7 +10044,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -10073,7 +10072,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -10101,7 +10100,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -10129,7 +10128,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -10157,7 +10156,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -10185,7 +10184,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -10213,7 +10212,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -10241,7 +10240,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -10269,7 +10268,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -10297,7 +10296,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -10325,7 +10324,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -10353,7 +10352,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -10381,7 +10380,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -10409,7 +10408,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -10437,7 +10436,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -10465,7 +10464,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -10493,7 +10492,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -10521,7 +10520,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -10549,7 +10548,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -10577,7 +10576,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10605,7 +10604,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -10633,7 +10632,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -10661,7 +10660,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -10689,7 +10688,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -10717,7 +10716,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -10745,7 +10744,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -10773,7 +10772,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -10801,7 +10800,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -10829,7 +10828,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -10857,7 +10856,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -10885,7 +10884,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -10913,7 +10912,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10941,7 +10940,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -10969,7 +10968,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -10997,7 +10996,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -11025,7 +11024,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -11053,7 +11052,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -11081,7 +11080,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -11109,7 +11108,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -11137,7 +11136,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -11165,7 +11164,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11193,7 +11192,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -11221,7 +11220,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -11249,7 +11248,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -11277,7 +11276,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -11305,7 +11304,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -11333,7 +11332,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -11361,7 +11360,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -11389,7 +11388,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11417,7 +11416,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11445,7 +11444,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -11473,7 +11472,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11501,7 +11500,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11529,7 +11528,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -11557,7 +11556,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -11585,7 +11584,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -11613,7 +11612,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -11641,7 +11640,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -11669,7 +11668,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -11697,7 +11696,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -11725,7 +11724,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -11753,7 +11752,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11781,7 +11780,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -11809,7 +11808,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -11837,7 +11836,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -11865,7 +11864,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -11893,7 +11892,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -11921,7 +11920,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -11949,7 +11948,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -11977,7 +11976,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -12005,7 +12004,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -12033,7 +12032,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -12061,7 +12060,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -12089,7 +12088,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -12117,7 +12116,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -12145,7 +12144,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -12173,7 +12172,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12201,7 +12200,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -12229,7 +12228,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -12257,7 +12256,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -12285,7 +12284,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12313,7 +12312,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -12341,7 +12340,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -12369,7 +12368,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -12397,7 +12396,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -12425,7 +12424,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12453,7 +12452,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -12481,7 +12480,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -12509,7 +12508,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -12537,7 +12536,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -12565,7 +12564,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -12593,7 +12592,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12621,7 +12620,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -12649,7 +12648,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -12677,7 +12676,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -12705,7 +12704,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -12733,7 +12732,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -12761,7 +12760,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12789,7 +12788,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -12817,7 +12816,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -12845,7 +12844,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -12873,7 +12872,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -12901,7 +12900,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -12929,7 +12928,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -12957,7 +12956,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -12985,7 +12984,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13013,7 +13012,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -13041,7 +13040,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13069,7 +13068,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -13097,7 +13096,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -13125,7 +13124,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -13153,7 +13152,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -13181,7 +13180,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -13209,7 +13208,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -13237,7 +13236,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13265,7 +13264,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -13293,7 +13292,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -13321,7 +13320,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -13349,7 +13348,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -13377,7 +13376,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13405,7 +13404,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -13433,7 +13432,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13461,7 +13460,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -13489,7 +13488,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -13517,7 +13516,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -13545,7 +13544,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13573,7 +13572,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -13601,7 +13600,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -13629,7 +13628,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -13657,7 +13656,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -13685,7 +13684,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -13713,7 +13712,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -13741,7 +13740,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -13769,7 +13768,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13797,7 +13796,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -13825,7 +13824,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -13853,7 +13852,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -13881,7 +13880,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -13909,7 +13908,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -13937,7 +13936,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -13965,7 +13964,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -13993,7 +13992,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -14021,7 +14020,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -14049,7 +14048,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -14077,7 +14076,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14105,7 +14104,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -14133,7 +14132,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -14161,7 +14160,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -14189,7 +14188,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -14217,7 +14216,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -14245,7 +14244,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -14273,7 +14272,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -14301,7 +14300,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -14329,7 +14328,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -14357,7 +14356,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14385,7 +14384,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -14413,7 +14412,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -14441,7 +14440,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -14469,7 +14468,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -14497,7 +14496,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -14525,7 +14524,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -14553,7 +14552,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -14581,7 +14580,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14609,7 +14608,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -14637,7 +14636,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -14665,7 +14664,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -14693,7 +14692,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -14721,7 +14720,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -14749,7 +14748,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -14777,7 +14776,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -14805,7 +14804,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -14833,7 +14832,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -14861,7 +14860,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -14889,7 +14888,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -14917,7 +14916,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -14945,7 +14944,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -14973,7 +14972,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -15001,7 +15000,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -15029,7 +15028,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -15057,7 +15056,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15085,7 +15084,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15113,7 +15112,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -15141,7 +15140,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -15169,7 +15168,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15197,7 +15196,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -15225,7 +15224,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -15253,7 +15252,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -15281,7 +15280,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15309,7 +15308,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -15337,7 +15336,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -15365,7 +15364,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15393,7 +15392,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15421,7 +15420,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15449,7 +15448,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -15477,7 +15476,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -15505,7 +15504,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -15533,7 +15532,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -15561,7 +15560,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -15589,7 +15588,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -15617,7 +15616,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15645,7 +15644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15673,7 +15672,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -15701,7 +15700,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -15729,7 +15728,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -15757,7 +15756,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -15785,7 +15784,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -15813,7 +15812,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -15841,7 +15840,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -15869,7 +15868,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -15897,7 +15896,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -15925,7 +15924,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -15953,7 +15952,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -15981,7 +15980,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16009,7 +16008,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16037,7 +16036,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -16065,7 +16064,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -16093,7 +16092,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -16121,7 +16120,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16149,7 +16148,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -16177,7 +16176,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -16205,7 +16204,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -16233,7 +16232,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -16261,7 +16260,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16289,7 +16288,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -16317,7 +16316,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -16345,7 +16344,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -16373,7 +16372,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -16401,7 +16400,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -16429,7 +16428,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16457,7 +16456,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -16485,7 +16484,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -16513,7 +16512,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -16541,7 +16540,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16569,7 +16568,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -16597,7 +16596,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -16625,7 +16624,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -16653,7 +16652,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -16681,7 +16680,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16709,7 +16708,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16737,7 +16736,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -16765,7 +16764,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -16793,7 +16792,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -16821,7 +16820,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -16849,7 +16848,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16877,7 +16876,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -16905,7 +16904,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -16933,7 +16932,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -16961,7 +16960,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -16989,7 +16988,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -17017,7 +17016,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -17045,7 +17044,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -17073,7 +17072,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17101,7 +17100,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17129,7 +17128,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -17157,7 +17156,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -17185,7 +17184,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -17213,7 +17212,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17241,7 +17240,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -17269,7 +17268,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -17297,7 +17296,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -17325,7 +17324,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -17353,7 +17352,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -17381,7 +17380,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -17409,7 +17408,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -17437,7 +17436,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17465,7 +17464,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -17493,7 +17492,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -17521,7 +17520,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -17549,7 +17548,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -17577,7 +17576,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -17605,7 +17604,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -17633,7 +17632,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -17661,7 +17660,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -17689,7 +17688,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17717,7 +17716,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17745,7 +17744,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -17773,7 +17772,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17801,7 +17800,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -17829,7 +17828,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -17857,7 +17856,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -17885,7 +17884,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -17913,7 +17912,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -17941,7 +17940,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -17969,7 +17968,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -17997,7 +17996,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -18025,7 +18024,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -18053,7 +18052,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -18081,7 +18080,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -18109,7 +18108,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -18137,7 +18136,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -18165,7 +18164,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -18193,7 +18192,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -18221,7 +18220,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -18249,7 +18248,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -18277,7 +18276,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -18305,7 +18304,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -18333,7 +18332,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -18361,7 +18360,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -18389,7 +18388,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -18417,7 +18416,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -18445,7 +18444,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -18473,7 +18472,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -18501,7 +18500,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -18529,7 +18528,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -18557,7 +18556,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -18585,7 +18584,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -18613,7 +18612,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -18641,7 +18640,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -18669,7 +18668,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -18697,7 +18696,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -18725,7 +18724,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -18753,7 +18752,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -18781,7 +18780,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -18809,7 +18808,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -18837,7 +18836,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -18865,7 +18864,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -18893,7 +18892,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -18921,7 +18920,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -18949,7 +18948,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -18977,7 +18976,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -19005,7 +19004,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -19033,7 +19032,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -19061,7 +19060,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19089,7 +19088,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -19117,7 +19116,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -19145,7 +19144,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -19173,7 +19172,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -19201,7 +19200,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -19229,7 +19228,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -19257,7 +19256,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -19285,7 +19284,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -19313,7 +19312,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -19341,7 +19340,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -19369,7 +19368,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -19397,7 +19396,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -19425,7 +19424,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -19453,7 +19452,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -19481,7 +19480,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -19509,7 +19508,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -19537,7 +19536,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -19565,7 +19564,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -19593,7 +19592,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -19621,7 +19620,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -19649,7 +19648,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -19677,7 +19676,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -19705,7 +19704,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -19733,7 +19732,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19761,7 +19760,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -19789,7 +19788,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19817,7 +19816,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -19845,7 +19844,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19873,7 +19872,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -19901,7 +19900,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -19929,7 +19928,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -19957,7 +19956,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -19985,7 +19984,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -20013,7 +20012,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -20041,7 +20040,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -20069,7 +20068,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -20097,7 +20096,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -20125,7 +20124,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -20153,7 +20152,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20181,7 +20180,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -20209,7 +20208,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -20237,7 +20236,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20265,7 +20264,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -20293,7 +20292,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -20321,7 +20320,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20349,7 +20348,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -20377,7 +20376,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -20405,7 +20404,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -20433,7 +20432,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -20461,7 +20460,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20489,7 +20488,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20517,7 +20516,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -20545,7 +20544,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -20573,7 +20572,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -20601,7 +20600,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -20629,7 +20628,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -20657,7 +20656,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -20685,7 +20684,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -20713,7 +20712,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20741,7 +20740,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -20769,7 +20768,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -20797,7 +20796,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -20825,7 +20824,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -20853,7 +20852,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -20881,7 +20880,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -20909,7 +20908,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -20937,7 +20936,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -20965,7 +20964,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -20993,7 +20992,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -21021,7 +21020,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -21049,7 +21048,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -21077,7 +21076,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -21105,7 +21104,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -21133,7 +21132,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -21161,7 +21160,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -21189,7 +21188,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21217,7 +21216,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -21245,7 +21244,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -21273,7 +21272,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -21301,7 +21300,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -21329,7 +21328,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -21357,7 +21356,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -21385,7 +21384,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -21413,7 +21412,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -21441,7 +21440,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21469,7 +21468,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -21497,7 +21496,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -21525,7 +21524,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -21553,7 +21552,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -21581,7 +21580,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -21609,7 +21608,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -21637,7 +21636,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -21665,7 +21664,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21693,7 +21692,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -21721,7 +21720,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -21749,7 +21748,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -21777,7 +21776,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -21805,7 +21804,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -21833,7 +21832,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -21861,7 +21860,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -21889,7 +21888,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -21917,7 +21916,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -21945,7 +21944,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -21973,7 +21972,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -22001,7 +22000,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -22029,7 +22028,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -22057,7 +22056,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -22085,7 +22084,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -22113,7 +22112,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22141,7 +22140,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -22169,7 +22168,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -22197,7 +22196,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -22225,7 +22224,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -22253,7 +22252,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -22281,7 +22280,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -22309,7 +22308,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -22337,7 +22336,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -22365,7 +22364,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -22393,7 +22392,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -22421,7 +22420,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -22449,7 +22448,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -22477,7 +22476,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -22505,7 +22504,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -22533,7 +22532,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -22561,7 +22560,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -22589,7 +22588,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -22617,7 +22616,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22645,7 +22644,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22673,7 +22672,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22701,7 +22700,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -22729,7 +22728,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -22757,7 +22756,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -22785,7 +22784,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -22813,7 +22812,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 27,
         "badges": [
@@ -22841,7 +22840,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -22869,7 +22868,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -22897,7 +22896,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -22925,7 +22924,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -22953,7 +22952,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -22981,7 +22980,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -23009,7 +23008,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -23037,7 +23036,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -23065,7 +23064,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -23093,7 +23092,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -23121,7 +23120,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -23149,7 +23148,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -23177,7 +23176,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -23205,7 +23204,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 33,
         "badges": [
@@ -23233,7 +23232,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -23261,7 +23260,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -23289,7 +23288,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -23317,7 +23316,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -23345,7 +23344,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -23373,7 +23372,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -23401,7 +23400,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -23429,7 +23428,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -23457,7 +23456,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -23485,7 +23484,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -23513,7 +23512,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 31,
         "badges": [
@@ -23541,7 +23540,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -23569,7 +23568,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -23597,7 +23596,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -23625,7 +23624,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -23653,7 +23652,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -23681,7 +23680,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -23709,7 +23708,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23737,7 +23736,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -23765,7 +23764,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -23793,7 +23792,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -23821,7 +23820,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -23849,7 +23848,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -23877,7 +23876,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -23905,7 +23904,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -23933,7 +23932,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -23961,7 +23960,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 29,
         "badges": [
@@ -23989,7 +23988,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -24017,7 +24016,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -24045,7 +24044,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -24073,7 +24072,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -24101,7 +24100,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -24129,7 +24128,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -24157,7 +24156,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24185,7 +24184,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 44,
         "badges": [
@@ -24213,7 +24212,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -24241,7 +24240,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -24269,7 +24268,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -24297,7 +24296,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -24325,7 +24324,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -24353,7 +24352,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -24381,7 +24380,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 35,
         "badges": [
@@ -24409,7 +24408,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -24437,7 +24436,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -24465,7 +24464,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -24493,7 +24492,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -24521,7 +24520,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -24549,7 +24548,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -24577,7 +24576,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -24605,7 +24604,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -24633,7 +24632,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 36,
         "badges": [
@@ -24661,7 +24660,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -24689,7 +24688,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 48,
         "badges": [
@@ -24717,7 +24716,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 32,
         "badges": [
@@ -24745,7 +24744,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 41,
         "badges": [
@@ -24773,7 +24772,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -24801,7 +24800,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -24829,7 +24828,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -24857,7 +24856,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Dev Tools with automated tests.",
         "category": "tool",
         "category_orig": "Dev Tools",
-        "price": 29.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 39,
         "badges": [
@@ -24885,7 +24884,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -24913,7 +24912,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24941,7 +24940,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -24969,7 +24968,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -24997,7 +24996,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 42,
         "badges": [
@@ -25025,7 +25024,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -25053,7 +25052,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -25081,7 +25080,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 38,
         "badges": [
@@ -25109,7 +25108,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -25137,7 +25136,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -25165,7 +25164,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -25193,7 +25192,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 47,
         "badges": [
@@ -25221,7 +25220,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -25249,7 +25248,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 37,
         "badges": [
@@ -25277,7 +25276,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 24,
         "badges": [
@@ -25305,7 +25304,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 46,
         "badges": [
@@ -25333,7 +25332,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 19,
         "badges": [
@@ -25361,7 +25360,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -25389,7 +25388,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 20,
         "badges": [
@@ -25417,7 +25416,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 28,
         "badges": [
@@ -25445,7 +25444,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 34,
         "badges": [
@@ -25473,7 +25472,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 45,
         "badges": [
@@ -25501,7 +25500,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 22,
         "badges": [
@@ -25529,7 +25528,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 26,
         "badges": [
@@ -25557,7 +25556,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready Pixel Fonts with automated tests.",
         "category": "assets",
         "category_orig": "Pixel Fonts",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -25585,7 +25584,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 40,
         "badges": [
@@ -25612,7 +25611,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -25639,7 +25638,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -25666,7 +25665,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -25693,7 +25692,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 30,
         "badges": [
@@ -25720,7 +25719,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 23,
         "badges": [
@@ -25747,7 +25746,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 25,
         "badges": [
@@ -25774,7 +25773,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 18,
         "badges": [
@@ -25801,7 +25800,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 43,
         "badges": [
@@ -25828,7 +25827,7 @@ const PRODUCTS = [
         "subtitle": "Production-ready SFX Packs with automated tests.",
         "category": "assets",
         "category_orig": "SFX Packs",
-        "price": 9.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 21,
         "badges": [
@@ -25853,14 +25852,14 @@ const PRODUCTS = [
         "title": "Google Flow Commercial Asset Collection Vol. 2 (364 Assets)",
         "subtitle": "364 commercial-grade visual assets: environments, character concepts, game props & architectural designs.",
         "category": "art",
-        "price": 69.99,
+        "price": 14.99,
         "badges": [
             "364 Visual Assets",
             "180 MB Package",
             "Commercial Royalty-Free"
         ],
         "cover": "assets/covers/flowvol2.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Comprehensive 364-piece visual asset library generated directly through our commercial Google Flow pipeline. Includes ultra-detailed environmental vistas, prop design sheets, character turnarounds, and cinematic game art.",
         "specs": [
@@ -25876,14 +25875,14 @@ const PRODUCTS = [
         "title": "Google Flow Master Production Vault (467 High-Res Assets)",
         "subtitle": "467 commercial-grade visual assets: widescreen vistas, character turnarounds & fantasy props.",
         "category": "art",
-        "price": 79.99,
+        "price": 14.99,
         "badges": [
             "467 Production Assets",
             "Complete Vault",
             "Commercial Royalty-Free"
         ],
         "cover": "assets/covers/soitswarthen.jpg",
-        "itchUrl": "https://jasonc101.itch.io/",
+        "itchUrl": "https://jasonc101.itch.io/so-its-war-then",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
         "description": "Massive 467-asset visual megavault containing every production asset from our Google Flow pipeline. Completely categorized into widescreen 16:9 cinematic vistas, 1:1 square VTT tokens/potions, and vertical 2:3 fine art prints.",
         "specs": [
@@ -25896,10 +25895,10 @@ const PRODUCTS = [
     },
     {
         "id": "the-last-bastion",
-        "title": "The Last Bastion \u2014 Tower Defense + Python Source",
+        "title": "The Last Bastion — Tower Defense + Python Source",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -25910,7 +25909,7 @@ const PRODUCTS = [
         "cover": "https://img.itch.zone/aW1nLzMwNDkyOTAzLnBuZw==/105x83%23/lM%2BlzD.png",
         "itchUrl": "https://jasonc101.itch.io/the-last-bastion",
         "gumroadUrl": "https://honeydo5.gumroad.com/",
-        "description": "The Last Bastion \u2014 Tower Defense + Python Source - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
+        "description": "The Last Bastion — Tower Defense + Python Source - Complete commercial game dev framework and tools with perpetual royalty-free license for indies and studios.",
         "specs": [
             "Full Source Code & Architecture Included",
             "Clean Modular Scripts & Extensive Documentation",
@@ -25923,7 +25922,7 @@ const PRODUCTS = [
         "title": "RPG Foundation Pack - Python RPG Starter",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 9.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -25947,7 +25946,7 @@ const PRODUCTS = [
         "title": "TileCrafter - Seamless Texture Studio",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -25971,7 +25970,7 @@ const PRODUCTS = [
         "title": "Godot Input Rebind - Desktop Starter",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -25995,7 +25994,7 @@ const PRODUCTS = [
         "title": "The Clockmaker's Last Lock - Printable Mystery",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26019,7 +26018,7 @@ const PRODUCTS = [
         "title": "Starfall Route - Solo Courier RPG",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26043,7 +26042,7 @@ const PRODUCTS = [
         "title": "StreamFrame - Local OBS Overlay Kit",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "tool",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26067,7 +26066,7 @@ const PRODUCTS = [
         "title": "Cozy Homestead - Farming UI & Icons",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26091,7 +26090,7 @@ const PRODUCTS = [
         "title": "Atlas Workbench - Sprite Packer",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "tool",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26115,7 +26114,7 @@ const PRODUCTS = [
         "title": "Palette Bench - Pixel Art Processor",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26139,7 +26138,7 @@ const PRODUCTS = [
         "title": "Curve Foundry - Progression Designer",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26163,7 +26162,7 @@ const PRODUCTS = [
         "title": "The Hollow Marches - Dark Fantasy Encounters",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26187,7 +26186,7 @@ const PRODUCTS = [
         "title": "Sprite Motion - Animation Previewer",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26211,7 +26210,7 @@ const PRODUCTS = [
         "title": "Loot Table Studio - Offline Editor",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "tool",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26235,7 +26234,7 @@ const PRODUCTS = [
         "title": "Godot Save & Settings Starter",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26259,7 +26258,7 @@ const PRODUCTS = [
         "title": "Orbital Command - Sci-Fi HUD Kit",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "tool",
-        "price": 14.99,
+        "price": 3.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26283,7 +26282,7 @@ const PRODUCTS = [
         "title": "Ashen Arcana - Dark Fantasy Card UI Kit",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "tool",
-        "price": 14.99,
+        "price": 2.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26307,7 +26306,7 @@ const PRODUCTS = [
         "title": "Branchline - Dialogue Studio",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26331,7 +26330,7 @@ const PRODUCTS = [
         "title": "HexTactics: Headless Grid, A* Pathfinding & Combat Engine",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 4.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
@@ -26355,7 +26354,7 @@ const PRODUCTS = [
         "title": "The Master Commercial Game Developer Super-Vault | Complete 800 Packages Included",
         "subtitle": "Commercial game development framework and production-ready source code with 100% royalty-free rights.",
         "category": "engine",
-        "price": 14.99,
+        "price": 24.99,
         "rating": 5,
         "reviews": 12,
         "badges": [
