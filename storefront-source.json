@@ -7,5 +7,11 @@
   "designs": 227,
   "books": 22,
   "amazonEditions": 53,
-  "youtubeUploads": 1491
+  "youtubeUploads": 1491,
+  "historicalAdvertisingRoutes": {
+    "activeAliasesAdded": 11133,
+    "retiredAliasesAdded": 900,
+    "unambiguousActiveSuffixes": 24796
+  },
+  "aliasRevision": "full-title-v1"
 }
